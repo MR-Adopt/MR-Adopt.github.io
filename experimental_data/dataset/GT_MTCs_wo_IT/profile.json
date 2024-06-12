@@ -1,0 +1,2696 @@
+[
+    {
+        "poj_name": "datageartech____datagear",
+        "test_file_path": "/ssddata1/data/ITrans/projects/datageartech____datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java",
+        "test_simple_name": "isLowerThanTest",
+        "FQS_testMethos": "org.datagear.util.version.VersionTest.isLowerThanTest()",
+        "assertionSTMT": "assertTrue(a.isLowerThan(b))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/datageartech____datagear/org.datagear.util.version.VersionTest.isLowerThanTest____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.datagear.util.version.Version.valueOf(java.lang.String)",
+            "org.datagear.util.version.Version.valueOf(java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "v1",
+                "statement": "Version a = Version.valueOf(v1);",
+                "invocation": "a = Version.valueOf(v1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "v2",
+                "statement": "Version b = Version.valueOf(v2);",
+                "invocation": "b = Version.valueOf(v2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.datagear.util.version.Version;org.datagear.util.version.Version.*"
+    },
+    {
+        "poj_name": "datageartech____datagear",
+        "test_file_path": "/ssddata1/data/ITrans/projects/datageartech____datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java",
+        "test_simple_name": "isHigherThanTest",
+        "FQS_testMethos": "org.datagear.util.version.VersionTest.isHigherThanTest()",
+        "assertionSTMT": "assertFalse(a.isHigherThan(b))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/datageartech____datagear/org.datagear.util.version.VersionTest.isHigherThanTest____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.datagear.util.version.Version.valueOf(java.lang.String)",
+            "org.datagear.util.version.Version.valueOf(java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "v1",
+                "statement": "Version a = Version.valueOf(v1);",
+                "invocation": "a = Version.valueOf(v1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "v2",
+                "statement": "Version b = Version.valueOf(v2);",
+                "invocation": "b = Version.valueOf(v2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.datagear.util.version.Version;org.datagear.util.version.Version.*"
+    },
+    {
+        "poj_name": "datageartech____datagear",
+        "test_file_path": "/ssddata1/data/ITrans/projects/datageartech____datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java",
+        "test_simple_name": "isEqualTest",
+        "FQS_testMethos": "org.datagear.util.version.VersionTest.isEqualTest()",
+        "assertionSTMT": "assertFalse(a.isEqual(b))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/datageartech____datagear/org.datagear.util.version.VersionTest.isEqualTest____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.datagear.util.version.Version.valueOf(java.lang.String)",
+            "org.datagear.util.version.Version.valueOf(java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "v1",
+                "statement": "Version a = Version.valueOf(v1);",
+                "invocation": "a = Version.valueOf(v1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "v2",
+                "statement": "Version b = Version.valueOf(v2);",
+                "invocation": "b = Version.valueOf(v2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.datagear.util.version.Version;org.datagear.util.version.Version.*"
+    },
+    {
+        "poj_name": "ngs-doo____dsl-json",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ngs-doo____dsl-json/library/src/test/java/com/dslplatform/json/DateTest.java",
+        "test_simple_name": "localTimeBoundary",
+        "FQS_testMethos": "com.dslplatform.json.DateTest.localTimeBoundary()",
+        "assertionSTMT": "Assert.assertArrayEquals(lts, values)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ngs-doo____dsl-json/com.dslplatform.json.DateTest.localTimeBoundary____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.dslplatform.json.DslJson.serialize(com.dslplatform.json.JsonWriter, T[])",
+            "com.dslplatform.json.DslJson.deserialize(java.lang.Class<TResult>, byte[], int)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "JsonWriter",
+                "expression": "jw",
+                "statement": "dslJson.serialize(jw, lts);",
+                "invocation": "dslJson.serialize(jw, lts)"
+            },
+            {
+                "type": "LocalTime[]",
+                "expression": "lts",
+                "statement": "dslJson.serialize(jw, lts);",
+                "invocation": "dslJson.serialize(jw, lts)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "Class<LocalTime[]",
+                "expression": "manifest",
+                "statement": "LocalTime[] values = dslJson.deserialize(manifest, body, size);",
+                "invocation": "values = dslJson.deserialize(manifest, body, size)"
+            },
+            {
+                "type": "byte[]",
+                "expression": "body",
+                "statement": "LocalTime[] values = dslJson.deserialize(manifest, body, size);",
+                "invocation": "values = dslJson.deserialize(manifest, body, size)"
+            },
+            {
+                "type": "int",
+                "expression": "size",
+                "statement": "LocalTime[] values = dslJson.deserialize(manifest, body, size);",
+                "invocation": "values = dslJson.deserialize(manifest, body, size)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.dslplatform.json.DslJson;com.dslplatform.json.DslJson.*"
+    },
+    {
+        "poj_name": "ngs-doo____dsl-json",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ngs-doo____dsl-json/library/src/test/java/com/dslplatform/json/DateTest.java",
+        "test_simple_name": "zonedDateTimeBoundary",
+        "FQS_testMethos": "com.dslplatform.json.DateTest.zonedDateTimeBoundary()",
+        "assertionSTMT": "Assert.assertArrayEquals(lts, values)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ngs-doo____dsl-json/com.dslplatform.json.DateTest.zonedDateTimeBoundary____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.dslplatform.json.DslJson.serialize(com.dslplatform.json.JsonWriter, T[])",
+            "com.dslplatform.json.DslJson.deserialize(java.lang.Class<TResult>, byte[], int)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "JsonWriter",
+                "expression": "jw",
+                "statement": "dslJson.serialize(jw, lts);",
+                "invocation": "dslJson.serialize(jw, lts)"
+            },
+            {
+                "type": "ZonedDateTime[]",
+                "expression": "lts",
+                "statement": "dslJson.serialize(jw, lts);",
+                "invocation": "dslJson.serialize(jw, lts)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "Class<ZonedDateTime[]>",
+                "expression": "manifest",
+                "statement": "ZonedDateTime[] values = dslJson.deserialize(manifest, body, size);",
+                "invocation": "values = dslJson.deserialize(manifest, body, size)"
+            },
+            {
+                "type": "byte[]",
+                "expression": "body",
+                "statement": "ZonedDateTime[] values = dslJson.deserialize(manifest, body, size);",
+                "invocation": "values = dslJson.deserialize(manifest, body, size)"
+            },
+            {
+                "type": "int",
+                "expression": "size",
+                "statement": "ZonedDateTime[] values = dslJson.deserialize(manifest, body, size);",
+                "invocation": "values = dslJson.deserialize(manifest, body, size)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.dslplatform.json.DslJson;com.dslplatform.json.DslJson.*"
+    },
+    {
+        "poj_name": "apache____rocketmq",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____rocketmq/tieredstore/src/test/java/org/apache/rocketmq/tieredstore/common/InFlightRequestFutureTest.java",
+        "test_simple_name": "testInFlightRequestKey",
+        "FQS_testMethos": "org.apache.rocketmq.tieredstore.common.InFlightRequestFutureTest.testInFlightRequestKey()",
+        "assertionSTMT": "Assert.assertEquals(requestKey1.hashCode(), requestKey2.hashCode())",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____rocketmq/org.apache.rocketmq.tieredstore.common.InFlightRequestFutureTest.testInFlightRequestKey____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.rocketmq.tieredstore.common.InFlightRequestKey.hashCode()",
+            "org.apache.rocketmq.tieredstore.common.InFlightRequestKey.hashCode()"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "InFlightRequestKey",
+                "expression": "requestKey1",
+                "statement": "Assert.assertEquals(requestKey1.hashCode(), requestKey2.hashCode())",
+                "invocation": "requestKey1.hashCode()"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "InFlightRequestKey",
+                "expression": "requestKey2",
+                "statement": "Assert.assertEquals(requestKey1.hashCode(), requestKey2.hashCode())",
+                "invocation": "requestKey2.hashCode()"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.apache.rocketmq.tieredstore.common.InFlightRequestKey;org.apache.rocketmq.tieredstore.common.InFlightRequestKey.*;org.apache.rocketmq.tieredstore.common.InFlightRequestFuture;org.apache.rocketmq.tieredstore.common.InFlightRequestFuture.*"
+    },
+    {
+        "poj_name": "dromara____hutool",
+        "test_file_path": "/ssddata1/data/ITrans/projects/dromara____hutool/hutool-json/src/test/java/cn/hutool/json/IssueI6SZYBTest.java",
+        "test_simple_name": "pairTest",
+        "FQS_testMethos": "cn.hutool.json.IssueI6SZYBTest.pairTest()",
+        "assertionSTMT": "Assert.assertEquals(pair, bean)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/dromara____hutool/cn.hutool.json.IssueI6SZYBTest.pairTest____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "cn.hutool.json.JSONUtil.toJsonStr(java.lang.Object)",
+            "cn.hutool.json.JSONUtil.toBean(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Pair<Integer, Integer>",
+                "expression": "pair",
+                "statement": "String json = JSONUtil.toJsonStr(pair);",
+                "invocation": "json = JSONUtil.toJsonStr(pair)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "jsonString",
+                "statement": "final Pair bean = JSONUtil.toBean(jsonString, beanClass);",
+                "invocation": "bean = JSONUtil.toBean(jsonString, beanClass)"
+            },
+            {
+                "type": "Class<Pair>",
+                "expression": "beanClass",
+                "statement": "final Pair bean = JSONUtil.toBean(jsonString, beanClass);",
+                "invocation": "bean = JSONUtil.toBean(jsonString, beanClass)"
+            }
+        ],
+        "comments": "",
+        "dependency": "cn.hutool.json.JSONUtil;cn.hutool.json.JSONUtil.*"
+    },
+    {
+        "poj_name": "dromara____hutool",
+        "test_file_path": "/ssddata1/data/ITrans/projects/dromara____hutool/hutool-json/src/test/java/cn/hutool/json/IssueI6SZYBTest.java",
+        "test_simple_name": "entryTest",
+        "FQS_testMethos": "cn.hutool.json.IssueI6SZYBTest.entryTest()",
+        "assertionSTMT": "Assert.assertEquals(pair, bean)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/dromara____hutool/cn.hutool.json.IssueI6SZYBTest.entryTest____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "cn.hutool.json.JSONUtil.toJsonStr(java.lang.Object)",
+            "cn.hutool.json.JSONUtil.toBean(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map.Entry<String, Integer>",
+                "expression": "pair",
+                "statement": "String json = JSONUtil.toJsonStr(pair);",
+                "invocation": "json = JSONUtil.toJsonStr(pair)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "jsonString",
+                "statement": "final Map.Entry bean = (Entry) JSONUtil.toBean(jsonString, beanClass);",
+                "invocation": "bean = (Entry) JSONUtil.toBean(jsonString, beanClass)"
+            },
+            {
+                "type": "Class",
+                "expression": "beanClass",
+                "statement": "final Map.Entry bean = (Entry) JSONUtil.toBean(jsonString, beanClass);",
+                "invocation": "bean = (Entry) JSONUtil.toBean(jsonString, beanClass)"
+            }
+        ],
+        "comments": "",
+        "dependency": "cn.hutool.json.JSONUtil;cn.hutool.json.JSONUtil.*"
+    },
+    {
+        "poj_name": "dromara____hutool",
+        "test_file_path": "/ssddata1/data/ITrans/projects/dromara____hutool/hutool-json/src/test/java/cn/hutool/json/IssueI7GPGXTest.java",
+        "test_simple_name": "toBeanTest",
+        "FQS_testMethos": "cn.hutool.json.IssueI7GPGXTest.toBeanTest()",
+        "assertionSTMT": "Assert.assertEquals(hutoolPair, pair)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/dromara____hutool/cn.hutool.json.IssueI7GPGXTest.toBeanTest____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "cn.hutool.json.JSONUtil.toJsonStr(java.lang.Object)",
+            "cn.hutool.json.JSONUtil.toBean(java.lang.String, cn.hutool.core.lang.TypeReference<T>, boolean)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Pair<String, Boolean>",
+                "expression": "hutoolPair",
+                "statement": "String json = JSONUtil.toJsonStr(hutoolPair);",
+                "invocation": "json = JSONUtil.toJsonStr(hutoolPair)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "jsonString",
+                "statement": "final Pair<String, Boolean> pair = JSONUtil.toBean(jsonString ,typeReference, ignoreError);",
+                "invocation": "pair = JSONUtil.toBean(jsonString ,typeReference, ignoreError)"
+            },
+            {
+                "type": "TypeReference<Pair<String, Boolean>>",
+                "expression": "typeReference",
+                "statement": "final Pair<String, Boolean> pair = JSONUtil.toBean(jsonString ,typeReference, ignoreError);",
+                "invocation": "pair = JSONUtil.toBean(jsonString ,typeReference, ignoreError)"
+            },
+            {
+                "type": "boolean",
+                "expression": "ignoreError",
+                "statement": "final Pair<String, Boolean> pair = JSONUtil.toBean(jsonString ,typeReference, ignoreError);",
+                "invocation": "pair = JSONUtil.toBean(jsonString ,typeReference, ignoreError)"
+            }
+        ],
+        "comments": "",
+        "dependency": "cn.hutool.json.JSONUtil;cn.hutool.json.JSONUtil.*"
+    },
+    {
+        "poj_name": "bootique____bootique",
+        "test_file_path": "/ssddata1/data/ITrans/projects/bootique____bootique/bootique/src/test/java/io/bootique/di/KeyTest.java",
+        "test_simple_name": "equals",
+        "FQS_testMethos": "io.bootique.di.KeyTest.equals()",
+        "assertionSTMT": "assertTrue(key1.equals(key2))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/bootique____bootique/io.bootique.di.KeyTest.equals____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "io.bootique.di.Key.get(java.lang.Class<T>)",
+            "io.bootique.di.Key.get(java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Class<?>",
+                "expression": "type1",
+                "statement": "Key<?> key1 = Key.get(type1);",
+                "invocation": "key1 = Key.get(type1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "Class<?>",
+                "expression": "type2",
+                "statement": "Key<?> key2 = Key.get(type2);",
+                "invocation": "key2 = Key.get(type2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "io.bootique.di.Key;io.bootique.di.Key.*"
+    },
+    {
+        "poj_name": "quartz-scheduler____quartz",
+        "test_file_path": "/ssddata1/data/ITrans/projects/quartz-scheduler____quartz/quartz/src/test/java/org/quartz/impl/RemoteMBeanSchedulerTest.java",
+        "test_simple_name": "testJobOperations",
+        "FQS_testMethos": "org.quartz.impl.RemoteMBeanSchedulerTest.testJobOperations()",
+        "assertionSTMT": "assertThat(remoteScheduler.getJobDetail(job22), equalTo(job2Detail))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/quartz-scheduler____quartz/org.quartz.impl.RemoteMBeanSchedulerTest.testJobOperations____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.quartz.impl.RemoteMBeanScheduler.addJob(org.quartz.JobDetail, boolean)",
+            "org.quartz.impl.RemoteMBeanScheduler.getJobDetail(org.quartz.JobKey)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "JobDetail",
+                "expression": "job2Detail",
+                "statement": "JobDetail job2Detail = newJob(HelloJob.class).withIdentity(new JobKey(\"job2\", GROUP_KEY)).storeDurably().build();",
+                "invocation": "job2Detail = newJob(HelloJob.class).withIdentity(new JobKey(\"job2\", GROUP_KEY)).storeDurably().build()"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "JobKey",
+                "expression": "job22",
+                "statement": "assertThat(remoteScheduler.getJobDetail(job22), equalTo(job2Detail));",
+                "invocation": "remoteScheduler.getJobDetail(job22)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.quartz.impl.RemoteMBeanScheduler;org.quartz.impl.RemoteMBeanScheduler.*"
+    },
+    {
+        "poj_name": "jhy____jsoup",
+        "test_file_path": "/ssddata1/data/ITrans/projects/jhy____jsoup/src/test/java/org/jsoup/parser/StreamParserTest.java",
+        "test_simple_name": "select",
+        "FQS_testMethos": "org.jsoup.parser.StreamParserTest.select()",
+        "assertionSTMT": "assertSame(title2, title)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/jhy____jsoup/org.jsoup.parser.StreamParserTest.select____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.jsoup.parser.StreamParser.expectFirst(java.lang.String)",
+            "org.jsoup.parser.StreamParser.selectFirst(java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "StreamParser",
+                "expression": "parser",
+                "statement": "Element title = parser.expectFirst(queryTitle);",
+                "invocation": "title = parser.selectFirst(queryTitle)"
+            },
+            {
+                "type": "String",
+                "expression": "queryTitle",
+                "statement": "Element title = parser.expectFirst(queryTitle);",
+                "invocation": "title = parser.selectFirst(queryTitle)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "queryTitle2",
+                "statement": "Element title2 = parser.selectFirst(queryTitle2);",
+                "invocation": "title2 = parser.selectFirst(queryTitle2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.jsoup.parser.StreamParser;org.jsoup.parser.StreamParser.*"
+    },
+    {
+        "poj_name": "vladmihalcea____high-performance-java-persistence",
+        "test_file_path": "/ssddata1/data/ITrans/projects/vladmihalcea____high-performance-java-persistence/core/src/test/java/com/vladmihalcea/hpjp/util/CryptoUtilsTest.java",
+        "test_simple_name": "testPerformance",
+        "FQS_testMethos": "com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformance()",
+        "assertionSTMT": "assertEquals(value.longValue(), decryptedValue.longValue())",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/vladmihalcea____high-performance-java-persistence/com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformance____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.vladmihalcea.hpjp.util.CryptoUtils.encrypt(java.lang.Object)",
+            "com.vladmihalcea.hpjp.util.CryptoUtils.decrypt(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Long",
+                "expression": "value",
+                "statement": "String encryptedValue = CryptoUtils.encrypt(value);",
+                "invocation": "encryptedValue = CryptoUtils.encrypt(value)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "message",
+                "statement": "Long decryptedValue = (Long) CryptoUtils.decrypt(message, clazz);",
+                "invocation": "decryptedValue = (Long) CryptoUtils.decrypt(message, clazz)"
+            },
+            {
+                "type": "Class<?>",
+                "expression": "clazz",
+                "statement": "Long decryptedValue = (Long) CryptoUtils.decrypt(message, clazz);",
+                "invocation": "decryptedValue = (Long) CryptoUtils.decrypt(message, clazz)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.vladmihalcea.hpjp.util.CryptoUtils;com.vladmihalcea.hpjp.util.CryptoUtils.*"
+    },
+    {
+        "poj_name": "vladmihalcea____high-performance-java-persistence",
+        "test_file_path": "/ssddata1/data/ITrans/projects/vladmihalcea____high-performance-java-persistence/core/src/test/java/com/vladmihalcea/hpjp/util/CryptoUtilsTest.java",
+        "test_simple_name": "testPerformanceUsingCache",
+        "FQS_testMethos": "com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformanceUsingCache()",
+        "assertionSTMT": "assertEquals(value.longValue(), decryptedValue.longValue())",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/vladmihalcea____high-performance-java-persistence/com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformanceUsingCache____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.vladmihalcea.hpjp.util.CryptoUtils.encrypt(java.lang.Object)",
+            "com.vladmihalcea.hpjp.util.CryptoUtils.decrypt(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Long",
+                "expression": "value",
+                "statement": "encryptedValue = CryptoUtils.encrypt(value);",
+                "invocation": "encryptedValue = CryptoUtils.encrypt(value)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "message",
+                "statement": "decryptedValue = (Long) CryptoUtils.decrypt(message, clazz);",
+                "invocation": "decryptedValue = (Long) CryptoUtils.decrypt(message, clazz)"
+            },
+            {
+                "type": "Class<?>",
+                "expression": "clazz",
+                "statement": "decryptedValue = (Long) CryptoUtils.decrypt(message, clazz);",
+                "invocation": "decryptedValue = (Long) CryptoUtils.decrypt(message, clazz)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.vladmihalcea.hpjp.util.CryptoUtils;com.vladmihalcea.hpjp.util.CryptoUtils.*"
+    },
+    {
+        "poj_name": "matsim-org____matsim-libs",
+        "test_file_path": "/ssddata1/data/ITrans/projects/matsim-org____matsim-libs/matsim/src/test/java/org/matsim/core/config/groups/ScoringConfigGroupTest.java",
+        "test_simple_name": "testAddActivityParams",
+        "FQS_testMethos": "org.matsim.core.config.groups.ScoringConfigGroupTest.testAddActivityParams()",
+        "assertionSTMT": "Assertions.assertEquals(ap, c.getActivityParams(type))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/matsim-org____matsim-libs/org.matsim.core.config.groups.ScoringConfigGroupTest.testAddActivityParams____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.matsim.core.config.groups.ScoringConfigGroup.addActivityParams(org.matsim.core.config.groups.ScoringConfigGroup.ActivityParams)",
+            "org.matsim.core.config.groups.ScoringConfigGroup.getActivityParams(java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "ActivityParams",
+                "expression": "ap",
+                "statement": "c.addActivityParams(ap);",
+                "invocation": "c.addActivityParams(ap)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "type",
+                "statement": "Assertions.assertEquals(ap, c.getActivityParams(type));",
+                "invocation": "c.getActivityParams(type)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.matsim.core.config.groups.ScoringConfigGroup;org.matsim.core.config.groups.ScoringConfigGroup.*"
+    },
+    {
+        "poj_name": "apache____incubator-paimon",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____incubator-paimon/paimon-spark/paimon-spark-common/src/test/java/org/apache/paimon/spark/ConvertBinaryUtilTest.java",
+        "test_simple_name": "testConvertToLong",
+        "FQS_testMethos": "org.apache.paimon.spark.ConvertBinaryUtilTest.testConvertToLong()",
+        "assertionSTMT": "Assert.assertEquals(convertStringValue, convertBytesValue)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____incubator-paimon/org.apache.paimon.spark.ConvertBinaryUtilTest.testConvertToLong____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.paimon.spark.utils.ConvertBinaryUtil.convertStringToLong(java.lang.String)",
+            "org.apache.paimon.spark.utils.ConvertBinaryUtil.convertBytesToLong(byte[])"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "randomString",
+                "statement": "long convertStringValue = ConvertBinaryUtil.convertStringToLong(randomString);",
+                "invocation": "convertStringValue = ConvertBinaryUtil.convertStringToLong(randomString)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "byte[]",
+                "expression": "randomStringBytes",
+                "statement": "long convertBytesValue = ConvertBinaryUtil.convertBytesToLong(randomStringBytes);",
+                "invocation": "convertBytesValue = ConvertBinaryUtil.convertBytesToLong(randomStringBytes)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.apache.paimon.spark.utils.ConvertBinaryUtil;org.apache.paimon.spark.utils.ConvertBinaryUtil.*"
+    },
+    {
+        "poj_name": "jdereg____java-util",
+        "test_file_path": "/ssddata1/data/ITrans/projects/jdereg____java-util/src/test/java/com/cedarsoftware/util/convert/ConverterTest.java",
+        "test_simple_name": "testSqlDateToString",
+        "FQS_testMethos": "com.cedarsoftware.util.convert.ConverterTest.testSqlDateToString()",
+        "assertionSTMT": "assertEquals(l1, l2)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/jdereg____java-util/com.cedarsoftware.util.convert.ConverterTest.testSqlDateToString____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.cedarsoftware.util.convert.Converter.convert(java.lang.Object, java.lang.Class<T>)",
+            "com.cedarsoftware.util.convert.Converter.convert(java.lang.Object, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Date",
+                "expression": "date",
+                "statement": "LocalDate l1 = (LocalDate) this.converter.convert(date, clazz1);",
+                "invocation": "l1 = (LocalDate) this.converter.convert(date, clazz1))"
+            },
+            {
+                "type": "Class<?>",
+                "expression": "clazz1",
+                "statement": "LocalDate l1 = (LocalDate) this.converter.convert(date, clazz1);",
+                "invocation": "l1 = (LocalDate) this.converter.convert(date, clazz1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "Date",
+                "expression": "x",
+                "statement": "LocalDate l2 = (LocalDate) this.converter.convert(x, clazz2);",
+                "invocation": "l2 = (LocalDate) this.converter.convert(x, clazz2)"
+            },
+            {
+                "type": "Class<?>",
+                "expression": "clazz2",
+                "statement": "LocalDate l2 = (LocalDate) this.converter.convert(x, clazz2);",
+                "invocation": "l2 = (LocalDate) this.converter.convert(x, clazz2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.cedarsoftware.util.convert.Converter;com.cedarsoftware.util.convert.Converter.*"
+    },
+    {
+        "poj_name": "arextest____arex-agent-java",
+        "test_file_path": "/ssddata1/data/ITrans/projects/arextest____arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/model/SerializeSkipInfoTest.java",
+        "test_simple_name": "testHashCode",
+        "FQS_testMethos": "io.arex.inst.runtime.model.SerializeSkipInfoTest.testHashCode()",
+        "assertionSTMT": "assertEquals(serializeSkipInfo2.hashCode(), serializeSkipInfo.hashCode())",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest____arex-agent-java/io.arex.inst.runtime.model.SerializeSkipInfoTest.testHashCode____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "io.arex.inst.runtime.model.SerializeSkipInfo.hashCode()",
+            "io.arex.inst.runtime.model.SerializeSkipInfo.hashCode()"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "SerializeSkipInfo",
+                "expression": "serializeSkipInfo",
+                "statement": "assertEquals(serializeSkipInfo2.hashCode(), serializeSkipInfo.hashCode());",
+                "invocation": "serializeSkipInfo.hashCode()"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "SerializeSkipInfo",
+                "expression": "serializeSkipInfo2",
+                "statement": "assertEquals(serializeSkipInfo2.hashCode(), serializeSkipInfo.hashCode());",
+                "invocation": "serializeSkipInfo2.hashCode()"
+            }
+        ],
+        "comments": "",
+        "dependency": "io.arex.inst.runtime.model.SerializeSkipInfo;io.arex.inst.runtime.model.SerializeSkipInfo.*"
+    },
+    {
+        "poj_name": "arextest____arex-agent-java",
+        "test_file_path": "/ssddata1/data/ITrans/projects/arextest____arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/model/SerializeSkipInfoTest.java",
+        "test_simple_name": "testToString",
+        "FQS_testMethos": "io.arex.inst.runtime.model.SerializeSkipInfoTest.testToString()",
+        "assertionSTMT": "assertEquals(serializeSkipInfo.toString(), serializeSkipInfo2.toString())",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest____arex-agent-java/io.arex.inst.runtime.model.SerializeSkipInfoTest.testToString____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "io.arex.inst.runtime.model.SerializeSkipInfo.toString()",
+            "io.arex.inst.runtime.model.SerializeSkipInfo.toString()"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "SerializeSkipInfo",
+                "expression": "serializeSkipInfo",
+                "statement": "assertEquals(serializeSkipInfo.toString(), serializeSkipInfo2.toString());",
+                "invocation": "serializeSkipInfo.toString()"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "SerializeSkipInfo",
+                "expression": "serializeSkipInfo2",
+                "statement": "assertEquals(serializeSkipInfo.toString(), serializeSkipInfo2.toString());",
+                "invocation": "serializeSkipInfo2.toString()"
+            }
+        ],
+        "comments": "",
+        "dependency": "io.arex.inst.runtime.model.SerializeSkipInfo;io.arex.inst.runtime.model.SerializeSkipInfo.*"
+    },
+    {
+        "poj_name": "mulesoft____mule",
+        "test_file_path": "/ssddata1/data/ITrans/projects/mulesoft____mule/modules/deployment/src/test/java/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase.java",
+        "test_simple_name": "startupListeners",
+        "FQS_testMethos": "org.mule.runtime.module.deployment.test.internal.singleapp.SingleAppDeploymentServiceTestCase.startupListeners()",
+        "assertionSTMT": "assertThat(singleAppDeploymentService.getStartupListeners(), hasItems(startUpListener1, startUpListener2))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/mulesoft____mule/org.mule.runtime.module.deployment.test.internal.singleapp.SingleAppDeploymentServiceTestCase.startupListeners____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.mule.runtime.module.deployment.internal.singleapp.SingleAppDeploymentService.addStartupListener(org.mule.runtime.module.deployment.api.StartupListener)",
+            "org.mule.runtime.module.deployment.internal.singleapp.SingleAppDeploymentService.addStartupListener(org.mule.runtime.module.deployment.api.StartupListener)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "StartupListener",
+                "expression": "startUpListener1",
+                "statement": "singleAppDeploymentService.addStartupListener(startUpListener1);",
+                "invocation": "singleAppDeploymentService.addStartupListener(startUpListener1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "StartupListener",
+                "expression": "startUpListener2",
+                "statement": "assertThat(singleAppDeploymentService.getStartupListeners(), hasItems(startUpListener1, startUpListener2));",
+                "invocation": "singleAppDeploymentService.getStartupListeners()"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.mule.runtime.module.deployment.internal.singleapp.SingleAppDeploymentService;org.mule.runtime.module.deployment.internal.singleapp.SingleAppDeploymentService.*"
+    },
+    {
+        "poj_name": "mulesoft____mule",
+        "test_file_path": "/ssddata1/data/ITrans/projects/mulesoft____mule/modules/log4j-configurator/src/test/java/org/mule/runtime/module/log4j/internal/ArtifactAwareContextSelectorTestCase.java",
+        "test_simple_name": "returnsMuleLoggerContextForArtifactClassLoaderChild",
+        "FQS_testMethos": "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForArtifactClassLoaderChild()",
+        "assertionSTMT": "assertThat(childCtx, sameInstance(parentCtx))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/mulesoft____mule/org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForArtifactClassLoaderChild____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector.getContext(java.lang.String, java.lang.ClassLoader, boolean)",
+            "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector.getContext(java.lang.String, java.lang.ClassLoader, boolean)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "fqcn",
+                "statement": "LoggerContext parentCtx = selector.getContext(fqcn, regionClassLoader, currentContext);",
+                "invocation": "parentCtx = selector.getContext(fqcn, regionClassLoader, currentContext)"
+            },
+            {
+                "type": "boolean",
+                "expression": "currentContext",
+                "statement": "LoggerContext parentCtx = selector.getContext(fqcn, regionClassLoader, currentContext);",
+                "invocation": "parentCtx = selector.getContext(fqcn, regionClassLoader, currentContext)"
+            },
+            {
+                "type": "RegionClassLoader",
+                "expression": "regionClassLoader",
+                "statement": "LoggerContext parentCtx = selector.getContext(fqcn, regionClassLoader, currentContext);",
+                "invocation": "parentCtx = selector.getContext(fqcn, regionClassLoader, currentContext)"
+            }
+
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "fqcn2",
+                "statement": "LoggerContext childCtx = selector.getContext(fqcn2, childClassLoader, currentContext2);",
+                "invocation": "childCtx = selector.getContext(fqcn2, childClassLoader, currentContext2)"
+            },
+            {
+                "type": "ClassLoader",
+                "expression": "childClassLoader",
+                "statement": "LoggerContext childCtx = selector.getContext(fqcn2, childClassLoader, currentContext2);",
+                "invocation": "childCtx = selector.getContext(fqcn2, childClassLoader, currentContext2)"
+            },
+            {
+                "type": "boolean",
+                "expression": "currentContext2",
+                "statement": "LoggerContext childCtx = selector.getContext(fqcn2, childClassLoader, currentContext2);",
+                "invocation": "childCtx = selector.getContext(fqcn2, childClassLoader, currentContext2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector;org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector.*"
+
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest.java",
+        "test_simple_name": "test",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "JSONArray",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "JSONArray v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            },
+            {
+                "type": "Class<JSONArray>",
+                "expression": "clazz",
+                "statement": "JSONArray v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest.java",
+        "test_simple_name": "test1",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test1()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test1____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "JSONArray",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "JSONArray v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            },
+            {
+                "type": "Class<JSONArray>",
+                "expression": "clazz",
+                "statement": "JSONArray v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/ListTest1.java",
+        "test_simple_name": "test",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.collections.ListTest1.test()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.collections.ListTest1.test____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "List<Integer>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "List<Integer> v02 = JSON.parseObject(str2, listType);",
+                "invocation": "v02 = JSON.parseObject(str2, listType)"
+            },
+            {
+                "type": "java.lang.reflect.Type",
+                "expression": "listType",
+                "statement": "List<Integer> v02 = JSON.parseObject(str2, listType);",
+                "invocation": "v02 = JSON.parseObject(str2, listType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/ListTest1.java",
+        "test_simple_name": "test1",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.collections.ListTest1.test1()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.collections.ListTest1.test1____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "List<String>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "List<String> v02 = JSON.parseObject(str2, listType);",
+                "invocation": "v02 = JSON.parseObject(str2, listType)"
+            },
+            {
+                "type": "java.lang.reflect.Type",
+                "expression": "listType",
+                "statement": "List<String> v02 = JSON.parseObject(str2, listType);",
+                "invocation": "v02 = JSON.parseObject(str2, listType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/JSONObjectTest.java",
+        "test_simple_name": "test",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "JSONObject",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "JSONObject v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            },
+            {
+                "type": "Class<JSONObject>",
+                "expression": "clazz",
+                "statement": "JSONObject v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/JSONObjectTest.java",
+        "test_simple_name": "test1",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test1()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test1____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "JSONObject",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "JSONObject v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            },
+            {
+                "type": "Class<JSONObject>",
+                "expression": "clazz",
+                "statement": "JSONObject v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+        "test_simple_name": "test",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, String>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, String> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, String> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+        "test_simple_name": "test1",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test1()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test1____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, Integer>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, Integer> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, Integer> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+        "test_simple_name": "test2",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test2()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test2____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, Long>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, Long> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, Long> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+        "test_simple_name": "test3",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test3()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test3____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, Boolean>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, Boolean> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, Boolean> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+        "test_simple_name": "test4",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test4()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test4____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, Float>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, Float> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, Float> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+        "test_simple_name": "test5",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test5()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test5____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, Double>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, Double> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, Double> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+        "test_simple_name": "test6",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test6()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test6____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, BigDecimal>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, BigDecimal> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, BigDecimal> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "ccom.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+        "test_simple_name": "test7",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test7()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test7____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, BigInteger>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, BigInteger> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, BigInteger> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+        "test_simple_name": "test8",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test8()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test8____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, UUID>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, UUID> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, UUID> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/MapTest.java",
+        "test_simple_name": "test1",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.MapTest.test1()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.maps.MapTest.test1____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Map<String, User>",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Map<String, User> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            },
+            {
+                "type": "Type",
+                "expression": "mapType",
+                "statement": "Map<String, User> v02 = JSON.parseObject(str2, mapType);",
+                "invocation": "v02 = JSON.parseObject(str2, mapType)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*;com.alibaba.fastjson.TypeReference;java.lang.reflect.Type"
+    },
+    {
+        "poj_name": "alibaba____fastjson2",
+        "test_file_path": "/ssddata1/data/ITrans/projects/alibaba____fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/primitives/IntTest.java",
+        "test_simple_name": "test1",
+        "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.primitives.IntTest.test1()",
+        "assertionSTMT": "assertEquals(v01, v02)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba____fastjson2/com.alibaba.fastjson2.internal.processor.primitives.IntTest.test1____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
+            "com.alibaba.fastjson2.JSON.parseObject(java.lang.String, java.lang.Class<T>)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Integer",
+                "expression": "v01",
+                "statement": "String str =  JSON.toJSONString(v01);",
+                "invocation": "str =  JSON.toJSONString(v01);"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "str2",
+                "statement": "Integer v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            },
+            {
+                "type": "Class<Integer>",
+                "expression": "clazz",
+                "statement": "Integer v02 = JSON.parseObject(str2, clazz);",
+                "invocation": "v02 = JSON.parseObject(str2, clazz)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.alibaba.fastjson2.JSON;com.alibaba.fastjson2.JSON.*"
+    },
+    {
+        "poj_name": "mulesoft____mule",
+        "test_file_path": "/ssddata1/data/ITrans/projects/mulesoft____mule/modules/log4j-configurator/src/test/java/org/mule/runtime/module/log4j/internal/ArtifactAwareContextSelectorTestCase.java",
+        "test_simple_name": "returnsMuleLoggerContextForInternalArtifactClassLoader",
+        "FQS_testMethos": "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForInternalArtifactClassLoader()",
+        "assertionSTMT": "assertThat(serviceCtx, sameInstance(systemContext))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/mulesoft____mule/org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForInternalArtifactClassLoader____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector.getContext(java.lang.String, java.lang.ClassLoader, boolean)",
+            "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector.getContext(java.lang.String, java.lang.ClassLoader, boolean)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "fqcn",
+                "statement": "LoggerContext systemContext = selector.getContext(fqcn, systemLoader, currentContext);",
+                "invocation": "systemContext = selector.getContext(fqcn, systemLoader, currentContext)"
+            },
+            {
+                "type": "boolean",
+                "expression": "currentContext",
+                "statement": "LoggerContext systemContext = selector.getContext(fqcn, systemLoader, currentContext);",
+                "invocation": "systemContext = selector.getContext(fqcn, systemLoader, currentContext)"
+            },
+            {
+                "type": "ClassLoader",
+                "expression": "systemLoader",
+                "statement": "LoggerContext systemContext = selector.getContext(fqcn, systemLoader, currentContext);",
+                "invocation": "systemContext = selector.getContext(fqcn, systemLoader, currentContext)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "fqcn2",
+                "statement": "LoggerContext serviceCtx = selector.getContext(fqcn2, serviceLoader, currentContext2);",
+                "invocation": "serviceCtx = selector.getContext(fqcn2, serviceLoader, currentContext2)"
+            },
+            {
+                "type": "ClassLoader",
+                "expression": "serviceLoader",
+                "statement": "LoggerContext serviceCtx = selector.getContext(fqcn2, serviceLoader, currentContext2);",
+                "invocation": "serviceCtx = selector.getContext(fqcn2, serviceLoader, currentContext2)"
+            },
+            {
+                "type": "boolean",
+                "expression": "currentContext2",
+                "statement": "LoggerContext serviceCtx = selector.getContext(fqcn2, serviceLoader, currentContext2);",
+                "invocation": "serviceCtx = selector.getContext(fqcn2, serviceLoader, currentContext2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector;org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector.*"
+    },
+    {
+        "poj_name": "opengoofy____hippo4j",
+        "test_file_path": "/ssddata1/data/ITrans/projects/opengoofy____hippo4j/threadpool/core/src/test/java/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest.java",
+        "test_simple_name": "testGetThreadPoolId",
+        "FQS_testMethos": "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetThreadPoolId()",
+        "assertionSTMT": "Assert.assertEquals(executor.getThreadPoolId(), support.getThreadPoolId())",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/opengoofy____hippo4j/cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetThreadPoolId____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport.getThreadPoolId()",
+            "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport.getThreadPoolId()"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "ThreadPoolExecutor",
+                "expression": "executor",
+                "statement": "ThreadPoolPluginSupport support = new ThreadPoolPluginSupport(executor);",
+                "invocation": "support = new ThreadPoolPluginSupport(executor)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "ThreadPoolPluginSupport",
+                "expression": "support",
+                "statement": "Assert.assertEquals(executor.getThreadPoolId(), support.getThreadPoolId())",
+                "invocation": "Assert.assertEquals(executor.getThreadPoolId(), support.getThreadPoolId())"
+            }
+        ],
+        "comments": "",
+        "dependency": "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport;cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport.*"
+    },
+    {
+        "poj_name": "apache____druid",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____druid/extensions-contrib/kubernetes-overlord-extensions/src/test/java/org/apache/druid/k8s/overlord/common/KubernetesOverlordUtilsTest.java",
+        "test_simple_name": "test_stripJobName_avoidDuplicatesWithLongDataSourceName",
+        "FQS_testMethos": "org.apache.druid.k8s.overlord.common.KubernetesOverlordUtilsTest.test_stripJobName_avoidDuplicatesWithLongDataSourceName()",
+        "assertionSTMT": "Assert.assertNotEquals(jobName1, jobName2)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____druid/org.apache.druid.k8s.overlord.common.KubernetesOverlordUtilsTest.test_stripJobName_avoidDuplicatesWithLongDataSourceName____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.druid.k8s.overlord.common.KubernetesOverlordUtils.convertTaskIdToJobName(java.lang.String)",
+            "org.apache.druid.k8s.overlord.common.KubernetesOverlordUtils.convertTaskIdToJobName(java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "taskId1",
+                "statement": "String jobName1 = KubernetesOverlordUtils.convertTaskIdToJobName(taskId1);",
+                "invocation": "jobName1 = KubernetesOverlordUtils.convertTaskIdToJobName(taskId1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "taskId2",
+                "statement": "String jobName2 = KubernetesOverlordUtils.convertTaskIdToJobName(taskId2);",
+                "invocation": "jobName2 = KubernetesOverlordUtils.convertTaskIdToJobName(taskId2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.apache.druid.k8s.overlord.common.KubernetesOverlordUtils;org.apache.druid.k8s.overlord.common.KubernetesOverlordUtils.*"
+    },
+    {
+        "poj_name": "apache____druid",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____druid/extensions-core/azure-extensions/src/test/java/org/apache/druid/storage/azure/AzureClientFactoryTest.java",
+        "test_simple_name": "test_blobServiceClientBuilder_useCachedClient",
+        "FQS_testMethos": "org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useCachedClient()",
+        "assertionSTMT": "Assert.assertEquals(blobServiceClient, blobServiceClient2)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____druid/org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useCachedClient____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.druid.storage.azure.AzureClientFactory.getBlobServiceClient(java.lang.Integer, java.lang.String)",
+            "org.apache.druid.storage.azure.AzureClientFactory.getBlobServiceClient(java.lang.Integer, java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Integer",
+                "expression": "retryCount1",
+                "statement": "BlobServiceClient blobServiceClient = factory.getBlobServiceClient(retryCount1, ACCOUNT1);",
+                "invocation": "blobServiceClient = factory.getBlobServiceClient(retryCount1, ACCOUNT1)"
+            },
+            {
+                "type": "String",
+                "expression": "ACCOUNT1",
+                "statement": "BlobServiceClient blobServiceClient = factory.getBlobServiceClient(retryCount1, ACCOUNT1);",
+                "invocation": "blobServiceClient = factory.getBlobServiceClient(retryCount1, ACCOUNT1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "Integer",
+                "expression": "retryCount2",
+                "statement": "BlobServiceClient blobServiceClient2 = factory.getBlobServiceClient(retryCount2, ACCOUNT2);",
+                "invocation": "blobServiceClient2 = factory.getBlobServiceClient(retryCount2, ACCOUNT2)"
+            },
+            {
+                "type": "String",
+                "expression": "ACCOUNT2",
+                "statement": "BlobServiceClient blobServiceClient2 = factory.getBlobServiceClient(retryCount2, ACCOUNT2);",
+                "invocation": "blobServiceClient2 = factory.getBlobServiceClient(retryCount2, ACCOUNT2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.apache.druid.storage.azure.AzureClientFactory;org.apache.druid.storage.azure.AzureClientFactory.*"
+    },
+    {
+        "poj_name": "apache____druid",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____druid/extensions-core/azure-extensions/src/test/java/org/apache/druid/storage/azure/AzureClientFactoryTest.java",
+        "test_simple_name": "test_blobServiceClientBuilder_useNewClientForDifferentRetryCount",
+        "FQS_testMethos": "org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useNewClientForDifferentRetryCount()",
+        "assertionSTMT": "Assert.assertNotEquals(blobServiceClient, blobServiceClient2)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____druid/org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useNewClientForDifferentRetryCount____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.druid.storage.azure.AzureClientFactory.getBlobServiceClient(java.lang.Integer, java.lang.String)",
+            "org.apache.druid.storage.azure.AzureClientFactory.getBlobServiceClient(java.lang.Integer, java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Integer",
+                "expression": "retryCount1",
+                "statement": "BlobServiceClient blobServiceClient = factory.getBlobServiceClient(retryCount1, ACCOUNT1);",
+                "invocation": "blobServiceClient = factory.getBlobServiceClient(retryCount1, ACCOUNT1)"
+            },
+            {
+                "type": "String",
+                "expression": "ACCOUNT1",
+                "statement": "BlobServiceClient blobServiceClient = factory.getBlobServiceClient(retryCount1, ACCOUNT1);",
+                "invocation": "blobServiceClient = factory.getBlobServiceClient(retryCount1, ACCOUNT1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "Integer",
+                "expression": "retryCount2",
+                "statement": "BlobServiceClient blobServiceClient2 = factory.getBlobServiceClient(retryCount2, ACCOUNT2);",
+                "invocation": "blobServiceClient2 = factory.getBlobServiceClient(retryCount2, ACCOUNT2)"
+            },
+            {
+                "type": "String",
+                "expression": "ACCOUNT2",
+                "statement": "BlobServiceClient blobServiceClient2 = factory.getBlobServiceClient(retryCount2, ACCOUNT2);",
+                "invocation": "blobServiceClient2 = factory.getBlobServiceClient(retryCount2, ACCOUNT2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.apache.druid.storage.azure.AzureClientFactory;org.apache.druid.storage.azure.AzureClientFactory.*"
+    },
+    {
+        "poj_name": "apache____druid",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____druid/extensions-core/multi-stage-query/src/test/java/org/apache/druid/msq/exec/WorkerStorageParametersTest.java",
+        "test_simple_name": "test_WorkerStorageParameter_createInstance",
+        "FQS_testMethos": "org.apache.druid.msq.exec.WorkerStorageParametersTest.test_WorkerStorageParameter_createInstance()",
+        "assertionSTMT": "Assert.assertEquals(WorkerStorageParameters.createInstanceForTests(l), WorkerStorageParameters.createInstance(l2, b))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____druid/org.apache.druid.msq.exec.WorkerStorageParametersTest.test_WorkerStorageParameter_createInstance____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.druid.msq.exec.WorkerStorageParameters.createInstanceForTests(long)",
+            "org.apache.druid.msq.exec.WorkerStorageParameters.createInstance(long, boolean)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "long",
+                "expression": "l",
+                "statement": "Assert.assertEquals(WorkerStorageParameters.createInstanceForTests(l), WorkerStorageParameters.createInstance(l2, b));",
+                "invocation": "WorkerStorageParameters.createInstanceForTests(l)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "long",
+                "expression": "l2",
+                "statement": "Assert.assertEquals(WorkerStorageParameters.createInstanceForTests(l), WorkerStorageParameters.createInstance(l2, b));",
+                "invocation": "WorkerStorageParameters.createInstance(l2, b)"
+            },
+            {
+                "type": "boolean",
+                "expression": "b",
+                "statement": "Assert.assertEquals(WorkerStorageParameters.createInstanceForTests(l), WorkerStorageParameters.createInstance(l2, b));",
+                "invocation": "WorkerStorageParameters.createInstance(l2, b)"
+            }
+        ],
+        "comments": "not sure",
+        "dependency": "org.apache.druid.msq.exec.WorkerStorageParameters;org.apache.druid.msq.exec.WorkerStorageParameters.*"
+    },
+    {
+        "poj_name": "apache____druid",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____druid/processing/src/test/java/org/apache/druid/audit/AuditInfoTest.java",
+        "test_simple_name": "testAuditInfoEquality",
+        "FQS_testMethos": "org.apache.druid.audit.AuditInfoTest.testAuditInfoEquality()",
+        "assertionSTMT": "Assert.assertEquals(auditInfo1.hashCode(), auditInfo2.hashCode())",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____druid/org.apache.druid.audit.AuditInfoTest.testAuditInfoEquality____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.druid.audit.AuditInfo.hashCode()",
+            "org.apache.druid.audit.AuditInfo.hashCode()"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "AuditInfo",
+                "expression": "auditInfo1",
+                "statement": "AuditInfo auditInfo2 = new AuditInfo();",
+                "invocation": "auditInfo2 = new AuditInfo()"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "AuditInfo",
+                "expression": "auditInfo2",
+                "statement": "Assert.assertEquals(auditInfo1.hashCode(), auditInfo2.hashCode())",
+                "invocation": "Assert.assertEquals(auditInfo1.hashCode(), auditInfo2.hashCode())"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.apache.druid.audit.AuditInfo;org.apache.druid.audit.AuditInfo.*"
+    },
+    {
+        "poj_name": "apache____druid",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____druid/processing/src/test/java/org/apache/druid/query/filter/IsBooleanDimFilterTest.java",
+        "test_simple_name": "testGetCacheKey",
+        "FQS_testMethos": "org.apache.druid.query.filter.IsBooleanDimFilterTest.testGetCacheKey()",
+        "assertionSTMT": "Assert.assertArrayEquals(f1_3.getCacheKey(), f1_4.getCacheKey())",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____druid/org.apache.druid.query.filter.IsBooleanDimFilterTest.testGetCacheKey____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.druid.query.filter.IsFalseDimFilter.of(org.apache.druid.query.filter.DimFilter)",
+            "org.apache.druid.query.filter.IsFalseDimFilter.of(org.apache.druid.query.filter.DimFilter)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "EqualityFilter",
+                "expression": "f3",
+                "statement": "IsFalseDimFilter f1_3 = IsFalseDimFilter.of(f3);",
+                "invocation": "f1_3 = IsFalseDimFilter.of(f3)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "EqualityFilter",
+                "expression": "f4",
+                "statement": "IsFalseDimFilter f1_4 = IsFalseDimFilter.of(f4);",
+                "invocation": "f1_4 = IsFalseDimFilter.of(f4)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.apache.druid.query.filter.IsFalseDimFilter;org.apache.druid.query.filter.IsFalseDimFilter.*"
+    },
+    {
+        "poj_name": "apache____druid",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____druid/server/src/test/java/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest.java",
+        "test_simple_name": "testMinSegmentsArePickedForMoveWhenNoSkew",
+        "FQS_testMethos": "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testMinSegmentsArePickedForMoveWhenNoSkew()",
+        "assertionSTMT": "Assert.assertEquals(minSegmentsToMove, segmentsToMove)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____druid/org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testMinSegmentsArePickedForMoveWhenNoSkew____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator.computeMinSegmentsToMoveInTier(int)",
+            "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator.computeNumSegmentsToMoveInTier(java.lang.String, java.util.List<org.apache.druid.server.coordinator.ServerHolder>, int)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "int",
+                "expression": "totalSegmentsInTier",
+                "statement": "int minSegmentsToMove = calculator.computeMinSegmentsToMoveInTier(totalSegmentsInTier);",
+                "invocation": "minSegmentsToMove = calculator.computeMinSegmentsToMoveInTier(totalSegmentsInTier)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "tier",
+                "statement": "int segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier, historicals, minSegmentsToMove);",
+                "invocation": "segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier, historicals, minSegmentsToMove)"
+            },
+            {
+                "type": "List<ServerHolder>",
+                "expression": "historicals",
+                "statement": "int segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier, historicals, minSegmentsToMove);",
+                "invocation": "segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier, historicals, minSegmentsToMove)"
+            },
+            {
+                "type": "int",
+                "expression": "maxSegmentsToMoveInTier",
+                "statement": "int segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier, historicals, maxSegmentsToMoveInTier);",
+                "invocation": "segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier, historicals, maxSegmentsToMoveInTier)"
+            }
+        ],
+        "comments": "not sure",
+        "dependency": "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator;org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator.*;org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest;org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.*"
+    },
+    {
+        "poj_name": "apache____druid",
+        "test_file_path": "/ssddata1/data/ITrans/projects/apache____druid/server/src/test/java/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest.java",
+        "test_simple_name": "testHalfSegmentsArePickedForMoveWhenFullSkew",
+        "FQS_testMethos": "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testHalfSegmentsArePickedForMoveWhenFullSkew()",
+        "assertionSTMT": "Assert.assertEquals(segmentsToMoveToFixSkew, segmentsToMove)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache____druid/org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testHalfSegmentsArePickedForMoveWhenFullSkew____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator.computeNumSegmentsToMoveToBalanceTier(java.lang.String, java.util.List<org.apache.druid.server.coordinator.ServerHolder>)",
+            "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator.computeNumSegmentsToMoveInTier(java.lang.String, java.util.List<org.apache.druid.server.coordinator.ServerHolder>, int)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "tier",
+                "statement": "int segmentsToMoveToFixSkew = calculator.computeNumSegmentsToMoveToBalanceTier(tier, historicals);",
+                "invocation": "segmentsToMoveToFixSkew = calculator.computeNumSegmentsToMoveToBalanceTier(tier, historicals)"
+            },
+            {
+                "type": "List<ServerHolder>",
+                "expression": "historicals",
+                "statement": "int segmentsToMoveToFixSkew = calculator.computeNumSegmentsToMoveToBalanceTier(tier, historicals);",
+                "invocation": "segmentsToMoveToFixSkew = calculator.computeNumSegmentsToMoveToBalanceTier(tier, historicals)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "tier2",
+                "statement": "int segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier2, historicals2, segmentsToMoveToFixSkew);",
+                "invocation": "segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier2, historicals2, segmentsToMoveToFixSkew)"
+            },
+            {
+                "type": "List<ServerHolder>",
+                "expression": "historicals2",
+                "statement": "int segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier2, historicals2, segmentsToMoveToFixSkew);",
+                "invocation": "segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier2, historicals2, segmentsToMoveToFixSkew)"
+            },
+            {
+                "type": "int",
+                "expression": "maxSegmentsToMoveInTier",
+                "statement": "int segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier2, historicals2, maxSegmentsToMoveInTier);",
+                "invocation": "segmentsToMove = calculator.computeNumSegmentsToMoveInTier(tier2, historicals2, maxSegmentsToMoveInTier)"
+            }
+        ],
+        "comments": "not sure",
+        "dependency": "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator;org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator.*"
+    },
+    {
+        "poj_name": "ThreeTen____threeten-extra",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ThreeTen____threeten-extra/src/test/java/org/threeten/extra/TestTemporalFields.java",
+        "test_simple_name": "test_HALF_YEARS",
+        "FQS_testMethos": "org.threeten.extra.TestTemporalFields.test_HALF_YEARS()",
+        "assertionSTMT": "assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen____threeten-extra/org.threeten.extra.TestTemporalFields.test_HALF_YEARS____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.threeten.extra.YearQuarter.of(int, int)",
+            "org.threeten.extra.YearQuarter.of(int, int)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "int",
+                "expression": "year1",
+                "statement": "assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount));",
+                "invocation": "YearQuarter.of(year1, quarter1)"
+            },
+            {
+                "type": "int",
+                "expression": "quarter1",
+                "statement": "assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount));",
+                "invocation": "YearQuarter.of(year1, quarter1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "int",
+                "expression": "year2",
+                "statement": "assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount));",
+                "invocation": "YearQuarter.of(year2, quarter2)"
+            },
+            {
+                "type": "int",
+                "expression": "quarter2",
+                "statement": "assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount));",
+                "invocation": "YearQuarter.of(year2, quarter2)"
+            },
+            {
+                "type": "int",
+                "expression": "amount",
+                "statement": "assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount));",
+                "invocation": "HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.threeten.extra.YearQuarter;org.threeten.extra.YearQuarter.*"
+    },
+    {
+        "poj_name": "ThreeTen____threeten-extra",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ThreeTen____threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+        "test_simple_name": "test_from_TemporalAccessor_notLeapYear",
+        "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_notLeapYear()",
+        "assertionSTMT": "assertEquals(YearHalf.of(year, expected), test)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen____threeten-extra/org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_notLeapYear____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.threeten.extra.YearHalf.from(java.time.temporal.TemporalAccessor)",
+            "org.threeten.extra.YearHalf.of(int, int)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "LocalDate",
+                "expression": "date",
+                "statement": "YearHalf test = YearHalf.from(date);",
+                "invocation": "test = YearHalf.from(date)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "int",
+                "expression": "year",
+                "statement": "assertEquals(YearHalf.of(year, expected), test);",
+                "invocation": "YearHalf.of(year, expected)"
+            },
+            {
+                "type": "int",
+                "expression": "expected",
+                "statement": "assertEquals(YearHalf.of(year, expected), test);",
+                "invocation": "YearHalf.of(year, expected)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.threeten.extra.YearHalf;org.threeten.extra.YearHalf.*"
+    },
+    {
+        "poj_name": "ThreeTen____threeten-extra",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ThreeTen____threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+        "test_simple_name": "test_from_TemporalAccessor_leapYear",
+        "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_leapYear()",
+        "assertionSTMT": "assertEquals(YearHalf.of(year, expected), test)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen____threeten-extra/org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_leapYear____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.threeten.extra.YearHalf.from(java.time.temporal.TemporalAccessor)",
+            "org.threeten.extra.YearHalf.of(int, int)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "LocalDate",
+                "expression": "date",
+                "statement": "YearHalf test = YearHalf.from(date);",
+                "invocation": "test = YearHalf.from(date)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "int",
+                "expression": "year",
+                "statement": "assertEquals(YearHalf.of(year, expected), test);",
+                "invocation": "YearHalf.of(year, expected)"
+            },
+            {
+                "type": "int",
+                "expression": "expected",
+                "statement": "assertEquals(YearHalf.of(year, expected), test);",
+                "invocation": "YearHalf.of(year, expected)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.threeten.extra.YearHalf;org.threeten.extra.YearHalf.*"
+    },
+    {
+        "poj_name": "ThreeTen____threeten-extra",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ThreeTen____threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+        "test_simple_name": "test_parse_CharSequence",
+        "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_parse_CharSequence()",
+        "assertionSTMT": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen____threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequence____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
+            "org.threeten.extra.YearHalf.parse(java.lang.CharSequence)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "int",
+                "expression": "year",
+                "statement": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text));",
+                "invocation": "YearHalf.of(year, half)"
+            },
+            {
+                "type": "int",
+                "expression": "half",
+                "statement": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text));",
+                "invocation": "YearHalf.of(year, half)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "CharSequence",
+                "expression": "text",
+                "statement": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text));",
+                "invocation": "YearHalf.parse(text)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.threeten.extra.YearHalf;org.threeten.extra.YearHalf.*"
+    },
+    {
+        "poj_name": "ThreeTen____threeten-extra",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ThreeTen____threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+        "test_simple_name": "test_parse_CharSequence_caseInsensitive",
+        "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_parse_CharSequence_caseInsensitive()",
+        "assertionSTMT": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen____threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequence_caseInsensitive____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
+            "org.threeten.extra.YearHalf.parse(java.lang.CharSequence)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "int",
+                "expression": "year",
+                "statement": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text));",
+                "invocation": "YearHalf.of(year, half)"
+            },
+            {
+                "type": "int",
+                "expression": "half",
+                "statement": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text));",
+                "invocation": "YearHalf.of(year, half)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "CharSequence",
+                "expression": "text",
+                "statement": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text));",
+                "invocation": "YearHalf.parse(text)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.threeten.extra.YearHalf;org.threeten.extra.YearHalf.*"
+    },
+    {
+        "poj_name": "ThreeTen____threeten-extra",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ThreeTen____threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+        "test_simple_name": "test_parse_CharSequenceDateTimeFormatter",
+        "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_parse_CharSequenceDateTimeFormatter()",
+        "assertionSTMT": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen____threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequenceDateTimeFormatter____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
+            "org.threeten.extra.YearHalf.parse(java.lang.CharSequence, java.time.format.DateTimeFormatter)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "CharSequence",
+                "expression": "text",
+                "statement": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half));",
+                "invocation": "YearHalf.parse(text, f)"
+            },
+            {
+                "type": "DateTimeFormatter",
+                "expression": "f",
+                "statement": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half));",
+                "invocation": "YearHalf.parse(text, f)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "int",
+                "expression": "half",
+                "statement": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half));",
+                "invocation": "YearHalf.of(year, half)"
+            },
+            {
+                "type": "int",
+                "expression": "year",
+                "statement": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half));",
+                "invocation": "YearHalf.of(year, half)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.threeten.extra.YearHalf;org.threeten.extra.YearHalf.*"
+    },
+    {
+        "poj_name": "ThreeTen____threeten-extra",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ThreeTen____threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+        "test_simple_name": "test_with_TemporalAdjuster_Year",
+        "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_with_TemporalAdjuster_Year()",
+        "assertionSTMT": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).with(Year.of(year2)))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen____threeten-extra/org.threeten.extra.TestYearHalf.test_with_TemporalAdjuster_Year____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
+            "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "int",
+                "expression": "year1",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).with(Year.of(year2)));",
+                "invocation": "YearHalf.of(year1, half1)"
+            },
+            {
+                "type": "int",
+                "expression": "half1",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).with(Year.of(year2)));",
+                "invocation": "YearHalf.of(year1, half1)"
+            },
+            {
+                "type": "int",
+                "expression": "year2",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).with(Year.of(year2)));",
+                "invocation": "Year.of(year2)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "int",
+                "expression": "year3",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).with(Year.of(year2)));",
+                "invocation": "YearHalf.of(year3, half3)"
+            },
+            {
+                "type": "int",
+                "expression": "half3",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).with(Year.of(year2)));",
+                "invocation": "YearHalf.of(year3, half3)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.threeten.extra.YearHalf;org.threeten.extra.YearHalf.*"
+    },
+    {
+        "poj_name": "ThreeTen____threeten-extra",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ThreeTen____threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+        "test_simple_name": "test_withYear",
+        "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_withYear()",
+        "assertionSTMT": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withYear(year2))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen____threeten-extra/org.threeten.extra.TestYearHalf.test_withYear____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
+            "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "int",
+                "expression": "year1",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withYear(year2));",
+                "invocation": "YearHalf.of(year1, half1)"
+            },
+            {
+                "type": "int",
+                "expression": "half1",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withYear(year2));",
+                "invocation": "YearHalf.of(year1, half1)"
+            },
+            {
+                "type": "int",
+                "expression": "year2",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withYear(year2));",
+                "invocation": "year2"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "int",
+                "expression": "year3",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withYear(year2));",
+                "invocation": "YearHalf.of(year3, half3)"
+            },
+            {
+                "type": "int",
+                "expression": "half3",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withYear(year2));",
+                "invocation": "YearHalf.of(year3, half3)"
+            }
+        ],
+        "comments": "不知为啥不能跑，临时停一下看看",
+        "dependency": "org.threeten.extra.YearHalf;org.threeten.extra.YearHalf.*"
+    },
+    {
+        "poj_name": "ThreeTen____threeten-extra",
+        "test_file_path": "/ssddata1/data/ITrans/projects/ThreeTen____threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+        "test_simple_name": "test_withHalf_int",
+        "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_withHalf_int()",
+        "assertionSTMT": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withHalf(half2))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen____threeten-extra/org.threeten.extra.TestYearHalf.test_withHalf_int____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
+            "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "int",
+                "expression": "year1",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withHalf(half2));",
+                "invocation": "YearHalf.of(year1, half1)"
+            },
+            {
+                "type": "int",
+                "expression": "half1",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withHalf(half2));",
+                "invocation": "YearHalf.of(year1, half1)"
+            },
+            {
+                "type": "int",
+                "expression": "half2",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withHalf(half2));",
+                "invocation": "half2"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "int",
+                "expression": "year3",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withHalf(half2));",
+                "invocation": "YearHalf.of(year3, half3)"
+            },
+            {
+                "type": "int",
+                "expression": "half3",
+                "statement": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withHalf(half2));",
+                "invocation": "YearHalf.of(year3, half3)"
+            }
+        ],
+        "comments": "",
+        "dependency": "org.threeten.extra.YearHalf;org.threeten.extra.YearHalf.*"
+    },
+    {
+        "poj_name": "cdk____cdk",
+        "test_file_path": "/ssddata1/data/ITrans/projects/cdk____cdk/misc/extra/src/test/java/org/openscience/cdk/AssociationTest.java",
+        "test_simple_name": "testGetAtomAt",
+        "FQS_testMethos": "org.openscience.cdk.AssociationTest.testGetAtomAt()",
+        "assertionSTMT": "Assertions.assertEquals(n, association2.getAtomAt(position2))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/cdk____cdk/org.openscience.cdk.AssociationTest.testGetAtomAt____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "org.openscience.cdk.Association.setAtomAt(org.openscience.cdk.interfaces.IAtom, int)",
+            "org.openscience.cdk.Association.getAtomAt(int)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Association",
+                "expression": "association",
+                "statement": "association.setAtomAt(n, position);",
+                "invocation": "association.setAtomAt(n, position)"
+            },
+            {
+                "type": "Atom",
+                "expression": "n",
+                "statement": "association.setAtomAt(n, position);",
+                "invocation": "association.setAtomAt(n, position)"
+            },
+            {
+                "type": "int",
+                "expression": "position",
+                "statement": "association.setAtomAt(n, position);",
+                "invocation": "association.setAtomAt(n, position)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "Association",
+                "expression": "association2",
+                "statement": "Assertions.assertEquals(n, association2.getAtomAt(position2))",
+                "invocation": "association2.getAtomAt(position2)"
+            },
+            {
+                "type": "int",
+                "expression": "position2",
+                "statement": "Assertions.assertEquals(n, association2.getAtomAt(position2))",
+                "invocation": "association2.getAtomAt(position2)"
+            }
+        ],
+        "comments": "fail, because class not found: /ssddata1/data/ITrans/projects/cdk____cdk/AutoMR/test_exe/org.openscience.cdk.AssociationTest_testGetAtomAt_hTest.log",
+        "dependency": "org.openscience.cdk.Association;org.openscience.cdk.Association.*"
+    },
+    {
+        "poj_name": "TheAlgorithms____Java",
+        "test_file_path": "/ssddata1/data/ITrans/projects/TheAlgorithms____Java/src/test/java/com/thealgorithms/datastructures/crdt/LWWElementSetTest.java",
+        "test_simple_name": "testCompareDifferentSets",
+        "FQS_testMethos": "com.thealgorithms.datastructures.crdt.LWWElementSetTest.testCompareDifferentSets()",
+        "assertionSTMT": "assertFalse(set.compare(otherSet))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms____Java/com.thealgorithms.datastructures.crdt.LWWElementSetTest.testCompareDifferentSets____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.thealgorithms.datastructures.crdt.LWWElementSet.add(com.thealgorithms.datastructures.crdt.Element)",
+            "com.thealgorithms.datastructures.crdt.LWWElementSet.add(com.thealgorithms.datastructures.crdt.Element)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "Element",
+                "expression": "element1",
+                "statement": "set.add(element1);",
+                "invocation": "set.add(element1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "Element",
+                "expression": "element2",
+                "statement": "otherSet.add(element2);",
+                "invocation": "otherSet.add(element2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.thealgorithms.datastructures.crdt.LWWElementSet;com.thealgorithms.datastructures.crdt.LWWElementSet.*"
+    },
+    {
+        "poj_name": "TheAlgorithms____Java",
+        "test_file_path": "/ssddata1/data/ITrans/projects/TheAlgorithms____Java/src/test/java/com/thealgorithms/datastructures/crdt/ORSetTest.java",
+        "test_simple_name": "testCompareDifferentSets",
+        "FQS_testMethos": "com.thealgorithms.datastructures.crdt.ORSetTest.testCompareDifferentSets()",
+        "assertionSTMT": "assertFalse(orSet1.compare(orSet2))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms____Java/com.thealgorithms.datastructures.crdt.ORSetTest.testCompareDifferentSets____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.thealgorithms.datastructures.crdt.ORSet.add(T)",
+            "com.thealgorithms.datastructures.crdt.ORSet.add(T)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "element1",
+                "statement": "orSet1.add(element1);",
+                "invocation": "orSet1.add(element1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "element2",
+                "statement": "orSet2.add(element2);",
+                "invocation": "orSet2.add(element2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.thealgorithms.datastructures.crdt.ORSet;com.thealgorithms.datastructures.crdt.ORSet.*"
+    },
+    {
+        "poj_name": "networknt____json-schema-validator",
+        "test_file_path": "/ssddata1/data/ITrans/projects/networknt____json-schema-validator/src/test/java/com/networknt/schema/JsonNodePathTest.java",
+        "test_simple_name": "equalsEquals",
+        "FQS_testMethos": "com.networknt.schema.JsonNodePathTest.equalsEquals()",
+        "assertionSTMT": "assertEquals(a1, a2)",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/networknt____json-schema-validator/com.networknt.schema.JsonNodePathTest.equalsEquals____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.networknt.schema.JsonNodePath.append(java.lang.String)",
+            "com.networknt.schema.JsonNodePath.append(java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "token1",
+                "statement": "a1.append(token1);",
+                "invocation": "a1.append(token1)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "token2",
+                "statement": "a2.append(token2);",
+                "invocation": "a2.append(token2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "com.networknt.schema.JsonNodePath;com.networknt.schema.JsonNodePath.*"
+    },
+    {
+        "poj_name": "networknt____json-schema-validator",
+        "test_file_path": "/ssddata1/data/ITrans/projects/networknt____json-schema-validator/src/test/java/com/networknt/schema/JsonNodePathTest.java",
+        "test_simple_name": "hashCodeEquals",
+        "FQS_testMethos": "com.networknt.schema.JsonNodePathTest.hashCodeEquals()",
+        "assertionSTMT": "assertEquals(a1.hashCode(), a2.hashCode())",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/networknt____json-schema-validator/com.networknt.schema.JsonNodePathTest.equalsEquals____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "com.networknt.schema.JsonNodePath.hashCode()",
+            "com.networknt.schema.JsonNodePath.hashCode()"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "JsonNodePath",
+                "expression": "a1",
+                "statement": "assertEquals(a1.hashCode(), a2.hashCode());",
+                "invocation": "a1.hashCode()"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "JsonNodePath",
+                "expression": "a2",
+                "statement": "assertEquals(a1.hashCode(), a2.hashCode());",
+                "invocation": "a1.hashCode()"
+            }
+        ],
+        "comments": "manual light crafted",
+        "dependency": "com.networknt.schema.JsonNodePath;com.networknt.schema.JsonNodePath.*"
+    },
+    {
+        "poj_name": "aws____event-ruler",
+        "test_file_path": "/ssddata1/data/ITrans/projects/aws____event-ruler/src/test/software/amazon/event/ruler/NameStateTest.java",
+        "test_simple_name": "testNextNameStateWithAdditionalNameStateReuse",
+        "FQS_testMethos": "software.amazon.event.ruler.NameStateTest.testNextNameStateWithAdditionalNameStateReuse()",
+        "assertionSTMT": "assertEquals(nextNameState, nameState2.getNextNameState(key2))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/aws____event-ruler/software.amazon.event.ruler.NameStateTest.testNextNameStateWithAdditionalNameStateReuse____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "software.amazon.event.ruler.NameState.addNextNameState(java.lang.String, software.amazon.event.ruler.NameState)",
+            "software.amazon.event.ruler.NameState.getNextNameState(java.lang.String)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "String",
+                "expression": "key",
+                "statement": "nameState.addNextNameState(key, nextNameState);;",
+                "invocation": "nameState.addNextNameState(key, nextNameState)"
+            },
+            {
+                "type": "NameState",
+                "expression": "nextNameState",
+                "statement": "nameState.addNextNameState(key, nextNameState);;",
+                "invocation": "nameState.addNextNameState(key, nextNameState)"
+            }
+        ],
+        "followUpInput": [
+            {
+                "type": "String",
+                "expression": "key2",
+                "statement": "assertEquals(nextNameState, nameState2.getNextNameState(key2))",
+                "invocation": "nameState2.getNextNameState(key2)"
+            },
+            {
+                "type": "NameState",
+                "expression": "nameState2",
+                "statement": "assertEquals(nextNameState, nameState2.getNextNameState(key2))",
+                "invocation": "nameState2.getNextNameState(key2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "software.amazon.event.ruler.NameState;software.amazon.event.ruler.NameState.*"
+    },
+    {
+        "poj_name": "aws____event-ruler",
+        "test_file_path": "/ssddata1/data/ITrans/projects/aws____event-ruler/src/test/software/amazon/event/ruler/SubRuleContextTest.java",
+        "test_simple_name": "testEquals",
+        "FQS_testMethos": "software.amazon.event.ruler.SubRuleContextTest.testEquals()",
+        "assertionSTMT": "assertTrue(contextA1.equals(contextB1))",
+        "relationAssertionFilePath": "/ssddata1/data/ITrans/projects_MTidentifier_relationAssertion_outputs/aws____event-ruler/software.amazon.event.ruler.SubRuleContextTest.testEquals____0.json",
+        "withInputTransformation": false,
+        "invoked_methods_FQS": [
+            "software.amazon.event.ruler.SubRuleContext.Generator.generate(java.lang.Object)",
+            "software.amazon.event.ruler.SubRuleContext.Generator.generate(java.lang.Object)"
+        ],
+        "MI": 2,
+        "num_MR_instance_in_this_MTC": 1,
+        "compiled": true,
+        "executable": true,
+        "sourceInput": [
+            {
+                "type": "SubRuleContext.Generator",
+                "expression": "generatorA",
+                "statement": "SubRuleContext contextA1 = generatorA.generate(NAME);",
+                "invocation": "contextA1 = generatorA.generate(NAME)"
+            },
+            {
+                "type": "String",
+                "expression": "NAME",
+                "statement": "SubRuleContext contextB1 = generatorA.generate(NAME);",
+                "invocation": "contextB1 = generatorA.generate(NAME)"
+            }
+            
+        ],
+        "followUpInput": [
+            {
+                "type": "SubRuleContext.Generator",
+                "expression": "generatorB",
+                "statement": "SubRuleContext contextB1 = generatorB.generate(NAME2);",
+                "invocation": "contextB1 = generatorB.generate(NAME2)"
+            },
+            {
+                "type": "String",
+                "expression": "NAME2",
+                "statement": "SubRuleContext contextB1 = generatorB.generate(NAME2);",
+                "invocation": "contextB1 = generatorB.generate(NAME2)"
+            }
+        ],
+        "comments": "",
+        "dependency": "software.amazon.event.ruler.SubRuleContext;software.amazon.event.ruler.SubRuleContext.*"
+    }
+    
+]

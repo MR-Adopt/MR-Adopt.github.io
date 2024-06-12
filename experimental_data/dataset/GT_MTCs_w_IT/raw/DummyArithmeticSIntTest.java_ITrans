@@ -1,0 +1,56 @@
+package dk.alexandra.fresco.suite.dummy.arithmetic;
+
+import dk.alexandra.fresco.framework.builder.numeric.field.BigIntegerFieldDefinition;
+import dk.alexandra.fresco.framework.util.ModulusFinder;
+import org.hamcrest.core.Is;
+import org.hamcrest.core.StringContains;
+import org.junit.Assert;
+import org.junit.Test;
+
+public class DummyArithmeticSIntTest {
+
+  @Test
+  public void testToString() {
+    BigIntegerFieldDefinition fd500 = new BigIntegerFieldDefinition(
+        ModulusFinder.findSuitableModulus(8));
+    DummyArithmeticSInt value = new DummyArithmeticSInt(fd500.createElement(42));
+    String toString = value.toString();
+    Assert.assertThat(toString, StringContains.containsString("42"));
+    Assert.assertThat(value.toString(), Is.is(toString));
+  }
+
+  @Test
+  public void testToString_h() {
+    BigIntegerFieldDefinition fd500 = new BigIntegerFieldDefinition(
+        ModulusFinder.findSuitableModulus(8));
+    DummyArithmeticSInt value = new DummyArithmeticSInt(fd500.createElement(42));
+    String toString = value.toString();
+    Assert.assertThat(toString, StringContains.containsString("42"));
+    DummyArithmeticSInt value2 = new DummyArithmeticSInt(fd500.createElement(42));
+    Assert.assertThat(value2.toString(), Is.is(toString));
+  }
+
+  @Test
+  public void testToString_ITrans() {
+    BigIntegerFieldDefinition fd500 = new BigIntegerFieldDefinition(
+        ModulusFinder.findSuitableModulus(8));
+    DummyArithmeticSInt value = new DummyArithmeticSInt(fd500.createElement(42));
+    String toString = value.toString();
+    Assert.assertThat(toString, StringContains.containsString("42"));
+    DummyArithmeticSInt value2 = inputTransformation(value);
+    Assert.assertThat(value2.toString(), Is.is(toString));
+  }
+
+  public static DummyArithmeticSInt inputTransformation(DummyArithmeticSInt value) {
+    // create an equal object
+    return new DummyArithmeticSInt(value.getValue());
+  }
+
+  @Test
+  public void testOut() {
+    BigIntegerFieldDefinition fd500 = new BigIntegerFieldDefinition(
+        ModulusFinder.findSuitableModulus(8));
+    DummyArithmeticSInt value = new DummyArithmeticSInt(fd500.createElement(42));
+    Assert.assertThat(value.out(), Is.is(value));
+  }
+}
