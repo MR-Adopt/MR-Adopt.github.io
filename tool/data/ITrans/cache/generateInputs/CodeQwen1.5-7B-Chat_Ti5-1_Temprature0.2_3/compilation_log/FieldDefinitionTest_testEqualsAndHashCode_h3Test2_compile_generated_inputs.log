@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/opentripplanner__castle__OpenTripPlanner/ITrans/generated_inputs/qw/org/opentripplanner/framework/token/FieldDefinitionTest_testEqualsAndHashCode_h3Test2.java:21: error: cannot find symbol
+    FieldDefinition subject = new FieldDefinition("foo", TokenType.NULL);
+                                                                  ^
+  symbol:   variable NULL
+  location: class TokenType
+/ssddata1/cxubl/data/ITrans/projects/opentripplanner__castle__OpenTripPlanner/ITrans/generated_inputs/qw/org/opentripplanner/framework/token/FieldDefinitionTest_testEqualsAndHashCode_h3Test2.java:22: error: cannot find symbol
+    FieldDefinition other3 = new FieldDefinition("foo", TokenType.NULL).deprecate();
+                                                                 ^
+  symbol:   variable NULL
+  location: class TokenType
+2 errors

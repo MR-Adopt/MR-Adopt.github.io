@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/dromara__castle__hutool/ITrans/generated_inputs/qw/cn/hutool/json/IssueI7GPGXTest_toBeanTest_h3Test4.java:30: error: cannot find symbol
+    hutoolPair.setKey(null);
+              ^
+  symbol:   method setKey(<null>)
+  location: variable hutoolPair of type Pair<String,Boolean>
+1 error

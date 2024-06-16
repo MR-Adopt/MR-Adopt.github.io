@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/opentripplanner__castle__OpenTripPlanner/ITrans/generated_inputs/qw/org/opentripplanner/framework/token/FieldDefinitionTest_testEqualsAndHashCode_h2Test4.java:21: error: cannot find symbol
+    FieldDefinition subject = new FieldDefinition("foo", TokenType.STRING).setDefaultValue("default");
+                                                                          ^
+  symbol:   method setDefaultValue(String)
+  location: class FieldDefinition
+/ssddata1/cxubl/data/ITrans/projects/opentripplanner__castle__OpenTripPlanner/ITrans/generated_inputs/qw/org/opentripplanner/framework/token/FieldDefinitionTest_testEqualsAndHashCode_h2Test4.java:22: error: cannot find symbol
+    FieldDefinition other3 = new FieldDefinition("foo", TokenType.STRING).setDefaultValue("default").deprecate();
+                                                                         ^
+  symbol:   method setDefaultValue(String)
+  location: class FieldDefinition
+2 errors

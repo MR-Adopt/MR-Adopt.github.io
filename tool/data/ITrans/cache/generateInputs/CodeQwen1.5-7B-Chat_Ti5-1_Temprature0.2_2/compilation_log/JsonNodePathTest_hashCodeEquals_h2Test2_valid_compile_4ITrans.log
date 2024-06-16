@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h2Test2_valid.java:35: error: cannot find symbol
+    a1.setType(PathType.XPATH);
+                       ^
+  symbol:   variable XPATH
+  location: class PathType
+/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h2Test2_valid.java:37: error: cannot find symbol
+    a2.setType(PathType.XPATH);
+                       ^
+  symbol:   variable XPATH
+  location: class PathType
+2 errors

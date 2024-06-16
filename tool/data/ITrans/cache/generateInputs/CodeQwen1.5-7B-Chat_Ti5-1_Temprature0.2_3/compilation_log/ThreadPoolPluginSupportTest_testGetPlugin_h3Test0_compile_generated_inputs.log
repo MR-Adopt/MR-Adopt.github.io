@@ -1,0 +1,7 @@
+/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_inputs/qw/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest_testGetPlugin_h3Test0.java:61: error: constructor TestExecuteAwarePlugin in class TestExecuteAwarePlugin cannot be applied to given types;
+    ThreadPoolPlugin plugin = new TestExecuteAwarePlugin("CustomPlugin");
+                              ^
+  required: no arguments
+  found: String
+  reason: actual and formal argument lists differ in length
+1 error

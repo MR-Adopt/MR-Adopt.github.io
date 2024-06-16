@@ -1,0 +1,19 @@
+{
+    "org.threeten.extra.TestYearHalf_test_from_TemporalAccessor_leapYear_h3Test0": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 1,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [
+            "test_from_TemporalAccessor_leapYear_h3Test0"
+        ],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "test_from_TemporalAccessor_leapYear_h3Test0": "org.opentest4j.AssertionFailedError: expected: <2009-H1> but was: <2008-H1>"
+        }
+    }
+}

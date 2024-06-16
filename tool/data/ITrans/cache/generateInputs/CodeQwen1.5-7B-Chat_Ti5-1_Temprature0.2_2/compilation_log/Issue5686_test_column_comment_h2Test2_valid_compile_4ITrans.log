@@ -1,0 +1,4 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__druid/ITrans/generated_inputs/qw4ITrans/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686_test_column_comment_h2Test2_valid.java:36: error: variable sqlStatement2 is already defined in method test_column_comment_h2Test2()
+        MySqlInsertStatement sqlStatement2  = Issue5686_test_column_comment.inputTransformation_test_column_comment(sqlStatement);
+                             ^
+1 error

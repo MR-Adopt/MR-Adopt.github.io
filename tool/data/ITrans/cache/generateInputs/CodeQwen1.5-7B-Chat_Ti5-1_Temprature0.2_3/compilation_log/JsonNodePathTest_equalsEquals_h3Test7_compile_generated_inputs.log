@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw/com/networknt/schema/JsonNodePathTest_equalsEquals_h3Test7.java:34: error: cannot find symbol
+        JsonNodePath a2 = root.append(token2);
+                                      ^
+  symbol:   variable token2
+  location: class JsonNodePathTest_equalsEquals_h3Test7
+1 error

@@ -1,0 +1,16 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h2Test5.java:59: error: cannot find symbol
+        int segmentsToMove = SegmentToMoveCalculator.computeNumSegmentsToMoveInTier(tier, historicals, maxSegmentsToMoveInTier);
+                                                                                    ^
+  symbol:   variable tier
+  location: class SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h2Test5
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h2Test5.java:59: error: cannot find symbol
+        int segmentsToMove = SegmentToMoveCalculator.computeNumSegmentsToMoveInTier(tier, historicals, maxSegmentsToMoveInTier);
+                                                                                          ^
+  symbol:   variable historicals
+  location: class SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h2Test5
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h2Test5.java:59: error: cannot find symbol
+        int segmentsToMove = SegmentToMoveCalculator.computeNumSegmentsToMoveInTier(tier, historicals, maxSegmentsToMoveInTier);
+                                                                                                       ^
+  symbol:   variable maxSegmentsToMoveInTier
+  location: class SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h2Test5
+3 errors

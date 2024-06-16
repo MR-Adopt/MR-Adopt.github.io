@@ -1,0 +1,47 @@
+JUnit version 4.13.2
+.
+Time: 0.015
+
+OK (1 test)
+
+CMD: cd /ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ ; /ssddata1/cxubl/software/zulu_jdks/zulu11.62.17-ca-jdk11.0.18-linux_x64/bin/java -XX:ActiveProcessorCount=10 -classpath ./:./target/classes:./target/test-classes:./target/dependency/*:/ssddata1/cxubl/software/junit/junit-4.13.2.jar:/ssddata1/cxubl/software/junit/junit-jupiter-api-5.8.2.jar:/ssddata1/cxubl/software/junit/hamcrest-core-1.3.jar:/ssddata1/cxubl/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar:/ssddata1/cxubl/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar:/ssddata1/cxubl/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-test/5.3.26/spring-test-5.3.26.jar:/ssddata1/cxubl/data/ITrans/projects/thingsboard__castle__thingsboard/dao/target/dependency/commons-logging-1.2.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-core/5.3.2/spring-core-5.3.26.jar:arex-instrumentation-api/target/dependency/jackson-annotations-2.13.1.jar:arex-instrumentation-api/target/dependency/gson-2.10.1.jar:misc/extra/target/dependency/vecmath-1.5.2.jar:/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/processed_GT_only/:/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/processed_MTCITrans_only/:/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/generated_ITrans/:/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/generated_inputs/:/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/generated_inputs/qw:/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/generated_inputs/qw4ITrans org.junit.runner.JUnitCore software.amazon.event.ruler.SubRuleContextTest_testGetters_h2Test3_valid > /ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/AutoMR/test_exe/software.amazon.event.ruler.SubRuleContextTest_testGetters_h2Test3_valid.log 2>&1
+file path: 
+/ssddata1/cxubl/data/ITrans/cache/generateInputs/CodeQwen1.5-7B-Chat_Ti5-1_Temprature0.2_2/generated_valid_inputs_testing_Trans/SubRuleContextTest_testGetters_h2Test3_valid.java
+file content: 
+package software.amazon.event.ruler;
+
+import software.amazon.event.ruler.SubRuleContextTest_testGetters;
+
+import software.amazon.event.ruler.SubRuleContext;
+import software.amazon.event.ruler.SubRuleContext.*;
+import org.junit.Test;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
+
+public class SubRuleContextTest_testGetters_h2Test3_valid {
+
+    private static final String NAME = name;
+
+    @Test
+    public void testGetters_h2Test3() {
+    SubRuleContext.Generator generator = new SubRuleContext.Generator();
+    String NAME = abc;
+		List<Object> transformed_inputs = SubRuleContextTest_testGetters.inputTransformation_testGetters(generator, NAME);
+    Double id  = (Double) transformed_inputs.get(1);
+    SubRuleContext.Generator generator2  = (SubRuleContext.Generator) transformed_inputs.get(0);
+        SubRuleContext context = generator.generate(NAME);
+        generator2.generate(name);
+        assertEquals(NAME, generator2.getNameForGeneratedId(id));
+        Set<Double> expectedIds = new HashSet<>();
+        expectedIds.add(context.getId());
+        assertEquals(expectedIds, generator.getIdsGeneratedForName(NAME));
+    }
+}
+
+

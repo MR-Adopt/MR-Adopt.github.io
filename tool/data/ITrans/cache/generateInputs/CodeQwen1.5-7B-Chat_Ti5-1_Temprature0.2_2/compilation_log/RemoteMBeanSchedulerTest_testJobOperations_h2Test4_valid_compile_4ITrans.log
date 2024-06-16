@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/quartz-scheduler__castle__quartz/ITrans/generated_inputs/qw4ITrans/org/quartz/impl/RemoteMBeanSchedulerTest_testJobOperations_h2Test4_valid.java:101: error: cannot find symbol
+    job2Detail.setJobDataMap(new JobDataMap());
+                                 ^
+  symbol:   class JobDataMap
+  location: class RemoteMBeanSchedulerTest_testJobOperations_h2Test4_valid
+1 error

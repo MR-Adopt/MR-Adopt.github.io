@@ -1,6 +1,6 @@
 {
     "summary_validation": {
-        "all_subject": 101,
+        "all_subject": 100,
         "compilation_success": 95,
         "subject_size (pass original MTC)": 89,
         "subject_size (with LLMI tests)": 75,
@@ -13,7 +13,7 @@
         "subject_size (pass all Sinputs: OMTCandLLMI, LLMI can be none)": 81
     },
     "summary_evaluation": {
-        "all_subject": 101,
+        "all_subject": 100,
         "compilation_success": 95,
         "subject_size (pass original MTC)": 89,
         "subject_size (with LLMI tests)": 90,

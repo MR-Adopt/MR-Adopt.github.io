@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_inputs/qw4ITrans/org/matsim/core/config/groups/ScoringConfigGroupTest_testAddActivityParams_h2Test2_valid.java:82: error: cannot find symbol
+    ap.setMode("car");
+      ^
+  symbol:   method setMode(String)
+  location: variable ap of type ActivityParams
+1 error

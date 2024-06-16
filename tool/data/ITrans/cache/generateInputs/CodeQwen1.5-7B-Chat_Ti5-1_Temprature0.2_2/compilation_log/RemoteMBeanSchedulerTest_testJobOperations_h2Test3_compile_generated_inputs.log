@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/quartz-scheduler__castle__quartz/ITrans/generated_inputs/qw/org/quartz/impl/RemoteMBeanSchedulerTest_testJobOperations_h2Test3.java:99: error: cannot find symbol
+    job2Detail.setDurability(false);
+              ^
+  symbol:   method setDurability(boolean)
+  location: variable job2Detail of type JobDetail
+1 error

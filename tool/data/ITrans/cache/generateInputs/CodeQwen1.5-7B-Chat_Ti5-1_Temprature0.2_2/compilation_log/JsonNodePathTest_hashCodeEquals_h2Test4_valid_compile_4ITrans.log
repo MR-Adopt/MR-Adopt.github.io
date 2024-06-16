@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h2Test4_valid.java:35: error: cannot find symbol
+    a1.setParent(null);
+      ^
+  symbol:   method setParent(<null>)
+  location: variable a1 of type JsonNodePath
+/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h2Test4_valid.java:37: error: cannot find symbol
+    a2.setParent(null);
+      ^
+  symbol:   method setParent(<null>)
+  location: variable a2 of type JsonNodePath
+2 errors
