@@ -1,0 +1,1018 @@
+[
+    {
+        "MTC_item": {
+            "poj_name": "alibaba__castle__druid",
+            "test_file_path": "./data/ITrans/projects/alibaba__castle__druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686.java",
+            "test_simple_name": "test_column_comment",
+            "FQS_testMethos": "com.alibaba.druid.bvt.sql.mysql.issues.Issue5686.test_column_comment()",
+            "assertionSTMT": "assertEquals(newSql, newSql2)",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__druid/com.alibaba.druid.bvt.sql.mysql.issues.Issue5686.test_column_comment__castle__0.json",
+            "withInputTransformation": false,
+            "invoked_methods_FQS": [
+                "com.alibaba.druid.sql.ast.statement.SQLInsertStatement.toString()",
+                "com.alibaba.druid.sql.ast.statement.SQLInsertStatement.toString()"
+            ],
+            "MI": 2,
+            "num_MR_instance_in_this_MTC": 1,
+            "compiled": true,
+            "executable": true,
+            "sourceInput": [
+                {
+                    "type": "MySqlInsertStatement",
+                    "expression": "sqlStatement",
+                    "statement": "String newSql = sqlStatement.toString();",
+                    "invocation": "newSql = sqlStatement.toString()"
+                }
+            ],
+            "followUpInput": [
+                {
+                    "type": "MySqlInsertStatement",
+                    "expression": "sqlStatement2",
+                    "statement": "String newSql2 = sqlStatement2.toString();",
+                    "invocation": "newSql2 = sqlStatement2.toString()"
+                }
+            ],
+            "comments": "",
+            "dependency": "com.alibaba.druid.sql.ast.statement.SQLInsertStatement;com.alibaba.druid.sql.ast.statement.SQLInsertStatement.*"
+        },
+        "pair_inputs": {
+            "com.alibaba.druid.bvt.sql.mysql.issues.Issue5686_test_column_comment_h1Test0": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_column_comment_h1Test0"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": true,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_column_comment_h1Test0"
+                    ],
+                    "failure_info": {}
+                }
+            },
+            "com.alibaba.druid.bvt.sql.mysql.issues.Issue5686_test_column_comment_h1Test1": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_column_comment_h1Test1"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": true,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_column_comment_h1Test1"
+                    ],
+                    "failure_info": {}
+                }
+            }
+        },
+        "source_only_input": {}
+    },
+    {
+        "MTC_item": {
+            "poj_name": "apache__castle__druid",
+            "test_file_path": "./data/ITrans/projects/apache__castle__druid/extensions-core/multi-stage-query/src/test/java/org/apache/druid/msq/exec/WorkerStorageParametersTest.java",
+            "test_simple_name": "test_WorkerStorageParameter_createInstance",
+            "FQS_testMethos": "org.apache.druid.msq.exec.WorkerStorageParametersTest.test_WorkerStorageParameter_createInstance()",
+            "assertionSTMT": "Assert.assertEquals(WorkerStorageParameters.createInstanceForTests(l), WorkerStorageParameters.createInstance(l2, b))",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.msq.exec.WorkerStorageParametersTest.test_WorkerStorageParameter_createInstance__castle__0.json",
+            "withInputTransformation": false,
+            "invoked_methods_FQS": [
+                "org.apache.druid.msq.exec.WorkerStorageParameters.createInstanceForTests(long)",
+                "org.apache.druid.msq.exec.WorkerStorageParameters.createInstance(long, boolean)"
+            ],
+            "MI": 2,
+            "num_MR_instance_in_this_MTC": 1,
+            "compiled": true,
+            "executable": true,
+            "sourceInput": [
+                {
+                    "type": "long",
+                    "expression": "l",
+                    "statement": "Assert.assertEquals(WorkerStorageParameters.createInstanceForTests(l), WorkerStorageParameters.createInstance(l2, b));",
+                    "invocation": "WorkerStorageParameters.createInstanceForTests(l)"
+                }
+            ],
+            "followUpInput": [
+                {
+                    "type": "long",
+                    "expression": "l2",
+                    "statement": "Assert.assertEquals(WorkerStorageParameters.createInstanceForTests(l), WorkerStorageParameters.createInstance(l2, b));",
+                    "invocation": "WorkerStorageParameters.createInstance(l2, b)"
+                },
+                {
+                    "type": "boolean",
+                    "expression": "b",
+                    "statement": "Assert.assertEquals(WorkerStorageParameters.createInstanceForTests(l), WorkerStorageParameters.createInstance(l2, b));",
+                    "invocation": "WorkerStorageParameters.createInstance(l2, b)"
+                }
+            ],
+            "comments": "not sure",
+            "dependency": "org.apache.druid.msq.exec.WorkerStorageParameters;org.apache.druid.msq.exec.WorkerStorageParameters.*"
+        },
+        "pair_inputs": {
+            "org.apache.druid.msq.exec.WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h1Test0": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": false,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test0"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_WorkerStorageParameter_createInstance_h1Test0": "java.lang.IllegalArgumentException, line:None"
+                    }
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 1,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test0"
+                    ],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_WorkerStorageParameter_createInstance_h1Test0": "java.lang.AssertionError, line:None"
+                    }
+                }
+            },
+            "org.apache.druid.msq.exec.WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h1Test1": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test1"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 1,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test1"
+                    ],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_WorkerStorageParameter_createInstance_h1Test1": "java.lang.AssertionError, line:None"
+                    }
+                }
+            },
+            "org.apache.druid.msq.exec.WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h1Test2": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": false,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 1,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test2"
+                    ],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_WorkerStorageParameter_createInstance_h1Test2": "java.lang.AssertionError, line:None"
+                    }
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 1,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test2"
+                    ],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_WorkerStorageParameter_createInstance_h1Test2": "java.lang.AssertionError, line:None"
+                    }
+                }
+            },
+            "org.apache.druid.msq.exec.WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h1Test3": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": false,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test3"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_WorkerStorageParameter_createInstance_h1Test3": "org.apache.druid.msq.indexing.error.MSQException, line:None"
+                    }
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 1,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test3"
+                    ],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_WorkerStorageParameter_createInstance_h1Test3": "java.lang.AssertionError, line:None"
+                    }
+                }
+            },
+            "org.apache.druid.msq.exec.WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h1Test4": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": false,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 1,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test4"
+                    ],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_WorkerStorageParameter_createInstance_h1Test4": "java.lang.AssertionError, line:None"
+                    }
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 1,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [
+                        "test_WorkerStorageParameter_createInstance_h1Test4"
+                    ],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_WorkerStorageParameter_createInstance_h1Test4": "java.lang.AssertionError, line:None"
+                    }
+                }
+            }
+        },
+        "source_only_input": {}
+    },
+    {
+        "MTC_item": {
+            "poj_name": "ThreeTen__castle__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "test_simple_name": "test_parse_CharSequenceDateTimeFormatter",
+            "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_parse_CharSequenceDateTimeFormatter()",
+            "assertionSTMT": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half))",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequenceDateTimeFormatter__castle__0.json",
+            "withInputTransformation": false,
+            "invoked_methods_FQS": [
+                "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
+                "org.threeten.extra.YearHalf.parse(java.lang.CharSequence, java.time.format.DateTimeFormatter)"
+            ],
+            "MI": 2,
+            "num_MR_instance_in_this_MTC": 1,
+            "compiled": true,
+            "executable": true,
+            "sourceInput": [
+                {
+                    "type": "CharSequence",
+                    "expression": "text",
+                    "statement": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half));",
+                    "invocation": "YearHalf.parse(text, f)"
+                },
+                {
+                    "type": "DateTimeFormatter",
+                    "expression": "f",
+                    "statement": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half));",
+                    "invocation": "YearHalf.parse(text, f)"
+                }
+            ],
+            "followUpInput": [
+                {
+                    "type": "int",
+                    "expression": "half",
+                    "statement": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half));",
+                    "invocation": "YearHalf.of(year, half)"
+                },
+                {
+                    "type": "int",
+                    "expression": "year",
+                    "statement": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half));",
+                    "invocation": "YearHalf.of(year, half)"
+                }
+            ],
+            "comments": "",
+            "dependency": "org.threeten.extra.YearHalf;org.threeten.extra.YearHalf.*"
+        },
+        "pair_inputs": {
+            "org.threeten.extra.TestYearHalf_test_parse_CharSequenceDateTimeFormatter_h1Test0": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test0"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": true,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test0"
+                    ],
+                    "failure_info": {}
+                }
+            },
+            "org.threeten.extra.TestYearHalf_test_parse_CharSequenceDateTimeFormatter_h1Test1": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test1"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": true,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test1"
+                    ],
+                    "failure_info": {}
+                }
+            },
+            "org.threeten.extra.TestYearHalf_test_parse_CharSequenceDateTimeFormatter_h1Test2": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": false,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test2"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test2": "java.time.format.DateTimeParseException: Text 'H3 2000' could not be parsed: Unable to obtain YearHalf from TemporalAccessor: {Year=2000, HalfOfYear=3},ISO of type java.time.format.Parsed"
+                    }
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test2"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test2": "java.time.format.DateTimeParseException: Text 'H3 2000' could not be parsed: Unable to obtain YearHalf from TemporalAccessor: {HalfOfYear=3, Year=2000},ISO of type java.time.format.Parsed"
+                    }
+                }
+            },
+            "org.threeten.extra.TestYearHalf_test_parse_CharSequenceDateTimeFormatter_h1Test3": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test3"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": true,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test3"
+                    ],
+                    "failure_info": {}
+                }
+            },
+            "org.threeten.extra.TestYearHalf_test_parse_CharSequenceDateTimeFormatter_h1Test4": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test4"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": true,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": -1,
+                    "assertionLineNums": [],
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "test_parse_CharSequenceDateTimeFormatter_h1Test4"
+                    ],
+                    "failure_info": {}
+                }
+            }
+        },
+        "source_only_input": {}
+    },
+    {
+        "MTC_item": {
+            "poj_name": "ngs-doo__castle__dsl-json",
+            "test_file_path": "./data/ITrans/projects/ngs-doo__castle__dsl-json/library/src/test/java/com/dslplatform/json/DateTest.java",
+            "test_simple_name": "localTimeBoundary",
+            "FQS_testMethos": "com.dslplatform.json.DateTest.localTimeBoundary()",
+            "assertionSTMT": "Assert.assertArrayEquals(lts, values)",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ngs-doo__castle__dsl-json/com.dslplatform.json.DateTest.localTimeBoundary__castle__0.json",
+            "withInputTransformation": false,
+            "invoked_methods_FQS": [
+                "com.dslplatform.json.DslJson.serialize(com.dslplatform.json.JsonWriter, T[])",
+                "com.dslplatform.json.DslJson.deserialize(java.lang.Class<TResult>, byte[], int)"
+            ],
+            "MI": 2,
+            "num_MR_instance_in_this_MTC": 1,
+            "compiled": true,
+            "executable": true,
+            "sourceInput": [
+                {
+                    "type": "JsonWriter",
+                    "expression": "jw",
+                    "statement": "dslJson.serialize(jw, lts);",
+                    "invocation": "dslJson.serialize(jw, lts)"
+                },
+                {
+                    "type": "LocalTime[]",
+                    "expression": "lts",
+                    "statement": "dslJson.serialize(jw, lts);",
+                    "invocation": "dslJson.serialize(jw, lts)"
+                }
+            ],
+            "followUpInput": [
+                {
+                    "type": "Class<LocalTime[]",
+                    "expression": "manifest",
+                    "statement": "LocalTime[] values = dslJson.deserialize(manifest, body, size);",
+                    "invocation": "values = dslJson.deserialize(manifest, body, size)"
+                },
+                {
+                    "type": "byte[]",
+                    "expression": "body",
+                    "statement": "LocalTime[] values = dslJson.deserialize(manifest, body, size);",
+                    "invocation": "values = dslJson.deserialize(manifest, body, size)"
+                },
+                {
+                    "type": "int",
+                    "expression": "size",
+                    "statement": "LocalTime[] values = dslJson.deserialize(manifest, body, size);",
+                    "invocation": "values = dslJson.deserialize(manifest, body, size)"
+                }
+            ],
+            "comments": "",
+            "dependency": "com.dslplatform.json.DslJson;com.dslplatform.json.DslJson.*"
+        },
+        "pair_inputs": {
+            "com.dslplatform.json.DateTest_localTimeBoundary_h1Test0": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "localTimeBoundary_h1Test0"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "localTimeBoundary_h1Test0"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "localTimeBoundary_h1Test0": "localTimeBoundary_h1Test0"
+                    }
+                }
+            },
+            "com.dslplatform.json.DateTest_localTimeBoundary_h1Test1": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "localTimeBoundary_h1Test1"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "localTimeBoundary_h1Test1"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "localTimeBoundary_h1Test1": "localTimeBoundary_h1Test1"
+                    }
+                }
+            },
+            "com.dslplatform.json.DateTest_localTimeBoundary_h1Test2": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": true,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 1,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 0,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [],
+                    "passed_test_cases_list": [
+                        "localTimeBoundary_h1Test2"
+                    ],
+                    "failure_info": {}
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "localTimeBoundary_h1Test2"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "localTimeBoundary_h1Test2": "localTimeBoundary_h1Test2"
+                    }
+                }
+            },
+            "com.dslplatform.json.DateTest_localTimeBoundary_h1Test3": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": false,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "localTimeBoundary_h1Test3"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "localTimeBoundary_h1Test3": "localTimeBoundary_h1Test3"
+                    }
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "localTimeBoundary_h1Test3"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "localTimeBoundary_h1Test3": "localTimeBoundary_h1Test3"
+                    }
+                }
+            },
+            "com.dslplatform.json.DateTest_localTimeBoundary_h1Test4": {
+                "generated_inputs_compilation_result": true,
+                "generated_inputs_validation_result": false,
+                "generated_inputs_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "localTimeBoundary_h1Test4"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "localTimeBoundary_h1Test4": "localTimeBoundary_h1Test4"
+                    }
+                },
+                "generated_Sinput_compilation_result": true,
+                "generated_Sinput_validation_result": false,
+                "generated_Sinput_validation_exe_detail": {
+                    "num_of_test_cases": 1,
+                    "num_of_passed_test_cases": 0,
+                    "num_of_assertion_failed_test_cases": 0,
+                    "num_of_exception_thrown_test_cases": 1,
+                    "num_of_reach_assertion_test_cases": 0,
+                    "assertionLineNums": false,
+                    "reach_assertion_test_cases_list": [],
+                    "assertion_failed_test_cases_list": [],
+                    "exception_thrown_test_cases_list": [
+                        "localTimeBoundary_h1Test4"
+                    ],
+                    "passed_test_cases_list": [],
+                    "failure_info": {
+                        "localTimeBoundary_h1Test4": "localTimeBoundary_h1Test4"
+                    }
+                }
+            }
+        },
+        "source_only_input": {}
+    },
+    {
+        "MTC_item": {
+            "poj_name": "rsksmart__castle__rskj",
+            "test_file_path": "./data/ITrans/projects/rsksmart__castle__rskj/rskj-core/src/test/java/org/ethereum/rpc/FilterTest.java",
+            "test_simple_name": "testGetNewEvents",
+            "FQS_testMethos": "org.ethereum.rpc.FilterTest.testGetNewEvents()",
+            "assertionSTMT": "assertArrayEquals(new Object[] { mockEvent.getJsonEventObject() }, events1)",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/rsksmart__castle__rskj/org.ethereum.rpc.FilterTest.testGetNewEvents__castle__0.json",
+            "withInputTransformation": true,
+            "invoked_methods_FQS": [
+                "org.ethereum.rpc.Filter.add(org.ethereum.rpc.Filter.FilterEvent)",
+                "org.ethereum.rpc.Filter.getNewEvents()"
+            ],
+            "MI": 2,
+            "num_MR_instance_in_this_MTC": 1,
+            "compiled": true,
+            "executable": true,
+            "sourceInput": [
+                {
+                    "type": "Filter.FilterEvent",
+                    "expression": "mockEvent",
+                    "statement": "filter.add(mockEvent);",
+                    "invocation": "filter.add(mockEvent)"
+                },
+                {
+                    "type": "Filter",
+                    "expression": "filter",
+                    "statement": "filter.add(mockEvent);",
+                    "invocation": "filter.add(mockEvent)"
+                }
+            ],
+            "followUpInput": [
+                {
+                    "type": "Filter.FilterEvent",
+                    "expression": "mockEvent2",
+                    "statement": "filter2.add(mockEvent2);",
+                    "invocation": "filter2.add(mockEvent2)"
+                },
+                {
+                    "type": "Filter",
+                    "expression": "filter2",
+                    "statement": "filter2.add(mockEvent2);",
+                    "invocation": "filter2.add(mockEvent2)"
+                }
+            ],
+            "comments": "",
+            "dependency": "org.ethereum.rpc.Filter;org.ethereum.rpc.Filter.*;org.ethereum.rpc.FilterTest;org.ethereum.rpc.FilterTest.*"
+        },
+        "pair_inputs": {
+            "org.ethereum.rpc.FilterTest_testGetNewEvents_h1Test0": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            },
+            "org.ethereum.rpc.FilterTest_testGetNewEvents_h1Test1": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            },
+            "org.ethereum.rpc.FilterTest_testGetNewEvents_h1Test2": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            },
+            "org.ethereum.rpc.FilterTest_testGetNewEvents_h1Test3": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            },
+            "org.ethereum.rpc.FilterTest_testGetNewEvents_h1Test4": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            }
+        },
+        "source_only_input": {}
+    },
+    {
+        "MTC_item": {
+            "poj_name": "opengoofy__castle__hippo4j",
+            "test_file_path": "./data/ITrans/projects/opengoofy__castle__hippo4j/threadpool/core/src/test/java/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest.java",
+            "test_simple_name": "testGetPlugin",
+            "FQS_testMethos": "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetPlugin()",
+            "assertionSTMT": "Assert.assertSame(plugin, support.getPlugin(plugin.getId()).orElse(null))",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/opengoofy__castle__hippo4j/cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetPlugin__castle__0.json",
+            "withInputTransformation": true,
+            "invoked_methods_FQS": [
+                "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport.register(cn.hippo4j.core.executor.plugin.ThreadPoolPlugin)",
+                "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport.getPlugin(java.lang.String)"
+            ],
+            "MI": 2,
+            "num_MR_instance_in_this_MTC": 1,
+            "compiled": true,
+            "executable": true,
+            "sourceInput": [
+                {
+                    "type": "ThreadPoolPlugin",
+                    "expression": "plugin",
+                    "statement": "support.register(plugin);",
+                    "invocation": "support.register(plugin)"
+                }
+            ],
+            "followUpInput": [
+                {
+                    "type": "String",
+                    "expression": "pluginId",
+                    "statement": "Assert.assertSame(plugin, support.getPlugin(pluginId).orElse(null));",
+                    "invocation": "support.getPlugin(pluginId).orElse(null)"
+                }
+            ],
+            "comments": "",
+            "dependency": "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport.*"
+        },
+        "pair_inputs": {
+            "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest_testGetPlugin_h1Test0": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            },
+            "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest_testGetPlugin_h1Test1": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            },
+            "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest_testGetPlugin_h1Test2": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            },
+            "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest_testGetPlugin_h1Test3": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            },
+            "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest_testGetPlugin_h1Test4": {
+                "generated_inputs_compilation_result": false,
+                "generated_inputs_validation_result": null,
+                "generated_inputs_validation_exe_detail": null,
+                "generated_Sinput_compilation_result": false,
+                "generated_Sinput_validation_result": null,
+                "generated_Sinput_validation_exe_detail": null
+            }
+        },
+        "source_only_input": {}
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "org.openscience.cdk.AssociationTest_testGetAtomAt_h0Test0": {
+        "num_of_test_cases": 2,
+        "num_of_passed_test_cases": 1,
+        "num_of_assertion_failed_test_cases": 1,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [
+            "testGetAtomAt_h0Test0"
+        ],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "testGetAtomAt_h0Test0": "org.opentest4j.AssertionFailedError: expected: <Atom(851765426, S:N, AtomType(851765426, FC:0, Isotope(851765426, Element(851765426, S:N, AN:7))))> but was: <Atom(1690101810, S:O, AtomType(1690101810, FC:0, Isotope(1690101810, Element(1690101810, S:O, AN:8))))>"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h1Test2.java:38: error: incompatible types: possible lossy conversion from int to byte
+    byte[] randomStringBytes = { 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff };
+                                 ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h1Test2.java:38: error: incompatible types: possible lossy conversion from int to byte
+    byte[] randomStringBytes = { 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff };
+                                       ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h1Test2.java:38: error: incompatible types: possible lossy conversion from int to byte
+    byte[] randomStringBytes = { 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff };
+                                             ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h1Test2.java:38: error: incompatible types: possible lossy conversion from int to byte
+    byte[] randomStringBytes = { 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff };
+                                                   ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h1Test2.java:38: error: incompatible types: possible lossy conversion from int to byte
+    byte[] randomStringBytes = { 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff };
+                                                         ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h1Test2.java:38: error: incompatible types: possible lossy conversion from int to byte
+    byte[] randomStringBytes = { 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff };
+                                                               ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h1Test2.java:38: error: incompatible types: possible lossy conversion from int to byte
+    byte[] randomStringBytes = { 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff };
+                                                                     ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h1Test2.java:38: error: incompatible types: possible lossy conversion from int to byte
+    byte[] randomStringBytes = { 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff };
+                                                                           ^
+8 errors

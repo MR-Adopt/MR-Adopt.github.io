@@ -1,0 +1,4 @@
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/qw/org/threeten/extra/TestYearHalf_test_from_TemporalAccessor_leapYear_h1Test7.java:134: error: variable date is already defined in method test_from_TemporalAccessor_leapYear_h1Test7()
+LocalDate date = LocalDate.of(2022, 6, 30);
+          ^
+1 error

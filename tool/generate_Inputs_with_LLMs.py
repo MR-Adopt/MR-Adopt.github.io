@@ -1,14 +1,13 @@
 """
-自动解析profile，填充prompt template, 生成prompt
 """
 import multiprocessing
 import os, sys
 import time
-_PROJECT_NAME = "InputTrans"
+_PROJECT_NAME = "tool"
 _CURRENT_ABSPATH = os.path.abspath(__file__)
 sys.path.insert(0, _CURRENT_ABSPATH[:_CURRENT_ABSPATH.find(_PROJECT_NAME) + len(_PROJECT_NAME) + 1])
 
-from utility import file_processing,json_processing, java_parser, Evosuite_runner_general, compile_java_poj, java_test, request_LLMs, java_file_processing
+from utility import file_processing,json_processing, java_parser, compile_java_poj, java_test, request_LLMs
 import construct_prompt
 import extract_code
 
@@ -22,8 +21,11 @@ file_lock = FileLock("file.lock")
 inputTrans_poj_dir = config.ROOT_DIR
 OUTPUT_DIR = config.OUTPUT_DIR
 
-Profile_GT_MTCs_wo_IT_path = f"{inputTrans_poj_dir}/data/GT_MTCs_wo_IT/profile.json"
-Profile_GT_MTCs_w_IT_path = f"{inputTrans_poj_dir}/data/GT_MTCs_w_IT/profile.json"
+Profile_GT_MTCs_wo_IT_path = f"{inputTrans_poj_dir}/../experimental_data/dataset/GT_MTCs_wo_IT/profile.json"
+Profile_GT_MTCs_w_IT_path = f"{inputTrans_poj_dir}/../experimental_data/dataset/GT_MTCs_w_IT/profile.json"
+Profile_GT_MTCs_wo_IT = json_processing.read(Profile_GT_MTCs_wo_IT_path)
+Profile_GT_MTCs_w_IT = json_processing.read(Profile_GT_MTCs_w_IT_path)
+raw_dir = f"{inputTrans_poj_dir}/../experimental_data/dataset/GT_MTCs_w_IT/raw/"
 
 package_statement = config.PACKAGE_STATEMENT
 Junit_STATEMENT = config.JUNIT_STATEMENT
@@ -51,16 +53,14 @@ ITRANS_CACHE_GENERATED_INPUTS_DIR = config.ITRANS_CACHE_GENERATED_INPUTS_DIR
 
 all_valid_Sinput = json_processing.read(f"all_valid_Sinput.json")
 
-# time.sleep(60*60*2) # 睡眠2h
-
 from utility.request_LLMs import model_symbols, symbols_model
 from construct_prompt import Templates
 # symbols_model: w, g3, g4, s2, qw, ml, dp
 # 稳定版
 Setting = {
     # !!! MODIFY
-    "model": f"{symbols_model['dp']}",
-    "number_of_request": 10,
+    "model": f"{symbols_model['g3']}",
+    "number_of_request": 1,
     
     "strategy": 2, # 1: generate input pairs, 2: generate source and then corresponding follow-up input
     "Prompt_template":"i5-1", # stragety2: 5-1 起步 
@@ -82,7 +82,7 @@ Setting = {
     "result_collect": True,
     "parallel": True,
     "one_by_one": False,
-    "eval": "_effectivenssEvaluation0",         # No: "" , effectEval: "_effectivenssEvaluation",
+    "eval": "",         # No: "" , effectEval: "_effectivenssEvaluation",
     "ablation": "",     # No: "" , noRefinement: "_ablateRefinement",
 
 }
@@ -101,39 +101,6 @@ for_evaluation_setting.update({
 })
 
 all_evaluation_result_of_generated_inputs_function_path = f"{OUTPUT_DIR}inputs/validation_generated_Inputs_T{Setting['Prompt_template']}_Shot{Setting['number_of_shot']}_R{Setting['number_of_request']}_Temprature{Setting['temperature']}_{Setting['model']}_Stra{Setting['strategy']}{Setting['eval']}{Setting['ablation']}.json"
-
-# 运动版
-# Setting = {
-#     "model": f"{symbols_model['qw']}",
-#     "strategy": 2, # 1: generate input pairs, 2: generate source and then corresponding follow-up input
-#     "Prompt_template":"i5-1", # stragety2: 5-1 起步 
-
-#     "number_of_shot":0,
-#     "number_of_request": 5,
-#     "number_of_candidate": "five", # number of candidate inputs in each request 
-#     "temperature":0.2,
-#     "overwritePreviousPromptResults":False,
-#     "overwritePreviousValidationResults":False,
-#     "skipCompileIfExist": True,
-#     # "skipPromptGenerationIfExist": True, # 不太行，因为需要加载一些 input_generator 的信息
-
-#     "parallel_size": 16,
-#     "index_of_request": 0,
-
-#     "validate_generated_Inputs": "O", # O: original test inputs, D: diff testing (for cases where original_MTC success)  
-#     # running
-#     "result_collect": True,
-#     "parallel": False,
-#     "one_by_one": True,
-# }
-
-# nohup python -u generate_Inputs_with_LLMs.py > generate_Inputs_with_LLMs-5-1-cq-0.2-5.log 2>&1 &
-# nohup python -u generate_Inputs_with_LLMs.py > generate_Inputs_with_LLMs-w-41-5.log 2>&1 &
-# nohup python -u generate_Inputs_with_LLMs.py > generate_Inputs_with_LLMs-g3-51-0.1-3.log 2>&1 &
-# cache_dir_name_for_this_setting = f"{Setting['model']}_T{Setting['Prompt_template']}_Temprature{Setting['temperature']}_{Setting['index_of_request']}"
-# cache_dir_name_for_this_setting = f"{Setting['model']}_Stra{Setting['strategy']}_T{Setting['Prompt_template']}_Temprature{Setting['temperature']}_Shot{Setting['number_of_shot']}_{Setting['index_of_request']}}"
-
-# all_evaluation_result_of_generated_inputs_function_path = f"{OUTPUT_DIR}validation_generated_Inputs_{cache_dir_name_for_this_setting}.json"
 
 
 class inputGenerator():
@@ -516,7 +483,6 @@ def write_generated_inputs(response_content, input_generator):
     """ write generation result """
     generated_inputs_for_this_MTC = []
     all_generated_inputs = {}
-    # input_generator.testCase_with_generated_new_input = java_parser.get_method_body_or_related_class_field(file_path=input_generator.path_of_generated_MTChClass, method_name=input_generator.MTChMethod, function="getMethod")
     generated_inputs_path = input_generator.generated_inputs_path
     MTC_item = input_generator.MTC_item
     FQS_testMethos =  MTC_item["FQS_testMethos"]
@@ -1662,15 +1628,12 @@ def collect_all_valid_Sinput():
     json_processing.write( json_content=all_valid_Sinput, path="all_valid_Sinput.json")
 
 
-def one_by_one():
+def one_by_one(FQS_testMethos=None):
     count = 0 
     all_GT_MTCs = Profile_GT_MTCs_wo_IT + Profile_GT_MTCs_w_IT
     for index_of_request in range(Setting["number_of_request"]):
         for MTC_item in all_GT_MTCs:
-            if "skip" in MTC_item and MTC_item["skip"] == True: continue
-            # if MTC_item["FQS_testMethos"] not in special_rerun: continue # for debug
-            # if "io.bootique.di.TypeLiteralTest.normalize()" not in MTC_item["FQS_testMethos"] or index_of_request!= 1: continue # for debug
-            # if "io.bootique.di.KeyTest.equals" not in MTC_item["FQS_testMethos"]: continue # for debug
+            if FQS_testMethos and FQS_testMethos not in MTC_item["FQS_testMethos"]: continue
             index_of_this_MTC = all_GT_MTCs.index(MTC_item)
             print( f"Processing: {index_of_request}, {index_of_this_MTC}/{len(all_GT_MTCs)}, {MTC_item['FQS_testMethos']}")
             
@@ -1684,15 +1647,14 @@ def one_by_one():
                 generate_prompt_from_profile(input_generator)
                 generate_Inputs_by_prompting(input_generator)
                 input_generator.input_type_to_generate = "Followup"
-                generate_prompt_from_profile(input_generator) # MAKR: stop here: extract generated inputs (follow the same operation of validation/post-processing.)
+                generate_prompt_from_profile(input_generator)
                 generate_Inputs_by_prompting(input_generator)
 
-            # print('+++ START: validate_generated_Inputs ', index_of_request, MTC_item["FQS_testMethos"])
-            # validate_generated_Inputs(input_generator, skipCompileIfExist=Setting["skipCompileIfExist"])
-            # print('+++ START: construct_test4ITrans_from_generated_inputs ', index_of_request, MTC_item["FQS_testMethos"])
-            # construct_test4ITrans_from_generated_inputs(input_generator, skipCompileIfExist=Setting["skipCompileIfExist"])
-        #     break
-        # break
+            print('+++ START: validate_generated_Inputs ', index_of_request, MTC_item["FQS_testMethos"])
+            validate_generated_Inputs(input_generator, skipCompileIfExist=Setting["skipCompileIfExist"])
+            print('+++ START: construct_test4ITrans_from_generated_inputs ', index_of_request, MTC_item["FQS_testMethos"])
+            construct_test4ITrans_from_generated_inputs(input_generator, skipCompileIfExist=Setting["skipCompileIfExist"])
+            
 
 
     # result_collect(Setting, result_path=all_evaluation_result_of_generated_inputs_function_path)
@@ -1723,19 +1685,8 @@ def test_generate_inputs_for_one():
         break
 
 
-# nohup python -u generate_Inputs_with_LLMs.py > generate_Inputs_with_LLMs.log 2>&1 & 
 if __name__ == "__main__":
-    # collect_all_valid_Sinput()
-    if Setting["parallel"]:
-        parallel()
-    if Setting["one_by_one"]:
-        one_by_one()
+    # FQS_testMethos = "org.datagear.util.version.VersionTest.stringOfTest()"
+    # one_by_one(FQS_testMethos)
 
-    # test_generate_inputs_for_one() # testing: invoked by Tran generator
-    if Setting["result_collect"]:
-        result_collect(Setting, result_path=all_evaluation_result_of_generated_inputs_function_path)
-    
-
-# nohup python -u generate_Inputs_with_LLMs.py > generate_Inputs_with_LLMs.log 2>&1 &
-# nohup python -u generate_Inputs_with_LLMs.py > generate_Inputs_with_LLMs-w-51-0.2-5.log 2>&1 &
-# nohup python -u generate_Inputs_with_LLMs.py > generate_Inputs_with_LLMs-g3-51-0.2-5.log 2>&1 &
+    one_by_one()

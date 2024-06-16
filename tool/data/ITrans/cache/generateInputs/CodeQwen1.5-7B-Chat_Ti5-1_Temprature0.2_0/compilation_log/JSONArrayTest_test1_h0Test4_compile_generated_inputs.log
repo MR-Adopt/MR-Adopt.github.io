@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest_test1_h0Test4.java:23: error: cannot find symbol
+    v01.add(new JSONObject());
+                ^
+  symbol:   class JSONObject
+  location: class JSONArrayTest_test1_h0Test4
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest_test1_h0Test4.java:24: error: cannot find symbol
+    v01.add(new JSONObject());
+                ^
+  symbol:   class JSONObject
+  location: class JSONArrayTest_test1_h0Test4
+2 errors

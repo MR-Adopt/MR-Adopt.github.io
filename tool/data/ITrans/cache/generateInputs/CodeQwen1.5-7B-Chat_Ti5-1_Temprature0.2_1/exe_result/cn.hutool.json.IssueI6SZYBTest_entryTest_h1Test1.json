@@ -1,0 +1,19 @@
+{
+    "cn.hutool.json.IssueI6SZYBTest_entryTest_h1Test1": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": 0,
+        "assertionLineNums": false,
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "entryTest_h1Test1"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "entryTest_h1Test1": "entryTest_h1Test1"
+        }
+    }
+}

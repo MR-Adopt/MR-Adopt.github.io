@@ -1,0 +1,304 @@
+JUnit version 4.13.1
+.12:06:21,955 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [file:/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/target/test-classes/logback-test.xml]
+12:06:22,217 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+12:06:22,221 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+12:06:22,227 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+12:06:22,261 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.atmosphere] to ERROR
+12:06:22,261 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.sun] to ERROR
+12:06:22,261 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+12:06:22,261 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+12:06:22,262 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+12:06:22,264 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5ac7aa18 - Registering current configuration as safe fallback point
+12:06:22.277 INFO [main] c.m.f.Platform [Platform.java:280] git loading from file /ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/target/classes/git.properties
+12:06:22.342 INFO [main] c.m.s.Runtime [Runtime.java:661] Runtime.createService runtime
+12:06:22.803 INFO [main] c.m.f.Service [Service.java:623] constructing runtime
+12:06:22.815 INFO [main] c.m.f.MethodCache [MethodCache.java:156] caching Runtime's 458 methods and 249 declared methods
+12:06:22.853 INFO [main] c.m.f.MethodCache [MethodCache.java:202] cached Runtime 456 methods with 432 ordinal signatures in 48 ms
+12:06:22.868 INFO [main] c.m.f.Registration [Registration.java:70] creating registration for runtime@gifted-computer - org.myrobotlab.service.Runtime
+12:06:23.089 INFO [main] c.m.s.Runtime [Runtime.java:1754] runtime@gifted-computer registering at gifted-computer of type org.myrobotlab.service.Runtime
+12:06:23.929 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:23] Joystick.getMetaData x86.64.linux  isArm() false
+12:06:23.930 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:28] adding jinput native dependencies
+12:06:24.895 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:23] Joystick.getMetaData x86.64.linux  isArm() false
+12:06:24.896 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:28] adding jinput native dependencies
+12:06:25.437 INFO [main] c.m.f.r.ServiceData [ServiceData.java:192] returning cached serviceData.json from libraries/serviceData.json
+12:06:25.438 INFO [main] c.m.f.r.Repo [Repo.java:95] create repo libraries
+12:06:25.442 INFO [main] c.m.f.r.Repo [Repo.java:499] libraries/repo.json not found
+12:06:25.443 INFO [main] c.m.f.r.Repo [Repo.java:506] finished processing libraries/repo.json
+12:06:25.443 INFO [main] c.m.i.FileIO [FileIO.java:878] looking for Resource framework/ivy.xml.template
+12:06:25.444 INFO [main] c.m.i.FileIO [FileIO.java:878] looking for Resource framework/ivysettings.xml.template
+12:06:25.466 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.481 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.488 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.502 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.504 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:23] Joystick.getMetaData x86.64.linux  isArm() false
+12:06:25.505 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:28] adding jinput native dependencies
+12:06:25.506 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.509 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.510 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.516 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.CsvConnector, loading generalized ServiceConfig
+12:06:25.516 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.523 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.DatabaseConnector, loading generalized ServiceConfig
+12:06:25.574 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.575 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.578 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.579 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.593 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:23] Joystick.getMetaData x86.64.linux  isArm() false
+12:06:25.594 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:28] adding jinput native dependencies
+12:06:25.598 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.602 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.604 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.616 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:25.620 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:25.623 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.863 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.866 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:25.869 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:25.876 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.877 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.884 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.885 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.888 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:25.891 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:25.893 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.897 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.900 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:25.911 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.ImapEmailConnector, loading generalized ServiceConfig
+12:06:25.912 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.921 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:25.937 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:25.949 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:25.951 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:25.959 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:25.962 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:25.966 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.971 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:25.974 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:25.974 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.991 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.992 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.995 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:23] Joystick.getMetaData x86.64.linux  isArm() false
+12:06:25.995 INFO [main] c.m.s.m.JoystickMeta [JoystickMeta.java:28] adding jinput native dependencies
+12:06:25.996 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:25.999 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.002 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.006 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.008 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.012 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.025 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.032 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.042 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.043 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.049 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.051 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.052 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.053 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.055 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.065 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:26.068 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:26.068 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.071 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.074 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:26.076 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:26.076 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.081 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.082 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.083 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.084 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.084 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.085 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.091 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.RSSConnector, loading generalized ServiceConfig
+12:06:26.092 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.092 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.098 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.102 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.104 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.104 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.105 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.114 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.119 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.120 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.126 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.132 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.137 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.Tensorflow, loading generalized ServiceConfig
+12:06:26.138 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.142 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.TesseractOcr, loading generalized ServiceConfig
+12:06:26.142 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.145 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for HttpClient, loading generalized ServiceConfig
+12:06:26.147 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.HttpClient, loading generalized ServiceConfig
+12:06:26.147 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.151 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for TestThrower, loading generalized ServiceConfig
+12:06:26.154 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for TestThrower, loading generalized ServiceConfig
+12:06:26.157 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.TestThrower, loading generalized ServiceConfig
+12:06:26.160 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.TestThrower, loading generalized ServiceConfig
+12:06:26.163 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.TestThrower, loading generalized ServiceConfig
+12:06:26.167 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.ThingSpeak, loading generalized ServiceConfig
+12:06:26.170 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.TopCodes, loading generalized ServiceConfig
+12:06:26.171 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.172 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.180 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.Twitter, loading generalized ServiceConfig
+12:06:26.181 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.189 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.190 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.195 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.196 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.200 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.WatchDogTimer, loading generalized ServiceConfig
+12:06:26.200 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.209 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.210 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.218 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.222 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.WiiDar, loading generalized ServiceConfig
+12:06:26.223 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.229 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.WikiDataFetcher, loading generalized ServiceConfig
+12:06:26.230 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.234 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.WolframAlpha, loading generalized ServiceConfig
+12:06:26.234 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.238 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.XMLConnector, loading generalized ServiceConfig
+12:06:26.254 WARN [main] c.m.f.Service [Service.java:2209] runtime error {} not installed
+12:06:26.258 INFO [main] c.m.s.c.ServiceConfig [ServiceConfig.java:255] could not find config class for org.myrobotlab.service.YahooFinanceStockQuote, loading generalized ServiceConfig
+12:06:26.261 INFO [main] c.m.f.Service [Service.java:2710] runtime new locale is en-US
+12:06:26.264 INFO [main] c.m.s.Runtime [Runtime.java:2816] ============== args begin ==============
+12:06:26.265 INFO [main] c.m.s.Runtime [Runtime.java:2826] jvmArgs [-XX:ActiveProcessorCount=10]
+12:06:26.266 INFO [main] c.m.s.Runtime [Runtime.java:2828] file.encoding UTF-8
+12:06:26.266 INFO [main] c.m.s.Runtime [Runtime.java:2829] args null
+12:06:26.266 INFO [main] c.m.s.Runtime [Runtime.java:2831] ============== args end ==============
+12:06:26.266 INFO [main] c.m.s.Runtime [Runtime.java:2833] ============== env begin ==============
+12:06:26.268 INFO [main] c.m.s.Runtime [Runtime.java:2837] PATH=/ssddata1/cxubl/software/homebrew/sbin:/ssddata1/cxubl/software/gradle/gradle-7.4//bin:/ssddata1/cxubl/software/apache-maven-3.8.5//bin:/ssddata1/cxubl/software/anaconda3/envs/cxubl310/bin:/ssddata1/cxubl/software/anaconda3/condabin:/ssddata1/cxubl/software/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/ssddata1/cxubl/software/homebrew/sbin:/ssddata1/cxubl/software/homebrew/sbin:/usr/share/Modules/bin:/ssddata1/cxubl/bin:/sbin:/usr/sbin:/bin:/usr/bin:/ssddata1/cxubl/software/homebrew/bin:/usr/local/sbin:/usr/local/cuda/bin:/usr/local/cuda/nvvm/bin:/usr/local/cuda/bin:/usr/local/cuda/nvvm/bin:/usr/local/cuda/bin:/usr/local/cuda/nvvm/bin:/ssddata1/cxubl/software/homebrew/bin
+12:06:26.268 INFO [main] c.m.s.Runtime [Runtime.java:2844] JAVA_HOME not defined
+12:06:26.268 INFO [main] c.m.s.Runtime [Runtime.java:2853] PROCESSOR_ARCHITECTURE not defined
+12:06:26.268 INFO [main] c.m.s.Runtime [Runtime.java:2858] PROCESSOR_ARCHITEW6432 not defined
+12:06:26.268 INFO [main] c.m.s.Runtime [Runtime.java:2860] ============== env end ==============
+12:06:26.268 INFO [main] c.m.s.Runtime [Runtime.java:2862] ============== platform ==============
+12:06:26.270 INFO [main] c.m.s.Runtime [Runtime.java:2864] 2024/05/30 12:06:22 - GMT - 2024/05/30 04:06:22
+12:06:26.270 INFO [main] c.m.s.Runtime [Runtime.java:2865] pid 2714923
+12:06:26.270 INFO [main] c.m.s.Runtime [Runtime.java:2866] hostname 4.hk
+12:06:26.271 INFO [main] c.m.s.Runtime [Runtime.java:2867] ivy [runtime,x86.64.linux]
+12:06:26.271 INFO [main] c.m.s.Runtime [Runtime.java:2868] version unknownVersion branch develop commit 6955b9d69b9e4c8a7c4e8d0b115a822517ca5776 build null
+12:06:26.271 INFO [main] c.m.s.Runtime [Runtime.java:2869] platform manifest {git.branch=develop, git.build.host=4.hk, git.build.time=2024-04-13T10:57:21+0800, git.build.user.email=, git.build.user.name=, git.build.version=0.0.1-SNAPSHOT, git.closest.tag.commit.count=13666, git.closest.tag.name=1.0.119, git.commit.author.time=2024-01-31T03:15:00+0800, git.commit.committer.time=2024-01-31T03:15:00+0800, git.commit.id=6955b9d69b9e4c8a7c4e8d0b115a822517ca5776, git.commit.id.abbrev=6955b9d, git.commit.id.describe=1.0.119-13666-g6955b9d-dirty, git.commit.id.describe-short=1.0.119-13666-dirty, git.commit.message.full=fixed getLatestVersion, git.commit.message.short=fixed getLatestVersion, git.commit.time=2024-01-31T03:15:00+0800, git.commit.user.email=grog@myrobotlab.org, git.commit.user.name=grog, git.dirty=true, git.local.branch.ahead=0, git.local.branch.behind=68, git.remote.origin.url=https://github.com/MyRobotLab/myrobotlab.git, git.tags=1.1.1368,1.1.1370, git.total.commit.count=14323}
+12:06:26.272 INFO [main] c.m.s.Runtime [Runtime.java:2870] platform [x86.64.linux}]
+12:06:26.272 INFO [main] c.m.s.Runtime [Runtime.java:2871] version [unknownVersion]
+12:06:26.272 INFO [main] c.m.s.Runtime [Runtime.java:2872] root [/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/target/classes/]
+12:06:26.272 INFO [main] c.m.s.Runtime [Runtime.java:2873] cfg dir [data/.myrobotlab]
+12:06:26.273 INFO [main] c.m.s.Runtime [Runtime.java:2874] sun.arch.data.model [64]
+12:06:26.273 INFO [main] c.m.s.Runtime [Runtime.java:2876] ============== non-normalized ==============
+12:06:26.273 INFO [main] c.m.s.Runtime [Runtime.java:2877] os.name [Linux] getOS [linux]
+12:06:26.273 INFO [main] c.m.s.Runtime [Runtime.java:2878] os.arch [amd64] getArch [x86]
+12:06:26.273 INFO [main] c.m.s.Runtime [Runtime.java:2879] os.version [5.14.0-284.11.1.el9_2.x86_64]
+12:06:26.273 INFO [main] c.m.s.Runtime [Runtime.java:2881] java.vm.name [OpenJDK 64-Bit Server VM]
+12:06:26.273 INFO [main] c.m.s.Runtime [Runtime.java:2882] java.vm.vendor [Azul Systems, Inc.]
+12:06:26.273 INFO [main] c.m.s.Runtime [Runtime.java:2883] java.specification.version [11]
+12:06:26.274 INFO [main] c.m.s.Runtime [Runtime.java:2893] file.encoding [UTF-8]
+12:06:26.274 INFO [main] c.m.s.Runtime [Runtime.java:2894] Charset.defaultCharset() [UTF-8]
+12:06:26.274 INFO [main] c.m.s.Runtime [Runtime.java:2895] user.language [en]
+12:06:26.274 INFO [main] c.m.s.Runtime [Runtime.java:2896] user.country [US]
+12:06:26.274 INFO [main] c.m.s.Runtime [Runtime.java:2897] user.variant [null]
+12:06:26.274 INFO [main] c.m.s.Runtime [Runtime.java:2901] java.home [/ssddata1/cxubl/software/zulu_jdks/zulu11.62.17-ca-jdk11.0.18-linux_x64]
+12:06:26.274 INFO [main] c.m.s.Runtime [Runtime.java:2903] java.library.path [/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12:06:26.275 INFO [main] c.m.s.Runtime [Runtime.java:2904] user.dir [/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab]
+12:06:26.275 INFO [main] c.m.s.Runtime [Runtime.java:2906] user.home [/homes/cxubl]
+12:06:26.275 INFO [main] c.m.s.Runtime [Runtime.java:2907] total mem [2048] Mb
+12:06:26.275 INFO [main] c.m.s.Runtime [Runtime.java:2908] total free [1870] Mb
+12:06:26.275 INFO [main] c.m.s.Runtime [Runtime.java:2920] getting local repo
+12:06:26.276 INFO [main] c.m.f.Service [Service.java:2059] starting runtime
+12:06:26.277 INFO [main] c.m.s.Runtime [Runtime.java:4706] loading - security Security 0
+12:06:26.467 INFO [main] c.m.s.Runtime [Runtime.java:661] Runtime.createService security
+12:06:26.468 INFO [main] c.m.f.Service [Service.java:623] constructing security
+12:06:26.469 INFO [main] c.m.f.MethodCache [MethodCache.java:156] caching Security's 253 methods and 39 declared methods
+12:06:26.480 INFO [main] c.m.f.MethodCache [MethodCache.java:202] cached Security 252 methods with 234 ordinal signatures in 12 ms
+12:06:26.482 INFO [main] c.m.f.Registration [Registration.java:70] creating registration for security@gifted-computer - org.myrobotlab.service.Security
+12:06:26.491 INFO [main] c.m.s.Runtime [Runtime.java:1754] security@gifted-computer registering at gifted-computer of type org.myrobotlab.service.Security
+12:06:26.493 INFO [main] c.m.s.Security [Security.java:642] security loading secure store file data/Security/store
+12:06:26.494 INFO [main] c.m.s.Security [Security.java:654] Security.loadStore file not found data/Security/store
+12:06:26.495 INFO [main] c.m.f.Service [Service.java:2059] starting security
+12:06:26.496 INFO [main] c.m.i.FileIO [FileIO.java:236] extract(root=/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/target/classes/, src=resource, dst=null, overwrite=false)
+12:06:26.496 INFO [main] c.m.i.FileIO [FileIO.java:266] normalized extract([/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/target/classes/], [resource], [.])
+12:06:26.496 INFO [main] c.m.i.FileIO [FileIO.java:371] not extracting source is not a jar
+12:06:26.497 INFO [main] c.m.p.InProcessCli [InProcessCli.java:123] starting runtime worker
+12:06:26.500 INFO [main] c.m.s.Runtime [RouteTable.java:31] adding route and setting default to id gifted-computer-cli uuid f0a47446-08bd-4487-b0c5-460c15ba3b09 metric 10
+12:06:26.500 INFO [main] c.m.s.Runtime [Runtime.java:4706] loading - i2cMux I2cMux 0
+12:06:26.512 INFO [main] c.m.s.Runtime [Runtime.java:661] Runtime.createService i2cMux
+12:06:26.514 INFO [main] c.m.f.Service [Service.java:623] constructing i2cMux
+12:06:26.514 INFO [main] c.m.f.MethodCache [MethodCache.java:156] caching I2cMux's 244 methods and 32 declared methods
+12:06:26.521 INFO [main] c.m.f.MethodCache [MethodCache.java:202] cached I2cMux 243 methods with 223 ordinal signatures in 7 ms
+12:06:26.522 INFO [main] c.m.f.Registration [Registration.java:70] creating registration for i2cMux@gifted-computer - org.myrobotlab.service.I2cMux
+12:06:26.528 INFO [main] c.m.s.Runtime [Runtime.java:1754] i2cMux@gifted-computer registering at gifted-computer of type org.myrobotlab.service.I2cMux
+12:06:26.529 INFO [main] c.m.f.Service [Service.java:2059] starting i2cMux
+
+[runtime@gifted-computer /]# 12:06:26.566 INFO [main] c.m.s.Runtime [Runtime.java:2651] requested service already exists
+12:06:26.567 INFO [main] c.m.s.Runtime [Runtime.java:2653] requested service already running
+12:06:26.571 INFO [main] c.m.s.Runtime [Runtime.java:2651] requested service already exists
+12:06:26.571 INFO [main] c.m.s.Runtime [Runtime.java:2653] requested service already running
+[MockitoHint] I2cMuxTest_testSetDeviceAddress_h1Test3_valid.testSetDeviceAddress_h1Test3 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.myrobotlab.service.I2cMuxTest_testSetDeviceAddress_h1Test3_valid.setUp(I2cMuxTest_testSetDeviceAddress_h1Test3_valid.java:43)
+[MockitoHint] 2. Unused -> at org.myrobotlab.service.I2cMuxTest_testSetDeviceAddress_h1Test3_valid.setUp(I2cMuxTest_testSetDeviceAddress_h1Test3_valid.java:44)
+[MockitoHint] 3. Unused -> at org.myrobotlab.service.I2cMuxTest_testSetDeviceAddress_h1Test3_valid.setUp(I2cMuxTest_testSetDeviceAddress_h1Test3_valid.java:45)
+[MockitoHint] 4. Unused -> at org.myrobotlab.service.I2cMuxTest_testSetDeviceAddress_h1Test3_valid.setUp(I2cMuxTest_testSetDeviceAddress_h1Test3_valid.java:46)
+
+
+Time: 6.803
+
+OK (1 test)
+
+CMD: cd /ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/ ; /ssddata1/cxubl/software/zulu_jdks/zulu11.62.17-ca-jdk11.0.18-linux_x64/bin/java -XX:ActiveProcessorCount=10 -classpath ./:./target/classes:./target/test-classes:./target/dependency/*:/ssddata1/cxubl/software/junit/junit-4.13.2.jar:/ssddata1/cxubl/software/junit/junit-jupiter-api-5.8.2.jar:/ssddata1/cxubl/software/junit/hamcrest-core-1.3.jar:/ssddata1/cxubl/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar:/ssddata1/cxubl/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar:/ssddata1/cxubl/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-test/5.3.26/spring-test-5.3.26.jar:/ssddata1/cxubl/data/ITrans/projects/thingsboard__castle__thingsboard/dao/target/dependency/commons-logging-1.2.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-core/5.3.2/spring-core-5.3.26.jar:arex-instrumentation-api/target/dependency/jackson-annotations-2.13.1.jar:arex-instrumentation-api/target/dependency/gson-2.10.1.jar:misc/extra/target/dependency/vecmath-1.5.2.jar:/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/ITrans/processed_GT_only/:/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/ITrans/processed_MTCITrans_only/:/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/ITrans/generated_ITrans/:/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/ITrans/generated_inputs/:/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/ITrans/generated_inputs/qw:/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/ITrans/generated_inputs/qw4ITrans org.junit.runner.JUnitCore org.myrobotlab.service.I2cMuxTest_testSetDeviceAddress_h1Test3_valid > /ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/AutoMR/test_exe/org.myrobotlab.service.I2cMuxTest_testSetDeviceAddress_h1Test3_valid.log 2>&1
+file path: 
+/ssddata1/cxubl/data/ITrans/cache/generateInputs/CodeQwen1.5-7B-Chat_Ti5-1_Temprature0.2_1/generated_valid_inputs_testing_Trans/I2cMuxTest_testSetDeviceAddress_h1Test3_valid.java
+file content: 
+package org.myrobotlab.service;
+
+import org.myrobotlab.service.I2cMuxTest_testSetDeviceAddress;
+
+import org.myrobotlab.service.I2cMux;
+import org.myrobotlab.service.I2cMux.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import java.util.Arrays;
+import java.util.List;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.JUnit4;
+import org.mockito.Mock;
+import org.mockito.junit.MockitoJUnit;
+import org.mockito.junit.MockitoRule;
+import org.myrobotlab.service.interfaces.I2CControl;
+import org.myrobotlab.service.interfaces.I2CController;
+
+@RunWith(JUnit4.class)
+public class I2cMuxTest_testSetDeviceAddress_h1Test3_valid {
+
+    @Rule
+    public MockitoRule rule = MockitoJUnit.rule();
+
+    @Mock
+    private I2CController mockController;
+
+    @Mock
+    private I2CControl mockControl;
+
+    I2cMux i2cMux;
+
+    @Before
+    public void setUp() {
+        i2cMux = (I2cMux) Runtime.start(i2cMux, I2cMux);
+        when(mockController.getName()).thenReturn(controller);
+        when(mockControl.getName()).thenReturn(controlName);
+        when(mockControl.getBus()).thenReturn(bus);
+        when(mockControl.getAddress()).thenReturn(address);
+    }
+
+    @Test
+    public void testSetDeviceAddress_h1Test3() {
+    I2cMux i2cMux = (I2cMux) Runtime.start(i2cMux, I2cMux);
+    String deviceAddress = 0x6F;
+    I2cMux i2cMux2  = I2cMuxTest_testSetDeviceAddress.inputTransformation_testSetDeviceAddress(i2cMux, deviceAddress);
+    i2cMux.setDeviceAddress(deviceAddress);
+        i2cMux.setDeviceAddress(deviceAddress);
+        assertEquals(deviceAddress, i2cMux2.getDeviceAddress());
+    }
+}
+
+

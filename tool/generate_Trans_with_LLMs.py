@@ -5,7 +5,7 @@ import multiprocessing
 import random
 import os, sys
 import time
-_PROJECT_NAME = "InputTrans"
+_PROJECT_NAME = "tool"
 _CURRENT_ABSPATH = os.path.abspath(__file__)
 sys.path.insert(0, _CURRENT_ABSPATH[:_CURRENT_ABSPATH.find(_PROJECT_NAME) + len(_PROJECT_NAME) + 1])
 
@@ -25,10 +25,11 @@ file_lock = FileLock("file.lock")
 inputTrans_poj_dir = config.ROOT_DIR
 OUTPUT_DIR = config.OUTPUT_DIR
 
-Profile_GT_MTCs_wo_IT_path = f"{inputTrans_poj_dir}/data/GT_MTCs_wo_IT/profile.json"
-Profile_GT_MTCs_w_IT_path = f"{inputTrans_poj_dir}/data/GT_MTCs_w_IT/profile.json"
+Profile_GT_MTCs_wo_IT_path = f"{inputTrans_poj_dir}/../experimental_data/dataset/GT_MTCs_wo_IT/profile.json"
+Profile_GT_MTCs_w_IT_path = f"{inputTrans_poj_dir}/../experimental_data/dataset/GT_MTCs_w_IT/profile.json"
 Profile_GT_MTCs_wo_IT = json_processing.read(Profile_GT_MTCs_wo_IT_path)
 Profile_GT_MTCs_w_IT = json_processing.read(Profile_GT_MTCs_w_IT_path)
+raw_dir = f"{inputTrans_poj_dir}/../experimental_data/dataset/GT_MTCs_w_IT/raw/"
 
 package_statement = config.PACKAGE_STATEMENT
 Junit_STATEMENT = config.JUNIT_STATEMENT
@@ -48,9 +49,9 @@ from construct_prompt import Templates
 # symbols_model: w, g3, g4, s2, qw, ml, dp
 Setting = {
     # !!! MODIFY
-    "model": f"{symbols_model['ml']}", 
-    "Prompt_template":"4-1", # normal: 5-1, ablation input pairs: 4-1
-    "number_of_request": 1,
+    "model": f"{symbols_model['g3']}", 
+    "Prompt_template":"5-1", # normal: 5-1, ablation input pairs: 4-1
+    "number_of_request": 5,
 
     "number_of_shot":0,
     "temperature": 0.2,
@@ -67,7 +68,7 @@ Setting = {
     "result_collect": True,
     "parallel": False,
     "one_by_one": False,
-    "ablation": "_RQ1Baseline4", # No: "" , AIP: "_RQ1Baseline"/"_AblationinputPairs", ARF: "_AblationRefine", AVL: "_AblationValidate"
+    "ablation": "", # No: "" , AIP: "_RQ1Baseline"/"_AblationinputPairs", ARF: "_AblationRefine", AVL: "_AblationValidate"
 }
 
 # switch, for refinement
@@ -170,21 +171,17 @@ def generate_prompt_from_profile_pre(trans_generator):
     processed_crafted_GT_MTC_test_class_name = f"{MTC_test_class_name}_{test_simple_name}"
     # test_file_path -> .java_ITrans
     """ get: code_of_testCase """
-    ITrans_test_file_path = test_file_path.replace(".java",".java_ITrans")
+    # ITrans_test_file_path = test_file_path.replace(".java",".java_ITrans")
+    # updated test file path
+    test_file_name = test_file_path.split("/")[-1]
+    test_file_path = f"{raw_dir}/{test_file_name}_ITrans" # mark
+    ITrans_test_file_path = test_file_path.replace(".java_ITrans",".java").replace(".java",".java_ITrans")
     # TODO: refer to central/local poj raw folder.  
     code_of_testCase = java_parser.get_method_body_or_related_class_field(file_path=ITrans_test_file_path, method_name=f"{test_simple_name}_crafted", function="getMethodAndRelatedFields")
     if "empty()" in code_of_testCase:
         code_of_testCase = java_parser.get_method_body_or_related_class_field(file_path=ITrans_test_file_path, method_name=f"{test_simple_name}_h", function="getMethodAndRelatedFields")
         if "empty()" in code_of_testCase:
             code_of_testCase = java_parser.get_method_body_or_related_class_field(file_path=ITrans_test_file_path, method_name=f"{test_simple_name}", function="getMethodAndRelatedFields")
-        # if not MTC_item["withInputTransformation"]:
-        #     code_of_testCase = java_parser.get_method_body_or_related_class_field(file_path=ITrans_test_file_path, method_name=f"{test_simple_name}", function="getMethodAndRelatedFields")
-        #     if "empty()" in code_of_testCase:
-        #         code_of_testCase = java_parser.get_method_body_or_related_class_field(file_path=ITrans_test_file_path, method_name=f"{test_simple_name}_original", function="getMethodAndRelatedFields")
-        # elif MTC_item["withInputTransformation"]:
-        #     code_of_testCase = java_parser.get_method_body_or_related_class_field(file_path=ITrans_test_file_path, method_name=f"{test_simple_name}_h", function="getMethodAndRelatedFields")
-        #     if "empty()" in code_of_testCase:
-        #         code_of_testCase = java_parser.get_method_body_or_related_class_field(file_path=ITrans_test_file_path, method_name=f"{test_simple_name}", function="getMethodAndRelatedFields")
     code_of_testCase = code_of_testCase.replace("\n\n", "\n");
     # print( "code_of_testCase: ", code_of_testCase )
 
@@ -1444,14 +1441,12 @@ def parallel():
         # Use pool.imap or pool.map for ordered results
         pool.map(main_task, tasks)
 
-def one_by_one():
+def one_by_one(FQS_testMethos=None):
     all_GT_MTCs = Profile_GT_MTCs_wo_IT + Profile_GT_MTCs_w_IT
     count = 0
     for index_of_request in range(Setting["number_of_request"]):
         for MTC_item in all_GT_MTCs:
-            if "skip" in MTC_item and MTC_item["skip"] == True: continue
-            #  com.zfoo.net.util.NetUtilsTest.ipv4Test
-            if "com.alibaba.fastjson2.internal.processor.collections.ListTest1.test1()" not in MTC_item["FQS_testMethos"]: continue # for debug
+            if FQS_testMethos and FQS_testMethos not in MTC_item["FQS_testMethos"]: continue
             print(f"Processing, index_of_request: {index_of_request}, MTC_item: {MTC_item['FQS_testMethos']}")
             
             print('+++ START: generate_prompt_from_profile ', MTC_item["FQS_testMethos"])
@@ -1459,22 +1454,11 @@ def one_by_one():
             generate_prompt_from_profile(trans_generator)
             print('+++ START: generate_Trans_by_prompting ', MTC_item["FQS_testMethos"])
             generate_ITrans_by_prompting(trans_generator)
-        #     print('+++ START: validate_generated_Trans ', MTC_item["FQS_testMethos"])
-        #     test_generated_ITrans(trans_generator, skipCompileIfExist=Setting["skipCompileIfExist"])
-            break
-        break
+            print('+++ START: validate_generated_Trans ', MTC_item["FQS_testMethos"])
+            test_generated_ITrans(trans_generator, skipCompileIfExist=Setting["skipCompileIfExist"])
 
 if __name__ == "__main__":
-    # time.sleep(60*60*6) # sleep 6 hours
-    if Setting["parallel"]:
-        parallel()
-    if Setting["one_by_one"]:
-        one_by_one()
+    # FQS_testMethos = "org.datagear.util.version.VersionTest.stringOfTest()"
+    # one_by_one(FQS_testMethos)
 
-    if Setting["result_collect"]:
-        # print("+++ start: result_collect")
-        # result_collect(Setting)
-        print("+++ start: result_collect_the_best_k")
-        result_collect_the_best_k(Setting) # in k request, choose the one with highest pass rate, as the evaluation result
-
-# nohup python -u generate_Trans_with_LLMs.py > generate_Trans_with_LLMs.log 2>&1 &
+    one_by_one()

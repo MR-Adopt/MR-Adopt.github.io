@@ -1,6 +1,6 @@
 import datetime
 import json, os, sys
-_PROJECT_NAME = "InputTrans"
+_PROJECT_NAME = "tool"
 _CURRENT_ABSPATH = os.path.abspath(__file__)
 sys.path.insert(0, _CURRENT_ABSPATH[:_CURRENT_ABSPATH.find(_PROJECT_NAME) + len(_PROJECT_NAME) + 1])
 
@@ -17,7 +17,7 @@ JUNIT_JARS_CP_str = f"{PATH_JUNIT4_JAR}:{PATH_JUNIT5_JAR}:{PATH_HAMCREST_CORE_JA
 
 PATH_ES_RUNTIME_JAR = config.PATH_ES_RUNTIME_JAR
 
-more_potential_dependency_jars = "  TODO/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar:  TODO/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar:  TODO/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:  TODO/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:  TODO/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:  TODO/.m2/repository/org/springframework/spring-test/5.3.26/spring-test-5.3.26.jar:  TODO/data/ITrans/projects/thingsboard____thingsboard/dao/target/dependency/commons-logging-1.2.jar:  TODO/.m2/repository/org/springframework/spring-core/5.3.2/spring-core-5.3.26.jar:arex-instrumentation-api/target/dependency/jackson-annotations-2.13.1.jar:arex-instrumentation-api/target/dependency/gson-2.10.1.jar:misc/extra/target/dependency/vecmath-1.5.2.jar"
+more_potential_dependency_jars = "  TODO/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar:  TODO/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar:  TODO/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:  TODO/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:  TODO/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:  TODO/.m2/repository/org/springframework/spring-test/5.3.26/spring-test-5.3.26.jar:  TODO/data/ITrans/projects/thingsboard__split__thingsboard/dao/target/dependency/commons-logging-1.2.jar:  TODO/.m2/repository/org/springframework/spring-core/5.3.2/spring-core-5.3.26.jar:arex-instrumentation-api/target/dependency/jackson-annotations-2.13.1.jar:arex-instrumentation-api/target/dependency/gson-2.10.1.jar:misc/extra/target/dependency/vecmath-1.5.2.jar"
 
 def test_runner(poj_dir, jdk_version, target_class_FQN, Path_execution_log, Path_execution_result, Path_test_file, poj_build_tool="maven", addtional_classpath="", ifExeResult_skip=True, extra_cp=''):
     if not file_processing.pathExist(Path_test_file):
@@ -46,7 +46,7 @@ def test_runner(poj_dir, jdk_version, target_class_FQN, Path_execution_log, Path
     if "org.junit.jupiter.api" in file_processing.read_TXTfile(Path_test_file):
         junit_type = 5
 
-        # java -jar   TODO/software/junit/junit-platform-console-standalone-1.10.0.jar --class-path=  TODO/software/junit/junit-platform-console-standalone-1.10.0.jar:  TODO/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar --select-class=com.github.kagkarlsson.scheduler.ExecutionTest >   TODO/data/AutoMR/projects/kagkarlsson____db-scheduler/AutoMR/test_exe/com.github.kagkarlsson.scheduler.ExecutionTest.log 2>&1
+        # java -jar   TODO/software/junit/junit-platform-console-standalone-1.10.0.jar --class-path=  TODO/software/junit/junit-platform-console-standalone-1.10.0.jar:  TODO/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar --select-class=com.github.kagkarlsson.scheduler.ExecutionTest >   TODO/data/AutoMR/projects/kagkarlsson__split__db-scheduler/AutoMR/test_exe/com.github.kagkarlsson.scheduler.ExecutionTest.log 2>&1
         CMD_RUN_TESTS = f"{CMD_CD_POJ_DIR} {PATH_JAVA} -XX:ActiveProcessorCount=10 -jar {PATH_JUNIT5_STANDALONE_JAR} --class-path=./:{all_poj_class_dir_str}:{JUNIT_JARS_CP_str}:{more_potential_dependency_jars}:{extra_cp} --select-class={FullyQuilfiedName_targetCUTClass} > {Path_execution_log} 2>&1"
         CMD_RUN_TESTS_res = os.system( CMD_RUN_TESTS )
         print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), f'{poj_dir} cve_exe_cmd: {CMD_RUN_TESTS_res}  CMD_RUN_TEST-CASE: {CMD_RUN_TESTS}') 

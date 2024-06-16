@@ -1,6 +1,6 @@
 import os, sys
 import time
-_PROJECT_NAME = "InputTrans"
+_PROJECT_NAME = "tool"
 _CURRENT_ABSPATH = os.path.abspath(__file__)
 sys.path.insert(0, _CURRENT_ABSPATH[:_CURRENT_ABSPATH.find(_PROJECT_NAME) + len(_PROJECT_NAME) + 1])
 
@@ -8,9 +8,9 @@ from utility import file_processing,json_processing
 import config
 import openai
 
-prompt_dir = "  TODO/data/ITrans/cache/prompts/"
-prompt_results_content_dir_default = "  TODO/data/ITrans/cache/prompts_results_content/"
-prompt_results_raw_dir_default = "  TODO/data/ITrans/cache/prompts_results_raw/"
+prompt_dir = "./..//data/ITrans/cache/prompts/"
+prompt_results_content_dir_default = "./..//data/ITrans/cache/prompts_results_content/"
+prompt_results_raw_dir_default = "./..//data/ITrans/cache/prompts_results_raw/"
 prompt_generated_ITrans_dir_default = config.PROMPT_GENERATED_ITRANS_DIR
 
 # setting 
@@ -41,7 +41,7 @@ def request_GPT(prompt, model="gpt-35-turbo", promt_id="default",temperature=0,p
     """
     client = openai.AzureOpenAI(
        api_key="TODO",
-       api_version="2023-05-15",
+       api_version="TODO",
        azure_endpoint="TODO"
     )
 
@@ -97,7 +97,7 @@ def request_GPT(prompt, model="gpt-35-turbo", promt_id="default",temperature=0,p
 def request_fastChat(prompt, model="gpt-35-turbo", promt_id="default",temperature=0,prompt_results_raw_dir="",prompt_results_content_dir="", system_message="You are a helpful programming assistant", few_shot_info=[], prompt_messages_path=""):
     # for fast chat
     # openai.api_base = "http://localhost:10000/v1"  # python 3.7
-    # s2: 10010(in sccpu8) 10020 (in sccpu7), w: 10000
+    # s2: 10010(in 8) 10020 (in 7), w: 10000
     openai.api_key = "EMPTY"                        # opena0 1.12.0 
     openai.base_url = "http://localhost:10000/v1/"
 

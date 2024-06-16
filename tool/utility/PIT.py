@@ -14,7 +14,7 @@
 
 import json, os, sys
 import re
-_PROJECT_NAME = "InputTrans"
+_PROJECT_NAME = "tool"
 _CURRENT_ABSPATH = os.path.abspath(__file__)
 sys.path.insert(0, _CURRENT_ABSPATH[:_CURRENT_ABSPATH.find(_PROJECT_NAME) + len(_PROJECT_NAME) + 1])
 
@@ -83,14 +83,14 @@ def PIT_runner(pit_runner):
     #     return flag_PIT_runner_exe_successful
 
     """ 2. 针对通过的Green cases，计算mutation coverage  """
-    # cd /home1/ /data/AutoMR/projects/opentelecoms-org____jsmpp/ ; /home1/ /software/jdk1.8.0_131/bin/java -cp .:jsmpp/target/classes:jsmpp/target/test-classes:/home1/ /software/pitest/pitest-1.8.0.jar:/home1/ /software/pitest/pitest-command-line-1.8.0.jar:/home1/ /software/pitest/pitest-entry-1.8.0.jar:/home1/ /software/evosuite/evosuite-standalone-runtime-1.2.0.jar:/home1/ /software/junit/junit-4.13.2.jar:/home1/ /software/junit/junit-jupiter-api-5.8.2.jar:/home1/ /software/junit/hamcrest-core-1.3.jar org.pitest.mutationtest.commandline.MutationCoverageReport --reportDir pit/ --targetClasses org.jsmpp.util.OctetUtil --targetTests org.jsmpp.util.OctetUtilTest_AutoMR_ESTestGreen --sourceDirs jsmpp/src/
+    # cd /home1/ /data/AutoMR/projects/opentelecoms-org__split__jsmpp/ ; /home1/ /software/jdk1.8.0_131/bin/java -cp .:jsmpp/target/classes:jsmpp/target/test-classes:/home1/ /software/pitest/pitest-1.8.0.jar:/home1/ /software/pitest/pitest-command-line-1.8.0.jar:/home1/ /software/pitest/pitest-entry-1.8.0.jar:/home1/ /software/evosuite/evosuite-standalone-runtime-1.2.0.jar:/home1/ /software/junit/junit-4.13.2.jar:/home1/ /software/junit/junit-jupiter-api-5.8.2.jar:/home1/ /software/junit/hamcrest-core-1.3.jar org.pitest.mutationtest.commandline.MutationCoverageReport --reportDir pit/ --targetClasses org.jsmpp.util.OctetUtil --targetTests org.jsmpp.util.OctetUtilTest_AutoMR_ESTestGreen --sourceDirs jsmpp/src/
     # CMD_CD = f"cd /home1/ /data/AutoMR/projects/{poj}/ ;"
     
     # FullyQuilfiedName_TestForCUT = "org.datagear.util.version.VersionTest_isEqualTest_hTest" # TODO
     # EXPERIMENTAL_POJS_DIR   = "  TODO/data/ITrans/projects/"
-    # poj = "datageartech____datagear"
+    # poj = "datageartech__split__datagear"
     # FullyQuilfiedName_targetCUT = "org.datagear.util.version.Version" # derived from invoked methods U dependency. but be careful
-    # MTC_test_file_path = "  TODO/data/ITrans/projects/datageartech____datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java"
+    # MTC_test_file_path = "  TODO/data/ITrans/projects/datageartech__split__datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java"
     # poj_build_tool = "maven"
 
     exist_then_skip = pit_runner.exist_then_skip
@@ -112,11 +112,11 @@ def PIT_runner(pit_runner):
     file_processing.creatFolder_IfExistPass(DIR_PIT_OUTUT)
     
     DIR_POJ_SRC =  MTC_test_file_path.split("src")[0] +'src'
-    DIR_POJ_SRC = DIR_POJ + DIR_POJ_SRC.split(f"{poj}/")[-1] # /home1/  /data/AutoMR/projects/OPCFoundation____UA-Java-Legacy/...  -> DIR_POJ/...
+    DIR_POJ_SRC = DIR_POJ + DIR_POJ_SRC.split(f"{poj}/")[-1] # /home1/  /data/AutoMR/projects/OPCFoundation__split__UA-Java-Legacy/...  -> DIR_POJ/...
 
     # Dir_ClassPath = 
     DIR_POJ_PKG = MTC_test_file_path.split("src")[0] # developper-written test_file_path
-    DIR_POJ_PKG = DIR_POJ + DIR_POJ_PKG.split(f"{poj}/")[-1] # /home1/  /data/AutoMR/projects/OPCFoundation____UA-Java-Legacy/...  -> DIR_POJ/...
+    DIR_POJ_PKG = DIR_POJ + DIR_POJ_PKG.split(f"{poj}/")[-1] # /home1/  /data/AutoMR/projects/OPCFoundation__split__UA-Java-Legacy/...  -> DIR_POJ/...
     class_dir_list = java_file_processing.get_all_class_relative_path(dir=DIR_POJ, include_test_classes=True, poj_build_tool=poj_build_tool, specific_dependency_folder=DIR_POJ_PKG)
     all_class_dir_str = (":").join( class_dir_list )
     print("DIR_POJ_PKG: ", DIR_POJ_PKG)
@@ -698,6 +698,6 @@ def collect_killed_mutants(pit_log_path, consider_NON_VIABLE=False):
     return killed_MutationIdentifiers, MutationIdentifiers
 
 
-# print( analyze_pit_exe_result("  TODO/data/AutoMR/projects/googleapis____google-http-java-client/pit/JsonWebSignature_ESTestFixedAmount_Green.pit_log") )
+# print( analyze_pit_exe_result("  TODO/data/AutoMR/projects/googleapis__split__google-http-java-client/pit/JsonWebSignature_ESTestFixedAmount_Green.pit_log") )
 
 # PIT_runner()

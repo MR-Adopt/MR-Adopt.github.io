@@ -1,0 +1,17 @@
+{
+    "org.threeten.extra.TestYearHalf_test_parse_CharSequence_caseInsensitive_h0Test5": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 1,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [
+            "test_parse_CharSequence_caseInsensitive_h0Test5"
+        ],
+        "failure_info": {}
+    }
+}

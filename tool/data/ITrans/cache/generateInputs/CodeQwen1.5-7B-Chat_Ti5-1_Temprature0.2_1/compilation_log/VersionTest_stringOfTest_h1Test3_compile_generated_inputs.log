@@ -1,0 +1,7 @@
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/qw/org/datagear/util/version/VersionTest_stringOfTest_h1Test3.java:38: error: variable v1 is already defined in method stringOfTest_h1Test3()
+        String v1 = "1.0.0";
+               ^
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/qw/org/datagear/util/version/VersionTest_stringOfTest_h1Test3.java:40: error: variable version1 is already defined in method stringOfTest_h1Test3()
+        Version version1 = Version.valueOf(v1);
+                ^
+2 errors

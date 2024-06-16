@@ -17,7 +17,7 @@ Created on 2019/10/16 12:27
 
 
 import json, os, sys
-_PROJECT_NAME = "InputTrans"
+_PROJECT_NAME = "tool"
 _CURRENT_ABSPATH = os.path.abspath(__file__)
 sys.path.insert(0, _CURRENT_ABSPATH[:_CURRENT_ABSPATH.find(_PROJECT_NAME) + len(_PROJECT_NAME) + 1])
 # from utility import file_processing, json_processing, CSV_processing, data_propcessing, java_parser
@@ -86,31 +86,31 @@ def get_method_content(java_file_path, method_name, class_code):
 
 
 def replace_method(file_path, method_name, new_method_declaration, function):
-    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com..util.paserJavaFileUtil", function, file_path, method_name, new_method_declaration], stdout=subprocess.PIPE)
+    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com.d1.d2.util.paserJavaFileUtil", function, file_path, method_name, new_method_declaration], stdout=subprocess.PIPE)
     return result.stdout.decode('utf-8')
 
 def get_skeleton_of_class(file_path, function):
-    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com..util.paserJavaFileUtil", function, file_path], stdout=subprocess.PIPE)
+    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com.d1.d2.util.paserJavaFileUtil", function, file_path], stdout=subprocess.PIPE)
     return result.stdout.decode('utf-8')
 
 def getDeclaredVariablesInMethod(file_path, method_name, function):
-    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com..util.paserJavaFileUtil", function, file_path, method_name], stdout=subprocess.PIPE)
+    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com.d1.d2.util.paserJavaFileUtil", function, file_path, method_name], stdout=subprocess.PIPE)
     return result.stdout.decode('utf-8')
 
 def getInvolvedClassInMethod(file_path, method_name, function):
-    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com..util.paserJavaFileUtil", function, file_path, method_name], stdout=subprocess.PIPE)
+    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com.d1.d2.util.paserJavaFileUtil", function, file_path, method_name], stdout=subprocess.PIPE)
     return result.stdout.decode('utf-8')
 
 def getVaribleRelevantCode(file_path, method_name, variable_info, function):
-    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com..util.paserJavaFileUtil", function, file_path, method_name, variable_info], stdout=subprocess.PIPE)
+    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com.d1.d2.util.paserJavaFileUtil", function, file_path, method_name, variable_info], stdout=subprocess.PIPE)
     return result.stdout.decode('utf-8')
 
 def get_method_body_or_related_class_field(file_path, method_name, function):
     # function: 
-    # result = subprocess.run([config.PATH_JAVA_8, '-cp', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com..util.paserJavaFileUtil", function, file_path, method_name], stdout=subprocess.PIPE)
+    # result = subprocess.run([config.PATH_JAVA_8, '-cp', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com.d1.d2.util.paserJavaFileUtil", function, file_path, method_name], stdout=subprocess.PIPE)
     # return result.stdout.decode('utf-8')
 
-    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com..util.paserJavaFileUtil", function, file_path, method_name], stdout=subprocess.PIPE)
+    result = subprocess.run([config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com.d1.d2.util.paserJavaFileUtil", function, file_path, method_name], stdout=subprocess.PIPE)
     return result.stdout.decode('utf-8')
 
     # result = subprocess.run([config.PATH_JAVA_8, '-jar', "  TODO/workProjects/AutoMR/Java/demo/target/demo-1.0-SNAPSHOT-jar-with-dependencies.jar" , "getMethod", file_path, method_name], stdout=subprocess.PIPE)
@@ -118,7 +118,7 @@ def get_method_body_or_related_class_field(file_path, method_name, function):
 
     # # The command you want to execute
     # #   TODO/workProjects/AutoMR/Java/demo/target/demo-1.0-SNAPSHOT.jar
-    # command = ["/usr/bin/env", config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com..util.paserJavaFileUtil", "getMethod" ,file_path, method_name]
+    # command = ["/usr/bin/env", config.PATH_JAVA_8, '-jar', config.AUTOMR_JAVA_DEMO_JAR_PATH , "com.d1.d2.util.paserJavaFileUtil", "getMethod" ,file_path, method_name]
 
     # # Use subprocess.run to execute the command
     # result = subprocess.run(command, capture_output=True, text=True)
@@ -126,10 +126,10 @@ def get_method_body_or_related_class_field(file_path, method_name, function):
 
 
 # # Example usage
-# java_file_path = '  TODO/data/AutoMR/projects/apache____systemds/src/test/java/org/apache/sysds/test/functions/privacy/FineGrainedPrivacyTest_getDataRangesOfPrivacyLevelTest_AutoMR.java'
+# java_file_path = '  TODO/data/AutoMR/projects/apache__split__systemds/src/test/java/org/apache/sysds/test/functions/privacy/FineGrainedPrivacyTest_getDataRangesOfPrivacyLevelTest_AutoMR.java'
 # method_name = 'getDataRangesOfPrivacyLevelTest_AutoMR'  # Can be a simple name or a fully-qualified name
 
-# java_file_path = '  TODO/data/ITrans/projects/ngs-doo____dsl-json/library/src/test/java/com/dslplatform/json/DateTest.java_ITrans'
+# java_file_path = '  TODO/data/ITrans/projects/ngs-doo__split__dsl-json/library/src/test/java/com/dslplatform/json/DateTest.java_ITrans'
 # method_name = 'localTimeBoundary_h'
 
 # # print( get_method_body_or_related_class_field(java_file_path, method_name,function="getMethod") )

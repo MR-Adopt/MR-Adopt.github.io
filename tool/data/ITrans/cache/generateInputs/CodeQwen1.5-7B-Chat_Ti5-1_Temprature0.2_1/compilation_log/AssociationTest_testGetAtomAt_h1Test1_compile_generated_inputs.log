@@ -1,0 +1,21 @@
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h1Test1.java:44: error: cannot find symbol
+    association.setAtomAt(n, position);
+    ^
+  symbol:   variable association
+  location: class AssociationTest_testGetAtomAt_h1Test1
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h1Test1.java:45: error: cannot find symbol
+    Association association2 = new Association(o, n);
+                                               ^
+  symbol:   variable o
+  location: class AssociationTest_testGetAtomAt_h1Test1
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h1Test1.java:48: error: cannot find symbol
+        association.setAtomAt(n, position);
+        ^
+  symbol:   variable association
+  location: class AssociationTest_testGetAtomAt_h1Test1
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h1Test1.java:49: error: cannot find symbol
+        Assertions.assertEquals(n, association2.getAtomAt(position2));
+                                                          ^
+  symbol:   variable position2
+  location: class AssociationTest_testGetAtomAt_h1Test1
+4 errors

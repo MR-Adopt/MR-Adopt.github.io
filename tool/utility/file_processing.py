@@ -286,15 +286,15 @@ def retrieve_fileName_with_keyword(Keyword, dir):
 #     # creatFileFolder('e:/Jars-MD5/AAA/')
 
 if __name__ == '__main__':
-    # list_file = retrieve_fileName_with_keyword("OriginalMRcases.java", "/home1/  /data/AutoMR/projects/OpenHFT____Chronicle-Core/")
+    # list_file = retrieve_fileName_with_keyword("OriginalMRcases.java", "/home1/  /data/AutoMR/projects/OpenHFT__split__Chronicle-Core/")
     # for ele in list_file:
     #     print(ele)
     
     # path = "  TODO/data/ITrans/cache/generateInputs/WizardCoder-15B-V1.0_Ti4-2_Temprature0.2_1/generated_inputs/VersionTest_isLowerThanTest_h1Test.java"
-    # poj_ITRANS_GENERATED_LLMI_TEST_DIR = "  TODO/data/ITrans/projects/datageartech____datagear/ITrans/generated_inputs/LLMI_test_Trans/"
+    # poj_ITRANS_GENERATED_LLMI_TEST_DIR = "  TODO/data/ITrans/projects/datageartech__split__datagear/ITrans/generated_inputs/LLMI_test_Trans/"
     # copyFile(path, poj_ITRANS_GENERATED_LLMI_TEST_DIR)
 
-    # source = "  TODO/data/ITrans/projects/dromara____hutool/ITrans/generated_inputs/w/cn/hutool/json/IssueI7GPGXTest_toBeanTest_h1Test$1.class"
+    # source = "  TODO/data/ITrans/projects/dromara__split__hutool/ITrans/generated_inputs/w/cn/hutool/json/IssueI7GPGXTest_toBeanTest_h1Test$1.class"
     # target = "  TODO/data/ITrans/cache/generateInputs/WizardCoder-15B-V1.0_Ti4-2_Temprature0.2_1/generated_inputs/IssueI7GPGXTest_toBeanTest_h1Test$1.class"
     # copyFile(source,target)
     pass

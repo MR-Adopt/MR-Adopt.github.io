@@ -15,7 +15,7 @@ import time
 import re
 
 import json, os, sys
-_PROJECT_NAME = "InputTrans"
+_PROJECT_NAME = "tool"
 _CURRENT_ABSPATH = os.path.abspath(__file__)
 sys.path.insert(0, _CURRENT_ABSPATH[:_CURRENT_ABSPATH.find(_PROJECT_NAME) + len(_PROJECT_NAME) + 1])
 
@@ -218,7 +218,7 @@ def analyze_test_exe_result(Path_output_of_run_Test, Path_Test_file=False, Fully
                 if exception_line_number:
                     # assertfailed
                     # if (exception_line_number in assertionLineNums and exception_message in config.ASSERTION_FAILURE_LIST):
-                    if (exception_line_number <= max(assertionLineNums) and exception_message in config.ASSERTION_FAILURE_LIST): # 有的时候assertion会横跨几行，不能直接用 assertion line numbers 来匹配。。比如：  TODO/data/AutoMR/projects/jgitver____jgitver/src/test/java/fr/brouillard/oss/jgitver/VersionTest_can_parse_semver_AutoMR.java
+                    if (exception_line_number <= max(assertionLineNums) and exception_message in config.ASSERTION_FAILURE_LIST): # 有的时候assertion会横跨几行，不能直接用 assertion line numbers 来匹配。。比如：  TODO/data/AutoMR/projects/jgitver__split__jgitver/src/test/java/fr/brouillard/oss/jgitver/VersionTest_can_parse_semver_AutoMR.java
                         reach_assertion_test_cases_list.append(test_method_name)
                 
                 # store info
@@ -384,12 +384,12 @@ def find_class_file_path_by_methodFQS(poj_dir, method_fqs):
     return None  # If no file is found
 
 # # Example usage: find_class_file_path_by_methodFQS
-# poj_dir = "  TODO/data/ITrans/projects/datageartech____datagear/"
+# poj_dir = "  TODO/data/ITrans/projects/datageartech__split__datagear/"
 # method_fqs = "org.datagear.util.version.Version.valueOf(java.lang.String)"
 # class_file_path = find_class_file_path_by_methodFQS(poj_dir, method_fqs)
 
 # Example usage: find_class_file_path_by_methodFQS
-# poj_dir = "  TODO/data/ITrans/projects/aws____event-ruler/"
+# poj_dir = "  TODO/data/ITrans/projects/aws__split__event-ruler/"
 # method_fqs = "software.amazon.event.ruler.SubRuleContext.Generator.generate(java.lang.Object)"
 # class_file_path = find_class_file_path_by_methodFQS(poj_dir, method_fqs)
 
@@ -400,16 +400,16 @@ def find_class_file_path_by_methodFQS(poj_dir, method_fqs):
 
 
 
-# result = analyze_test_exe_result("  TODO/data/AutoMR/projects/Stratio____cassandra-lucene-index/evosuite-tests/com/stratio/cassandra/lucene/search/sort/builder/GeoDistanceSortFieldBuilderTest_testJsonDefault_AutoMR_ESTestWOAssertionFixedAmount.exe_log", Path_Test_file=False)
+# result = analyze_test_exe_result("  TODO/data/AutoMR/projects/Stratio__split__cassandra-lucene-index/evosuite-tests/com/stratio/cassandra/lucene/search/sort/builder/GeoDistanceSortFieldBuilderTest_testJsonDefault_AutoMR_ESTestWOAssertionFixedAmount.exe_log", Path_Test_file=False)
 # print(result)
 
-# result = get_all_class_relative_path("  TODO/data/AutoMR/projects/Cornutum____tcases/", include_test_classes=False, poj_build_tool= "maven", specific_dependency_folder="  TODO/data/AutoMR/projects/Cornutum____tcases//tcases-lib")
+# result = get_all_class_relative_path("  TODO/data/AutoMR/projects/Cornutum__split__tcases/", include_test_classes=False, poj_build_tool= "maven", specific_dependency_folder="  TODO/data/AutoMR/projects/Cornutum__split__tcases//tcases-lib")
 # print(result)
 
-# result = find_asserts_in_java_file("  TODO/data/AutoMR/projects/Cornutum____tcases/tcases-lib/src/test/java/org/cornutum/tcases/util/ObjectUtilsTest_toExternalObject_whenBoolean_AutoMR.java")
+# result = find_asserts_in_java_file("  TODO/data/AutoMR/projects/Cornutum__split__tcases/tcases-lib/src/test/java/org/cornutum/tcases/util/ObjectUtilsTest_toExternalObject_whenBoolean_AutoMR.java")
 # print(result)
 
-# result = analyze_test_exe_result('  TODO/data/AutoMR/projects/jgitver____jgitver/evosuite-tests/fr/brouillard/oss/jgitver/VersionTest_can_parse_semver_AutoMR_ESTestWOAssertionFixedAmount.exe_log','  TODO/data/AutoMR/projects/jgitver____jgitver/evosuite-tests/fr/brouillard/oss/jgitver/VersionTest_can_parse_semver_AutoMR_Failed_ESTestWOAssertionAll.java','fr.brouillard.oss.jgitver.VersionTest_can_parse_semver_AutoMR.can_parse_semver_AutoMR', [43, 45, 48, 50, 57, 58])
+# result = analyze_test_exe_result('  TODO/data/AutoMR/projects/jgitver__split__jgitver/evosuite-tests/fr/brouillard/oss/jgitver/VersionTest_can_parse_semver_AutoMR_ESTestWOAssertionFixedAmount.exe_log','  TODO/data/AutoMR/projects/jgitver__split__jgitver/evosuite-tests/fr/brouillard/oss/jgitver/VersionTest_can_parse_semver_AutoMR_Failed_ESTestWOAssertionAll.java','fr.brouillard.oss.jgitver.VersionTest_can_parse_semver_AutoMR.can_parse_semver_AutoMR', [43, 45, 48, 50, 57, 58])
 
-# result = analyze_test_exe_result('  TODO/data/ITrans/projects/datageartech____datagear/AutoMR/test_exe/w.org.datagear.util.version.VersionTest_isLowerThanTest_h0Test.log','  TODO/data/ITrans/projects/datageartech____datagear/ITrans/generated_inputs/w/org/datagear/util/version/VersionTest_isLowerThanTest_h0Test.java')
+# result = analyze_test_exe_result('  TODO/data/ITrans/projects/datageartech__split__datagear/AutoMR/test_exe/w.org.datagear.util.version.VersionTest_isLowerThanTest_h0Test.log','  TODO/data/ITrans/projects/datageartech__split__datagear/ITrans/generated_inputs/w/org/datagear/util/version/VersionTest_isLowerThanTest_h0Test.java')
 # print(result)
