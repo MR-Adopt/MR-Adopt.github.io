@@ -1,0 +1,16 @@
+/ssddata1/cxubl/data/ITrans/projects/zfoo-project__castle__zfoo/ITrans/generated_inputs/qw4ITrans/com/zfoo/net/util/NetUtilsTest_ipv4Test_h9Test1_valid.java:31: error: cannot find symbol
+    long ipLong2  = NetUtilsTest_ipv4Test.inputTransformation_ipv4Test(ipStr1);
+                                                                       ^
+  symbol:   variable ipStr1
+  location: class NetUtilsTest_ipv4Test_h9Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/zfoo-project__castle__zfoo/ITrans/generated_inputs/qw4ITrans/com/zfoo/net/util/NetUtilsTest_ipv4Test_h9Test1_valid.java:32: error: cannot find symbol
+        long ipLong = NetUtils.ipv4ToLong(ipStr1);
+                                          ^
+  symbol:   variable ipStr1
+  location: class NetUtilsTest_ipv4Test_h9Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/zfoo-project__castle__zfoo/ITrans/generated_inputs/qw4ITrans/com/zfoo/net/util/NetUtilsTest_ipv4Test_h9Test1_valid.java:34: error: cannot find symbol
+        Assert.assertEquals(ipStr2, ipStr1);
+                                    ^
+  symbol:   variable ipStr1
+  location: class NetUtilsTest_ipv4Test_h9Test1_valid
+3 errors

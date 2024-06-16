@@ -1,0 +1,19 @@
+{
+    "io.bootique.di.TypeLiteralTest_normalize_h1Test8": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 1,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [
+            "normalize_h1Test8"
+        ],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "normalize_h1Test8": "org.opentest4j.AssertionFailedError: expected: <-1190630636> but was: <-16357653>"
+        }
+    }
+}

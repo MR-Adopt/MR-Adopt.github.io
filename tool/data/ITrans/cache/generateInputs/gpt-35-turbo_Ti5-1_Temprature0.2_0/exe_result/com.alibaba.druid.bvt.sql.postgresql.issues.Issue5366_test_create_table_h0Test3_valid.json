@@ -1,0 +1,19 @@
+{
+    "com.alibaba.druid.bvt.sql.postgresql.issues.Issue5366_test_create_table_h0Test3_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": 0,
+        "assertionLineNums": false,
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "test_create_table_h0Test3"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "test_create_table_h0Test3": "com.alibaba.druid.sql.parser.ParserException, line:None"
+        }
+    }
+}

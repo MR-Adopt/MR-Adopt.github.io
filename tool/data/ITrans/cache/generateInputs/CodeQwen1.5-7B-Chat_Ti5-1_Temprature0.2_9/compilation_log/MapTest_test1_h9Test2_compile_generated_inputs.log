@@ -1,0 +1,4 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw/com/alibaba/fastjson2/internal/processor/maps/MapTest_test1_h9Test2.java:25: error: integer number too large
+    v01.put("largeKey", 12345678901234567890L);
+                        ^
+1 error

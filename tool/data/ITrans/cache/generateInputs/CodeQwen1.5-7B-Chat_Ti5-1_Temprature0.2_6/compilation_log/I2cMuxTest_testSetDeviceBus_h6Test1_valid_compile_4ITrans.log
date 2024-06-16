@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/ITrans/generated_inputs/qw4ITrans/org/myrobotlab/service/I2cMuxTest_testSetDeviceBus_h6Test1_valid.java:53: error: cannot find symbol
+        assertEquals(deviceBus, i2cMux2.getDeviceBus());
+                                ^
+  symbol:   variable i2cMux2
+  location: class I2cMuxTest_testSetDeviceBus_h6Test1_valid
+1 error

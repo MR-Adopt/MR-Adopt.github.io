@@ -1,0 +1,19 @@
+{
+    "com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest_test1_h0Test2_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "test1_h0Test2"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "test1_h0Test2": "java.lang.NoSuchMethodError: 'java.util.List com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest_test1.inputTransformation_test1(com.alibaba.fastjson2.JSONArray)'"
+        }
+    }
+}

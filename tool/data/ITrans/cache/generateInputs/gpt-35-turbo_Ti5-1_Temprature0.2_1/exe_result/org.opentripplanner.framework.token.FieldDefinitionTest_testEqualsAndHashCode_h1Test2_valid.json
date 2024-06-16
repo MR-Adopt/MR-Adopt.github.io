@@ -1,0 +1,19 @@
+{
+    "org.opentripplanner.framework.token.FieldDefinitionTest_testEqualsAndHashCode_h1Test2_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 1,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [
+            "testEqualsAndHashCode_h1Test2"
+        ],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "testEqualsAndHashCode_h1Test2": "org.opentest4j.AssertionFailedError: expected: not equal but was: <685866151>"
+        }
+    }
+}

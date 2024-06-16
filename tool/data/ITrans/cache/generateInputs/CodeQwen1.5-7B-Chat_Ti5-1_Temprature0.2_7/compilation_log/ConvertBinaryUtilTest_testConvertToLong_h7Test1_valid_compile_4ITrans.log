@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw4ITrans/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h7Test1_valid.java:40: error: cannot find symbol
+        Long convertStringValue = convertStringToLong(randomString);
+                                                      ^
+  symbol:   variable randomString
+  location: class ConvertBinaryUtilTest_testConvertToLong_h7Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw4ITrans/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h7Test1_valid.java:41: error: cannot find symbol
+        Long convertBytesValue = convertBytesToLong(randomStringBytes);
+                                                    ^
+  symbol:   variable randomStringBytes
+  location: class ConvertBinaryUtilTest_testConvertToLong_h7Test1_valid
+2 errors

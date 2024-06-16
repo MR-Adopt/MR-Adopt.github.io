@@ -1,0 +1,36 @@
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_ITrans/org/datagear/util/version/VersionTest_isEqualTest.java:17: error: cannot find symbol
+        String[] vs = version.split(SPLITTER_D_REGEX);
+                                    ^
+  symbol:   variable SPLITTER_D_REGEX
+  location: class VersionTest_isEqualTest
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_ITrans/org/datagear/util/version/VersionTest_isEqualTest.java:26: error: cannot find symbol
+            String[] bs = revision.split(SPLITTER_L_REGEX);
+                                         ^
+  symbol:   variable SPLITTER_L_REGEX
+  location: class VersionTest_isEqualTest
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_ITrans/org/datagear/util/version/VersionTest_isEqualTest.java:33: error: cannot find symbol
+            String[] bs = minor.split(SPLITTER_L_REGEX);
+                                      ^
+  symbol:   variable SPLITTER_L_REGEX
+  location: class VersionTest_isEqualTest
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_ITrans/org/datagear/util/version/VersionTest_isEqualTest.java:40: error: cannot find symbol
+            String[] bs = major.split(SPLITTER_L_REGEX);
+                                      ^
+  symbol:   variable SPLITTER_L_REGEX
+  location: class VersionTest_isEqualTest
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_ITrans/org/datagear/util/version/VersionTest_isEqualTest.java:46: error: cannot find symbol
+        String v2 = major + (minor != null ? SPLITTER_D + minor : "") + (revision != null ? SPLITTER_D + revision : "") + (build != null ? SPLITTER_L + build : "");
+                                             ^
+  symbol:   variable SPLITTER_D
+  location: class VersionTest_isEqualTest
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_ITrans/org/datagear/util/version/VersionTest_isEqualTest.java:46: error: cannot find symbol
+        String v2 = major + (minor != null ? SPLITTER_D + minor : "") + (revision != null ? SPLITTER_D + revision : "") + (build != null ? SPLITTER_L + build : "");
+                                                                                            ^
+  symbol:   variable SPLITTER_D
+  location: class VersionTest_isEqualTest
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_ITrans/org/datagear/util/version/VersionTest_isEqualTest.java:46: error: cannot find symbol
+        String v2 = major + (minor != null ? SPLITTER_D + minor : "") + (revision != null ? SPLITTER_D + revision : "") + (build != null ? SPLITTER_L + build : "");
+                                                                                                                                           ^
+  symbol:   variable SPLITTER_L
+  location: class VersionTest_isEqualTest
+7 errors

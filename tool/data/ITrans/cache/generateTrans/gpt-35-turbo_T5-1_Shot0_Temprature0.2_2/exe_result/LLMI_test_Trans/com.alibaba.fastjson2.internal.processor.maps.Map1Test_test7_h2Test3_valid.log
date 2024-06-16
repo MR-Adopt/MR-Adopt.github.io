@@ -1,0 +1,120 @@
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  └─[0m [36mMap1Test_test7_h2Test3_valid[0m [32m✔[0m
+[36m│     └─[0m [34mtest7_h2Test3()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Test run finished after 531 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         1 tests found           ]
+[         0 tests skipped         ]
+[         1 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         0 tests failed          ]
+
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
+CMD: cd /ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ ; /ssddata1/cxubl/software/zulu_jdks/zulu11.62.17-ca-jdk11.0.18-linux_x64/bin/java -XX:ActiveProcessorCount=10 -jar /ssddata1/cxubl/software/junit/junit-platform-console-standalone-1.10.0.jar --class-path=./:./benchmark/target/classes:./benchmark/target/dependency/*:./benchmark/target/test-classes:./codegen-test/target/classes:./codegen-test/target/test-classes:./core/target/classes:./core/target/test-classes:./core/target/dependency/*:./example-spring-test/target/classes:./example-spring-test/target/dependency/*:./example-spring-test/target/test-classes:./example-spring6-test/target/classes:./example-spring6-test/target/test-classes:./extension-spring5/target/classes:./extension-spring5/target/test-classes:./extension-spring5/target/dependency/*:./extension-spring6/target/classes:./extension-spring6/target/test-classes:./extension/target/classes:./extension/target/test-classes:./extension/target/dependency/*:./fastjson1-compatible/target/classes:./fastjson1-compatible/target/test-classes:./fastjson1-compatible/target/dependency/*:./incubator-vector/target/classes:./incubator-vector/target/test-classes:./kotlin/target/classes:./kotlin/target/test-classes:./kotlin/target/dependency/*:./safemode-test/target/test-classes:./safemode-test/target/dependency/*:./safemode-test/target/classes:./test-jdk17/target/classes:./test-jdk17/target/test-classes:./target/dependency/*:/ssddata1/cxubl/software/junit/junit-4.13.2.jar:/ssddata1/cxubl/software/junit/junit-jupiter-api-5.8.2.jar:/ssddata1/cxubl/software/junit/hamcrest-core-1.3.jar:/ssddata1/cxubl/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar:/ssddata1/cxubl/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar:/ssddata1/cxubl/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-test/5.3.26/spring-test-5.3.26.jar:/ssddata1/cxubl/data/ITrans/projects/thingsboard__castle__thingsboard/dao/target/dependency/commons-logging-1.2.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-core/5.3.2/spring-core-5.3.26.jar:arex-instrumentation-api/target/dependency/jackson-annotations-2.13.1.jar:arex-instrumentation-api/target/dependency/gson-2.10.1.jar:misc/extra/target/dependency/vecmath-1.5.2.jar:/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/processed_GT_only/:/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/processed_MTCITrans_only/:/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_ITrans/:/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/:/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/:/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/LLMI_test_Trans/ --select-class=com.alibaba.fastjson2.internal.processor.maps.Map1Test_test7_h2Test3_valid > /ssddata1/cxubl/data/ITrans/cache/generateTrans/gpt-35-turbo_T5-1_Shot0_Temprature0.2_2/exe_result/LLMI_test_Trans/com.alibaba.fastjson2.internal.processor.maps.Map1Test_test7_h2Test3_valid.log 2>&1
+file path: 
+/ssddata1/cxubl/data/ITrans/cache/generateInputs/CodeQwen1.5-7B-Chat_Ti5-1_Temprature0.2_2/generated_valid_inputs_testing_Trans/Map1Test_test7_h2Test3_valid.java
+file content: 
+package com.alibaba.fastjson2.internal.processor.maps;
+
+import com.alibaba.fastjson2.internal.processor.maps.Map1Test_test7;
+
+import com.alibaba.fastjson2.JSON.*;
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.annotation.JSONCompiled;
+import org.junit.jupiter.api.Test;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import com.alibaba.fastjson.TypeReference;
+import java.lang.reflect.Type;
+import java.util.List;
+import java.util.Arrays;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class Map1Test_test7_h2Test3_valid {
+
+    @JSONCompiled
+    public static class Bean {
+
+        public Map<String, String> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean1 {
+
+        public Map<String, Integer> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean2 {
+
+        public Map<String, Long> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean3 {
+
+        public Map<String, Boolean> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean4 {
+
+        public Map<String, Float> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean5 {
+
+        public Map<String, Double> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean6 {
+
+        public Map<String, BigDecimal> v01;
+    }
+
+    @Test
+    public void test7_h2Test3() {
+    Map<String, BigInteger> v01 = new HashMap<>();
+    v01.put(101, BigInteger.valueOf(Long.MAX_VALUE));
+    v01.put(102, BigInteger.valueOf(Long.MAX_VALUE));
+        String str = JSON.toJSONString(v01);
+        Map<String, BigInteger> v02 = JSON.parseObject(str, new TypeReference<Map<String, BigInteger>>() {
+        }.getType());
+        assertEquals(v01, v02);
+    }
+
+    @JSONCompiled
+    public static class Bean7 {
+
+        public Map<String, BigInteger> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean8 {
+
+        public Map<String, UUID> v01;
+    }
+}
+
+

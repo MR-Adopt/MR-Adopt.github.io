@@ -1,0 +1,19 @@
+{
+    "com.thealgorithms.datastructures.crdt.LWWElementSetTest_testCompareDifferentSets_h1Test5_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "testCompareDifferentSets_h1Test5"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "testCompareDifferentSets_h1Test5": "java.lang.NoClassDefFoundError: com/thealgorithms/datastructures/crdt/LWWElementSetTest_testCompareDifferentSets"
+        }
+    }
+}

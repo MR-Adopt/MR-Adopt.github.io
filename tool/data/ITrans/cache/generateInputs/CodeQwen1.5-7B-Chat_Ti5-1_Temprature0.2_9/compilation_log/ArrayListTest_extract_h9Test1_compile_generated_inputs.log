@@ -1,0 +1,26 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__systemds/ITrans/generated_inputs/qw/org/apache/sysds/test/component/compress/util/ArrayListTest_extract_h9Test1.java:37: error: cannot find symbol
+        a.appendValue(0);
+        ^
+  symbol:   variable a
+  location: class ArrayListTest_extract_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__systemds/ITrans/generated_inputs/qw/org/apache/sysds/test/component/compress/util/ArrayListTest_extract_h9Test1.java:38: error: cannot find symbol
+        a.appendValue(1);
+        ^
+  symbol:   variable a
+  location: class ArrayListTest_extract_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__systemds/ITrans/generated_inputs/qw/org/apache/sysds/test/component/compress/util/ArrayListTest_extract_h9Test1.java:39: error: cannot find symbol
+        a.appendValue(0);
+        ^
+  symbol:   variable a
+  location: class ArrayListTest_extract_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__systemds/ITrans/generated_inputs/qw/org/apache/sysds/test/component/compress/util/ArrayListTest_extract_h9Test1.java:44: error: cannot find symbol
+        int[] ex = a.extractValues(trimFlag);
+                                   ^
+  symbol:   variable trimFlag
+  location: class ArrayListTest_extract_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__systemds/ITrans/generated_inputs/qw/org/apache/sysds/test/component/compress/util/ArrayListTest_extract_h9Test1.java:44: error: cannot find symbol
+        int[] ex = a.extractValues(trimFlag);
+                   ^
+  symbol:   variable a
+  location: class ArrayListTest_extract_h9Test1
+5 errors

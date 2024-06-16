@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g34ITrans/org/threeten/extra/TestTemporalFields_test_HALF_YEARS_h4Test3_valid.java:67: error: cannot find symbol
+    int year1 = Year.MAX_VALUE;
+                ^
+  symbol:   variable Year
+  location: class TestTemporalFields_test_HALF_YEARS_h4Test3_valid
+1 error

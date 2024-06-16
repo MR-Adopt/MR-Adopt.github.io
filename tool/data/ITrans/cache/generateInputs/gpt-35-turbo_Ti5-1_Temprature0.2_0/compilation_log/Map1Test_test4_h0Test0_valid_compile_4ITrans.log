@@ -1,0 +1,26 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g34ITrans/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test4_h0Test0_valid.java:48: error: cannot find symbol
+		List<Object> transformed_inputs = Map1Test_test4.inputTransformation_test4(v01);
+		                                                                           ^
+  symbol:   variable v01
+  location: class Map1Test_test4_h0Test0_valid
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g34ITrans/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test4_h0Test0_valid.java:50: error: cannot find symbol
+    mapType.put("103", 3F);
+    ^
+  symbol:   variable mapType
+  location: class Map1Test_test4_h0Test0_valid
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g34ITrans/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test4_h0Test0_valid.java:51: error: cannot find symbol
+    mapType.put("104", 4F);
+    ^
+  symbol:   variable mapType
+  location: class Map1Test_test4_h0Test0_valid
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g34ITrans/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test4_h0Test0_valid.java:52: error: cannot find symbol
+        String str = JSON.toJSONString(v01);
+                                       ^
+  symbol:   variable v01
+  location: class Map1Test_test4_h0Test0_valid
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g34ITrans/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test4_h0Test0_valid.java:55: error: cannot find symbol
+        assertEquals(v01, v02);
+                     ^
+  symbol:   variable v01
+  location: class Map1Test_test4_h0Test0_valid
+5 errors

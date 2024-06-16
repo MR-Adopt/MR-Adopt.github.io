@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest_test_h9Test2_valid.java:19: error: cannot find symbol
+    v01.add(new JSONObject());
+                ^
+  symbol:   class JSONObject
+  location: class JSONArrayTest_test_h9Test2_valid
+1 error

@@ -1,0 +1,4 @@
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/g3/com/github/underscore/XmlBuilderTest_parse_h0Test4.java:46: error: variable xmlBuilder2 is already defined in method parse_h0Test4()
+        XmlBuilder xmlBuilder2 = XmlBuilder.parse(XML2);
+                   ^
+1 error

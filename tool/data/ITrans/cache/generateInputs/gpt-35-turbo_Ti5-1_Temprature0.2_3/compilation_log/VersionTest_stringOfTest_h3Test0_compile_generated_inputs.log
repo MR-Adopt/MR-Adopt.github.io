@@ -1,0 +1,19 @@
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/g3/org/datagear/util/version/VersionTest_stringOfTest_h3Test0.java:37: error: cannot find symbol
+        Version version = Version.valueOf(v);
+                                          ^
+  symbol:   variable v
+  location: class VersionTest_stringOfTest_h3Test0
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/g3/org/datagear/util/version/VersionTest_stringOfTest_h3Test0.java:38: error: variable version1 is already defined in method stringOfTest_h3Test0()
+        Version version1 = Version.valueOf(v1);
+                ^
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/g3/org/datagear/util/version/VersionTest_stringOfTest_h3Test0.java:39: error: cannot find symbol
+        assertEquals(v, version.stringOf());
+                     ^
+  symbol:   variable v
+  location: class VersionTest_stringOfTest_h3Test0
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/g3/org/datagear/util/version/VersionTest_stringOfTest_h3Test0.java:40: error: cannot find symbol
+        assertEquals(v, Version.stringOf(version1));
+                     ^
+  symbol:   variable v
+  location: class VersionTest_stringOfTest_h3Test0
+4 errors

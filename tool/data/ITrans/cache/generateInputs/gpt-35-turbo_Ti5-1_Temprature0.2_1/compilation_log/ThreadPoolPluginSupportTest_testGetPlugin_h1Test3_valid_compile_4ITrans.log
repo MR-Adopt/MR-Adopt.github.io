@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_inputs/g34ITrans/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest_testGetPlugin_h1Test3_valid.java:63: error: cannot find symbol
+    ThreadPoolPlugin plugin = new CustomThreadPoolPlugin();
+                                  ^
+  symbol:   class CustomThreadPoolPlugin
+  location: class ThreadPoolPluginSupportTest_testGetPlugin_h1Test3_valid
+1 error

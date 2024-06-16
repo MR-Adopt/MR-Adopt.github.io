@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/storage/azure/AzureClientFactoryTest_test_blobServiceClientBuilder_useCachedClient_h9Test9_valid.java:46: error: cannot find symbol
+    Integer retryCount1 = config.getMaxTries();
+                          ^
+  symbol:   variable config
+  location: class AzureClientFactoryTest_test_blobServiceClientBuilder_useCachedClient_h9Test9_valid
+1 error

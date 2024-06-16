@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/g34ITrans/org/apache/druid/collections/CloseableResourceHolderTest_testCloseableResourceHolder_h0Test1_valid.java:35: error: cannot find symbol
+Closeable closeable = new PipedInputStream();
+                          ^
+  symbol:   class PipedInputStream
+  location: class CloseableResourceHolderTest_testCloseableResourceHolder_h0Test1_valid
+1 error

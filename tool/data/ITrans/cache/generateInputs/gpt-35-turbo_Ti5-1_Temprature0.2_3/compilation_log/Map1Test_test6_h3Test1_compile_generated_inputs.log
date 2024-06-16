@@ -1,0 +1,26 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g3/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test6_h3Test1.java:59: error: cannot find symbol
+mapType.put("105", BigDecimal.valueOf(105));
+^
+  symbol:   variable mapType
+  location: class Map1Test_test6_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g3/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test6_h3Test1.java:60: error: cannot find symbol
+mapType.put("106", BigDecimal.valueOf(106));
+^
+  symbol:   variable mapType
+  location: class Map1Test_test6_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g3/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test6_h3Test1.java:61: error: cannot find symbol
+mapType.put("107", BigDecimal.valueOf(107));
+^
+  symbol:   variable mapType
+  location: class Map1Test_test6_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g3/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test6_h3Test1.java:62: error: cannot find symbol
+        String str = JSON.toJSONString(v01);
+                                       ^
+  symbol:   variable v01
+  location: class Map1Test_test6_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/g3/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test6_h3Test1.java:65: error: cannot find symbol
+        assertEquals(v01, v02);
+                     ^
+  symbol:   variable v01
+  location: class Map1Test_test6_h3Test1
+5 errors

@@ -1,0 +1,44 @@
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h7Test5_valid.java:14: error: cannot find symbol
+    String encryptedText = playfairCipher.encrypt(plaintext);
+                                                  ^
+  symbol:   variable plaintext
+  location: class PlayfairTest_testEncryptionAndDecryption_h7Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h7Test5_valid.java:14: error: cannot find symbol
+    String encryptedText = playfairCipher.encrypt(plaintext);
+                           ^
+  symbol:   variable playfairCipher
+  location: class PlayfairTest_testEncryptionAndDecryption_h7Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h7Test5_valid.java:15: error: cannot find symbol
+    String textTodecrypt  = PlayfairTest_testEncryptionAndDecryption.inputTransformation_testEncryptionAndDecryption(playfairCipher, plaintext);
+                                                                                                                     ^
+  symbol:   variable playfairCipher
+  location: class PlayfairTest_testEncryptionAndDecryption_h7Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h7Test5_valid.java:15: error: cannot find symbol
+    String textTodecrypt  = PlayfairTest_testEncryptionAndDecryption.inputTransformation_testEncryptionAndDecryption(playfairCipher, plaintext);
+                                                                                                                                     ^
+  symbol:   variable plaintext
+  location: class PlayfairTest_testEncryptionAndDecryption_h7Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h7Test5_valid.java:16: error: variable encryptedText is already defined in method testEncryptionAndDecryption_h7Test5()
+        String encryptedText = playfairCipher.encrypt(plaintext);
+               ^
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h7Test5_valid.java:16: error: cannot find symbol
+        String encryptedText = playfairCipher.encrypt(plaintext);
+                                                      ^
+  symbol:   variable plaintext
+  location: class PlayfairTest_testEncryptionAndDecryption_h7Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h7Test5_valid.java:16: error: cannot find symbol
+        String encryptedText = playfairCipher.encrypt(plaintext);
+                               ^
+  symbol:   variable playfairCipher
+  location: class PlayfairTest_testEncryptionAndDecryption_h7Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h7Test5_valid.java:17: error: cannot find symbol
+        String decryptedText = playfairCipher.decrypt(textTodecrypt);
+                               ^
+  symbol:   variable playfairCipher
+  location: class PlayfairTest_testEncryptionAndDecryption_h7Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h7Test5_valid.java:18: error: cannot find symbol
+        assertEquals(plaintext, decryptedText);
+                     ^
+  symbol:   variable plaintext
+  location: class PlayfairTest_testEncryptionAndDecryption_h7Test5_valid
+9 errors

@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/audit/AuditInfoTest_testAuditInfoEquality_h6Test7.java:37: error: cannot find symbol
+        Assert.assertEquals(auditInfo1.hashCode(), auditInfo2.hashCode());
+                                                   ^
+  symbol:   variable auditInfo2
+  location: class AuditInfoTest_testAuditInfoEquality_h6Test7
+1 error

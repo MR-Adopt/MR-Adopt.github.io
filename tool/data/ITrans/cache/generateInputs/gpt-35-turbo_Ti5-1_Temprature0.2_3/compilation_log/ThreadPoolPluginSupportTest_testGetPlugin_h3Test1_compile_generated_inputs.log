@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_inputs/g3/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest_testGetPlugin_h3Test1.java:61: error: cannot find symbol
+ThreadPoolPlugin plugin = new AnotherThreadPoolPlugin();
+                              ^
+  symbol:   class AnotherThreadPoolPlugin
+  location: class ThreadPoolPluginSupportTest_testGetPlugin_h3Test1
+1 error

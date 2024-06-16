@@ -1,0 +1,25 @@
+/ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/qw/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h9Test1.java:80: error: cannot find symbol
+        singleAppDeploymentService.addStartupListener(startUpListener1);
+                                                      ^
+  symbol:   variable startUpListener1
+  location: class SingleAppDeploymentServiceTestCase_startupListeners_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/qw/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h9Test1.java:81: error: cannot find symbol
+        singleAppDeploymentService.addStartupListener(startUpListener2);
+                                                      ^
+  symbol:   variable startUpListener2
+  location: class SingleAppDeploymentServiceTestCase_startupListeners_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/qw/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h9Test1.java:82: error: cannot find symbol
+        assertThat(singleAppDeploymentService.getStartupListeners(), hasItems(startUpListener1, startUpListener2));
+                                                                              ^
+  symbol:   variable startUpListener1
+  location: class SingleAppDeploymentServiceTestCase_startupListeners_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/qw/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h9Test1.java:82: error: cannot find symbol
+        assertThat(singleAppDeploymentService.getStartupListeners(), hasItems(startUpListener1, startUpListener2));
+                                                                                                ^
+  symbol:   variable startUpListener2
+  location: class SingleAppDeploymentServiceTestCase_startupListeners_h9Test1
+Note: /ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/qw/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h9Test1.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/qw/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h9Test1.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors

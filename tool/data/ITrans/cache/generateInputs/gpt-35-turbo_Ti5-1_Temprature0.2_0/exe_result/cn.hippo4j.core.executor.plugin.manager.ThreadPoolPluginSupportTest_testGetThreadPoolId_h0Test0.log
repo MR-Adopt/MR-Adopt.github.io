@@ -1,0 +1,102 @@
+JUnit version 4.13.1
+.
+Time: 0.033
+
+OK (1 test)
+
+CMD: cd /ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ ; /ssddata1/cxubl/software/zulu_jdks/zulu11.62.17-ca-jdk11.0.18-linux_x64/bin/java -XX:ActiveProcessorCount=10 -classpath ./:./agent/hippo4j-agent-bootstrap/target/classes:./agent/hippo4j-agent-bootstrap/target/dependency/*:./agent/hippo4j-agent-bootstrap/target/test-classes:./agent/hippo4j-agent-core/target/classes:./agent/hippo4j-agent-core/target/dependency/*:./agent/hippo4j-agent-core/target/test-classes:./agent/hippo4j-agent-plugin/adapter-plugins/dubbo-plugin/target/classes:./agent/hippo4j-agent-plugin/adapter-plugins/dubbo-plugin/target/dependency/*:./agent/hippo4j-agent-plugin/adapter-plugins/dubbo-plugin/target/test-classes:./agent/hippo4j-agent-plugin/adapter-plugins/target/classes:./agent/hippo4j-agent-plugin/adapter-plugins/target/dependency/*:./agent/hippo4j-agent-plugin/apollo-plugin/target/classes:./agent/hippo4j-agent-plugin/apollo-plugin/target/dependency/*:./agent/hippo4j-agent-plugin/apollo-plugin/target/test-classes:./agent/hippo4j-agent-plugin/spring-plugins/spring-boot-1x-plugin/target/classes:./agent/hippo4j-agent-plugin/spring-plugins/spring-boot-1x-plugin/target/dependency/*:./agent/hippo4j-agent-plugin/spring-plugins/spring-boot-1x-plugin/target/test-classes:./agent/hippo4j-agent-plugin/spring-plugins/spring-boot-2x-plugin/target/classes:./agent/hippo4j-agent-plugin/spring-plugins/spring-boot-2x-plugin/target/dependency/*:./agent/hippo4j-agent-plugin/spring-plugins/spring-boot-2x-plugin/target/test-classes:./agent/hippo4j-agent-plugin/spring-plugins/spring-plugin-common/target/classes:./agent/hippo4j-agent-plugin/spring-plugins/spring-plugin-common/target/dependency/*:./agent/hippo4j-agent-plugin/spring-plugins/spring-plugin-common/target/test-classes:./agent/hippo4j-agent-plugin/spring-plugins/target/classes:./agent/hippo4j-agent-plugin/spring-plugins/target/dependency/*:./agent/hippo4j-agent-plugin/threadpool-plugin/target/classes:./agent/hippo4j-agent-plugin/threadpool-plugin/target/dependency/*:./agent/hippo4j-agent-plugin/threadpool-plugin/target/test-classes:./agent/hippo4j-agent-plugin/target/classes:./agent/hippo4j-agent-plugin/target/dependency/*:./agent/target/classes:./docker/target/classes:./docker/target/dependency/*:./examples/threadpool-example/agent/config-apollo/target/classes:./examples/threadpool-example/agent/config-apollo/target/dependency/*:./examples/threadpool-example/agent/config-apollo/target/test-classes:./examples/threadpool-example/agent/target/classes:./examples/threadpool-example/config/config-apollo-spring-boot-1x/target/classes:./examples/threadpool-example/config/config-apollo-spring-boot-1x/target/dependency/*:./examples/threadpool-example/config/config-apollo-spring-boot-1x/target/test-classes:./examples/threadpool-example/config/config-apollo/target/classes:./examples/threadpool-example/config/config-apollo/target/dependency/*:./examples/threadpool-example/config/config-apollo/target/test-classes:./examples/threadpool-example/config/config-consul-spring-boot/target/classes:./examples/threadpool-example/config/config-consul-spring-boot/target/dependency/*:./examples/threadpool-example/config/config-consul-spring-boot/target/test-classes:./examples/threadpool-example/config/config-etcd/target/classes:./examples/threadpool-example/config/config-etcd/target/dependency/*:./examples/threadpool-example/config/config-etcd/target/test-classes:./examples/threadpool-example/config/config-nacos-spring-boot-1x/target/classes:./examples/threadpool-example/config/config-nacos-spring-boot-1x/target/dependency/*:./examples/threadpool-example/config/config-nacos-spring-boot-1x/target/test-classes:./examples/threadpool-example/config/config-nacos/target/classes:./examples/threadpool-example/config/config-nacos/target/dependency/*:./examples/threadpool-example/config/config-nacos/target/test-classes:./examples/threadpool-example/config/config-zookeeper/target/classes:./examples/threadpool-example/config/config-zookeeper/target/dependency/*:./examples/threadpool-example/config/config-zookeeper/target/test-classes:./examples/threadpool-example/config/target/classes:./examples/threadpool-example/example-core/target/classes:./examples/threadpool-example/example-core/target/test-classes:./examples/threadpool-example/example-core/target/dependency/*:./examples/threadpool-example/server/adapter-kafka/target/classes:./examples/threadpool-example/server/adapter-kafka/target/dependency/*:./examples/threadpool-example/server/adapter-kafka/target/test-classes:./examples/threadpool-example/server/adapter-rabbitmq/target/classes:./examples/threadpool-example/server/adapter-rabbitmq/target/dependency/*:./examples/threadpool-example/server/adapter-rabbitmq/target/test-classes:./examples/threadpool-example/server/adapter-rocketmq/target/classes:./examples/threadpool-example/server/adapter-rocketmq/target/dependency/*:./examples/threadpool-example/server/adapter-rocketmq/target/test-classes:./examples/threadpool-example/server/adapter-stream-rabbitmq/target/classes:./examples/threadpool-example/server/adapter-stream-rabbitmq/target/dependency/*:./examples/threadpool-example/server/adapter-stream-rabbitmq/target/test-classes:./examples/threadpool-example/server/adapter-stream-rocketmq/target/classes:./examples/threadpool-example/server/adapter-stream-rocketmq/target/dependency/*:./examples/threadpool-example/server/adapter-stream-rocketmq/target/test-classes:./examples/threadpool-example/server/monitor-elasticsearch/target/classes:./examples/threadpool-example/server/monitor-elasticsearch/target/dependency/*:./examples/threadpool-example/server/monitor-elasticsearch/target/test-classes:./examples/threadpool-example/server/server/target/classes:./examples/threadpool-example/server/server/target/dependency/*:./examples/threadpool-example/server/server/target/test-classes:./examples/threadpool-example/server/target/classes:./examples/threadpool-example/target/classes:./examples/target/classes:./infra/common/target/classes:./infra/common/target/test-classes:./infra/common/target/dependency/*:./infra/toolkit/target/classes:./infra/toolkit/target/test-classes:./infra/target/classes:./kernel/alarm/target/classes:./kernel/alarm/target/dependency/*:./kernel/alarm/target/test-classes:./kernel/dynamic/api/target/classes:./kernel/dynamic/api/target/dependency/*:./kernel/dynamic/api/target/test-classes:./kernel/dynamic/core/target/classes:./kernel/dynamic/core/target/dependency/*:./kernel/dynamic/core/target/test-classes:./kernel/dynamic/mode/config/target/classes:./kernel/dynamic/mode/config/target/dependency/*:./kernel/dynamic/mode/config/target/test-classes:./kernel/dynamic/mode/server/target/classes:./kernel/dynamic/mode/server/target/test-classes:./kernel/dynamic/mode/target/classes:./kernel/dynamic/target/classes:./kernel/message/api/target/classes:./kernel/message/api/target/dependency/*:./kernel/message/api/target/test-classes:./kernel/message/core/target/classes:./kernel/message/core/target/test-classes:./kernel/message/core/target/dependency/*:./kernel/message/mode/config/target/classes:./kernel/message/mode/config/target/test-classes:./kernel/message/mode/server/target/classes:./kernel/message/mode/server/target/test-classes:./kernel/message/mode/target/classes:./kernel/message/target/classes:./kernel/monitor/target/classes:./kernel/monitor/target/dependency/*:./kernel/monitor/target/test-classes:./kernel/target/classes:./starters/threadpool/adapter/alibaba-dubbo/target/classes:./starters/threadpool/adapter/alibaba-dubbo/target/dependency/*:./starters/threadpool/adapter/alibaba-dubbo/target/test-classes:./starters/threadpool/adapter/all/target/classes:./starters/threadpool/adapter/all/target/dependency/*:./starters/threadpool/adapter/all/target/test-classes:./starters/threadpool/adapter/dubbo/target/classes:./starters/threadpool/adapter/dubbo/target/dependency/*:./starters/threadpool/adapter/dubbo/target/test-classes:./starters/threadpool/adapter/dubbox/target/classes:./starters/threadpool/adapter/dubbox/target/dependency/*:./starters/threadpool/adapter/dubbox/target/test-classes:./starters/threadpool/adapter/hystrix/target/classes:./starters/threadpool/adapter/hystrix/target/dependency/*:./starters/threadpool/adapter/hystrix/target/test-classes:./starters/threadpool/adapter/kafka/target/classes:./starters/threadpool/adapter/kafka/target/dependency/*:./starters/threadpool/adapter/kafka/target/test-classes:./starters/threadpool/adapter/rabbitmq/target/classes:./starters/threadpool/adapter/rabbitmq/target/dependency/*:./starters/threadpool/adapter/rabbitmq/target/test-classes:./starters/threadpool/adapter/rocketmq/target/classes:./starters/threadpool/adapter/rocketmq/target/dependency/*:./starters/threadpool/adapter/rocketmq/target/test-classes:./starters/threadpool/adapter/stream-rabbitmq/target/classes:./starters/threadpool/adapter/stream-rabbitmq/target/dependency/*:./starters/threadpool/adapter/stream-rabbitmq/target/test-classes:./starters/threadpool/adapter/stream-rocketmq/target/classes:./starters/threadpool/adapter/stream-rocketmq/target/dependency/*:./starters/threadpool/adapter/stream-rocketmq/target/test-classes:./starters/threadpool/adapter/web/target/classes:./starters/threadpool/adapter/web/target/dependency/*:./starters/threadpool/adapter/web/target/test-classes:./starters/threadpool/adapter/target/classes:./starters/threadpool/config-spring-boot-1x/target/classes:./starters/threadpool/config-spring-boot-1x/target/dependency/*:./starters/threadpool/config-spring-boot-1x/target/test-classes:./starters/threadpool/config/target/classes:./starters/threadpool/config/target/dependency/*:./starters/threadpool/config/target/test-classes:./starters/threadpool/monitor/hippo4j-spring-boot-starter-monitor-elasticsearch/target/classes:./starters/threadpool/monitor/hippo4j-spring-boot-starter-monitor-elasticsearch/target/dependency/*:./starters/threadpool/monitor/hippo4j-spring-boot-starter-monitor-elasticsearch/target/test-classes:./starters/threadpool/monitor/hippo4j-spring-boot-starter-monitor-local-log/target/classes:./starters/threadpool/monitor/hippo4j-spring-boot-starter-monitor-local-log/target/dependency/*:./starters/threadpool/monitor/hippo4j-spring-boot-starter-monitor-local-log/target/test-classes:./starters/threadpool/monitor/hippo4j-spring-boot-starter-monitor-micrometer/target/classes:./starters/threadpool/monitor/hippo4j-spring-boot-starter-monitor-micrometer/target/dependency/*:./starters/threadpool/monitor/hippo4j-spring-boot-starter-monitor-micrometer/target/test-classes:./starters/threadpool/monitor/target/classes:./starters/threadpool/server/target/classes:./starters/threadpool/server/target/dependency/*:./starters/threadpool/server/target/test-classes:./starters/threadpool/target/classes:./starters/target/classes:./tests/target/classes:./tests/target/test-classes:./threadpool/adapter/alibaba-dubbo/target/classes:./threadpool/adapter/alibaba-dubbo/target/dependency/*:./threadpool/adapter/alibaba-dubbo/target/test-classes:./threadpool/adapter/base/target/classes:./threadpool/adapter/base/target/dependency/*:./threadpool/adapter/base/target/test-classes:./threadpool/adapter/dubbo/target/classes:./threadpool/adapter/dubbo/target/dependency/*:./threadpool/adapter/dubbo/target/test-classes:./threadpool/adapter/dubbox/target/classes:./threadpool/adapter/dubbox/target/dependency/*:./threadpool/adapter/dubbox/target/test-classes:./threadpool/adapter/hystrix/target/classes:./threadpool/adapter/hystrix/target/dependency/*:./threadpool/adapter/hystrix/target/test-classes:./threadpool/adapter/kafka/target/classes:./threadpool/adapter/kafka/target/dependency/*:./threadpool/adapter/kafka/target/test-classes:./threadpool/adapter/rabbitmq/target/classes:./threadpool/adapter/rabbitmq/target/dependency/*:./threadpool/adapter/rabbitmq/target/test-classes:./threadpool/adapter/rocketmq/target/classes:./threadpool/adapter/rocketmq/target/dependency/*:./threadpool/adapter/rocketmq/target/test-classes:./threadpool/adapter/stream-rabbitmq/target/classes:./threadpool/adapter/stream-rabbitmq/target/dependency/*:./threadpool/adapter/stream-rabbitmq/target/test-classes:./threadpool/adapter/stream-rocketmq/target/classes:./threadpool/adapter/stream-rocketmq/target/dependency/*:./threadpool/adapter/stream-rocketmq/target/test-classes:./threadpool/adapter/web/target/classes:./threadpool/adapter/web/target/dependency/*:./threadpool/adapter/web/target/test-classes:./threadpool/adapter/target/classes:./threadpool/core/target/classes:./threadpool/core/target/test-classes:./threadpool/core/target/dependency/*:./threadpool/message/target/classes:./threadpool/message/target/dependency/*:./threadpool/message/target/test-classes:./threadpool/monitor/base/target/classes:./threadpool/monitor/base/target/dependency/*:./threadpool/monitor/base/target/test-classes:./threadpool/monitor/elasticsearch/target/classes:./threadpool/monitor/elasticsearch/target/dependency/*:./threadpool/monitor/elasticsearch/target/test-classes:./threadpool/monitor/local-log/target/classes:./threadpool/monitor/local-log/target/dependency/*:./threadpool/monitor/local-log/target/test-classes:./threadpool/monitor/micrometer/target/classes:./threadpool/monitor/micrometer/target/dependency/*:./threadpool/monitor/micrometer/target/test-classes:./threadpool/monitor/target/classes:./threadpool/rpc/target/classes:./threadpool/rpc/target/test-classes:./threadpool/rpc/target/dependency/*:./threadpool/server/auth/target/classes:./threadpool/server/auth/target/test-classes:./threadpool/server/auth/target/dependency/*:./threadpool/server/bootstrap/target/classes:./threadpool/server/bootstrap/target/dependency/*:./threadpool/server/bootstrap/target/test-classes:./threadpool/server/common/target/classes:./threadpool/server/common/target/test-classes:./threadpool/server/common/target/dependency/*:./threadpool/server/config/target/classes:./threadpool/server/config/target/test-classes:./threadpool/server/config/target/dependency/*:./threadpool/server/console/target/classes:./threadpool/server/console/target/dependency/*:./threadpool/server/console/target/test-classes:./threadpool/server/discovery/target/classes:./threadpool/server/discovery/target/dependency/*:./threadpool/server/discovery/target/test-classes:./threadpool/server/target/classes:./threadpool/target/classes:./target/classes:/ssddata1/cxubl/software/junit/junit-4.13.2.jar:/ssddata1/cxubl/software/junit/junit-jupiter-api-5.8.2.jar:/ssddata1/cxubl/software/junit/hamcrest-core-1.3.jar:/ssddata1/cxubl/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar:/ssddata1/cxubl/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar:/ssddata1/cxubl/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-test/5.3.26/spring-test-5.3.26.jar:/ssddata1/cxubl/data/ITrans/projects/thingsboard__castle__thingsboard/dao/target/dependency/commons-logging-1.2.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-core/5.3.2/spring-core-5.3.26.jar:arex-instrumentation-api/target/dependency/jackson-annotations-2.13.1.jar:arex-instrumentation-api/target/dependency/gson-2.10.1.jar:misc/extra/target/dependency/vecmath-1.5.2.jar:/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/processed_GT_only/:/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/processed_MTCITrans_only/:/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_ITrans/:/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_inputs/:/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_inputs/g3:/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_inputs/ org.junit.runner.JUnitCore cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest_testGetThreadPoolId_h0Test0 > /ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/AutoMR/test_exe/cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest_testGetThreadPoolId_h0Test0.log 2>&1
+file path: 
+/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_inputs/g3/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest_testGetThreadPoolId_h0Test0.java
+file content: 
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the License); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package cn.hippo4j.core.executor.plugin.manager;
+
+import cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport.*;
+import cn.hippo4j.core.executor.ExtensibleThreadPoolExecutor;
+import cn.hippo4j.core.executor.plugin.ExecuteAwarePlugin;
+import cn.hippo4j.core.executor.plugin.RejectedAwarePlugin;
+import cn.hippo4j.core.executor.plugin.ShutdownAwarePlugin;
+import cn.hippo4j.core.executor.plugin.TaskAwarePlugin;
+import cn.hippo4j.core.executor.plugin.ThreadPoolPlugin;
+import cn.hippo4j.core.executor.plugin.manager.DefaultThreadPoolPluginManager;
+import cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginManager;
+import cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import org.junit.Assert;
+import org.junit.Test;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+/**
+ * test for default method of {@link ThreadPoolPluginSupport}
+ */
+public class ThreadPoolPluginSupportTest_testGetThreadPoolId_h0Test0 {
+
+    private static ThreadPoolPluginManager manager = new DefaultThreadPoolPluginManager();
+
+    private ExtensibleThreadPoolExecutor executor = new ExtensibleThreadPoolExecutor(test, manager, 5, 5, 1000L, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(1), Thread::new, new ThreadPoolExecutor.AbortPolicy());
+
+    private ThreadPoolPluginSupport support = new TestSupport(executor.getThreadPoolId(), executor, manager);
+
+    @Test
+    public void testGetThreadPoolId_h0Test0() {
+        ExtensibleThreadPoolExecutor executor = new ExtensibleThreadPoolExecutor(test, manager, 5, 5, 1000L, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(1), Thread::new, new ThreadPoolExecutor.AbortPolicy());
+        ThreadPoolPluginSupport support = new TestSupport(executor.getThreadPoolId(), executor, manager);
+        Assert.assertEquals(executor.getThreadPoolId(), support.getThreadPoolId());
+    }
+
+    @Getter
+    @RequiredArgsConstructor
+    private static class TestSupport implements ThreadPoolPluginSupport {
+
+        private final String threadPoolId;
+
+        private final ExtensibleThreadPoolExecutor threadPoolExecutor;
+
+        private final ThreadPoolPluginManager threadPoolPluginManager;
+    }
+
+    // ================ default delegate method ================
+    @Getter
+    private final static class TestTaskAwarePlugin implements TaskAwarePlugin {
+
+        private final String id = this.getClass().getSimpleName();
+    }
+
+    @Getter
+    private final static class TestExecuteAwarePlugin implements ExecuteAwarePlugin {
+
+        private final String id = this.getClass().getSimpleName();
+    }
+
+    @Getter
+    private final static class TestRejectedAwarePlugin implements RejectedAwarePlugin {
+
+        private final String id = this.getClass().getSimpleName();
+    }
+
+    @Getter
+    private final static class TestShutdownAwarePlugin implements ShutdownAwarePlugin {
+
+        private final String id = this.getClass().getSimpleName();
+    }
+}
+
+

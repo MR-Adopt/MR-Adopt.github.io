@@ -1,0 +1,17 @@
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/g3/com/github/underscore/XmlBuilderTest_toJson_h4Test3.java:44: error: cannot find symbol
+XmlBuilder xmlBuilder2 = new XmlBuilder(Xml.XmlValue.getMapKey(xmlBuilder.getData()));
+                                                                         ^
+  symbol:   method getData()
+  location: variable xmlBuilder of type XmlBuilder
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/g3/com/github/underscore/XmlBuilderTest_toJson_h4Test3.java:45: error: cannot find symbol
+xmlBuilder2.setData(xmlBuilder.getData());
+                              ^
+  symbol:   method getData()
+  location: variable xmlBuilder of type XmlBuilder
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/g3/com/github/underscore/XmlBuilderTest_toJson_h4Test3.java:47: error: variable xmlBuilder is already defined in method toJson_h4Test3()
+        XmlBuilder xmlBuilder = XmlBuilder.parse(XML);
+                   ^
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/g3/com/github/underscore/XmlBuilderTest_toJson_h4Test3.java:48: error: variable xmlBuilder2 is already defined in method toJson_h4Test3()
+        XmlBuilder xmlBuilder2 = XmlBuilder.parse(XML2);
+                   ^
+4 errors

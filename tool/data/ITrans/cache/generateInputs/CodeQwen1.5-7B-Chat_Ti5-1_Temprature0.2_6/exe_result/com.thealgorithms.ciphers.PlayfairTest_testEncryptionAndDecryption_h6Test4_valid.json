@@ -1,0 +1,19 @@
+{
+    "com.thealgorithms.ciphers.PlayfairTest_testEncryptionAndDecryption_h6Test4_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 1,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [
+            "testEncryptionAndDecryption_h6Test4"
+        ],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "testEncryptionAndDecryption_h6Test4": "org.opentest4j.AssertionFailedError: expected: <ABC> but was: <ABCX>"
+        }
+    }
+}

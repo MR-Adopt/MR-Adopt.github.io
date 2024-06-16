@@ -1,0 +1,17 @@
+{
+    "cn.hutool.json.IssueI7GPGXTest_toBeanTest_h9Test7_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 1,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": 0,
+        "assertionLineNums": false,
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [
+            "toBeanTest_h9Test7"
+        ],
+        "failure_info": {}
+    }
+}

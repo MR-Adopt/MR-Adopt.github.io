@@ -1,0 +1,5 @@
+As an expert in Java programming, you are good at understanding code intention, writing test cases to cover diverse test scenarios. 
+Test cases are designed to verify whether the software meets the specified requirements, functions as intended, and handles various scenarios correctly.
+
+Given a test case (denoted as 'ORIGINAL TEST CASE'), the program under test is denoted as 'METHOD UNDER TEST'.
+Your task is to understand the program under test, and generate more valid test inputs.

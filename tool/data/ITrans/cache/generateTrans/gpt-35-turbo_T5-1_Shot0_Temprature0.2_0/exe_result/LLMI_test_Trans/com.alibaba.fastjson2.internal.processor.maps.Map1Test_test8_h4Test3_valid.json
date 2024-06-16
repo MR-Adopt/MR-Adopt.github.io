@@ -1,0 +1,19 @@
+{
+    "com.alibaba.fastjson2.internal.processor.maps.Map1Test_test8_h4Test3_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "test8_h4Test3"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "test8_h4Test3": "java.lang.NoSuchMethodError: 'java.util.List com.alibaba.fastjson2.internal.processor.maps.Map1Test_test8.inputTransformation_test8(java.util.Map)'"
+        }
+    }
+}

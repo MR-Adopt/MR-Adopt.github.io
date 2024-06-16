@@ -1,0 +1,7 @@
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/qw4ITrans/com/github/underscore/XmlBuilderTest_toXml_h7Test1_valid.java:46: error: variable XML2 is already defined in method toXml_h7Test1()
+        String XML2 = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<Projects>\n" + "  <underscore-java language=\"Java\" scm=\"SVN\">\n" + "    <Location type=\"URL\">https://github.com/javadev/underscore-java/</Location>\n" + "  </underscore-java>\n" + "  <JetS3t language=\"Java\" scm=\"CVS\">\n" + "    <Location type=\"URL\">https://jets3t.s3.amazonaws.com/index.html</Location>\n" + "  </JetS3t>\n" + "</Projects>";
+               ^
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/qw4ITrans/com/github/underscore/XmlBuilderTest_toXml_h7Test1_valid.java:48: error: variable xmlBuilder2 is already defined in method toXml_h7Test1()
+        XmlBuilder xmlBuilder2  = XmlBuilderTest_toXml.inputTransformation_toXml(XML);
+                   ^
+2 errors

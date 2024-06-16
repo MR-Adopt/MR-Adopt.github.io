@@ -1,0 +1,19 @@
+{
+    "org.opentripplanner.framework.token.FieldDefinitionTest_testEqualsAndHashCode_h6Test8_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "testEqualsAndHashCode_h6Test8"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "testEqualsAndHashCode_h6Test8": "java.lang.NoClassDefFoundError: org/opentripplanner/framework/token/FieldDefinitionTest_testEqualsAndHashCode"
+        }
+    }
+}

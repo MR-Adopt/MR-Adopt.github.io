@@ -1,0 +1,21 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_ITrans/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey.java:21: error: cannot find symbol
+        EqualityFilter f4 = new EqualityFilter(f3.getField(), f3.getType(), f3.getValue(), f3.getExtractionFn());
+                                                 ^
+  symbol:   method getField()
+  location: variable f3 of type EqualityFilter
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_ITrans/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey.java:21: error: cannot find symbol
+        EqualityFilter f4 = new EqualityFilter(f3.getField(), f3.getType(), f3.getValue(), f3.getExtractionFn());
+                                                                ^
+  symbol:   method getType()
+  location: variable f3 of type EqualityFilter
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_ITrans/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey.java:21: error: cannot find symbol
+        EqualityFilter f4 = new EqualityFilter(f3.getField(), f3.getType(), f3.getValue(), f3.getExtractionFn());
+                                                                              ^
+  symbol:   method getValue()
+  location: variable f3 of type EqualityFilter
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_ITrans/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey.java:21: error: cannot find symbol
+        EqualityFilter f4 = new EqualityFilter(f3.getField(), f3.getType(), f3.getValue(), f3.getExtractionFn());
+                                                                                             ^
+  symbol:   method getExtractionFn()
+  location: variable f3 of type EqualityFilter
+4 errors

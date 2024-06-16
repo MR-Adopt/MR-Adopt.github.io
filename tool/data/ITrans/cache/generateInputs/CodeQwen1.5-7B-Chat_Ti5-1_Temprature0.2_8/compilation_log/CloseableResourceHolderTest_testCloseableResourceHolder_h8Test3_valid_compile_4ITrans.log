@@ -1,0 +1,16 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/collections/CloseableResourceHolderTest_testCloseableResourceHolder_h8Test3_valid.java:42: error: <identifier> expected
+        Assert.assertSame(closeable, holder2.get());
+                         ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/collections/CloseableResourceHolderTest_testCloseableResourceHolder_h8Test3_valid.java:42: error: <identifier> expected
+        Assert.assertSame(closeable, holder2.get());
+                                   ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/collections/CloseableResourceHolderTest_testCloseableResourceHolder_h8Test3_valid.java:42: error: <identifier> expected
+        Assert.assertSame(closeable, holder2.get());
+                                                ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/collections/CloseableResourceHolderTest_testCloseableResourceHolder_h8Test3_valid.java:43: error: ';' expected
+    }
+     ^
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/collections/CloseableResourceHolderTest_testCloseableResourceHolder_h8Test3_valid.java:44: error: reached end of file while parsing
+}
+ ^
+5 errors

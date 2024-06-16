@@ -1,0 +1,21 @@
+/ssddata1/cxubl/data/ITrans/projects/sakaiproject__castle__sakai/ITrans/generated_inputs/qw4ITrans/org/tsugi/util/Base64DoubleUrlEncodeSafeTest_testEncodeAndDecode_h7Test3_valid.java:20: error: cannot find symbol
+    String encoded2  = Base64DoubleUrlEncodeSafeTest_testEncodeAndDecode.inputTransformation_testEncodeAndDecode(input);
+                                                                                                                 ^
+  symbol:   variable input
+  location: class Base64DoubleUrlEncodeSafeTest_testEncodeAndDecode_h7Test3_valid
+/ssddata1/cxubl/data/ITrans/projects/sakaiproject__castle__sakai/ITrans/generated_inputs/qw4ITrans/org/tsugi/util/Base64DoubleUrlEncodeSafeTest_testEncodeAndDecode_h7Test3_valid.java:21: error: cannot find symbol
+        String encoded = Base64DoubleUrlEncodeSafe.encode(input);
+                                                          ^
+  symbol:   variable input
+  location: class Base64DoubleUrlEncodeSafeTest_testEncodeAndDecode_h7Test3_valid
+/ssddata1/cxubl/data/ITrans/projects/sakaiproject__castle__sakai/ITrans/generated_inputs/qw4ITrans/org/tsugi/util/Base64DoubleUrlEncodeSafeTest_testEncodeAndDecode_h7Test3_valid.java:23: error: cannot find symbol
+        assertEquals("Decoding did not produce the original string for input: " + input, input, decoded);
+                                                                                  ^
+  symbol:   variable input
+  location: class Base64DoubleUrlEncodeSafeTest_testEncodeAndDecode_h7Test3_valid
+/ssddata1/cxubl/data/ITrans/projects/sakaiproject__castle__sakai/ITrans/generated_inputs/qw4ITrans/org/tsugi/util/Base64DoubleUrlEncodeSafeTest_testEncodeAndDecode_h7Test3_valid.java:23: error: cannot find symbol
+        assertEquals("Decoding did not produce the original string for input: " + input, input, decoded);
+                                                                                         ^
+  symbol:   variable input
+  location: class Base64DoubleUrlEncodeSafeTest_testEncodeAndDecode_h7Test3_valid
+4 errors

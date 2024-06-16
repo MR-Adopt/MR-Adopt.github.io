@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/quartz-scheduler__castle__quartz/ITrans/generated_inputs/qw/org/quartz/impl/RemoteMBeanSchedulerTest_testJobOperations_h6Test8.java:98: error: cannot find symbol
+    JobDetail job2Detail = newJob(HelloJob.class).withIdentity(new JobKey("job2", GROUP_KEY)).storeDurably().withSchedule(cronSchedule("0 0/5 * * *?")).build();
+                                                                                                                          ^
+  symbol:   method cronSchedule(String)
+  location: class RemoteMBeanSchedulerTest_testJobOperations_h6Test8
+1 error

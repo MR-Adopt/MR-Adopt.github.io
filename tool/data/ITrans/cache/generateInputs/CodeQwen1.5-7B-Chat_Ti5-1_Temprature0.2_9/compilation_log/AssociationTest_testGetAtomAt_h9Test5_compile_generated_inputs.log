@@ -1,0 +1,31 @@
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h9Test5.java:43: error: cannot find symbol
+    association.setAtomAt(n, position);
+                             ^
+  symbol:   variable position
+  location: class AssociationTest_testGetAtomAt_h9Test5
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h9Test5.java:43: error: cannot find symbol
+    association.setAtomAt(n, position);
+    ^
+  symbol:   variable association
+  location: class AssociationTest_testGetAtomAt_h9Test5
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h9Test5.java:44: error: cannot find symbol
+    Association association2 = new Association(n, o);
+                                                  ^
+  symbol:   variable o
+  location: class AssociationTest_testGetAtomAt_h9Test5
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h9Test5.java:47: error: cannot find symbol
+        association.setAtomAt(n, position);
+                                 ^
+  symbol:   variable position
+  location: class AssociationTest_testGetAtomAt_h9Test5
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h9Test5.java:47: error: cannot find symbol
+        association.setAtomAt(n, position);
+        ^
+  symbol:   variable association
+  location: class AssociationTest_testGetAtomAt_h9Test5
+/ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/ITrans/generated_inputs/qw/org/openscience/cdk/AssociationTest_testGetAtomAt_h9Test5.java:48: error: cannot find symbol
+        Assertions.assertEquals(n, association2.getAtomAt(position2));
+                                                          ^
+  symbol:   variable position2
+  location: class AssociationTest_testGetAtomAt_h9Test5
+6 errors

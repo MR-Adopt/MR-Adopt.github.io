@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest_test_h9Test4.java:17: error: cannot find symbol
+    v01.add(new BigDecimal("123.456"));
+                ^
+  symbol:   class BigDecimal
+  location: class JSONArrayTest_test_h9Test4
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest_test_h9Test4.java:18: error: cannot find symbol
+    v01.add(new BigInteger("987654321"));
+                ^
+  symbol:   class BigInteger
+  location: class JSONArrayTest_test_h9Test4
+2 errors

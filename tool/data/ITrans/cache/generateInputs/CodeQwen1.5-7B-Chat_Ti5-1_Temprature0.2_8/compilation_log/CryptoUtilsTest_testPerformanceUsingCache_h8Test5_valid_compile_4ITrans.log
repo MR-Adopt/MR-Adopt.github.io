@@ -1,0 +1,29 @@
+Note: Hibernate/JPA static Metamodel Generator 6.3.1.Final
+warning: Unable to parse persistence.xml: Unable to perform unmarshalling at line number 0 and column 0. Message: null
+/ssddata1/cxubl/data/ITrans/projects/vladmihalcea__castle__high-performance-java-persistence/ITrans/generated_inputs/qw4ITrans/com/vladmihalcea/hpjp/util/CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid.java:56: error: cannot find symbol
+        if (encryptedValue == null) {
+            ^
+  symbol:   variable encryptedValue
+  location: class CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/vladmihalcea__castle__high-performance-java-persistence/ITrans/generated_inputs/qw4ITrans/com/vladmihalcea/hpjp/util/CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid.java:58: error: cannot find symbol
+            encryptedValue = CryptoUtils.encrypt(value);
+            ^
+  symbol:   variable encryptedValue
+  location: class CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/vladmihalcea__castle__high-performance-java-persistence/ITrans/generated_inputs/qw4ITrans/com/vladmihalcea/hpjp/util/CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid.java:59: error: cannot find symbol
+            encryptCache.put(value, encryptedValue);
+                                    ^
+  symbol:   variable encryptedValue
+  location: class CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/vladmihalcea__castle__high-performance-java-persistence/ITrans/generated_inputs/qw4ITrans/com/vladmihalcea/hpjp/util/CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid.java:63: error: cannot find symbol
+        Long decryptedValue = decryptCache.get(encryptedValue);
+                                               ^
+  symbol:   variable encryptedValue
+  location: class CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/vladmihalcea__castle__high-performance-java-persistence/ITrans/generated_inputs/qw4ITrans/com/vladmihalcea/hpjp/util/CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid.java:67: error: cannot find symbol
+            decryptCache.put(encryptedValue, decryptedValue);
+                             ^
+  symbol:   variable encryptedValue
+  location: class CryptoUtilsTest_testPerformanceUsingCache_h8Test5_valid
+5 errors
+1 warning

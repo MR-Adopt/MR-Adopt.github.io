@@ -1,0 +1,19 @@
+{
+    "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase_returnsMuleLoggerContextForInternalArtifactClassLoader_h9Test5_valid": {
+        "num_of_test_cases": 3,
+        "num_of_passed_test_cases": 3,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": 0,
+        "assertionLineNums": false,
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [
+            "before",
+            "returnsMuleLoggerContextForInternalArtifactClassLoader_h9Test5",
+            "assertReaperThreadNotRunning"
+        ],
+        "failure_info": {}
+    }
+}

@@ -1,0 +1,54 @@
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:53: error: cannot find symbol
+    shifted2.set(i, j, Math.pow(i, j));
+                 ^
+  symbol:   variable i
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:53: error: cannot find symbol
+    shifted2.set(i, j, Math.pow(i, j));
+                    ^
+  symbol:   variable j
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:53: error: cannot find symbol
+    shifted2.set(i, j, Math.pow(i, j));
+                                ^
+  symbol:   variable i
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:53: error: cannot find symbol
+    shifted2.set(i, j, Math.pow(i, j));
+                                   ^
+  symbol:   variable j
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:60: error: cannot find symbol
+            BasicLogger.debugMatrix("Original " + r + "x" + c, original);
+                                                               ^
+  symbol:   variable original
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:62: error: cannot find symbol
+        MatrixStore<Double> shifted = DiscreteFourierTransform.shift(original);
+                                                                     ^
+  symbol:   variable original
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:69: error: cannot find symbol
+        MatrixStore<Double> retVal = original;
+                                     ^
+  symbol:   variable original
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:70: error: cannot find symbol
+        int nbRows = original.getRowDim();
+                     ^
+  symbol:   variable original
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:71: error: cannot find symbol
+        int nbCols = original.getColDim();
+                     ^
+  symbol:   variable original
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:84: error: variable shifted2 is already defined in method testShiftAndRevertEven_h1Test7()
+        MatrixStore<Double> shifted2 = retVal;
+                            ^
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g34ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid.java:89: error: cannot find symbol
+        TestUtils.assertEquals(original, reverted);
+                               ^
+  symbol:   variable original
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test7_valid
+11 errors

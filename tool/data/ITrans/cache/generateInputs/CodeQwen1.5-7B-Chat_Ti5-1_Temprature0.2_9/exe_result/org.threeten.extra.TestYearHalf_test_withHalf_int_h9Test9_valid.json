@@ -1,0 +1,19 @@
+{
+    "org.threeten.extra.TestYearHalf_test_withHalf_int_h9Test9_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "test_withHalf_int_h9Test9"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "test_withHalf_int_h9Test9": "java.time.DateTimeException: Invalid value for HalfOfYear (valid values 1 - 2): 3"
+        }
+    }
+}

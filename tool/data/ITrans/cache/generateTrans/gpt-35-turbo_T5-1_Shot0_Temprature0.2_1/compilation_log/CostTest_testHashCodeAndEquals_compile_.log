@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/opentripplanner__castle__OpenTripPlanner/ITrans/generated_ITrans/org/opentripplanner/framework/model/CostTest_testHashCodeAndEquals.java:20: error: cannot find symbol
+        int newValue = subject.getValue() + 1;
+                              ^
+  symbol:   method getValue()
+  location: variable subject of type Cost
+1 error

@@ -1,0 +1,19 @@
+{
+    "org.ethereum.rpc.FilterTest_testGetNewEvents_h4Test4_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 1,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [
+            "testGetNewEvents_h4Test4"
+        ],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "testGetNewEvents_h4Test4": "org.opentest4j.AssertionFailedError: array lengths differ, expected: <1> but was: <2>"
+        }
+    }
+}

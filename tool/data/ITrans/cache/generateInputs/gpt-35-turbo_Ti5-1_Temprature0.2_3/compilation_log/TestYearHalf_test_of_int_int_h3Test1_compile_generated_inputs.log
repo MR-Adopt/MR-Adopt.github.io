@@ -1,0 +1,51 @@
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:136: error: cannot find symbol
+        YearHalf test = YearHalf.of(year, half);
+                                    ^
+  symbol:   variable year
+  location: class TestYearHalf_test_of_int_int_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:136: error: cannot find symbol
+        YearHalf test = YearHalf.of(year, half);
+                                          ^
+  symbol:   variable half
+  location: class TestYearHalf_test_of_int_int_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:137: error: cannot find symbol
+        assertEquals(year, test.getYear());
+                     ^
+  symbol:   variable year
+  location: class TestYearHalf_test_of_int_int_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:138: error: cannot find symbol
+        assertEquals(half, test2.getHalfValue());
+                     ^
+  symbol:   variable half
+  location: class TestYearHalf_test_of_int_int_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:138: error: cannot find symbol
+        assertEquals(half, test2.getHalfValue());
+                           ^
+  symbol:   variable test2
+  location: class TestYearHalf_test_of_int_int_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:139: error: cannot find symbol
+        assertEquals(Half.of(half), test.getHalf());
+                             ^
+  symbol:   variable half
+  location: class TestYearHalf_test_of_int_int_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:140: error: cannot find symbol
+        assertEquals(test, YearHalf.of(year, half));
+                                       ^
+  symbol:   variable year
+  location: class TestYearHalf_test_of_int_int_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:140: error: cannot find symbol
+        assertEquals(test, YearHalf.of(year, half));
+                                             ^
+  symbol:   variable half
+  location: class TestYearHalf_test_of_int_int_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:141: error: cannot find symbol
+        assertEquals(test.hashCode(), YearHalf.of(year, half).hashCode());
+                                                  ^
+  symbol:   variable year
+  location: class TestYearHalf_test_of_int_int_h3Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestYearHalf_test_of_int_int_h3Test1.java:141: error: cannot find symbol
+        assertEquals(test.hashCode(), YearHalf.of(year, half).hashCode());
+                                                        ^
+  symbol:   variable half
+  location: class TestYearHalf_test_of_int_int_h3Test1
+10 errors

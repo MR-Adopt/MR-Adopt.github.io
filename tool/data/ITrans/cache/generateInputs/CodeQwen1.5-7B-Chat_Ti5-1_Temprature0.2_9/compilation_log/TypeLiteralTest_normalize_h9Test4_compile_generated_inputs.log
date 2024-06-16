@@ -1,0 +1,14 @@
+/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h9Test4.java:33: error: constructor Class in class Class<T> cannot be applied to given types;
+    Class input = new Class() {};
+                  ^
+  required: ClassLoader,Class
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Class
+/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h9Test4.java:33: error: cannot inherit from final Class
+    Class input = new Class() {};
+                      ^
+Note: /ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h9Test4.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors

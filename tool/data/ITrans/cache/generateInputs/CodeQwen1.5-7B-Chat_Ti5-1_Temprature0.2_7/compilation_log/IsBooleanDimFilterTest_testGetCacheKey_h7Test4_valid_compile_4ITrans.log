@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey_h7Test4_valid.java:41: error: cannot find symbol
+    f3.setFilterContext("world");
+      ^
+  symbol:   method setFilterContext(String)
+  location: variable f3 of type EqualityFilter
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey_h7Test4_valid.java:43: error: cannot find symbol
+    f4.setFilterContext("world");
+      ^
+  symbol:   method setFilterContext(String)
+  location: variable f4 of type EqualityFilter
+2 errors

@@ -1,0 +1,21 @@
+/ssddata1/cxubl/data/ITrans/projects/dromara__castle__hutool/ITrans/generated_inputs/qw/cn/hutool/json/IssueI6SZYBTest_pairTest_h6Test1.java:19: error: cannot find symbol
+        String jsonStr = JSONUtil.toJsonStr(pair);
+                                            ^
+  symbol:   variable pair
+  location: class IssueI6SZYBTest_pairTest_h6Test1
+/ssddata1/cxubl/data/ITrans/projects/dromara__castle__hutool/ITrans/generated_inputs/qw/cn/hutool/json/IssueI6SZYBTest_pairTest_h6Test1.java:20: error: cannot find symbol
+        final Pair bean = JSONUtil.toBean(jsonString, beanClass);
+                                          ^
+  symbol:   variable jsonString
+  location: class IssueI6SZYBTest_pairTest_h6Test1
+/ssddata1/cxubl/data/ITrans/projects/dromara__castle__hutool/ITrans/generated_inputs/qw/cn/hutool/json/IssueI6SZYBTest_pairTest_h6Test1.java:20: error: cannot find symbol
+        final Pair bean = JSONUtil.toBean(jsonString, beanClass);
+                                                      ^
+  symbol:   variable beanClass
+  location: class IssueI6SZYBTest_pairTest_h6Test1
+/ssddata1/cxubl/data/ITrans/projects/dromara__castle__hutool/ITrans/generated_inputs/qw/cn/hutool/json/IssueI6SZYBTest_pairTest_h6Test1.java:21: error: cannot find symbol
+        Assert.assertEquals(pair, bean);
+                            ^
+  symbol:   variable pair
+  location: class IssueI6SZYBTest_pairTest_h6Test1
+4 errors

@@ -1,0 +1,9 @@
+Note: Hibernate/JPA static Metamodel Generator 6.3.1.Final
+warning: Unable to parse persistence.xml: Unable to perform unmarshalling at line number 0 and column 0. Message: null
+/ssddata1/cxubl/data/ITrans/projects/vladmihalcea__castle__high-performance-java-persistence/ITrans/generated_inputs/g3/com/vladmihalcea/hpjp/util/CryptoUtilsTest_testPerformance_h0Test3.java:50: error: cannot find symbol
+    String message = encryptedValue;
+                     ^
+  symbol:   variable encryptedValue
+  location: class CryptoUtilsTest_testPerformance_h0Test3
+1 error
+1 warning

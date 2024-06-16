@@ -1,0 +1,92 @@
+package com.alibaba.fastjson2.internal.processor.maps;
+
+import com.alibaba.fastjson2.internal.processor.maps.Map1Test_test6;
+
+import com.alibaba.fastjson2.JSON.*;
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.annotation.JSONCompiled;
+import org.junit.jupiter.api.Test;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import com.alibaba.fastjson.TypeReference;
+import java.lang.reflect.Type;
+import java.util.List;
+import java.util.Arrays;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class Map1Test_test6_h3Test4_valid {
+
+    @JSONCompiled
+    public static class Bean {
+
+        public Map<String, String> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean1 {
+
+        public Map<String, Integer> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean2 {
+
+        public Map<String, Long> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean3 {
+
+        public Map<String, Boolean> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean4 {
+
+        public Map<String, Float> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean5 {
+
+        public Map<String, Double> v01;
+    }
+
+    @Test
+    public void test6_h3Test4() {
+		List<Object> transformed_inputs = Map1Test_test6.inputTransformation_test6(v01);
+String str2  = (String) transformed_inputs.get(0);
+mapType.put("117", BigDecimal.valueOf(117));
+mapType.put("118", BigDecimal.valueOf(118));
+mapType.put("119", BigDecimal.valueOf(119));
+mapType.put("120", BigDecimal.valueOf(120));
+mapType.put("121", BigDecimal.valueOf(121));
+mapType.put("122", BigDecimal.valueOf(122));
+        String str = JSON.toJSONString(v01);
+        Map<String, BigDecimal> v02 = JSON.parseObject(str, new TypeReference<Map<String, BigDecimal>>() {
+        }.getType());
+        assertEquals(v01, v02);
+    }
+
+    @JSONCompiled
+    public static class Bean6 {
+
+        public Map<String, BigDecimal> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean7 {
+
+        public Map<String, BigInteger> v01;
+    }
+
+    @JSONCompiled
+    public static class Bean8 {
+
+        public Map<String, UUID> v01;
+    }
+}
+

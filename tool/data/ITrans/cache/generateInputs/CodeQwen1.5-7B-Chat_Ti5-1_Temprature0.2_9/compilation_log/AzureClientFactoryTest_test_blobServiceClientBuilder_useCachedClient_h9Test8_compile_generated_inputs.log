@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/storage/azure/AzureClientFactoryTest_test_blobServiceClientBuilder_useCachedClient_h9Test8.java:44: error: cannot find symbol
+    Integer retryCount1 = config.getMaxTries();
+                          ^
+  symbol:   variable config
+  location: class AzureClientFactoryTest_test_blobServiceClientBuilder_useCachedClient_h9Test8
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/storage/azure/AzureClientFactoryTest_test_blobServiceClientBuilder_useCachedClient_h9Test8.java:46: error: cannot find symbol
+    Integer retryCount2 = config.getMaxTries();
+                          ^
+  symbol:   variable config
+  location: class AzureClientFactoryTest_test_blobServiceClientBuilder_useCachedClient_h9Test8
+2 errors

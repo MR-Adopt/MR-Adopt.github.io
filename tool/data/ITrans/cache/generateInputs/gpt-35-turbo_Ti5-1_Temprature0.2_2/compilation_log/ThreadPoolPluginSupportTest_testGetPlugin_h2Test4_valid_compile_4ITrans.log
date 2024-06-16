@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_inputs/g34ITrans/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest_testGetPlugin_h2Test4_valid.java:63: error: cannot find symbol
+    ThreadPoolPlugin plugin = new MockPlugin();
+                                  ^
+  symbol:   class MockPlugin
+  location: class ThreadPoolPluginSupportTest_testGetPlugin_h2Test4_valid
+1 error

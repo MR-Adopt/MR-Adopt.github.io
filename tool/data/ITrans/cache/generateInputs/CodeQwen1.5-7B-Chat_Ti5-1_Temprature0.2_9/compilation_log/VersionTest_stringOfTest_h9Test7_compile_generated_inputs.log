@@ -1,0 +1,16 @@
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/qw/org/datagear/util/version/VersionTest_stringOfTest_h9Test7.java:37: error: cannot find symbol
+        Version version = Version.valueOf(v);
+                                          ^
+  symbol:   variable v
+  location: class VersionTest_stringOfTest_h9Test7
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/qw/org/datagear/util/version/VersionTest_stringOfTest_h9Test7.java:39: error: cannot find symbol
+        assertEquals(v, version.stringOf());
+                     ^
+  symbol:   variable v
+  location: class VersionTest_stringOfTest_h9Test7
+/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/qw/org/datagear/util/version/VersionTest_stringOfTest_h9Test7.java:40: error: cannot find symbol
+        assertEquals(v, Version.stringOf(version1));
+                     ^
+  symbol:   variable v
+  location: class VersionTest_stringOfTest_h9Test7
+3 errors

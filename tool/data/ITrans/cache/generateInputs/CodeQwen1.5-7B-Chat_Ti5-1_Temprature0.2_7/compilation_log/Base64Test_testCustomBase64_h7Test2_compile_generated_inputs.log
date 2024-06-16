@@ -1,0 +1,46 @@
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                            ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                  ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                        ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                              ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                    ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                          ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                                ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                                      ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                                            ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                                                  ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                                                        ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                                                              ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                                                                    ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                                                                          ^
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw/se/michaelthelin/spotify/Base64Test_testCustomBase64_h7Test2.java:16: error: incompatible types: possible lossy conversion from int to byte
+    byte[] testDataBytes = {0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9, 0xF8, 0xF7, 0xF6, 0xF5, 0xF4, 0xF3, 0xF2, 0xF1};
+                                                                                                                ^
+15 errors

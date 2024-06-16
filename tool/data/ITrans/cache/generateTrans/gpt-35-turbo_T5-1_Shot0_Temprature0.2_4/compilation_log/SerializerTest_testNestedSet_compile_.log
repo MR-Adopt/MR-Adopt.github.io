@@ -1,0 +1,7 @@
+/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_ITrans/io/arex/inst/runtime/serializer/SerializerTest_testNestedSet.java:37: error: missing return statement
+    }
+    ^
+/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_ITrans/io/arex/inst/runtime/serializer/SerializerTest_testNestedSet.java:42: error: missing return statement
+    }
+    ^
+2 errors

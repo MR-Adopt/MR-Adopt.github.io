@@ -1,0 +1,7 @@
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/qw/com/github/underscore/XmlBuilderTest_parse_h9Test0.java:45: error: variable XML2 is already defined in method parse_h9Test0()
+        String XML2 = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<Projects>\n" + "  <underscore-java language=\"Java\" scm=\"SVN\">\n" + "    <Location type=\"URL\">https://github.com/javadev/underscore-java/</Location>\n" + "  </underscore-java>\n" + "  <JetS3t language=\"Java\" scm=\"CVS\">\n" + "    <Location type=\"URL\">https://jets3t.s3.amazonaws.com/index.html</Location>\n" + "  </JetS3t>\n" + "</Projects>";
+               ^
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/qw/com/github/underscore/XmlBuilderTest_parse_h9Test0.java:47: error: variable xmlBuilder2 is already defined in method parse_h9Test0()
+        XmlBuilder xmlBuilder2 = XmlBuilder.parse(XML2);
+                   ^
+2 errors

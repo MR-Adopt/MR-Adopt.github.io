@@ -1,0 +1,31 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__druid/ITrans/generated_inputs/qw/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686_test_column_comment_h6Test1.java:27: error: cannot find symbol
+        System.out.println("原始的sql===" + sql);
+                                         ^
+  symbol:   variable sql
+  location: class Issue5686_test_column_comment_h6Test1
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__druid/ITrans/generated_inputs/qw/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686_test_column_comment_h6Test1.java:29: error: cannot find symbol
+        for (SQLExpr column : sqlStatement.getColumns()) {
+                              ^
+  symbol:   variable sqlStatement
+  location: class Issue5686_test_column_comment_h6Test1
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__druid/ITrans/generated_inputs/qw/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686_test_column_comment_h6Test1.java:33: error: cannot find symbol
+        for (SQLExpr column : sqlStatement2.getColumns()) {
+                              ^
+  symbol:   variable sqlStatement2
+  location: class Issue5686_test_column_comment_h6Test1
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__druid/ITrans/generated_inputs/qw/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686_test_column_comment_h6Test1.java:36: error: cannot find symbol
+        System.out.println("MARK sqlStatement:" + sqlStatement);
+                                                  ^
+  symbol:   variable sqlStatement
+  location: class Issue5686_test_column_comment_h6Test1
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__druid/ITrans/generated_inputs/qw/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686_test_column_comment_h6Test1.java:37: error: cannot find symbol
+        String newSql = sqlStatement.toString();
+                        ^
+  symbol:   variable sqlStatement
+  location: class Issue5686_test_column_comment_h6Test1
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__druid/ITrans/generated_inputs/qw/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686_test_column_comment_h6Test1.java:40: error: cannot find symbol
+        String newSql2 = sqlStatement2.toString();
+                         ^
+  symbol:   variable sqlStatement2
+  location: class Issue5686_test_column_comment_h6Test1
+6 errors

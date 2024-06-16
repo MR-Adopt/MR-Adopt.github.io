@@ -1,0 +1,4 @@
+/ssddata1/cxubl/data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/ITrans/generated_inputs/qw4ITrans/se/michaelthelin/spotify/Base64Test_testCustomBase64_h8Test5_valid.java:21: error: variable encoded is already defined in method testCustomBase64_h8Test5()
+        String encoded = Base64.encode(testDataBytes);
+               ^
+1 error

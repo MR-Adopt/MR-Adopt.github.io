@@ -1,0 +1,29 @@
+/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString.java:62: error: non-static variable this cannot be referenced from a static context
+        String strDate = this.converter.convert(date, String.class);
+                         ^
+/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString.java:62: error: cannot find symbol
+        String strDate = this.converter.convert(date, String.class);
+                             ^
+  symbol: variable converter
+/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString.java:65: error: non-static variable this cannot be referenced from a static context
+        Date x = this.converter.convert(strDate, Date.class);
+                 ^
+/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString.java:65: error: cannot find symbol
+        Date x = this.converter.convert(strDate, Date.class);
+                     ^
+  symbol: variable converter
+/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString.java:68: error: non-static variable this cannot be referenced from a static context
+        LocalDate l1 = (LocalDate) this.converter.convert(date, clazz1);
+                                   ^
+/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString.java:68: error: cannot find symbol
+        LocalDate l1 = (LocalDate) this.converter.convert(date, clazz1);
+                                       ^
+  symbol: variable converter
+/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString.java:72: error: non-static variable this cannot be referenced from a static context
+        LocalDate l2 = (LocalDate) this.converter.convert(x, clazz2);
+                                   ^
+/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString.java:72: error: cannot find symbol
+        LocalDate l2 = (LocalDate) this.converter.convert(x, clazz2);
+                                       ^
+  symbol: variable converter
+8 errors

@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/dromara__castle__hutool/ITrans/generated_inputs/qw/cn/hutool/json/IssueI7GPGXTest_toBeanTest_h9Test7.java:30: error: cannot find symbol
+    String jsonString = "{\"key\":\"" + hutoolPair.getValue0() + "\",\"value\":" + hutoolPair.getValue1() + "}";
+                                                  ^
+  symbol:   method getValue0()
+  location: variable hutoolPair of type Pair<String,Boolean>
+/ssddata1/cxubl/data/ITrans/projects/dromara__castle__hutool/ITrans/generated_inputs/qw/cn/hutool/json/IssueI7GPGXTest_toBeanTest_h9Test7.java:30: error: cannot find symbol
+    String jsonString = "{\"key\":\"" + hutoolPair.getValue0() + "\",\"value\":" + hutoolPair.getValue1() + "}";
+                                                                                             ^
+  symbol:   method getValue1()
+  location: variable hutoolPair of type Pair<String,Boolean>
+2 errors

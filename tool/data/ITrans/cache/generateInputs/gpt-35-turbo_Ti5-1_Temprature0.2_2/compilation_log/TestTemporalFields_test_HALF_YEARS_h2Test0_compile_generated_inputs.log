@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestTemporalFields_test_HALF_YEARS_h2Test0.java:65: error: cannot find symbol
+    int year1 = Year.MIN_VALUE;
+                ^
+  symbol:   variable Year
+  location: class TestTemporalFields_test_HALF_YEARS_h2Test0
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g3/org/threeten/extra/TestTemporalFields_test_HALF_YEARS_h2Test0.java:67: error: cannot find symbol
+    int year2 = Year.MIN_VALUE;
+                ^
+  symbol:   variable Year
+  location: class TestTemporalFields_test_HALF_YEARS_h2Test0
+2 errors

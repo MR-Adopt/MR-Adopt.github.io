@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__rocketmq/ITrans/generated_ITrans/org/apache/rocketmq/tieredstore/common/InFlightRequestFutureTest_testInFlightRequestKey.java:21: error: cannot find symbol
+        int newInt1 = requestKey1.getInt1() + 1;
+                                 ^
+  symbol:   method getInt1()
+  location: variable requestKey1 of type InFlightRequestKey
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__rocketmq/ITrans/generated_ITrans/org/apache/rocketmq/tieredstore/common/InFlightRequestFutureTest_testInFlightRequestKey.java:22: error: cannot find symbol
+        int newInt2 = requestKey1.getInt2() + 1;
+                                 ^
+  symbol:   method getInt2()
+  location: variable requestKey1 of type InFlightRequestKey
+2 errors

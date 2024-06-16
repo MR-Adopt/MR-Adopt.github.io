@@ -1,0 +1,19 @@
+{
+    "org.opentripplanner.framework.model.CostTest_testHashCodeAndEquals_h4Test3": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "testHashCodeAndEquals_h4Test3"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "testHashCodeAndEquals_h4Test3": "java.lang.IllegalArgumentException: Negative value not expected for value: -2147483648"
+        }
+    }
+}

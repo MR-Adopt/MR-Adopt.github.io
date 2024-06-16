@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/synthetichealth__castle__synthea/ITrans/generated_inputs/qw/org/mitre/synthea/engine/ExpressedSymptomTest_testExpressedSymtpom_h9Test7.java:26: error: cannot find symbol
+            assertEquals(Long.valueOf(l), symptom2.getSymptomLastUpdatedTime(module2));
+                                                                             ^
+  symbol:   variable module2
+  location: class ExpressedSymptomTest_testExpressedSymtpom_h9Test7
+/ssddata1/cxubl/data/ITrans/projects/synthetichealth__castle__synthea/ITrans/generated_inputs/qw/org/mitre/synthea/engine/ExpressedSymptomTest_testExpressedSymtpom_h9Test7.java:26: error: cannot find symbol
+            assertEquals(Long.valueOf(l), symptom2.getSymptomLastUpdatedTime(module2));
+                                          ^
+  symbol:   variable symptom2
+  location: class ExpressedSymptomTest_testExpressedSymtpom_h9Test7
+2 errors

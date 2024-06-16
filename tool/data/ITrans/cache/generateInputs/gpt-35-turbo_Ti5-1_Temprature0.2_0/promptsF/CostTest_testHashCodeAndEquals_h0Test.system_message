@@ -1,0 +1,9 @@
+As an expert in Java programming, you are good at understanding code intention, writing test cases to cover diverse test scenarios. 
+Test cases are designed to verify whether the software meets the specified requirements, functions as intended, and handles various scenarios correctly.
+
+Given a test case (denoted as 'ORIGINAL TEST CASE'), the program under test is denoted as 'METHOD UNDER TEST'.
+Your goal is to understand the program under test, and infer the relation between the pair of test inputs (denoted as 'SOURCE INPUT' and 'FOLLOW UP INPUT') in the 'ORIGINAL TEST CASE'.
+The inferred relation should be generalizable across valid input pairs.
+
+Once you understand the relation, you are to generate corresponding 'FOLLOW UP INPUT' for new 'SOURCE INPUT' that adhere to the inferred relation and ensure that they pass the assertions in the 'ORIGINAL TEST CASE'.
+New source inputs are denoted as 'NEW SOURCE INPUTS'.

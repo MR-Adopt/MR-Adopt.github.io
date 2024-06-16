@@ -1,0 +1,4 @@
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_ITrans/org/ojalgo/data/transform/DiscreteFourierTransformTest_testNonPowerOf2.java:28: error: package GenericStore does not exist
+        MatrixStore<ComplexNumber> transformed2 = transformer.transform(input, DiscreteFourierTransform.DEFAULT, GenericStore.C128.makeDense(input.size(), 1));
+                                                                                                                             ^
+1 error

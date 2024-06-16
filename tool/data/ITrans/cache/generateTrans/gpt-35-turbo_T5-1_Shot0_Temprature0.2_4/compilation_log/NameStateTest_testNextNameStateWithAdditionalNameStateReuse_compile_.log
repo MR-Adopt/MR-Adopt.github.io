@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/generated_ITrans/software/amazon/event/ruler/NameStateTest_testNextNameStateWithAdditionalNameStateReuse.java:21: error: cannot find symbol
+        NameState nameState2 = nameState;
+                               ^
+  symbol:   variable nameState
+  location: class NameStateTest_testNextNameStateWithAdditionalNameStateReuse
+1 error

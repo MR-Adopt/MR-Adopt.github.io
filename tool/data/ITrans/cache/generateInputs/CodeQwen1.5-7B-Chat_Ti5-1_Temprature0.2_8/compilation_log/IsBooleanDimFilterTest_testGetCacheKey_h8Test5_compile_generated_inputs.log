@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey_h8Test5.java:40: error: cannot find symbol
+        IsFalseDimFilter f1_4 = IsFalseDimFilter.of(f4);
+                                                    ^
+  symbol:   variable f4
+  location: class IsBooleanDimFilterTest_testGetCacheKey_h8Test5
+1 error

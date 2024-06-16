@@ -1,0 +1,15 @@
+/ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/g3/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h3Test3.java:79: error: cannot find symbol
+    StartupListener startUpListener1 = mock(StartupListener.class, withSettings().serializable());
+                                                                   ^
+  symbol:   method withSettings()
+  location: class SingleAppDeploymentServiceTestCase_startupListeners_h3Test3
+/ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/g3/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h3Test3.java:80: error: cannot find symbol
+    StartupListener startUpListener2 = mock(StartupListener.class, withSettings().serializable());
+                                                                   ^
+  symbol:   method withSettings()
+  location: class SingleAppDeploymentServiceTestCase_startupListeners_h3Test3
+Note: /ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/g3/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h3Test3.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /ssddata1/cxubl/data/ITrans/projects/mulesoft__castle__mule/ITrans/generated_inputs/g3/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase_startupListeners_h3Test3.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors

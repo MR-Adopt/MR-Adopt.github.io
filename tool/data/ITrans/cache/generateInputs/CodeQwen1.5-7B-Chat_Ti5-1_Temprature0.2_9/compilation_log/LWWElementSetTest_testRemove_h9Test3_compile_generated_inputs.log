@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/datastructures/crdt/LWWElementSetTest_testRemove_h9Test3.java:22: error: bad operand types for binary operator '-'
+    Element element = new Element("key1", 1, bias - 1);
+                                                  ^
+  first type:  Bias
+  second type: int
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/datastructures/crdt/LWWElementSetTest_testRemove_h9Test3.java:23: error: bad operand types for binary operator '-'
+    Element element2 = new Element("key1", 1, bias - 1);
+                                                   ^
+  first type:  Bias
+  second type: int
+2 errors

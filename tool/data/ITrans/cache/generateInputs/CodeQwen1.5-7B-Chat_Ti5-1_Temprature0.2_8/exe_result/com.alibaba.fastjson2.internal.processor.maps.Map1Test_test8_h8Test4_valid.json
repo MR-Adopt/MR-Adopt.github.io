@@ -1,0 +1,19 @@
+{
+    "com.alibaba.fastjson2.internal.processor.maps.Map1Test_test8_h8Test4_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 1,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [
+            "test8_h8Test4"
+        ],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "test8_h8Test4": "org.opentest4j.AssertionFailedError: expected: <{null=be19dfa8-3055-42c7-a26d-1e132c3de9a6, 101=16603071-c404-4c39-8ba5-f5f74243fde1, 102=18db4234-5a65-4e2a-b9ce-7619d76fec8b}> but was: <{101=16603071-c404-4c39-8ba5-f5f74243fde1, 102=18db4234-5a65-4e2a-b9ce-7619d76fec8b, null=be19dfa8-3055-42c7-a26d-1e132c3de9a6}>"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h9Test1.java:12: error: cannot find symbol
+    String textTodecrypt = playfairCipher.encrypt(plaintext);
+                                                  ^
+  symbol:   variable plaintext
+  location: class PlayfairTest_testEncryptionAndDecryption_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h9Test1.java:12: error: cannot find symbol
+    String textTodecrypt = playfairCipher.encrypt(plaintext);
+                           ^
+  symbol:   variable playfairCipher
+  location: class PlayfairTest_testEncryptionAndDecryption_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h9Test1.java:13: error: cannot find symbol
+        String encryptedText = playfairCipher.encrypt(plaintext);
+                                                      ^
+  symbol:   variable plaintext
+  location: class PlayfairTest_testEncryptionAndDecryption_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h9Test1.java:13: error: cannot find symbol
+        String encryptedText = playfairCipher.encrypt(plaintext);
+                               ^
+  symbol:   variable playfairCipher
+  location: class PlayfairTest_testEncryptionAndDecryption_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h9Test1.java:14: error: cannot find symbol
+        String decryptedText = playfairCipher.decrypt(textTodecrypt);
+                               ^
+  symbol:   variable playfairCipher
+  location: class PlayfairTest_testEncryptionAndDecryption_h9Test1
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/ciphers/PlayfairTest_testEncryptionAndDecryption_h9Test1.java:15: error: cannot find symbol
+        assertEquals(plaintext, decryptedText);
+                     ^
+  symbol:   variable plaintext
+  location: class PlayfairTest_testEncryptionAndDecryption_h9Test1
+6 errors

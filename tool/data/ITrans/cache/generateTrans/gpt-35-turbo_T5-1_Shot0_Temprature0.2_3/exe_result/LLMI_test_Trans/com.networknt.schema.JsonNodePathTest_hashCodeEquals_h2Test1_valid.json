@@ -1,0 +1,19 @@
+{
+    "com.networknt.schema.JsonNodePathTest_hashCodeEquals_h2Test1_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "hashCodeEquals_h2Test1"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "hashCodeEquals_h2Test1": "java.lang.NoClassDefFoundError: com/networknt/schema/JsonNodePathTest_hashCodeEquals"
+        }
+    }
+}

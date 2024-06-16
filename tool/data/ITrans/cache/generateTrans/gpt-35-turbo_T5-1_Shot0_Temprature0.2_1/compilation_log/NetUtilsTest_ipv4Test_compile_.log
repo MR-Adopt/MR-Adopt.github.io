@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/zfoo-project__castle__zfoo/ITrans/generated_ITrans/com/zfoo/net/util/NetUtilsTest_ipv4Test.java:17: error: cannot find symbol
+        if (isValidAddress(ipStr1)) {
+            ^
+  symbol:   method isValidAddress(String)
+  location: class NetUtilsTest_ipv4Test
+1 error

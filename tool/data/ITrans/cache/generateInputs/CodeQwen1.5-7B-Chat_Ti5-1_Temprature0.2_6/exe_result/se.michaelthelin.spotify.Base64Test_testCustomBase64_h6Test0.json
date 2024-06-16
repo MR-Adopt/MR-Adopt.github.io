@@ -1,0 +1,17 @@
+{
+    "se.michaelthelin.spotify.Base64Test_testCustomBase64_h6Test0": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 1,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [
+            "testCustomBase64_h6Test0"
+        ],
+        "failure_info": {}
+    }
+}

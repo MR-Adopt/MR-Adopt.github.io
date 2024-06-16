@@ -1,0 +1,4 @@
+/ssddata1/cxubl/data/ITrans/projects/sakaiproject__castle__sakai/ITrans/generated_ITrans/org/tsugi/util/Base64DoubleUrlEncodeSafeTest_testAllNonSurrogateCodePoints.java:17: error: unreported exception UnsupportedEncodingException; must be caught or declared to be thrown
+        String doubleUrlEncoded = java.net.URLEncoder.encode(encoded, "UTF-8");
+                                                            ^
+1 error

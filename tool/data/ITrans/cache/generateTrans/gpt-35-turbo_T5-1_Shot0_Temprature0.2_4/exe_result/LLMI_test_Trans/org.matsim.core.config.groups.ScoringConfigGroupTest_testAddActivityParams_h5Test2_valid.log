@@ -1,0 +1,254 @@
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  └─[0m [36mScoringConfigGroupTest_testAddActivityParams_h5Test2_valid[0m [32m✔[0m
+[36m│     └─[0m [34mtestAddActivityParams_h5Test2()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Test run finished after 346 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         1 tests found           ]
+[         0 tests skipped         ]
+[         1 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         0 tests failed          ]
+
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
+CMD: cd /ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ ; /ssddata1/cxubl/software/zulu_jdks/zulu17.40.19-ca-jdk17.0.6-linux_x64/bin/java -XX:ActiveProcessorCount=10 -jar /ssddata1/cxubl/software/junit/junit-platform-console-standalone-1.10.0.jar --class-path=./:./benchmark/target/classes:./benchmark/target/dependency/*:./benchmark/target/test-classes:./contribs/accessibility/target/classes:./contribs/accessibility/target/test-classes:./contribs/accessibility/target/dependency/*:./contribs/accidents/target/classes:./contribs/accidents/target/test-classes:./contribs/accidents/target/dependency/*:./contribs/analysis/target/classes:./contribs/analysis/target/test-classes:./contribs/analysis/target/dependency/*:./contribs/application/target/classes:./contribs/application/target/test-classes:./contribs/application/target/dependency/*:./contribs/av/target/classes:./contribs/av/target/test-classes:./contribs/av/target/dependency/*:./contribs/bicycle/target/classes:./contribs/bicycle/target/test-classes:./contribs/bicycle/target/dependency/*:./contribs/cadytsIntegration/target/classes:./contribs/cadytsIntegration/target/test-classes:./contribs/cadytsIntegration/target/dependency/*:./contribs/carsharing/target/classes:./contribs/carsharing/target/test-classes:./contribs/carsharing/target/dependency/*:./contribs/commercialTrafficApplications/target/classes:./contribs/commercialTrafficApplications/target/test-classes:./contribs/commercialTrafficApplications/target/dependency/*:./contribs/common/target/classes:./contribs/common/target/test-classes:./contribs/common/target/dependency/*:./contribs/decongestion/target/classes:./contribs/decongestion/target/test-classes:./contribs/decongestion/target/dependency/*:./contribs/discrete_mode_choice/target/classes:./contribs/discrete_mode_choice/target/test-classes:./contribs/discrete_mode_choice/target/dependency/*:./contribs/drt-extensions/target/classes:./contribs/drt-extensions/target/test-classes:./contribs/drt-extensions/target/dependency/*:./contribs/drt/target/classes:./contribs/drt/target/test-classes:./contribs/drt/target/dependency/*:./contribs/dvrp/target/classes:./contribs/dvrp/target/test-classes:./contribs/dvrp/target/dependency/*:./contribs/emissions/target/classes:./contribs/emissions/target/test-classes:./contribs/emissions/target/dependency/*:./contribs/ev/target/classes:./contribs/ev/target/test-classes:./contribs/ev/target/dependency/*:./contribs/freight/target/classes:./contribs/freight/target/test-classes:./contribs/freight/target/dependency/*:./contribs/freightreceiver/target/classes:./contribs/freightreceiver/target/test-classes:./contribs/freightreceiver/target/dependency/*:./contribs/hybridsim/target/classes:./contribs/hybridsim/target/test-classes:./contribs/hybridsim/target/dependency/*:./contribs/informed-mode-choice/target/classes:./contribs/informed-mode-choice/target/test-classes:./contribs/informed-mode-choice/target/dependency/*:./contribs/integration/target/test-classes:./contribs/integration/target/dependency/*:./contribs/integration/target/classes:./contribs/locationchoice/target/classes:./contribs/locationchoice/target/test-classes:./contribs/locationchoice/target/dependency/*:./contribs/matrixbasedptrouter/target/classes:./contribs/matrixbasedptrouter/target/test-classes:./contribs/matrixbasedptrouter/target/dependency/*:./contribs/minibus/target/classes:./contribs/minibus/target/test-classes:./contribs/minibus/target/dependency/*:./contribs/multimodal/target/classes:./contribs/multimodal/target/test-classes:./contribs/multimodal/target/dependency/*:./contribs/noise/target/classes:./contribs/noise/target/test-classes:./contribs/noise/target/dependency/*:./contribs/osm/target/classes:./contribs/osm/target/test-classes:./contribs/osm/target/dependency/*:./contribs/otfvis/target/classes:./contribs/otfvis/target/test-classes:./contribs/otfvis/target/dependency/*:./contribs/parking/target/classes:./contribs/parking/target/test-classes:./contribs/parking/target/dependency/*:./contribs/protobuf/target/classes:./contribs/protobuf/target/test-classes:./contribs/protobuf/target/dependency/*:./contribs/pseudosimulation/target/classes:./contribs/pseudosimulation/target/test-classes:./contribs/pseudosimulation/target/dependency/*:./contribs/railsim/target/classes:./contribs/railsim/target/test-classes:./contribs/railsim/target/dependency/*:./contribs/roadpricing/target/classes:./contribs/roadpricing/target/test-classes:./contribs/roadpricing/target/dependency/*:./contribs/sbb-extensions/target/classes:./contribs/sbb-extensions/target/test-classes:./contribs/sbb-extensions/target/dependency/*:./contribs/shared_mobility/target/classes:./contribs/shared_mobility/target/test-classes:./contribs/shared_mobility/target/dependency/*:./contribs/signals/target/classes:./contribs/signals/target/test-classes:./contribs/signals/target/dependency/*:./contribs/simulatedannealing/target/classes:./contribs/simulatedannealing/target/test-classes:./contribs/simulatedannealing/target/dependency/*:./contribs/simwrapper/target/classes:./contribs/simwrapper/target/test-classes:./contribs/simwrapper/target/dependency/*:./contribs/small-scale-traffic-generation/target/dependency/*:./contribs/small-scale-traffic-generation/target/classes:./contribs/small-scale-traffic-generation/target/test-classes:./contribs/socnetsim/target/classes:./contribs/socnetsim/target/test-classes:./contribs/socnetsim/target/dependency/*:./contribs/sumo/target/classes:./contribs/sumo/target/test-classes:./contribs/sumo/target/dependency/*:./contribs/taxi/target/classes:./contribs/taxi/target/test-classes:./contribs/taxi/target/dependency/*:./contribs/vsp/target/classes:./contribs/vsp/target/test-classes:./contribs/vsp/target/dependency/*:./contribs/target/dependency/*:./examples/target/classes:./examples/target/dependency/*:./examples/target/test-classes:./matsim/target/classes:./matsim/target/test-classes:./matsim/target/dependency/*:./target/dependency/*:/ssddata1/cxubl/software/junit/junit-4.13.2.jar:/ssddata1/cxubl/software/junit/junit-jupiter-api-5.8.2.jar:/ssddata1/cxubl/software/junit/hamcrest-core-1.3.jar:/ssddata1/cxubl/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar:/ssddata1/cxubl/.m2/repository/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar:/ssddata1/cxubl/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:/ssddata1/cxubl/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-test/5.3.26/spring-test-5.3.26.jar:/ssddata1/cxubl/data/ITrans/projects/thingsboard__castle__thingsboard/dao/target/dependency/commons-logging-1.2.jar:/ssddata1/cxubl/.m2/repository/org/springframework/spring-core/5.3.2/spring-core-5.3.26.jar:arex-instrumentation-api/target/dependency/jackson-annotations-2.13.1.jar:arex-instrumentation-api/target/dependency/gson-2.10.1.jar:misc/extra/target/dependency/vecmath-1.5.2.jar:/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/processed_GT_only/:/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/processed_MTCITrans_only/:/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_ITrans/:/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_inputs/:/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_inputs/:/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_inputs/LLMI_test_Trans/ --select-class=org.matsim.core.config.groups.ScoringConfigGroupTest_testAddActivityParams_h5Test2_valid > /ssddata1/cxubl/data/ITrans/cache/generateTrans/gpt-35-turbo_T5-1_Shot0_Temprature0.2_4/exe_result/LLMI_test_Trans/org.matsim.core.config.groups.ScoringConfigGroupTest_testAddActivityParams_h5Test2_valid.log 2>&1
+file path: 
+/ssddata1/cxubl/data/ITrans/cache/generateInputs/CodeQwen1.5-7B-Chat_Ti5-1_Temprature0.2_5/generated_valid_inputs_testing_Trans/ScoringConfigGroupTest_testAddActivityParams_h5Test2_valid.java
+file content: 
+/* *********************************************************************** *
+ * project: org.matsim.*
+ * PlanCalcScoreConfigGroupTest.java
+ *                                                                         *
+ * *********************************************************************** *
+ *                                                                         *
+ * copyright       : (C) 2019 by the members listed in the COPYING,        *
+ *                   LICENSE and WARRANTY file.                            *
+ * email           : info at matsim dot org                                *
+ *                                                                         *
+ * *********************************************************************** *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *   See also COPYING, LICENSE and WARRANTY file                           *
+ *                                                                         *
+ * *********************************************************************** */
+package org.matsim.core.config.groups;
+
+import org.matsim.core.config.groups.ScoringConfigGroupTest_testAddActivityParams;
+
+import static org.matsim.core.config.groups.ScoringConfigGroup.createStageActivityType;
+import java.util.Map;
+import java.util.Random;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.RegisterExtension;
+import org.matsim.api.core.v01.TransportMode;
+import org.matsim.core.config.Config;
+import org.matsim.core.config.ConfigGroup;
+import org.matsim.core.config.ConfigReader;
+import org.matsim.core.config.ConfigUtils;
+import org.matsim.core.config.ConfigWriter;
+import org.matsim.core.config.groups.ScoringConfigGroup.ActivityParams;
+import org.matsim.core.config.groups.ScoringConfigGroup.ModeParams;
+import org.matsim.testcases.MatsimTestUtils;
+
+public class ScoringConfigGroupTest_testAddActivityParams_h5Test2_valid {
+
+    private static final Logger log = LogManager.getLogger();
+
+    @RegisterExtension
+    public final MatsimTestUtils utils = new MatsimTestUtils();
+
+    private void testResultsBeforeCheckConsistency(Config config, boolean fullyHierarchical) {
+        ScoringConfigGroup scoringConfig = config.scoring();
+        if (!fullyHierarchical) {
+            // mode params are there for default modes:
+            Assertions.assertNotNull(scoringConfig.getModes().get(TransportMode.car));
+            Assertions.assertNotNull(scoringConfig.getModes().get(TransportMode.walk));
+            Assertions.assertNotNull(scoringConfig.getModes().get(TransportMode.bike));
+            Assertions.assertNotNull(scoringConfig.getModes().get(TransportMode.ride));
+            Assertions.assertNotNull(scoringConfig.getModes().get(TransportMode.pt));
+            Assertions.assertNotNull(scoringConfig.getModes().get(TransportMode.other));
+            // default stage/interaction params are there for pt and drt (as a service):
+            Assertions.assertNotNull(scoringConfig.getActivityParams(createStageActivityType(TransportMode.pt)));
+            Assertions.assertNotNull(scoringConfig.getActivityParams(createStageActivityType(TransportMode.drt)));
+        }
+    // default stage/interaction params for modes routed on the network are not yet there:
+    // for( String networkMode : config.plansCalcRoute().getNetworkModes() ){
+    // Assert.assertNull( scoringConfig.getActivityParams( createStageActivityType( networkMode ) ) );
+    // }
+    }
+
+    private void testResultsAfterCheckConsistency(Config config) {
+        ScoringConfigGroup scoringConfig = config.scoring();
+        // default stage/interaction params for modes routed on the network are now there:
+        for (String networkMode : config.routing().getNetworkModes()) {
+            Assertions.assertNotNull(scoringConfig.getActivityParams(createStageActivityType(networkMode)));
+        }
+    }
+
+    @Test
+    void testAddActivityParams_h5Test2() {
+        ScoringConfigGroup c = new ScoringConfigGroup();
+        int originalSize = c.getActivityParams().size();
+    ActivityParams ap = new ActivityParams(walk);
+    String type  = ScoringConfigGroupTest_testAddActivityParams.inputTransformation_testAddActivityParams(ap);
+        c.addActivityParams(ap);
+        Assertions.assertEquals(ap, c.getActivityParams(type));
+    }
+
+    private void assertIdentical(String msg, ScoringConfigGroup initialGroup, ScoringConfigGroup inputConfigGroup) {
+        Assertions.assertEquals(initialGroup.getBrainExpBeta(), inputConfigGroup.getBrainExpBeta(), 1e-7, wrong brainExpBeta  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.bike).getConstant(), inputConfigGroup.getModes().get(TransportMode.bike).getConstant(), 1e-7, wrong constantBike  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.car).getConstant(), inputConfigGroup.getModes().get(TransportMode.car).getConstant(), 1e-7, wrong constantCar  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.other).getConstant(), inputConfigGroup.getModes().get(TransportMode.other).getConstant(), 1e-7, wrong constantOther  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.pt).getConstant(), inputConfigGroup.getModes().get(TransportMode.pt).getConstant(), 1e-7, wrong constantPt  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.walk).getConstant(), inputConfigGroup.getModes().get(TransportMode.walk).getConstant(), 1e-7, wrong constantWalk  + msg);
+        Assertions.assertEquals(initialGroup.getLateArrival_utils_hr(), inputConfigGroup.getLateArrival_utils_hr(), 1e-7, wrong lateArrival_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getEarlyDeparture_utils_hr(), inputConfigGroup.getEarlyDeparture_utils_hr(), 1e-7, wrong earlyDeparture_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getLearningRate(), inputConfigGroup.getLearningRate(), 1e-7, wrong learningRate  + msg);
+        Assertions.assertEquals(initialGroup.getMarginalUtilityOfMoney(), inputConfigGroup.getMarginalUtilityOfMoney(), 1e-7, wrong marginalUtilityOfMoney  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.other).getMarginalUtilityOfDistance(), inputConfigGroup.getModes().get(TransportMode.other).getMarginalUtilityOfDistance(), 1e-7, wrong marginalUtlOfDistanceOther  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.walk).getMarginalUtilityOfDistance(), inputConfigGroup.getModes().get(TransportMode.walk).getMarginalUtilityOfDistance(), 1e-7, wrong marginalUtlOfDistanceWalk  + msg);
+        Assertions.assertEquals(initialGroup.getMarginalUtlOfWaiting_utils_hr(), inputConfigGroup.getMarginalUtlOfWaiting_utils_hr(), 1e-7, wrong marginalUtlOfWaiting_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getMarginalUtlOfWaitingPt_utils_hr(), inputConfigGroup.getMarginalUtlOfWaitingPt_utils_hr(), 1e-7, wrong marginalUtlOfWaitingPt_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.car).getMonetaryDistanceRate(), inputConfigGroup.getModes().get(TransportMode.car).getMonetaryDistanceRate(), 1e-7, wrong monetaryDistanceCostRateCar  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.pt).getMonetaryDistanceRate(), inputConfigGroup.getModes().get(TransportMode.pt).getMonetaryDistanceRate(), 1e-7, wrong monetaryDistanceCostRatePt  + msg);
+        Assertions.assertEquals(initialGroup.getPathSizeLogitBeta(), inputConfigGroup.getPathSizeLogitBeta(), 1e-7, wrong pathSizeLogitBeta  + msg);
+        Assertions.assertEquals(initialGroup.getPerforming_utils_hr(), inputConfigGroup.getPerforming_utils_hr(), 1e-7, wrong performing_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.car).getMarginalUtilityOfTraveling(), inputConfigGroup.getModes().get(TransportMode.car).getMarginalUtilityOfTraveling(), 1e-7, wrong traveling_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.bike).getMarginalUtilityOfTraveling(), inputConfigGroup.getModes().get(TransportMode.bike).getMarginalUtilityOfTraveling(), 1e-7, wrong travelingBike_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.other).getMarginalUtilityOfTraveling(), inputConfigGroup.getModes().get(TransportMode.other).getMarginalUtilityOfTraveling(), 1e-7, wrong travelingOther_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.pt).getMarginalUtilityOfTraveling(), inputConfigGroup.getModes().get(TransportMode.pt).getMarginalUtilityOfTraveling(), 1e-7, wrong travelingPt_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getModes().get(TransportMode.walk).getMarginalUtilityOfTraveling(), inputConfigGroup.getModes().get(TransportMode.walk).getMarginalUtilityOfTraveling(), 1e-7, wrong travelingWalk_utils_hr  + msg);
+        Assertions.assertEquals(initialGroup.getUtilityOfLineSwitch(), inputConfigGroup.getUtilityOfLineSwitch(), 1e-7, wrong utilityOfLineSwitch  + msg);
+        for (ActivityParams initialSettings : initialGroup.getActivityParams()) {
+            ActivityParams inputSettings = inputConfigGroup.getActivityParams(initialSettings.getActivityType());
+            Assertions.assertEquals(initialSettings.getActivityType(), inputSettings.getActivityType(), wrong type  + msg);
+            Assertions.assertEquals(initialSettings.getClosingTime(), inputSettings.getClosingTime(), wrong closingTime  + msg);
+            Assertions.assertEquals(initialSettings.getEarliestEndTime(), inputSettings.getEarliestEndTime(), wrong earliestEndTime  + msg);
+            Assertions.assertEquals(initialSettings.getLatestStartTime(), inputSettings.getLatestStartTime(), wrong latestStartTime  + msg);
+            Assertions.assertEquals(initialSettings.getMinimalDuration(), inputSettings.getMinimalDuration(), wrong minimalDuration  + msg);
+            Assertions.assertEquals(initialSettings.getOpeningTime(), inputSettings.getOpeningTime(), wrong openingTime  + msg);
+            Assertions.assertEquals(initialSettings.getPriority(), inputSettings.getPriority(), 1e-7, wrong priority  + msg);
+            Assertions.assertEquals(initialSettings.getTypicalDuration(), inputSettings.getTypicalDuration(), wrong typicalDuration  + msg);
+        }
+        for (ModeParams initialSettings : initialGroup.getModes().values()) {
+            String mode = initialSettings.getMode();
+            ModeParams inputSettings = inputConfigGroup.getModes().get(mode);
+            Assertions.assertEquals(initialSettings.getConstant(), inputSettings.getConstant(), 1e-7, wrong constant  + msg);
+            Assertions.assertEquals(initialSettings.getMarginalUtilityOfDistance(), inputSettings.getMarginalUtilityOfDistance(), 1e-7, wrong marginalUtilityOfDistance  + msg);
+            Assertions.assertEquals(initialSettings.getMarginalUtilityOfTraveling(), inputSettings.getMarginalUtilityOfTraveling(), 1e-7, wrong marginalUtilityOfTraveling  + msg);
+            Assertions.assertEquals(initialSettings.getMonetaryDistanceRate(), inputSettings.getMonetaryDistanceRate(), 1e-7, wrong monetaryDistanceRate  + msg);
+        }
+    }
+
+    private static ConfigGroup toUnderscoredModule(final ScoringConfigGroup initialGroup) {
+        ConfigGroup module = new ConfigGroup(initialGroup.getName());
+        for (Map.Entry<String, String> e : initialGroup.getParams().entrySet()) {
+            log.info(add param  + e.getKey());
+            module.addParam(e.getKey(), e.getValue());
+        }
+        Random r = new Random(456);
+        int ca = 0;
+        for (ActivityParams settings : initialGroup.getActivityParams()) {
+            String suffix = r.nextBoolean() ?  + ca++ : settings.getActivityType();
+            if (!suffix.equals(settings.getActivityType())) {
+                module.addParam(activityType_ + suffix,  + settings.getActivityType());
+            }
+            settings.getClosingTime().ifDefined(t -> module.addParam(activityClosingTime_ + suffix,  + t));
+            settings.getEarliestEndTime().ifDefined(t -> module.addParam(activityEarliestEndTime_ + suffix,  + t));
+            settings.getLatestStartTime().ifDefined(t -> module.addParam(activityLatestStartTime_ + suffix,  + t));
+            settings.getMinimalDuration().ifDefined(t -> module.addParam(activityMinimalDuration_ + suffix,  + t));
+            settings.getOpeningTime().ifDefined(t -> module.addParam(activityOpeningTime_ + suffix,  + t));
+            module.addParam(activityPriority_ + suffix,  + settings.getPriority());
+            settings.getTypicalDuration().ifDefined(t -> module.addParam(activityTypicalDuration_ + suffix,  + t));
+        }
+        for (ModeParams settings : initialGroup.getModes().values()) {
+            String mode = settings.getMode();
+            module.addParam(constant_ + mode,  + settings.getConstant());
+            module.addParam(marginalUtlOfDistance_ + mode,  + settings.getMarginalUtilityOfDistance());
+            module.addParam(traveling_ + mode,  + settings.getMarginalUtilityOfTraveling());
+            module.addParam(monetaryDistanceRate_ + mode,  + settings.getMonetaryDistanceRate());
+        }
+        for (Map.Entry<String, String> params : initialGroup.getScoringParameters(null).getParams().entrySet()) {
+            if (params.getKey().equals(subpopulation))
+                continue;
+            module.addParam(params.getKey(), params.getValue());
+        }
+        return module;
+    }
+
+    private ScoringConfigGroup createTestConfigGroup() {
+        ScoringConfigGroup group = new ScoringConfigGroup();
+        group.setBrainExpBeta(124);
+        group.getModes().get(TransportMode.bike).setConstant((double) 98);
+        group.getModes().get(TransportMode.car).setConstant((double) 345);
+        group.getModes().get(TransportMode.other).setConstant((double) 345);
+        group.getModes().get(TransportMode.pt).setConstant((double) 983);
+        group.getModes().get(TransportMode.walk).setConstant((double) 89);
+        group.setLateArrival_utils_hr(345);
+        group.setEarlyDeparture_utils_hr(5);
+        group.setLearningRate(98);
+        group.setMarginalUtilityOfMoney(9);
+        group.getModes().get(TransportMode.other).setMarginalUtilityOfDistance((double) 23);
+        group.getModes().get(TransportMode.walk).setMarginalUtilityOfDistance((double) 8675);
+        group.setMarginalUtlOfWaiting_utils_hr(65798);
+        group.setMarginalUtlOfWaitingPt_utils_hr(9867);
+        group.getModes().get(TransportMode.car).setMonetaryDistanceRate((double) 240358);
+        group.getModes().get(TransportMode.pt).setMonetaryDistanceRate((double) 9835);
+        group.setPathSizeLogitBeta(8);
+        group.setPerforming_utils_hr(678);
+        group.getModes().get(TransportMode.car).setMarginalUtilityOfTraveling((double) 246);
+        group.getModes().get(TransportMode.bike).setMarginalUtilityOfTraveling((double) 968);
+        group.getModes().get(TransportMode.other).setMarginalUtilityOfTraveling((double) 206);
+        group.getModes().get(TransportMode.pt).setMarginalUtilityOfTraveling((double) 957);
+        group.getModes().get(TransportMode.walk).setMarginalUtilityOfTraveling((double) 983455);
+        group.setUtilityOfLineSwitch(396);
+        Random random = new Random(925);
+        for (int i = 0; i < 10; i++) {
+            ActivityParams settings = new ActivityParams();
+            settings.setActivityType(activity-type- + i);
+            settings.setClosingTime(random.nextInt(24 * 3600));
+            settings.setEarliestEndTime(random.nextInt(24 * 3600));
+            settings.setLatestStartTime(random.nextInt(24 * 3600));
+            settings.setMinimalDuration(random.nextInt(24 * 3600));
+            settings.setOpeningTime(random.nextInt(24 * 3600));
+            settings.setPriority(random.nextInt(10));
+            settings.setTypicalDuration(random.nextInt(24 * 3600));
+            group.addActivityParams(settings);
+        }
+        for (int i = 0; i < 10; i++) {
+            ModeParams settings = new ModeParams();
+            settings.setMode(mode- + i);
+            settings.setConstant(random.nextDouble());
+            settings.setMarginalUtilityOfDistance(random.nextDouble());
+            settings.setMarginalUtilityOfTraveling(random.nextDouble());
+            settings.setMonetaryDistanceRate(random.nextDouble());
+            group.addParameterSet(settings);
+        }
+        return group;
+    }
+}
+
+

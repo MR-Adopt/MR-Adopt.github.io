@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/KeyTest_equals_h8Test9.java:37: error: cannot find symbol
+        Key<?> key1 = Key.get(type1);
+                              ^
+  symbol:   variable type1
+  location: class KeyTest_equals_h8Test9
+/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/KeyTest_equals_h8Test9.java:38: error: cannot find symbol
+        Key<?> key2 = Key.get(type2);
+                              ^
+  symbol:   variable type2
+  location: class KeyTest_equals_h8Test9
+2 errors

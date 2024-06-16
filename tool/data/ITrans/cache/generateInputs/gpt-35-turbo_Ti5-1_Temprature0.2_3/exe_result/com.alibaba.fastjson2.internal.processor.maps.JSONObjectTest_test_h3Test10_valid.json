@@ -1,0 +1,19 @@
+{
+    "com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest_test_h3Test10_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 1,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [
+            "test_h3Test10"
+        ],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "test_h3Test10": "org.opentest4j.AssertionFailedError: expected: com.alibaba.fastjson2.JSONObject@16414e40<{\"id\":-2147483648}> but was: com.alibaba.fastjson2.JSONObject@74bada02<{\"id\":-2147483648}>"
+        }
+    }
+}

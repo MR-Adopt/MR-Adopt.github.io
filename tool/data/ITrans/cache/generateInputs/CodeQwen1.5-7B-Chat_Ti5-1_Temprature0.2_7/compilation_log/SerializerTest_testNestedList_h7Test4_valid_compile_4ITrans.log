@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_inputs/qw4ITrans/io/arex/inst/runtime/serializer/SerializerTest_testNestedList_h7Test4_valid.java:46: error: cannot find symbol
+    list.add(nestedList1);
+             ^
+  symbol:   variable nestedList1
+  location: class SerializerTest_testNestedList_h7Test4_valid
+/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_inputs/qw4ITrans/io/arex/inst/runtime/serializer/SerializerTest_testNestedList_h7Test4_valid.java:47: error: cannot find symbol
+    list.add(nestedList2);
+             ^
+  symbol:   variable nestedList2
+  location: class SerializerTest_testNestedList_h7Test4_valid
+2 errors

@@ -1,0 +1,26 @@
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g34ITrans/org/threeten/extra/TestTemporalFields_test_HALF_YEARS_h0Test5_valid.java:67: error: cannot find symbol
+		List<Object> transformed_inputs = TestTemporalFields_test_HALF_YEARS.inputTransformation_test_HALF_YEARS(year1, quarter1);
+		                                                                                                         ^
+  symbol:   variable year1
+  location: class TestTemporalFields_test_HALF_YEARS_h0Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g34ITrans/org/threeten/extra/TestTemporalFields_test_HALF_YEARS_h0Test5_valid.java:67: error: cannot find symbol
+		List<Object> transformed_inputs = TestTemporalFields_test_HALF_YEARS.inputTransformation_test_HALF_YEARS(year1, quarter1);
+		                                                                                                                ^
+  symbol:   variable quarter1
+  location: class TestTemporalFields_test_HALF_YEARS_h0Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g34ITrans/org/threeten/extra/TestTemporalFields_test_HALF_YEARS_h0Test5_valid.java:70: error: cannot find symbol
+        assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount));
+                                    ^
+  symbol:   variable year1
+  location: class TestTemporalFields_test_HALF_YEARS_h0Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g34ITrans/org/threeten/extra/TestTemporalFields_test_HALF_YEARS_h0Test5_valid.java:70: error: cannot find symbol
+        assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount));
+                                           ^
+  symbol:   variable quarter1
+  location: class TestTemporalFields_test_HALF_YEARS_h0Test5_valid
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/g34ITrans/org/threeten/extra/TestTemporalFields_test_HALF_YEARS_h0Test5_valid.java:70: error: cannot find symbol
+        assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount));
+                                                                                                        ^
+  symbol:   variable amount
+  location: class TestTemporalFields_test_HALF_YEARS_h0Test5_valid
+5 errors

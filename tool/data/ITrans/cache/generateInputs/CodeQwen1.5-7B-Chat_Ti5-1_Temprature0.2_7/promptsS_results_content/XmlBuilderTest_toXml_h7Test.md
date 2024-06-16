@@ -1,0 +1,29 @@
+## New input1:
+```java
+    String XML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<Projects>\n" + "  <underscore-java language=\"Java\" scm=\"SVN\">\n" + "    <Location type=\"URL\">https://github.com/javadev/underscore-java/</Location>\n" + "  </underscore-java>\n" + "  <JetS3t language=\"Java\" scm=\"CVS\">\n" + "    <Location type=\"URL\">https://jets3t.s3.amazonaws.com/index.html</Location>\n" + "  </JetS3t>\n" + "  <Apache-Commons-Lang language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-lang/</Location>\n" + "  </Apache-Commons-Lang>\n" + "</Projects>";
+```
+Explanation: This input includes an additional project, Apache Commons Lang, with its own language and SCM type.
+
+## New input2:
+```java
+    String XML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<Projects>\n" + "  <underscore-java language=\"Java\" scm=\"SVN\">\n" + "    <Location type=\"URL\">https://github.com/javadev/underscore-java/</Location>\n" + "  </underscore-java>\n" + "  <JetS3t language=\"Java\" scm=\"CVS\">\n" + "    <Location type=\"URL\">https://jets3t.s3.amazonaws.com/index.html</Location>\n" + "  </JetS3t>\n" + "  <Apache-Commons-Lang language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-lang/</Location>\n" + "  </Apache-Commons-Lang>\n" + "  <Apache-Commons-IO language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-io/</Location>\n" + "  </Apache-Commons-IO>\n" + "</Projects>";
+```
+Explanation: This input includes two additional projects, Apache Commons Lang and Apache Commons IO, with their own language and SCM type.
+
+## New input3:
+```java
+    String XML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<Projects>\n" + "  <underscore-java language=\"Java\" scm=\"SVN\">\n" + "    <Location type=\"URL\">https://github.com/javadev/underscore-java/</Location>\n" + "  </underscore-java>\n" + "  <JetS3t language=\"Java\" scm=\"CVS\">\n" + "    <Location type=\"URL\">https://jets3t.s3.amazonaws.com/index.html</Location>\n" + "  </JetS3t>\n" + "  <Apache-Commons-Lang language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-lang/</Location>\n" + "  </Apache-Commons-Lang>\n" + "  <Apache-Commons-IO language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-io/</Location>\n" + "  </Apache-Commons-IO>\n" + "  <Apache-Commons-Collections language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-collections/</Location>\n" + "  </Apache-Commons-Collections>\n" + "</Projects>";
+```
+Explanation: This input includes three additional projects, Apache Commons Lang, Apache Commons IO, and Apache Commons Collections, with their own language and SCM type.
+
+## New input4:
+```java
+    String XML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<Projects>\n" + "  <underscore-java language=\"Java\" scm=\"SVN\">\n" + "    <Location type=\"URL\">https://github.com/javadev/underscore-java/</Location>\n" + "  </underscore-java>\n" + "  <JetS3t language=\"Java\" scm=\"CVS\">\n" + "    <Location type=\"URL\">https://jets3t.s3.amazonaws.com/index.html</Location>\n" + "  </JetS3t>\n" + "  <Apache-Commons-Lang language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-lang/</Location>\n" + "  </Apache-Commons-Lang>\n" + "  <Apache-Commons-IO language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-io/</Location>\n" + "  </Apache-Commons-IO>\n" + "  <Apache-Commons-Collections language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-collections/</Location>\n" + "  </Apache-Commons-Collections>\n" + "  <Apache-Commons-Math language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-math/</Location>\n" + "  </Apache-Commons-Math>\n" + "</Projects>";
+```
+Explanation: This input includes four additional projects, Apache Commons Lang, Apache Commons IO, Apache Commons Collections, and Apache Commons Math, with their own language and SCM type.
+
+## New input5:
+```java
+    String XML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<Projects>\n" + "  <underscore-java language=\"Java\" scm=\"SVN\">\n" + "    <Location type=\"URL\">https://github.com/javadev/underscore-java/</Location>\n" + "  </underscore-java>\n" + "  <JetS3t language=\"Java\" scm=\"CVS\">\n" + "    <Location type=\"URL\">https://jets3t.s3.amazonaws.com/index.html</Location>\n" + "  </JetS3t>\n" + "  <Apache-Commons-Lang language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-lang/</Location>\n" + "  </Apache-Commons-Lang>\n" + "  <Apache-Commons-IO language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-io/</Location>\n" + "  </Apache-Commons-IO>\n" + "  <Apache-Commons-Collections language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-collections/</Location>\n" + "  </Apache-Commons-Collections>\n" + "  <Apache-Commons-Math language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-math/</Location>\n" + "  </Apache-Commons-Math>\n" + "  <Apache-Commons-Compress language=\"Java\" scm=\"Git\">\n" + "    <Location type=\"URL\">https://commons.apache.org/proper/commons-compress/</Location>\n" + "  </Apache-Commons-Compress>\n" + "</Projects>";
+```
+Explanation: This input includes five additional projects, Apache Commons Lang, Apache Commons IO, Apache Commons Collections, Apache Commons Math, and Apache Commons Compress, with their own language and SCM type.

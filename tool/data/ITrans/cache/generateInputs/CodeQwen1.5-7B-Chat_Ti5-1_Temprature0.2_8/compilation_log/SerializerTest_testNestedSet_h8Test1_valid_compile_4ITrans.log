@@ -1,0 +1,21 @@
+/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_inputs/qw4ITrans/io/arex/inst/runtime/serializer/SerializerTest_testNestedSet_h8Test1_valid.java:48: error: cannot find symbol
+    set.add(nestedSet1);
+            ^
+  symbol:   variable nestedSet1
+  location: class SerializerTest_testNestedSet_h8Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_inputs/qw4ITrans/io/arex/inst/runtime/serializer/SerializerTest_testNestedSet_h8Test1_valid.java:49: error: cannot find symbol
+    set.add(nestedSet2);
+            ^
+  symbol:   variable nestedSet2
+  location: class SerializerTest_testNestedSet_h8Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_inputs/qw4ITrans/io/arex/inst/runtime/serializer/SerializerTest_testNestedSet_h8Test1_valid.java:58: error: cannot find symbol
+        Set<Set<Object>> actualResult = Serializer.deserialize(json2, typeName2);
+                                                               ^
+  symbol:   variable json2
+  location: class SerializerTest_testNestedSet_h8Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_inputs/qw4ITrans/io/arex/inst/runtime/serializer/SerializerTest_testNestedSet_h8Test1_valid.java:58: error: cannot find symbol
+        Set<Set<Object>> actualResult = Serializer.deserialize(json2, typeName2);
+                                                                      ^
+  symbol:   variable typeName2
+  location: class SerializerTest_testNestedSet_h8Test1_valid
+4 errors

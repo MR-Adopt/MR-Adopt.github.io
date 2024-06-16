@@ -1,0 +1,19 @@
+{
+    "org.tsugi.util.Base64DoubleUrlEncodeSafeTest_testAllNonSurrogateCodePoints_h9Test2_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 1,
+        "num_of_reach_assertion_test_cases": 0,
+        "assertionLineNums": false,
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [
+            "testAllNonSurrogateCodePoints_h9Test2"
+        ],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "testAllNonSurrogateCodePoints_h9Test2": "java.lang.NoClassDefFoundError, line:None"
+        }
+    }
+}

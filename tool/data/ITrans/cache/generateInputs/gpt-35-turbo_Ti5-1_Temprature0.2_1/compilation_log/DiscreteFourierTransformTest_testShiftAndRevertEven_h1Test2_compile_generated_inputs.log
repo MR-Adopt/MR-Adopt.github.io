@@ -1,0 +1,21 @@
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g3/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test2.java:51: error: cannot find symbol
+    original.set(i, j, i + j);
+                 ^
+  symbol:   variable i
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test2
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g3/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test2.java:51: error: cannot find symbol
+    original.set(i, j, i + j);
+                    ^
+  symbol:   variable j
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test2
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g3/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test2.java:51: error: cannot find symbol
+    original.set(i, j, i + j);
+                       ^
+  symbol:   variable i
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test2
+/ssddata1/cxubl/data/ITrans/projects/optimatika__castle__ojAlgo/ITrans/generated_inputs/g3/org/ojalgo/data/transform/DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test2.java:51: error: cannot find symbol
+    original.set(i, j, i + j);
+                           ^
+  symbol:   variable j
+  location: class DiscreteFourierTransformTest_testShiftAndRevertEven_h1Test2
+4 errors

@@ -1,0 +1,17 @@
+{
+    "org.matsim.core.config.groups.ScoringConfigGroupTest_testAddActivityParams_h8Test0": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 1,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [
+            "testAddActivityParams_h8Test0"
+        ],
+        "failure_info": {}
+    }
+}

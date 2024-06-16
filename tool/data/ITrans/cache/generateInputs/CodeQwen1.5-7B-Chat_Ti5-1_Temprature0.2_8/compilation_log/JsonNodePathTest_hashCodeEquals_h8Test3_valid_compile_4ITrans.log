@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h8Test3_valid.java:34: error: cannot find symbol
+    JsonNodePath a2  = JsonNodePathTest_hashCodeEquals.inputTransformation_hashCodeEquals(a1);
+                                                                                          ^
+  symbol:   variable a1
+  location: class JsonNodePathTest_hashCodeEquals_h8Test3_valid
+/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h8Test3_valid.java:35: error: cannot find symbol
+        assertEquals(a1.hashCode(), a2.hashCode());
+                     ^
+  symbol:   variable a1
+  location: class JsonNodePathTest_hashCodeEquals_h8Test3_valid
+2 errors

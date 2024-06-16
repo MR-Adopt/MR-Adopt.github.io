@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey_h8Test3.java:38: error: cannot find symbol
+    EqualityFilter f3 = new EqualityFilter("x", ColumnType.INTEGER, "hello", null);
+                                                          ^
+  symbol:   variable INTEGER
+  location: class ColumnType
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey_h8Test3.java:40: error: cannot find symbol
+        IsFalseDimFilter f1_4 = IsFalseDimFilter.of(f4);
+                                                    ^
+  symbol:   variable f4
+  location: class IsBooleanDimFilterTest_testGetCacheKey_h8Test3
+2 errors
