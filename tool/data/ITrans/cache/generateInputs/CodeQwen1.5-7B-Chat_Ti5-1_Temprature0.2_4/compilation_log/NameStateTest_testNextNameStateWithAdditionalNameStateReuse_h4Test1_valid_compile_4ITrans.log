@@ -1,0 +1,16 @@
+/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/generated_inputs/qw4ITrans/software/amazon/event/ruler/NameStateTest_testNextNameStateWithAdditionalNameStateReuse_h4Test1_valid.java:24: error: cannot find symbol
+        nameState.addNextNameState(key, nextNameState);
+        ^
+  symbol:   variable nameState
+  location: class NameStateTest_testNextNameStateWithAdditionalNameStateReuse_h4Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/generated_inputs/qw4ITrans/software/amazon/event/ruler/NameStateTest_testNextNameStateWithAdditionalNameStateReuse_h4Test1_valid.java:25: error: cannot find symbol
+        assertEquals(nextNameState, nameState2.getNextNameState(key2));
+                                                                ^
+  symbol:   variable key2
+  location: class NameStateTest_testNextNameStateWithAdditionalNameStateReuse_h4Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/aws__castle__event-ruler/ITrans/generated_inputs/qw4ITrans/software/amazon/event/ruler/NameStateTest_testNextNameStateWithAdditionalNameStateReuse_h4Test1_valid.java:25: error: cannot find symbol
+        assertEquals(nextNameState, nameState2.getNextNameState(key2));
+                                    ^
+  symbol:   variable nameState2
+  location: class NameStateTest_testNextNameStateWithAdditionalNameStateReuse_h4Test1_valid
+3 errors

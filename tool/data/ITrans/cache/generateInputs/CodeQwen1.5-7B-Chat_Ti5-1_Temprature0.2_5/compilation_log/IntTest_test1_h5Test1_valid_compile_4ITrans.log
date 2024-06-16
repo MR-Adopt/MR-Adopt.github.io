@@ -1,0 +1,16 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/primitives/IntTest_test1_h5Test1_valid.java:17: error: cannot find symbol
+		List<Object> transformed_inputs = IntTest_test1.inputTransformation_test1(v01);
+		                                                                          ^
+  symbol:   variable v01
+  location: class IntTest_test1_h5Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/primitives/IntTest_test1_h5Test1_valid.java:19: error: cannot find symbol
+        String str = JSON.toJSONString(v01);
+                                       ^
+  symbol:   variable v01
+  location: class IntTest_test1_h5Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/primitives/IntTest_test1_h5Test1_valid.java:21: error: cannot find symbol
+        assertEquals(v01, v02);
+                     ^
+  symbol:   variable v01
+  location: class IntTest_test1_h5Test1_valid
+3 errors

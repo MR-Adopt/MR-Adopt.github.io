@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/ngs-doo__castle__dsl-json/ITrans/generated_inputs/qw/com/dslplatform/json/DateTest_localTimeBoundary_h5Test9.java:32: error: cannot find symbol
+    byte[] body = jw.getBuffer();
+                    ^
+  symbol:   method getBuffer()
+  location: variable jw of type JsonWriter
+1 error

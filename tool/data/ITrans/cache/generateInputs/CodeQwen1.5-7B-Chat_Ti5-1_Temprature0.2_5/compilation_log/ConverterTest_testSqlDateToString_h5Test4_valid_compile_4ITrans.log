@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_inputs/qw4ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString_h5Test4_valid.java:1705: error: package TimeUnit does not exist
+    Date date = new Date(now + TimeUnit.DAYS.toMillis(30));
+                                       ^
+Note: /ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_inputs/qw4ITrans/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString_h5Test4_valid.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error

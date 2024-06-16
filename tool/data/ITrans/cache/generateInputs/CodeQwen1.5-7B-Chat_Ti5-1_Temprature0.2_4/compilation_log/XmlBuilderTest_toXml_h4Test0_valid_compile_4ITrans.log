@@ -1,0 +1,4 @@
+/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/qw4ITrans/com/github/underscore/XmlBuilderTest_toXml_h4Test0_valid.java:48: error: variable xmlBuilder2 is already defined in method toXml_h4Test0()
+        XmlBuilder xmlBuilder2  = XmlBuilderTest_toXml.inputTransformation_toXml(XML);
+                   ^
+1 error

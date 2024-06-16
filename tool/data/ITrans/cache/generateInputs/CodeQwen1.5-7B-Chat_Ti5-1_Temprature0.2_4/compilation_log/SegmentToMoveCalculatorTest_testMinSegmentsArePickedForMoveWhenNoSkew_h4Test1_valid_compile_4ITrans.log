@@ -1,0 +1,2 @@
+Note: /ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h4Test1_valid.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

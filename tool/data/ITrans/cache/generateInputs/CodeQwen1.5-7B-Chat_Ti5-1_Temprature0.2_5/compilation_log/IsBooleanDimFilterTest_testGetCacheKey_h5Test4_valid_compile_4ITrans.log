@@ -1,0 +1,5 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey_h5Test4_valid.java:40: error: incompatible types: String cannot be converted to FilterTuning
+    EqualityFilter f3 = new EqualityFilter("x", ColumnType.STRING, "hello", "");
+                                                                            ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error

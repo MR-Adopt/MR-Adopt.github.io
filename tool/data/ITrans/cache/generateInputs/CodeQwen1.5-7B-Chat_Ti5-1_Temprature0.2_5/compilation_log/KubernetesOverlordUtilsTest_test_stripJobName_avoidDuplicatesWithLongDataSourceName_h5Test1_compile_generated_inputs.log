@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/k8s/overlord/common/KubernetesOverlordUtilsTest_test_stripJobName_avoidDuplicatesWithLongDataSourceName_h5Test1.java:33: error: cannot find symbol
+        String jobName1 = KubernetesOverlordUtils.convertTaskIdToJobName(taskId1);
+                                                                         ^
+  symbol:   variable taskId1
+  location: class KubernetesOverlordUtilsTest_test_stripJobName_avoidDuplicatesWithLongDataSourceName_h5Test1
+1 error

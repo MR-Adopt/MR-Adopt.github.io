@@ -1,0 +1,21 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h5Test1.java:57: error: cannot find symbol
+        int minSegmentsToMove = SegmentToMoveCalculator.computeMinSegmentsToMoveInTier(totalSegmentsInTier);
+                                                                                       ^
+  symbol:   variable totalSegmentsInTier
+  location: class SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h5Test1
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h5Test1.java:59: error: cannot find symbol
+        int segmentsToMove = SegmentToMoveCalculator.computeNumSegmentsToMoveInTier(tier, historicals, maxSegmentsToMoveInTier);
+                                                                                    ^
+  symbol:   variable tier
+  location: class SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h5Test1
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h5Test1.java:59: error: cannot find symbol
+        int segmentsToMove = SegmentToMoveCalculator.computeNumSegmentsToMoveInTier(tier, historicals, maxSegmentsToMoveInTier);
+                                                                                          ^
+  symbol:   variable historicals
+  location: class SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h5Test1
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h5Test1.java:59: error: cannot find symbol
+        int segmentsToMove = SegmentToMoveCalculator.computeNumSegmentsToMoveInTier(tier, historicals, maxSegmentsToMoveInTier);
+                                                                                                       ^
+  symbol:   variable maxSegmentsToMoveInTier
+  location: class SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h5Test1
+4 errors

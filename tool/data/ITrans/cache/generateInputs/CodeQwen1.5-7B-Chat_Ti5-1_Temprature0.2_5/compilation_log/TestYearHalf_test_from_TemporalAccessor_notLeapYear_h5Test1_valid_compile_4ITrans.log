@@ -1,0 +1,14 @@
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/qw4ITrans/org/threeten/extra/TestYearHalf_test_from_TemporalAccessor_notLeapYear_h5Test1_valid.java:136: error: variable date is already defined in method test_from_TemporalAccessor_notLeapYear_h5Test1()
+LocalDate date = LocalDate.of(2020, 6, 15);
+          ^
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/qw4ITrans/org/threeten/extra/TestYearHalf_test_from_TemporalAccessor_notLeapYear_h5Test1_valid.java:138: error: cannot find symbol
+        assertEquals(YearHalf.of(year, expected), test);
+                                 ^
+  symbol:   variable year
+  location: class TestYearHalf_test_from_TemporalAccessor_notLeapYear_h5Test1_valid
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/qw4ITrans/org/threeten/extra/TestYearHalf_test_from_TemporalAccessor_notLeapYear_h5Test1_valid.java:138: error: cannot find symbol
+        assertEquals(YearHalf.of(year, expected), test);
+                                       ^
+  symbol:   variable expected
+  location: class TestYearHalf_test_from_TemporalAccessor_notLeapYear_h5Test1_valid
+3 errors

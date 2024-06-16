@@ -1,0 +1,19 @@
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/qw/org/threeten/extra/TestYearHalf_test_lengthOfYear_h5Test1.java:134: error: cannot find symbol
+        YearHalf test = YearHalf.of(year, half);
+                                    ^
+  symbol:   variable year
+  location: class TestYearHalf_test_lengthOfYear_h5Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/qw/org/threeten/extra/TestYearHalf_test_lengthOfYear_h5Test1.java:134: error: cannot find symbol
+        YearHalf test = YearHalf.of(year, half);
+                                          ^
+  symbol:   variable half
+  location: class TestYearHalf_test_lengthOfYear_h5Test1
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/qw/org/threeten/extra/TestYearHalf_test_lengthOfYear_h5Test1.java:135: error: variable test2 is already defined in method test_lengthOfYear_h5Test1()
+        YearHalf test2 = YearHalf.of(500, 1);
+                 ^
+/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_inputs/qw/org/threeten/extra/TestYearHalf_test_lengthOfYear_h5Test1.java:136: error: cannot find symbol
+        assertEquals(Year.isLeap(year) ? 366 : 365, test2.lengthOfYear());
+                                 ^
+  symbol:   variable year
+  location: class TestYearHalf_test_lengthOfYear_h5Test1
+4 errors

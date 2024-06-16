@@ -1,0 +1,17 @@
+{
+    "com.alibaba.fastjson2.internal.processor.maps.Map1Test_test3_h5Test3": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 1,
+        "num_of_assertion_failed_test_cases": 0,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": -1,
+        "assertionLineNums": [],
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [
+            "test3_h5Test3"
+        ],
+        "failure_info": {}
+    }
+}

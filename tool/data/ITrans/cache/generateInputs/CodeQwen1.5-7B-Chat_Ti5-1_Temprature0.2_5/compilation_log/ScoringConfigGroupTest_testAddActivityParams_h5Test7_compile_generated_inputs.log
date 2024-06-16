@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_inputs/qw/org/matsim/core/config/groups/ScoringConfigGroupTest_testAddActivityParams_h5Test7.java:80: error: cannot find symbol
+        c.addActivityParams(ap);
+                            ^
+  symbol:   variable ap
+  location: class ScoringConfigGroupTest_testAddActivityParams_h5Test7
+/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_inputs/qw/org/matsim/core/config/groups/ScoringConfigGroupTest_testAddActivityParams_h5Test7.java:81: error: cannot find symbol
+        Assertions.assertEquals(ap, c.getActivityParams(type));
+                                ^
+  symbol:   variable ap
+  location: class ScoringConfigGroupTest_testAddActivityParams_h5Test7
+2 errors

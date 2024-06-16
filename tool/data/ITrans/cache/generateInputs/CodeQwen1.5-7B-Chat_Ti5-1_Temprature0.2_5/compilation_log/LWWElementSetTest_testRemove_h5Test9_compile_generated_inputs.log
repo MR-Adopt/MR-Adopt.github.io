@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/datastructures/crdt/LWWElementSetTest_testRemove_h5Test9.java:23: error: cannot find symbol
+        set.add(element);
+                ^
+  symbol:   variable element
+  location: class LWWElementSetTest_testRemove_h5Test9
+/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw/com/thealgorithms/datastructures/crdt/LWWElementSetTest_testRemove_h5Test9.java:25: error: cannot find symbol
+        assertFalse(set.lookup(element));
+                               ^
+  symbol:   variable element
+  location: class LWWElementSetTest_testRemove_h5Test9
+2 errors

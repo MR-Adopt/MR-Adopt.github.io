@@ -1,0 +1,16 @@
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest_test1_h5Test0_valid.java:24: error: cannot find symbol
+		List<Object> transformed_inputs = JSONArrayTest_test1.inputTransformation_test1(v01);
+		                                                                                ^
+  symbol:   variable v01
+  location: class JSONArrayTest_test1_h5Test0_valid
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest_test1_h5Test0_valid.java:26: error: cannot find symbol
+        String str = JSON.toJSONString(v01);
+                                       ^
+  symbol:   variable v01
+  location: class JSONArrayTest_test1_h5Test0_valid
+/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest_test1_h5Test0_valid.java:28: error: cannot find symbol
+        assertEquals(v01, v02);
+                     ^
+  symbol:   variable v01
+  location: class JSONArrayTest_test1_h5Test0_valid
+3 errors

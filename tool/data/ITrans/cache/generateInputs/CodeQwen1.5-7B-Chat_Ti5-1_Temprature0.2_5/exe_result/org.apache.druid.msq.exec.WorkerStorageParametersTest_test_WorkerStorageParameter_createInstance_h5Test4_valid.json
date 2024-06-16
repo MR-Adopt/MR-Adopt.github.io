@@ -1,0 +1,19 @@
+{
+    "org.apache.druid.msq.exec.WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h5Test4_valid": {
+        "num_of_test_cases": 1,
+        "num_of_passed_test_cases": 0,
+        "num_of_assertion_failed_test_cases": 1,
+        "num_of_exception_thrown_test_cases": 0,
+        "num_of_reach_assertion_test_cases": 0,
+        "assertionLineNums": false,
+        "reach_assertion_test_cases_list": [],
+        "assertion_failed_test_cases_list": [
+            "test_WorkerStorageParameter_createInstance_h5Test4"
+        ],
+        "exception_thrown_test_cases_list": [],
+        "passed_test_cases_list": [],
+        "failure_info": {
+            "test_WorkerStorageParameter_createInstance_h5Test4": "java.lang.AssertionError, line:None"
+        }
+    }
+}

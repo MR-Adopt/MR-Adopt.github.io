@@ -1,0 +1,6 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/msq/exec/WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h4Test2_valid.java:36: error: cannot find symbol
+    long l = MINIMUM_SUPER_SORTER_TMP_STORAGE_BYTES - 1;
+             ^
+  symbol:   variable MINIMUM_SUPER_SORTER_TMP_STORAGE_BYTES
+  location: class WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h4Test2_valid
+1 error

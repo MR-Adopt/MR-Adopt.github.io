@@ -1,0 +1,13 @@
+/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h4Test4.java:34: error: reference to listOf is ambiguous
+    TypeLiteral<List<Integer>> input2 = TypeLiteral.listOf(null);
+                                                   ^
+  both method <T#1>listOf(Class<? extends T#1>) in TypeLiteral and method <T#2>listOf(TypeLiteral<? extends T#2>) in TypeLiteral match
+  where T#1,T#2 are type-variables:
+    T#1 extends Object declared in method <T#1>listOf(Class<? extends T#1>)
+    T#2 extends Object declared in method <T#2>listOf(TypeLiteral<? extends T#2>)
+/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h4Test4.java:38: error: variable input2 is already defined in method normalize_h4Test4()
+        TypeLiteral<List<Integer>> input2 = TypeLiteral.listOf(Integer.class);
+                                   ^
+Note: /ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h4Test4.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors

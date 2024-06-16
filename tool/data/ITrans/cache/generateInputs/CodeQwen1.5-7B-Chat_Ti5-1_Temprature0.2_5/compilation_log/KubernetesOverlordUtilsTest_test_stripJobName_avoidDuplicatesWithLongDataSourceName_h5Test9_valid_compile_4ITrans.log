@@ -1,0 +1,11 @@
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/k8s/overlord/common/KubernetesOverlordUtilsTest_test_stripJobName_avoidDuplicatesWithLongDataSourceName_h5Test9_valid.java:34: error: cannot find symbol
+    String taskId2  = KubernetesOverlordUtilsTest_test_stripJobName_avoidDuplicatesWithLongDataSourceName.inputTransformation_test_stripJobName_avoidDuplicatesWithLongDataSourceName(taskId1);
+                                                                                                                                                                                      ^
+  symbol:   variable taskId1
+  location: class KubernetesOverlordUtilsTest_test_stripJobName_avoidDuplicatesWithLongDataSourceName_h5Test9_valid
+/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw4ITrans/org/apache/druid/k8s/overlord/common/KubernetesOverlordUtilsTest_test_stripJobName_avoidDuplicatesWithLongDataSourceName_h5Test9_valid.java:35: error: cannot find symbol
+        String jobName1 = KubernetesOverlordUtils.convertTaskIdToJobName(taskId1);
+                                                                         ^
+  symbol:   variable taskId1
+  location: class KubernetesOverlordUtilsTest_test_stripJobName_avoidDuplicatesWithLongDataSourceName_h5Test9_valid
+2 errors
