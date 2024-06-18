@@ -8953,7 +8953,7 @@
                     "invocation": "association2.getAtomAt(position2)"
                 }
             ],
-            "comments": "fail, because class not found: /ssddata1/cxubl/data/ITrans/projects/cdk__split__cdk/AutoMR/test_exe/org.openscience.cdk.AssociationTest_testGetAtomAt_hTest.log",
+            "comments": "fail, because class not found: ./data/ITrans/projects/cdk__split__cdk/AutoMR/test_exe/org.openscience.cdk.AssociationTest_testGetAtomAt_hTest.log",
             "dependency": "org.openscience.cdk.Association;org.openscience.cdk.Association.*",
             "type": "wo_ITrans"
         },

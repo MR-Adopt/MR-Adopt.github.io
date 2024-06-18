@@ -1,12 +1,12 @@
 [
     {
         "MTC_item": {
-            "poj_name": "datageartech__castle__datagear",
-            "test_file_path": "./data/ITrans/projects/datageartech__castle__datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java",
+            "poj_name": "datageartech__split__datagear",
+            "test_file_path": "./data/ITrans/projects/datageartech__split__datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java",
             "test_simple_name": "isHigherThanTest",
             "FQS_testMethos": "org.datagear.util.version.VersionTest.isHigherThanTest()",
             "assertionSTMT": "assertFalse(a.isHigherThan(b))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/datageartech__castle__datagear/org.datagear.util.version.VersionTest.isHigherThanTest__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/datageartech__split__datagear/org.datagear.util.version.VersionTest.isHigherThanTest__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.datagear.util.version.Version.valueOf(java.lang.String)",
@@ -384,12 +384,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "datageartech__castle__datagear",
-            "test_file_path": "./data/ITrans/projects/datageartech__castle__datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java",
+            "poj_name": "datageartech__split__datagear",
+            "test_file_path": "./data/ITrans/projects/datageartech__split__datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java",
             "test_simple_name": "isEqualTest",
             "FQS_testMethos": "org.datagear.util.version.VersionTest.isEqualTest()",
             "assertionSTMT": "assertFalse(a.isEqual(b))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/datageartech__castle__datagear/org.datagear.util.version.VersionTest.isEqualTest__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/datageartech__split__datagear/org.datagear.util.version.VersionTest.isEqualTest__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.datagear.util.version.Version.valueOf(java.lang.String)",
@@ -664,12 +664,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ngs-doo__castle__dsl-json",
-            "test_file_path": "./data/ITrans/projects/ngs-doo__castle__dsl-json/library/src/test/java/com/dslplatform/json/DateTest.java",
+            "poj_name": "ngs-doo__split__dsl-json",
+            "test_file_path": "./data/ITrans/projects/ngs-doo__split__dsl-json/library/src/test/java/com/dslplatform/json/DateTest.java",
             "test_simple_name": "localTimeBoundary",
             "FQS_testMethos": "com.dslplatform.json.DateTest.localTimeBoundary()",
             "assertionSTMT": "Assert.assertArrayEquals(lts, values)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ngs-doo__castle__dsl-json/com.dslplatform.json.DateTest.localTimeBoundary__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ngs-doo__split__dsl-json/com.dslplatform.json.DateTest.localTimeBoundary__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.dslplatform.json.DslJson.serialize(com.dslplatform.json.JsonWriter, T[])",
@@ -746,12 +746,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "dromara__castle__hutool",
-            "test_file_path": "./data/ITrans/projects/dromara__castle__hutool/hutool-json/src/test/java/cn/hutool/json/IssueI7GPGXTest.java",
+            "poj_name": "dromara__split__hutool",
+            "test_file_path": "./data/ITrans/projects/dromara__split__hutool/hutool-json/src/test/java/cn/hutool/json/IssueI7GPGXTest.java",
             "test_simple_name": "toBeanTest",
             "FQS_testMethos": "cn.hutool.json.IssueI7GPGXTest.toBeanTest()",
             "assertionSTMT": "Assert.assertEquals(hutoolPair, pair)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/dromara__castle__hutool/cn.hutool.json.IssueI7GPGXTest.toBeanTest__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/dromara__split__hutool/cn.hutool.json.IssueI7GPGXTest.toBeanTest__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "cn.hutool.json.JSONUtil.toJsonStr(java.lang.Object)",
@@ -1034,12 +1034,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "bootique__castle__bootique",
-            "test_file_path": "./data/ITrans/projects/bootique__castle__bootique/bootique/src/test/java/io/bootique/di/KeyTest.java",
+            "poj_name": "bootique__split__bootique",
+            "test_file_path": "./data/ITrans/projects/bootique__split__bootique/bootique/src/test/java/io/bootique/di/KeyTest.java",
             "test_simple_name": "equals",
             "FQS_testMethos": "io.bootique.di.KeyTest.equals()",
             "assertionSTMT": "assertTrue(key1.equals(key2))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/bootique__castle__bootique/io.bootique.di.KeyTest.equals__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/bootique__split__bootique/io.bootique.di.KeyTest.equals__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "io.bootique.di.Key.get(java.lang.Class<T>)",
@@ -1194,12 +1194,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ngs-doo__castle__dsl-json",
-            "test_file_path": "./data/ITrans/projects/ngs-doo__castle__dsl-json/library/src/test/java/com/dslplatform/json/DateTest.java",
+            "poj_name": "ngs-doo__split__dsl-json",
+            "test_file_path": "./data/ITrans/projects/ngs-doo__split__dsl-json/library/src/test/java/com/dslplatform/json/DateTest.java",
             "test_simple_name": "zonedDateTimeBoundary",
             "FQS_testMethos": "com.dslplatform.json.DateTest.zonedDateTimeBoundary()",
             "assertionSTMT": "Assert.assertArrayEquals(lts, values)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ngs-doo__castle__dsl-json/com.dslplatform.json.DateTest.zonedDateTimeBoundary__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ngs-doo__split__dsl-json/com.dslplatform.json.DateTest.zonedDateTimeBoundary__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.dslplatform.json.DslJson.serialize(com.dslplatform.json.JsonWriter, T[])",
@@ -1464,12 +1464,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "quartz-scheduler__castle__quartz",
-            "test_file_path": "./data/ITrans/projects/quartz-scheduler__castle__quartz/quartz/src/test/java/org/quartz/impl/RemoteMBeanSchedulerTest.java",
+            "poj_name": "quartz-scheduler__split__quartz",
+            "test_file_path": "./data/ITrans/projects/quartz-scheduler__split__quartz/quartz/src/test/java/org/quartz/impl/RemoteMBeanSchedulerTest.java",
             "test_simple_name": "testJobOperations",
             "FQS_testMethos": "org.quartz.impl.RemoteMBeanSchedulerTest.testJobOperations()",
             "assertionSTMT": "assertThat(remoteScheduler.getJobDetail(job22), equalTo(job2Detail))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/quartz-scheduler__castle__quartz/org.quartz.impl.RemoteMBeanSchedulerTest.testJobOperations__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/quartz-scheduler__split__quartz/org.quartz.impl.RemoteMBeanSchedulerTest.testJobOperations__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.quartz.impl.RemoteMBeanScheduler.addJob(org.quartz.JobDetail, boolean)",
@@ -1685,12 +1685,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "jhy__castle__jsoup",
-            "test_file_path": "./data/ITrans/projects/jhy__castle__jsoup/src/test/java/org/jsoup/parser/StreamParserTest.java",
+            "poj_name": "jhy__split__jsoup",
+            "test_file_path": "./data/ITrans/projects/jhy__split__jsoup/src/test/java/org/jsoup/parser/StreamParserTest.java",
             "test_simple_name": "select",
             "FQS_testMethos": "org.jsoup.parser.StreamParserTest.select()",
             "assertionSTMT": "assertSame(title2, title)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/jhy__castle__jsoup/org.jsoup.parser.StreamParserTest.select__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/jhy__split__jsoup/org.jsoup.parser.StreamParserTest.select__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.jsoup.parser.StreamParser.expectFirst(java.lang.String)",
@@ -1854,12 +1854,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__rocketmq",
-            "test_file_path": "./data/ITrans/projects/apache__castle__rocketmq/tieredstore/src/test/java/org/apache/rocketmq/tieredstore/common/InFlightRequestFutureTest.java",
+            "poj_name": "apache__split__rocketmq",
+            "test_file_path": "./data/ITrans/projects/apache__split__rocketmq/tieredstore/src/test/java/org/apache/rocketmq/tieredstore/common/InFlightRequestFutureTest.java",
             "test_simple_name": "testInFlightRequestKey",
             "FQS_testMethos": "org.apache.rocketmq.tieredstore.common.InFlightRequestFutureTest.testInFlightRequestKey()",
             "assertionSTMT": "Assert.assertEquals(requestKey1.hashCode(), requestKey2.hashCode())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__rocketmq/org.apache.rocketmq.tieredstore.common.InFlightRequestFutureTest.testInFlightRequestKey__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__rocketmq/org.apache.rocketmq.tieredstore.common.InFlightRequestFutureTest.testInFlightRequestKey__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.rocketmq.tieredstore.common.InFlightRequestKey.hashCode()",
@@ -2141,12 +2141,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest.java",
             "test_simple_name": "test1",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test1()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test1__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test1__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -2382,12 +2382,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__incubator-paimon",
-            "test_file_path": "./data/ITrans/projects/apache__castle__incubator-paimon/paimon-spark/paimon-spark-common/src/test/java/org/apache/paimon/spark/ConvertBinaryUtilTest.java",
+            "poj_name": "apache__split__incubator-paimon",
+            "test_file_path": "./data/ITrans/projects/apache__split__incubator-paimon/paimon-spark/paimon-spark-common/src/test/java/org/apache/paimon/spark/ConvertBinaryUtilTest.java",
             "test_simple_name": "testConvertToLong",
             "FQS_testMethos": "org.apache.paimon.spark.ConvertBinaryUtilTest.testConvertToLong()",
             "assertionSTMT": "Assert.assertEquals(convertStringValue, convertBytesValue)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__incubator-paimon/org.apache.paimon.spark.ConvertBinaryUtilTest.testConvertToLong__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__incubator-paimon/org.apache.paimon.spark.ConvertBinaryUtilTest.testConvertToLong__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.paimon.spark.utils.ConvertBinaryUtil.convertStringToLong(java.lang.String)",
@@ -2716,12 +2716,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "dromara__castle__hutool",
-            "test_file_path": "./data/ITrans/projects/dromara__castle__hutool/hutool-json/src/test/java/cn/hutool/json/IssueI6SZYBTest.java",
+            "poj_name": "dromara__split__hutool",
+            "test_file_path": "./data/ITrans/projects/dromara__split__hutool/hutool-json/src/test/java/cn/hutool/json/IssueI6SZYBTest.java",
             "test_simple_name": "pairTest",
             "FQS_testMethos": "cn.hutool.json.IssueI6SZYBTest.pairTest()",
             "assertionSTMT": "Assert.assertEquals(pair, bean)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/dromara__castle__hutool/cn.hutool.json.IssueI6SZYBTest.pairTest__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/dromara__split__hutool/cn.hutool.json.IssueI6SZYBTest.pairTest__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "cn.hutool.json.JSONUtil.toJsonStr(java.lang.Object)",
@@ -2925,12 +2925,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "vladmihalcea__castle__high-performance-java-persistence",
-            "test_file_path": "./data/ITrans/projects/vladmihalcea__castle__high-performance-java-persistence/core/src/test/java/com/vladmihalcea/hpjp/util/CryptoUtilsTest.java",
+            "poj_name": "vladmihalcea__split__high-performance-java-persistence",
+            "test_file_path": "./data/ITrans/projects/vladmihalcea__split__high-performance-java-persistence/core/src/test/java/com/vladmihalcea/hpjp/util/CryptoUtilsTest.java",
             "test_simple_name": "testPerformance",
             "FQS_testMethos": "com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformance()",
             "assertionSTMT": "assertEquals(value.longValue(), decryptedValue.longValue())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/vladmihalcea__castle__high-performance-java-persistence/com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformance__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/vladmihalcea__split__high-performance-java-persistence/com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformance__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.vladmihalcea.hpjp.util.CryptoUtils.encrypt(java.lang.Object)",
@@ -3159,12 +3159,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/ListTest1.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/ListTest1.java",
             "test_simple_name": "test",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.collections.ListTest1.test()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.collections.ListTest1.test__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.collections.ListTest1.test__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -3337,12 +3337,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_from_TemporalAccessor_leapYear",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_leapYear()",
             "assertionSTMT": "assertEquals(YearHalf.of(year, expected), test)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_leapYear__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_leapYear__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.from(java.time.temporal.TemporalAccessor)",
@@ -3469,12 +3469,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__druid",
-            "test_file_path": "./data/ITrans/projects/apache__castle__druid/extensions-core/multi-stage-query/src/test/java/org/apache/druid/msq/exec/WorkerStorageParametersTest.java",
+            "poj_name": "apache__split__druid",
+            "test_file_path": "./data/ITrans/projects/apache__split__druid/extensions-core/multi-stage-query/src/test/java/org/apache/druid/msq/exec/WorkerStorageParametersTest.java",
             "test_simple_name": "test_WorkerStorageParameter_createInstance",
             "FQS_testMethos": "org.apache.druid.msq.exec.WorkerStorageParametersTest.test_WorkerStorageParameter_createInstance()",
             "assertionSTMT": "Assert.assertEquals(WorkerStorageParameters.createInstanceForTests(l), WorkerStorageParameters.createInstance(l2, b))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.msq.exec.WorkerStorageParametersTest.test_WorkerStorageParameter_createInstance__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__druid/org.apache.druid.msq.exec.WorkerStorageParametersTest.test_WorkerStorageParameter_createInstance__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.druid.msq.exec.WorkerStorageParameters.createInstanceForTests(long)",
@@ -3539,12 +3539,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "vladmihalcea__castle__high-performance-java-persistence",
-            "test_file_path": "./data/ITrans/projects/vladmihalcea__castle__high-performance-java-persistence/core/src/test/java/com/vladmihalcea/hpjp/util/CryptoUtilsTest.java",
+            "poj_name": "vladmihalcea__split__high-performance-java-persistence",
+            "test_file_path": "./data/ITrans/projects/vladmihalcea__split__high-performance-java-persistence/core/src/test/java/com/vladmihalcea/hpjp/util/CryptoUtilsTest.java",
             "test_simple_name": "testPerformanceUsingCache",
             "FQS_testMethos": "com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformanceUsingCache()",
             "assertionSTMT": "assertEquals(value.longValue(), decryptedValue.longValue())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/vladmihalcea__castle__high-performance-java-persistence/com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformanceUsingCache__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/vladmihalcea__split__high-performance-java-persistence/com.vladmihalcea.hpjp.util.CryptoUtilsTest.testPerformanceUsingCache__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.vladmihalcea.hpjp.util.CryptoUtils.encrypt(java.lang.Object)",
@@ -3759,12 +3759,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "dromara__castle__hutool",
-            "test_file_path": "./data/ITrans/projects/dromara__castle__hutool/hutool-json/src/test/java/cn/hutool/json/IssueI6SZYBTest.java",
+            "poj_name": "dromara__split__hutool",
+            "test_file_path": "./data/ITrans/projects/dromara__split__hutool/hutool-json/src/test/java/cn/hutool/json/IssueI6SZYBTest.java",
             "test_simple_name": "entryTest",
             "FQS_testMethos": "cn.hutool.json.IssueI6SZYBTest.entryTest()",
             "assertionSTMT": "Assert.assertEquals(pair, bean)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/dromara__castle__hutool/cn.hutool.json.IssueI6SZYBTest.entryTest__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/dromara__split__hutool/cn.hutool.json.IssueI6SZYBTest.entryTest__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "cn.hutool.json.JSONUtil.toJsonStr(java.lang.Object)",
@@ -4013,12 +4013,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
             "test_simple_name": "test2",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test2()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test2__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test2__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -4359,12 +4359,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "cdk__castle__cdk",
-            "test_file_path": "./data/ITrans/projects/cdk__castle__cdk/misc/extra/src/test/java/org/openscience/cdk/AssociationTest.java",
+            "poj_name": "cdk__split__cdk",
+            "test_file_path": "./data/ITrans/projects/cdk__split__cdk/misc/extra/src/test/java/org/openscience/cdk/AssociationTest.java",
             "test_simple_name": "testGetAtomAt",
             "FQS_testMethos": "org.openscience.cdk.AssociationTest.testGetAtomAt()",
             "assertionSTMT": "Assertions.assertEquals(n, association2.getAtomAt(position2))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/cdk__castle__cdk/org.openscience.cdk.AssociationTest.testGetAtomAt__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/cdk__split__cdk/org.openscience.cdk.AssociationTest.testGetAtomAt__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.openscience.cdk.Association.setAtomAt(org.openscience.cdk.interfaces.IAtom, int)",
@@ -4408,7 +4408,7 @@
                     "invocation": "association2.getAtomAt(position2)"
                 }
             ],
-            "comments": "fail, because class not found: /ssddata1/cxubl/data/ITrans/projects/cdk__castle__cdk/AutoMR/test_exe/org.openscience.cdk.AssociationTest_testGetAtomAt_hTest.log",
+            "comments": "fail, because class not found: ./data/ITrans/projects/cdk__split__cdk/AutoMR/test_exe/org.openscience.cdk.AssociationTest_testGetAtomAt_hTest.log",
             "dependency": "org.openscience.cdk.Association;org.openscience.cdk.Association.*",
             "type": "wo_ITrans"
         },
@@ -4519,12 +4519,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "datageartech__castle__datagear",
-            "test_file_path": "./data/ITrans/projects/datageartech__castle__datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java",
+            "poj_name": "datageartech__split__datagear",
+            "test_file_path": "./data/ITrans/projects/datageartech__split__datagear/datagear-util/src/test/java/org/datagear/util/version/VersionTest.java",
             "test_simple_name": "isLowerThanTest",
             "FQS_testMethos": "org.datagear.util.version.VersionTest.isLowerThanTest()",
             "assertionSTMT": "assertTrue(a.isLowerThan(b))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/datageartech__castle__datagear/org.datagear.util.version.VersionTest.isLowerThanTest__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/datageartech__split__datagear/org.datagear.util.version.VersionTest.isLowerThanTest__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.datagear.util.version.Version.valueOf(java.lang.String)",
@@ -4901,12 +4901,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "TheAlgorithms__castle__Java",
-            "test_file_path": "./data/ITrans/projects/TheAlgorithms__castle__Java/src/test/java/com/thealgorithms/datastructures/crdt/LWWElementSetTest.java",
+            "poj_name": "TheAlgorithms__split__Java",
+            "test_file_path": "./data/ITrans/projects/TheAlgorithms__split__Java/src/test/java/com/thealgorithms/datastructures/crdt/LWWElementSetTest.java",
             "test_simple_name": "testCompareDifferentSets",
             "FQS_testMethos": "com.thealgorithms.datastructures.crdt.LWWElementSetTest.testCompareDifferentSets()",
             "assertionSTMT": "assertFalse(set.compare(otherSet))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms__castle__Java/com.thealgorithms.datastructures.crdt.LWWElementSetTest.testCompareDifferentSets__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms__split__Java/com.thealgorithms.datastructures.crdt.LWWElementSetTest.testCompareDifferentSets__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.thealgorithms.datastructures.crdt.LWWElementSet.add(com.thealgorithms.datastructures.crdt.Element)",
@@ -5097,12 +5097,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "jdereg__castle__java-util",
-            "test_file_path": "./data/ITrans/projects/jdereg__castle__java-util/src/test/java/com/cedarsoftware/util/convert/ConverterTest.java",
+            "poj_name": "jdereg__split__java-util",
+            "test_file_path": "./data/ITrans/projects/jdereg__split__java-util/src/test/java/com/cedarsoftware/util/convert/ConverterTest.java",
             "test_simple_name": "testSqlDateToString",
             "FQS_testMethos": "com.cedarsoftware.util.convert.ConverterTest.testSqlDateToString()",
             "assertionSTMT": "assertEquals(l1, l2)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/jdereg__castle__java-util/com.cedarsoftware.util.convert.ConverterTest.testSqlDateToString__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/jdereg__split__java-util/com.cedarsoftware.util.convert.ConverterTest.testSqlDateToString__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.cedarsoftware.util.convert.Converter.convert(java.lang.Object, java.lang.Class<T>)",
@@ -8749,12 +8749,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/MapTest.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/MapTest.java",
             "test_simple_name": "test1",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.MapTest.test1()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.MapTest.test1__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.MapTest.test1__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -9131,12 +9131,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "aws__castle__event-ruler",
-            "test_file_path": "./data/ITrans/projects/aws__castle__event-ruler/src/test/software/amazon/event/ruler/SubRuleContextTest.java",
+            "poj_name": "aws__split__event-ruler",
+            "test_file_path": "./data/ITrans/projects/aws__split__event-ruler/src/test/software/amazon/event/ruler/SubRuleContextTest.java",
             "test_simple_name": "testGetters",
             "FQS_testMethos": "software.amazon.event.ruler.SubRuleContextTest.testGetters()",
             "assertionSTMT": "assertEquals(NAME, generator.getNameForGeneratedId(context.getId()))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/aws__castle__event-ruler/software.amazon.event.ruler.SubRuleContextTest.testGetters__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/aws__split__event-ruler/software.amazon.event.ruler.SubRuleContextTest.testGetters__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "software.amazon.event.ruler.SubRuleContext.Generator.generate(java.lang.Object)",
@@ -9363,12 +9363,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_parse_CharSequence",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_parse_CharSequence()",
             "assertionSTMT": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequence__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequence__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
@@ -9698,12 +9698,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "TheAlgorithms__castle__Java",
-            "test_file_path": "./data/ITrans/projects/TheAlgorithms__castle__Java/src/test/java/com/thealgorithms/datastructures/crdt/ORSetTest.java",
+            "poj_name": "TheAlgorithms__split__Java",
+            "test_file_path": "./data/ITrans/projects/TheAlgorithms__split__Java/src/test/java/com/thealgorithms/datastructures/crdt/ORSetTest.java",
             "test_simple_name": "testCompareDifferentSets",
             "FQS_testMethos": "com.thealgorithms.datastructures.crdt.ORSetTest.testCompareDifferentSets()",
             "assertionSTMT": "assertFalse(orSet1.compare(orSet2))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms__castle__Java/com.thealgorithms.datastructures.crdt.ORSetTest.testCompareDifferentSets__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms__split__Java/com.thealgorithms.datastructures.crdt.ORSetTest.testCompareDifferentSets__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.thealgorithms.datastructures.crdt.ORSet.add(T)",
@@ -9876,12 +9876,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "javadev__castle__underscore-java",
-            "test_file_path": "./data/ITrans/projects/javadev__castle__underscore-java/src/test/java/com/github/underscore/XmlBuilderTest.java",
+            "poj_name": "javadev__split__underscore-java",
+            "test_file_path": "./data/ITrans/projects/javadev__split__underscore-java/src/test/java/com/github/underscore/XmlBuilderTest.java",
             "test_simple_name": "parse",
             "FQS_testMethos": "com.github.underscore.XmlBuilderTest.parse()",
             "assertionSTMT": "assertEquals(XML, xmlBuilder.asString())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/javadev__castle__underscore-java/com.github.underscore.XmlBuilderTest.parse__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/javadev__split__underscore-java/com.github.underscore.XmlBuilderTest.parse__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.github.underscore.XmlBuilder.parse(java.lang.String)",
@@ -10058,12 +10058,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/ListTest1.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/ListTest1.java",
             "test_simple_name": "test1",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.collections.ListTest1.test1()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.collections.ListTest1.test1__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.collections.ListTest1.test1__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -10350,12 +10350,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "matsim-org__castle__matsim-libs",
-            "test_file_path": "./data/ITrans/projects/matsim-org__castle__matsim-libs/matsim/src/test/java/org/matsim/core/config/groups/ScoringConfigGroupTest.java",
+            "poj_name": "matsim-org__split__matsim-libs",
+            "test_file_path": "./data/ITrans/projects/matsim-org__split__matsim-libs/matsim/src/test/java/org/matsim/core/config/groups/ScoringConfigGroupTest.java",
             "test_simple_name": "testAddActivityParams",
             "FQS_testMethos": "org.matsim.core.config.groups.ScoringConfigGroupTest.testAddActivityParams()",
             "assertionSTMT": "Assertions.assertEquals(ap, c.getActivityParams(type))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/matsim-org__castle__matsim-libs/org.matsim.core.config.groups.ScoringConfigGroupTest.testAddActivityParams__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/matsim-org__split__matsim-libs/org.matsim.core.config.groups.ScoringConfigGroupTest.testAddActivityParams__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.matsim.core.config.groups.ScoringConfigGroup.addActivityParams(org.matsim.core.config.groups.ScoringConfigGroup.ActivityParams)",
@@ -10588,12 +10588,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
             "test_simple_name": "test3",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test3()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test3__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test3__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -10822,12 +10822,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "synthetichealth__castle__synthea",
-            "test_file_path": "./data/ITrans/projects/synthetichealth__castle__synthea/src/test/java/org/mitre/synthea/engine/ExpressedSymptomTest.java",
+            "poj_name": "synthetichealth__split__synthea",
+            "test_file_path": "./data/ITrans/projects/synthetichealth__split__synthea/src/test/java/org/mitre/synthea/engine/ExpressedSymptomTest.java",
             "test_simple_name": "testExpressedSymtpom",
             "FQS_testMethos": "org.mitre.synthea.engine.ExpressedSymptomTest.testExpressedSymtpom()",
             "assertionSTMT": "assertEquals(Long.valueOf(l), symptom2.getSymptomLastUpdatedTime(module2));",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/synthetichealth__castle__synthea/org.mitre.synthea.engine.ExpressedSymptomTest.testExpressedSymtpom__castle__3.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/synthetichealth__split__synthea/org.mitre.synthea.engine.ExpressedSymptomTest.testExpressedSymtpom__split__3.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.mitre.synthea.engine.ExpressedSymptom.onSet(java.lang.String, java.lang.String, long, int, java.lang.Boolean)",
@@ -10940,12 +10940,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "arextest__castle__arex-agent-java",
-            "test_file_path": "./data/ITrans/projects/arextest__castle__arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/model/SerializeSkipInfoTest.java",
+            "poj_name": "arextest__split__arex-agent-java",
+            "test_file_path": "./data/ITrans/projects/arextest__split__arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/model/SerializeSkipInfoTest.java",
             "test_simple_name": "testHashCode",
             "FQS_testMethos": "io.arex.inst.runtime.model.SerializeSkipInfoTest.testHashCode()",
             "assertionSTMT": "assertEquals(serializeSkipInfo2.hashCode(), serializeSkipInfo.hashCode())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest__castle__arex-agent-java/io.arex.inst.runtime.model.SerializeSkipInfoTest.testHashCode__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest__split__arex-agent-java/io.arex.inst.runtime.model.SerializeSkipInfoTest.testHashCode__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "io.arex.inst.runtime.model.SerializeSkipInfo.hashCode()",
@@ -11166,12 +11166,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__systemds",
-            "test_file_path": "./data/ITrans/projects/apache__castle__systemds/src/test/java/org/apache/sysds/test/component/compress/util/ArrayListTest.java",
+            "poj_name": "apache__split__systemds",
+            "test_file_path": "./data/ITrans/projects/apache__split__systemds/src/test/java/org/apache/sysds/test/component/compress/util/ArrayListTest.java",
             "test_simple_name": "extract",
             "FQS_testMethos": "org.apache.sysds.test.component.compress.util.ArrayListTest.extract()",
             "assertionSTMT": "assertTrue(ex.length >= et.length)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__systemds/org.apache.sysds.test.component.compress.util.ArrayListTest.extract__castle__1.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__systemds/org.apache.sysds.test.component.compress.util.ArrayListTest.extract__split__1.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.apache.sysds.runtime.compress.utils.IntArrayList.extractValues(boolean)",
@@ -11285,12 +11285,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "rsksmart__castle__rskj",
-            "test_file_path": "./data/ITrans/projects/rsksmart__castle__rskj/rskj-core/src/test/java/org/ethereum/rpc/FilterTest.java",
+            "poj_name": "rsksmart__split__rskj",
+            "test_file_path": "./data/ITrans/projects/rsksmart__split__rskj/rskj-core/src/test/java/org/ethereum/rpc/FilterTest.java",
             "test_simple_name": "testGetNewEvents",
             "FQS_testMethos": "org.ethereum.rpc.FilterTest.testGetNewEvents()",
             "assertionSTMT": "assertArrayEquals(new Object[] { mockEvent.getJsonEventObject() }, events1)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/rsksmart__castle__rskj/org.ethereum.rpc.FilterTest.testGetNewEvents__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/rsksmart__split__rskj/org.ethereum.rpc.FilterTest.testGetNewEvents__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.ethereum.rpc.Filter.add(org.ethereum.rpc.Filter.FilterEvent)",
@@ -11361,12 +11361,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "networknt__castle__json-schema-validator",
-            "test_file_path": "./data/ITrans/projects/networknt__castle__json-schema-validator/src/test/java/com/networknt/schema/JsonNodePathTest.java",
+            "poj_name": "networknt__split__json-schema-validator",
+            "test_file_path": "./data/ITrans/projects/networknt__split__json-schema-validator/src/test/java/com/networknt/schema/JsonNodePathTest.java",
             "test_simple_name": "equalsEquals",
             "FQS_testMethos": "com.networknt.schema.JsonNodePathTest.equalsEquals()",
             "assertionSTMT": "assertEquals(a1, a2)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/networknt__castle__json-schema-validator/com.networknt.schema.JsonNodePathTest.equalsEquals__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/networknt__split__json-schema-validator/com.networknt.schema.JsonNodePathTest.equalsEquals__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.networknt.schema.JsonNodePath.append(java.lang.String)",
@@ -11575,12 +11575,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/primitives/IntTest.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/primitives/IntTest.java",
             "test_simple_name": "test1",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.primitives.IntTest.test1()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.primitives.IntTest.test1__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.primitives.IntTest.test1__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -11789,12 +11789,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_parse_CharSequence_caseInsensitive",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_parse_CharSequence_caseInsensitive()",
             "assertionSTMT": "assertEquals(YearHalf.of(year, half), YearHalf.parse(text))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequence_caseInsensitive__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequence_caseInsensitive__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
@@ -12033,12 +12033,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/JSONObjectTest.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/JSONObjectTest.java",
             "test_simple_name": "test",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -12265,12 +12265,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "javadev__castle__underscore-java",
-            "test_file_path": "./data/ITrans/projects/javadev__castle__underscore-java/src/test/java/com/github/underscore/XmlBuilderTest.java",
+            "poj_name": "javadev__split__underscore-java",
+            "test_file_path": "./data/ITrans/projects/javadev__split__underscore-java/src/test/java/com/github/underscore/XmlBuilderTest.java",
             "test_simple_name": "toJson",
             "FQS_testMethos": "com.github.underscore.XmlBuilderTest.toJson()",
             "assertionSTMT": "assertEquals(U.xmlToJson(XML), xmlBuilder.toJson())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/javadev__castle__underscore-java/com.github.underscore.XmlBuilderTest.toJson__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/javadev__split__underscore-java/com.github.underscore.XmlBuilderTest.toJson__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.github.underscore.XmlBuilder.parse(java.lang.String)",
@@ -12557,12 +12557,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "arextest__castle__arex-agent-java",
-            "test_file_path": "./data/ITrans/projects/arextest__castle__arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/model/SerializeSkipInfoTest.java",
+            "poj_name": "arextest__split__arex-agent-java",
+            "test_file_path": "./data/ITrans/projects/arextest__split__arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/model/SerializeSkipInfoTest.java",
             "test_simple_name": "testToString",
             "FQS_testMethos": "io.arex.inst.runtime.model.SerializeSkipInfoTest.testToString()",
             "assertionSTMT": "assertEquals(serializeSkipInfo.toString(), serializeSkipInfo2.toString())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest__castle__arex-agent-java/io.arex.inst.runtime.model.SerializeSkipInfoTest.testToString__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest__split__arex-agent-java/io.arex.inst.runtime.model.SerializeSkipInfoTest.testToString__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "io.arex.inst.runtime.model.SerializeSkipInfo.toString()",
@@ -12760,12 +12760,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "rsksmart__castle__rskj",
-            "test_file_path": "./data/ITrans/projects/rsksmart__castle__rskj/rskj-core/src/test/java/org/ethereum/rpc/FilterTest.java",
+            "poj_name": "rsksmart__split__rskj",
+            "test_file_path": "./data/ITrans/projects/rsksmart__split__rskj/rskj-core/src/test/java/org/ethereum/rpc/FilterTest.java",
             "test_simple_name": "testGetEventsInternal",
             "FQS_testMethos": "org.ethereum.rpc.FilterTest.testGetEventsInternal()",
             "assertionSTMT": "assertNotSame(events, filter2.getEventsInternal())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/rsksmart__castle__rskj/org.ethereum.rpc.FilterTest.testGetEventsInternal__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/rsksmart__split__rskj/org.ethereum.rpc.FilterTest.testGetEventsInternal__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.ethereum.rpc.Filter.getEventsInternal()",
@@ -12954,12 +12954,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "networknt__castle__json-schema-validator",
-            "test_file_path": "./data/ITrans/projects/networknt__castle__json-schema-validator/src/test/java/com/networknt/schema/JsonNodePathTest.java",
+            "poj_name": "networknt__split__json-schema-validator",
+            "test_file_path": "./data/ITrans/projects/networknt__split__json-schema-validator/src/test/java/com/networknt/schema/JsonNodePathTest.java",
             "test_simple_name": "hashCodeEquals",
             "FQS_testMethos": "com.networknt.schema.JsonNodePathTest.hashCodeEquals()",
             "assertionSTMT": "assertEquals(a1.hashCode(), a2.hashCode())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/networknt__castle__json-schema-validator/com.networknt.schema.JsonNodePathTest.equalsEquals__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/networknt__split__json-schema-validator/com.networknt.schema.JsonNodePathTest.equalsEquals__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.networknt.schema.JsonNodePath.hashCode()",
@@ -13164,12 +13164,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
             "test_simple_name": "test4",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test4()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test4__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test4__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -13414,12 +13414,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "TheAlgorithms__castle__Java",
-            "test_file_path": "./data/ITrans/projects/TheAlgorithms__castle__Java/src/test/java/com/thealgorithms/ciphers/PlayfairTest.java",
+            "poj_name": "TheAlgorithms__split__Java",
+            "test_file_path": "./data/ITrans/projects/TheAlgorithms__split__Java/src/test/java/com/thealgorithms/ciphers/PlayfairTest.java",
             "test_simple_name": "testEncryptionAndDecryption",
             "FQS_testMethos": "com.thealgorithms.ciphers.PlayfairTest.testEncryptionAndDecryption()",
             "assertionSTMT": "assertEquals(plaintext, decryptedText)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms__castle__Java/com.thealgorithms.ciphers.PlayfairTest.testEncryptionAndDecryption__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms__split__Java/com.thealgorithms.ciphers.PlayfairTest.testEncryptionAndDecryption__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.thealgorithms.ciphers.PlayfairCipher.encrypt(java.lang.String)",
@@ -13590,12 +13590,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "optimatika__castle__ojAlgo",
-            "test_file_path": "./data/ITrans/projects/optimatika__castle__ojAlgo/src/test/java/org/ojalgo/data/transform/DiscreteFourierTransformTest.java",
+            "poj_name": "optimatika__split__ojAlgo",
+            "test_file_path": "./data/ITrans/projects/optimatika__split__ojAlgo/src/test/java/org/ojalgo/data/transform/DiscreteFourierTransformTest.java",
             "test_simple_name": "testNonPowerOf2",
             "FQS_testMethos": "org.ojalgo.data.transform.DiscreteFourierTransformTest.testNonPowerOf2()",
             "assertionSTMT": "TestUtils.assertEquals(input, reverted, accuracy)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/optimatika__castle__ojAlgo/org.ojalgo.data.transform.DiscreteFourierTransformTest.testNonPowerOf2__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/optimatika__split__ojAlgo/org.ojalgo.data.transform.DiscreteFourierTransformTest.testNonPowerOf2__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.ojalgo.data.transform.DiscreteFourierTransform.transform(org.ojalgo.structure.Access1D<?>)",
@@ -13981,12 +13981,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_parse_CharSequenceDateTimeFormatter",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_parse_CharSequenceDateTimeFormatter()",
             "assertionSTMT": "assertEquals(YearHalf.parse(text, f), YearHalf.of(year, half))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequenceDateTimeFormatter__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_parse_CharSequenceDateTimeFormatter__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
@@ -14262,12 +14262,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "aws__castle__event-ruler",
-            "test_file_path": "./data/ITrans/projects/aws__castle__event-ruler/src/test/software/amazon/event/ruler/NameStateTest.java",
+            "poj_name": "aws__split__event-ruler",
+            "test_file_path": "./data/ITrans/projects/aws__split__event-ruler/src/test/software/amazon/event/ruler/NameStateTest.java",
             "test_simple_name": "testNextNameStateWithAdditionalNameStateReuse",
             "FQS_testMethos": "software.amazon.event.ruler.NameStateTest.testNextNameStateWithAdditionalNameStateReuse()",
             "assertionSTMT": "assertEquals(nextNameState, nameState2.getNextNameState(key2))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/aws__castle__event-ruler/software.amazon.event.ruler.NameStateTest.testNextNameStateWithAdditionalNameStateReuse__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/aws__split__event-ruler/software.amazon.event.ruler.NameStateTest.testNextNameStateWithAdditionalNameStateReuse__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "software.amazon.event.ruler.NameState.addNextNameState(java.lang.String, software.amazon.event.ruler.NameState)",
@@ -14477,12 +14477,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__druid",
-            "test_file_path": "./data/ITrans/projects/apache__castle__druid/processing/src/test/java/org/apache/druid/audit/AuditInfoTest.java",
+            "poj_name": "apache__split__druid",
+            "test_file_path": "./data/ITrans/projects/apache__split__druid/processing/src/test/java/org/apache/druid/audit/AuditInfoTest.java",
             "test_simple_name": "testAuditInfoEquality",
             "FQS_testMethos": "org.apache.druid.audit.AuditInfoTest.testAuditInfoEquality()",
             "assertionSTMT": "Assert.assertEquals(auditInfo1.hashCode(), auditInfo2.hashCode())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.audit.AuditInfoTest.testAuditInfoEquality__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__druid/org.apache.druid.audit.AuditInfoTest.testAuditInfoEquality__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.druid.audit.AuditInfo.hashCode()",
@@ -14679,12 +14679,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "aws__castle__event-ruler",
-            "test_file_path": "./data/ITrans/projects/aws__castle__event-ruler/src/test/software/amazon/event/ruler/SubRuleContextTest.java",
+            "poj_name": "aws__split__event-ruler",
+            "test_file_path": "./data/ITrans/projects/aws__split__event-ruler/src/test/software/amazon/event/ruler/SubRuleContextTest.java",
             "test_simple_name": "testEquals",
             "FQS_testMethos": "software.amazon.event.ruler.SubRuleContextTest.testEquals()",
             "assertionSTMT": "assertTrue(contextA1.equals(contextB1))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/aws__castle__event-ruler/software.amazon.event.ruler.SubRuleContextTest.testEquals__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/aws__split__event-ruler/software.amazon.event.ruler.SubRuleContextTest.testEquals__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "software.amazon.event.ruler.SubRuleContext.Generator.generate(java.lang.Object)",
@@ -14863,12 +14863,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/JSONObjectTest.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/JSONObjectTest.java",
             "test_simple_name": "test1",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test1()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test1__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.JSONObjectTest.test1__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -15041,12 +15041,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "optimatika__castle__ojAlgo",
-            "test_file_path": "./data/ITrans/projects/optimatika__castle__ojAlgo/src/test/java/org/ojalgo/data/transform/DiscreteFourierTransformTest.java",
+            "poj_name": "optimatika__split__ojAlgo",
+            "test_file_path": "./data/ITrans/projects/optimatika__split__ojAlgo/src/test/java/org/ojalgo/data/transform/DiscreteFourierTransformTest.java",
             "test_simple_name": "testShiftAndRevertEven",
             "FQS_testMethos": "org.ojalgo.data.transform.DiscreteFourierTransformTest.testShiftAndRevertEven()",
             "assertionSTMT": "TestUtils.assertEquals(original, reverted)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/optimatika__castle__ojAlgo/org.ojalgo.data.transform.DiscreteFourierTransformTest.testShiftAndRevertEven__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/optimatika__split__ojAlgo/org.ojalgo.data.transform.DiscreteFourierTransformTest.testShiftAndRevertEven__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.ojalgo.data.transform.DiscreteFourierTransform.shift(org.ojalgo.matrix.store.MatrixStore<N>)",
@@ -15165,12 +15165,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "TheAlgorithms__castle__Java",
-            "test_file_path": "./data/ITrans/projects/TheAlgorithms__castle__Java/src/test/java/com/thealgorithms/datastructures/crdt/LWWElementSetTest.java",
+            "poj_name": "TheAlgorithms__split__Java",
+            "test_file_path": "./data/ITrans/projects/TheAlgorithms__split__Java/src/test/java/com/thealgorithms/datastructures/crdt/LWWElementSetTest.java",
             "test_simple_name": "testRemove",
             "FQS_testMethos": "com.thealgorithms.datastructures.crdt.LWWElementSetTest.testRemove()",
             "assertionSTMT": "assertFalse(set.lookup(element))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms__castle__Java/com.thealgorithms.datastructures.crdt.LWWElementSetTest.testRemove__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/TheAlgorithms__split__Java/com.thealgorithms.datastructures.crdt.LWWElementSetTest.testRemove__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.thealgorithms.datastructures.crdt.LWWElementSet.add(com.thealgorithms.datastructures.crdt.Element)",
@@ -15361,12 +15361,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "eclipse-vertx__castle__vert.x",
-            "test_file_path": "./data/ITrans/projects/eclipse-vertx__castle__vert.x/src/test/java/io/vertx/core/json/jackson/HybridJacksonPoolTest.java",
+            "poj_name": "eclipse-vertx__split__vert.x",
+            "test_file_path": "./data/ITrans/projects/eclipse-vertx__split__vert.x/src/test/java/io/vertx/core/json/jackson/HybridJacksonPoolTest.java",
             "test_simple_name": "testVirtualThreadPoolWithSingleThread",
             "FQS_testMethos": "io.vertx.core.json.jackson.HybridJacksonPoolTest.testVirtualThreadPoolWithSingleThread()",
             "assertionSTMT": "assertSame(pooledResource, virtualPool.acquirePooled())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/eclipse-vertx__castle__vert.x/io.vertx.core.json.jackson.HybridJacksonPoolTest.testVirtualThreadPoolWithSingleThread__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/eclipse-vertx__split__vert.x/io.vertx.core.json.jackson.HybridJacksonPoolTest.testVirtualThreadPoolWithSingleThread__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "io.vertx.core.json.jackson.HybridJacksonPool.StripedLockFreePool.acquirePooled()",
@@ -15515,12 +15515,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "opentripplanner__castle__OpenTripPlanner",
-            "test_file_path": "./data/ITrans/projects/opentripplanner__castle__OpenTripPlanner/src/test/java/org/opentripplanner/framework/model/CostTest.java",
+            "poj_name": "opentripplanner__split__OpenTripPlanner",
+            "test_file_path": "./data/ITrans/projects/opentripplanner__split__OpenTripPlanner/src/test/java/org/opentripplanner/framework/model/CostTest.java",
             "test_simple_name": "testHashCodeAndEquals",
             "FQS_testMethos": "org.opentripplanner.framework.model.CostTest.testHashCodeAndEquals()",
             "assertionSTMT": "assertNotEquals(subject.hashCode(), other.hashCode())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/opentripplanner__castle__OpenTripPlanner/org.opentripplanner.framework.model.CostTest.testHashCodeAndEquals__castle__2.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/opentripplanner__split__OpenTripPlanner/org.opentripplanner.framework.model.CostTest.testHashCodeAndEquals__split__2.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.opentripplanner.framework.model.Cost.hashCode()",
@@ -15662,12 +15662,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "mulesoft__castle__mule",
-            "test_file_path": "./data/ITrans/projects/mulesoft__castle__mule/modules/deployment/src/test/java/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase.java",
+            "poj_name": "mulesoft__split__mule",
+            "test_file_path": "./data/ITrans/projects/mulesoft__split__mule/modules/deployment/src/test/java/org/mule/runtime/module/deployment/test/internal/singleapp/SingleAppDeploymentServiceTestCase.java",
             "test_simple_name": "startupListeners",
             "FQS_testMethos": "org.mule.runtime.module.deployment.test.internal.singleapp.SingleAppDeploymentServiceTestCase.startupListeners()",
             "assertionSTMT": "assertThat(singleAppDeploymentService.getStartupListeners(), hasItems(startUpListener1, startUpListener2))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/mulesoft__castle__mule/org.mule.runtime.module.deployment.test.internal.singleapp.SingleAppDeploymentServiceTestCase.startupListeners__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/mulesoft__split__mule/org.mule.runtime.module.deployment.test.internal.singleapp.SingleAppDeploymentServiceTestCase.startupListeners__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.mule.runtime.module.deployment.internal.singleapp.SingleAppDeploymentService.addStartupListener(org.mule.runtime.module.deployment.api.StartupListener)",
@@ -15774,12 +15774,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "arextest__castle__arex-agent-java",
-            "test_file_path": "./data/ITrans/projects/arextest__castle__arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/serializer/SerializerTest.java",
+            "poj_name": "arextest__split__arex-agent-java",
+            "test_file_path": "./data/ITrans/projects/arextest__split__arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/serializer/SerializerTest.java",
             "test_simple_name": "testNestedSet",
             "FQS_testMethos": "io.arex.inst.runtime.serializer.SerializerTest.testNestedSet()",
             "assertionSTMT": "assertEquals(set, actualResult)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest__castle__arex-agent-java/io.arex.inst.runtime.serializer.SerializerTest.testNestedSet__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest__split__arex-agent-java/io.arex.inst.runtime.serializer.SerializerTest.testNestedSet__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "io.arex.inst.runtime.serializer.Serializer.serialize(java.lang.Object, java.lang.String)",
@@ -15919,12 +15919,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
             "test_simple_name": "test5",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test5()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test5__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test5__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -16184,12 +16184,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "cucumber__castle__cucumber-jvm",
-            "test_file_path": "./data/ITrans/projects/cucumber__castle__cucumber-jvm/cucumber-core/src/test/java/io/cucumber/core/eventbus/RandomUuidGeneratorTest.java",
+            "poj_name": "cucumber__split__cucumber-jvm",
+            "test_file_path": "./data/ITrans/projects/cucumber__split__cucumber-jvm/cucumber-core/src/test/java/io/cucumber/core/eventbus/RandomUuidGeneratorTest.java",
             "test_simple_name": "generates_different_non_null_uuids",
             "FQS_testMethos": "io.cucumber.core.eventbus.RandomUuidGeneratorTest.generates_different_non_null_uuids()",
             "assertionSTMT": "assertNotEquals(uuid1, uuid2)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/cucumber__castle__cucumber-jvm/io.cucumber.core.eventbus.RandomUuidGeneratorTest.generates_different_non_null_uuids__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/cucumber__split__cucumber-jvm/io.cucumber.core.eventbus.RandomUuidGeneratorTest.generates_different_non_null_uuids__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "io.cucumber.core.eventbus.UuidGenerator.generateId()",
@@ -16272,12 +16272,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "opentripplanner__castle__OpenTripPlanner",
-            "test_file_path": "./data/ITrans/projects/opentripplanner__castle__OpenTripPlanner/src/test/java/org/opentripplanner/framework/token/FieldDefinitionTest.java",
+            "poj_name": "opentripplanner__split__OpenTripPlanner",
+            "test_file_path": "./data/ITrans/projects/opentripplanner__split__OpenTripPlanner/src/test/java/org/opentripplanner/framework/token/FieldDefinitionTest.java",
             "test_simple_name": "testEqualsAndHashCode",
             "FQS_testMethos": "org.opentripplanner.framework.token.FieldDefinitionTest.testEqualsAndHashCode()",
             "assertionSTMT": "assertNotEquals(other3.hashCode(), subject.hashCode())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/opentripplanner__castle__OpenTripPlanner/org.opentripplanner.framework.token.FieldDefinitionTest.testEqualsAndHashCode__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/opentripplanner__split__OpenTripPlanner/org.opentripplanner.framework.token.FieldDefinitionTest.testEqualsAndHashCode__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.opentripplanner.framework.token.FieldDefinition.hashCode()",
@@ -16482,12 +16482,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_isLeapYear_int",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_isLeapYear_int()",
             "assertionSTMT": "assertEquals(Year.isLeap(year), test2.isLeapYear())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_isLeapYear_int__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_isLeapYear_int__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
@@ -16680,12 +16680,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__druid",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__druid/core/src/test/java/com/alibaba/druid/bvt/sql/postgresql/issues/Issue5366.java",
+            "poj_name": "alibaba__split__druid",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__druid/core/src/test/java/com/alibaba/druid/bvt/sql/postgresql/issues/Issue5366.java",
             "test_simple_name": "test_create_table",
             "FQS_testMethos": "com.alibaba.druid.bvt.sql.postgresql.issues.Issue5366.test_create_table()",
             "assertionSTMT": "assertEquals(normalizeSql.toLowerCase(), normalizeNewSql.toLowerCase())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__druid/com.alibaba.druid.bvt.sql.postgresql.issues.Issue5366.test_create_table__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__druid/com.alibaba.druid.bvt.sql.postgresql.issues.Issue5366.test_create_table__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.alibaba.druid.bvt.sql.postgresql.issues.Issue5366.normalizeSql(java.lang.String)",
@@ -16894,12 +16894,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_of_int_int",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_of_int_int()",
             "assertionSTMT": "assertEquals(half, test.getHalfValue())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_of_int_int__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_of_int_int__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.of(int, int)",
@@ -17076,12 +17076,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_with_TemporalAdjuster_Year",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_with_TemporalAdjuster_Year()",
             "assertionSTMT": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).with(Year.of(year2)))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_with_TemporalAdjuster_Year__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_with_TemporalAdjuster_Year__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
@@ -17801,12 +17801,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "javadev__castle__underscore-java",
-            "test_file_path": "./data/ITrans/projects/javadev__castle__underscore-java/src/test/java/com/github/underscore/XmlBuilderTest.java",
+            "poj_name": "javadev__split__underscore-java",
+            "test_file_path": "./data/ITrans/projects/javadev__split__underscore-java/src/test/java/com/github/underscore/XmlBuilderTest.java",
             "test_simple_name": "toXml",
             "FQS_testMethos": "com.github.underscore.XmlBuilderTest.toXml()",
             "assertionSTMT": "assertEquals(XML, xmlBuilder.toXml())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/javadev__castle__underscore-java/com.github.underscore.XmlBuilderTest.toXml__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/javadev__split__underscore-java/com.github.underscore.XmlBuilderTest.toXml__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.github.underscore.XmlBuilder.parse(java.lang.String)",
@@ -18051,12 +18051,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
             "test_simple_name": "test",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -18425,12 +18425,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__druid",
-            "test_file_path": "./data/ITrans/projects/apache__castle__druid/processing/src/test/java/org/apache/druid/collections/CloseableResourceHolderTest.java",
+            "poj_name": "apache__split__druid",
+            "test_file_path": "./data/ITrans/projects/apache__split__druid/processing/src/test/java/org/apache/druid/collections/CloseableResourceHolderTest.java",
             "test_simple_name": "testCloseableResourceHolder",
             "FQS_testMethos": "org.apache.druid.collections.CloseableResourceHolderTest.testCloseableResourceHolder()",
             "assertionSTMT": "Assert.assertSame(closeable, holder.get())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.collections.CloseableResourceHolderTest.testCloseableResourceHolder__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__druid/org.apache.druid.collections.CloseableResourceHolderTest.testCloseableResourceHolder__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.apache.druid.collections.ResourceHolder.fromCloseable(T)",
@@ -18527,12 +18527,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
             "test_simple_name": "test6",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test6()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test6__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test6__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -18850,12 +18850,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__druid",
-            "test_file_path": "./data/ITrans/projects/apache__castle__druid/processing/src/test/java/org/apache/druid/query/filter/IsBooleanDimFilterTest.java",
+            "poj_name": "apache__split__druid",
+            "test_file_path": "./data/ITrans/projects/apache__split__druid/processing/src/test/java/org/apache/druid/query/filter/IsBooleanDimFilterTest.java",
             "test_simple_name": "testGetCacheKey",
             "FQS_testMethos": "org.apache.druid.query.filter.IsBooleanDimFilterTest.testGetCacheKey()",
             "assertionSTMT": "Assert.assertArrayEquals(f1_3.getCacheKey(), f1_4.getCacheKey())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.query.filter.IsBooleanDimFilterTest.testGetCacheKey__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__druid/org.apache.druid.query.filter.IsBooleanDimFilterTest.testGetCacheKey__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.druid.query.filter.IsFalseDimFilter.of(org.apache.druid.query.filter.DimFilter)",
@@ -18986,12 +18986,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_lengthOfYear",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_lengthOfYear()",
             "assertionSTMT": "assertEquals(Year.isLeap(year) ? 366 : 365, test2.lengthOfYear())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_lengthOfYear__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_lengthOfYear__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
@@ -19194,12 +19194,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "zfoo-project__castle__zfoo",
-            "test_file_path": "./data/ITrans/projects/zfoo-project__castle__zfoo/net/src/test/java/com/zfoo/net/util/NetUtilsTest.java",
+            "poj_name": "zfoo-project__split__zfoo",
+            "test_file_path": "./data/ITrans/projects/zfoo-project__split__zfoo/net/src/test/java/com/zfoo/net/util/NetUtilsTest.java",
             "test_simple_name": "ipv4Test",
             "FQS_testMethos": "com.zfoo.net.util.NetUtilsTest.ipv4Test()",
             "assertionSTMT": "Assert.assertEquals(ipStr2, ipStr1)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/zfoo-project__castle__zfoo/com.zfoo.net.util.NetUtilsTest.localhostTest__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/zfoo-project__split__zfoo/com.zfoo.net.util.NetUtilsTest.localhostTest__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.zfoo.net.util.NetUtils.ipv4ToLong()",
@@ -19402,12 +19402,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "MyRobotLab__castle__myrobotlab",
-            "test_file_path": "./data/ITrans/projects/MyRobotLab__castle__myrobotlab/src/test/java/org/myrobotlab/service/I2cMuxTest.java",
+            "poj_name": "MyRobotLab__split__myrobotlab",
+            "test_file_path": "./data/ITrans/projects/MyRobotLab__split__myrobotlab/src/test/java/org/myrobotlab/service/I2cMuxTest.java",
             "test_simple_name": "testSetDeviceBus",
             "FQS_testMethos": "org.myrobotlab.service.I2cMuxTest.testSetDeviceBus()",
             "assertionSTMT": "assertEquals(deviceBus, i2cMux.getDeviceBus())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/MyRobotLab__castle__myrobotlab/org.myrobotlab.service.I2cMuxTest.testSetDeviceBus__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/MyRobotLab__split__myrobotlab/org.myrobotlab.service.I2cMuxTest.testSetDeviceBus__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.myrobotlab.service.I2cMux.setDeviceBus(java.lang.String)",
@@ -19652,12 +19652,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_withYear",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_withYear()",
             "assertionSTMT": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withYear(year2))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_withYear__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_withYear__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
@@ -20242,12 +20242,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
             "test_simple_name": "test1",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test1()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test1__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test1__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -20564,12 +20564,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
             "test_simple_name": "test7",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test7()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test7__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test7__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -20924,12 +20924,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__druid",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__druid/core/src/test/java/com/alibaba/druid/bvt/sql/hive/issues/Issue5430.java",
+            "poj_name": "alibaba__split__druid",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__druid/core/src/test/java/com/alibaba/druid/bvt/sql/hive/issues/Issue5430.java",
             "test_simple_name": "test_createTable",
             "FQS_testMethos": "com.alibaba.druid.bvt.sql.hive.issues.Issue5430.test_createTable()",
             "assertionSTMT": "assertEquals(normalizeSql.toLowerCase(), normalizeNewSql.toLowerCase())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__druid/com.alibaba.druid.bvt.sql.hive.issues.Issue5430.test_createTable__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__druid/com.alibaba.druid.bvt.sql.hive.issues.Issue5430.test_createTable__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.alibaba.druid.bvt.sql.hive.issues.Issue5430.normalizeSql(java.lang.String)",
@@ -21210,12 +21210,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "sakaiproject__castle__sakai",
-            "test_file_path": "./data/ITrans/projects/sakaiproject__castle__sakai/basiclti/tsugi-util/src/test/org/tsugi/util/Base64DoubleUrlEncodeSafeTest.java",
+            "poj_name": "sakaiproject__split__sakai",
+            "test_file_path": "./data/ITrans/projects/sakaiproject__split__sakai/basiclti/tsugi-util/src/test/org/tsugi/util/Base64DoubleUrlEncodeSafeTest.java",
             "test_simple_name": "testEncodeAndDecode",
             "FQS_testMethos": "org.tsugi.util.Base64DoubleUrlEncodeSafeTest.testEncodeAndDecode()",
             "assertionSTMT": "assertEquals(input, decoded)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/sakaiproject__castle__sakai/org.tsugi.util.Base64DoubleUrlEncodeSafeTest.testEncodeAndDecode__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/sakaiproject__split__sakai/org.tsugi.util.Base64DoubleUrlEncodeSafeTest.testEncodeAndDecode__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.tsugi.util.Base64DoubleUrlEncodeSafe.encode(java.lang.String)",
@@ -21635,12 +21635,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__druid",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686.java",
+            "poj_name": "alibaba__split__druid",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/issues/Issue5686.java",
             "test_simple_name": "test_column_comment",
             "FQS_testMethos": "com.alibaba.druid.bvt.sql.mysql.issues.Issue5686.test_column_comment()",
             "assertionSTMT": "assertEquals(newSql, newSql2)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__druid/com.alibaba.druid.bvt.sql.mysql.issues.Issue5686.test_column_comment__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__druid/com.alibaba.druid.bvt.sql.mysql.issues.Issue5686.test_column_comment__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.druid.sql.ast.statement.SQLInsertStatement.toString()",
@@ -21761,12 +21761,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_withHalf_int",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_withHalf_int()",
             "assertionSTMT": "assertEquals(YearHalf.of(year3, half3), YearHalf.of(year1, half1).withHalf(half2))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_withHalf_int__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_withHalf_int__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.of(int, org.threeten.extra.Half)",
@@ -22145,12 +22145,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/maps/Map1Test.java",
             "test_simple_name": "test8",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.maps.Map1Test.test8()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test8__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.maps.Map1Test.test8__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -22350,12 +22350,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__druid",
-            "test_file_path": "./data/ITrans/projects/apache__castle__druid/server/src/test/java/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest.java",
+            "poj_name": "apache__split__druid",
+            "test_file_path": "./data/ITrans/projects/apache__split__druid/server/src/test/java/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest.java",
             "test_simple_name": "testMinSegmentsArePickedForMoveWhenNoSkew",
             "FQS_testMethos": "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testMinSegmentsArePickedForMoveWhenNoSkew()",
             "assertionSTMT": "Assert.assertEquals(minSegmentsToMove, segmentsToMove)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testMinSegmentsArePickedForMoveWhenNoSkew__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__druid/org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testMinSegmentsArePickedForMoveWhenNoSkew__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator.computeMinSegmentsToMoveInTier(int)",
@@ -22572,12 +22572,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "mulesoft__castle__mule",
-            "test_file_path": "./data/ITrans/projects/mulesoft__castle__mule/modules/log4j-configurator/src/test/java/org/mule/runtime/module/log4j/internal/ArtifactAwareContextSelectorTestCase.java",
+            "poj_name": "mulesoft__split__mule",
+            "test_file_path": "./data/ITrans/projects/mulesoft__split__mule/modules/log4j-configurator/src/test/java/org/mule/runtime/module/log4j/internal/ArtifactAwareContextSelectorTestCase.java",
             "test_simple_name": "returnsMuleLoggerContextForArtifactClassLoaderChild",
             "FQS_testMethos": "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForArtifactClassLoaderChild()",
             "assertionSTMT": "assertThat(childCtx, sameInstance(parentCtx))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/mulesoft__castle__mule/org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForArtifactClassLoaderChild__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/mulesoft__split__mule/org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForArtifactClassLoaderChild__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector.getContext(java.lang.String, java.lang.ClassLoader, boolean)",
@@ -22885,12 +22885,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "alibaba__castle__fastjson2",
-            "test_file_path": "./data/ITrans/projects/alibaba__castle__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest.java",
+            "poj_name": "alibaba__split__fastjson2",
+            "test_file_path": "./data/ITrans/projects/alibaba__split__fastjson2/codegen-test/src/test/java/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest.java",
             "test_simple_name": "test",
             "FQS_testMethos": "com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test()",
             "assertionSTMT": "assertEquals(v01, v02)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__castle__fastjson2/com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/alibaba__split__fastjson2/com.alibaba.fastjson2.internal.processor.collections.JSONArrayTest.test__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "com.alibaba.fastjson2.JSON.toJSONString(java.lang.Object)",
@@ -23054,12 +23054,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "MyRobotLab__castle__myrobotlab",
-            "test_file_path": "./data/ITrans/projects/MyRobotLab__castle__myrobotlab/src/test/java/org/myrobotlab/service/I2cMuxTest.java",
+            "poj_name": "MyRobotLab__split__myrobotlab",
+            "test_file_path": "./data/ITrans/projects/MyRobotLab__split__myrobotlab/src/test/java/org/myrobotlab/service/I2cMuxTest.java",
             "test_simple_name": "testSetDeviceAddress",
             "FQS_testMethos": "org.myrobotlab.service.I2cMuxTest.testSetDeviceAddress()",
             "assertionSTMT": "assertEquals(deviceAddress, i2cMux.getDeviceAddress())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/MyRobotLab__castle__myrobotlab/org.myrobotlab.service.I2cMuxTest.testSetDeviceAddress__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/MyRobotLab__split__myrobotlab/org.myrobotlab.service.I2cMuxTest.testSetDeviceAddress__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.myrobotlab.service.I2cMux.setDeviceAddress(java.lang.String)",
@@ -23310,12 +23310,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "sakaiproject__castle__sakai",
-            "test_file_path": "./data/ITrans/projects/sakaiproject__castle__sakai/basiclti/tsugi-util/src/test/org/tsugi/util/Base64DoubleUrlEncodeSafeTest.java",
+            "poj_name": "sakaiproject__split__sakai",
+            "test_file_path": "./data/ITrans/projects/sakaiproject__split__sakai/basiclti/tsugi-util/src/test/org/tsugi/util/Base64DoubleUrlEncodeSafeTest.java",
             "test_simple_name": "testAllNonSurrogateCodePoints",
             "FQS_testMethos": "org.tsugi.util.Base64DoubleUrlEncodeSafeTest.testAllNonSurrogateCodePoints()",
             "assertionSTMT": "assertEquals(input, decoded)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/sakaiproject__castle__sakai/org.tsugi.util.Base64DoubleUrlEncodeSafeTest.testAllNonSurrogateCodePoints__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/sakaiproject__split__sakai/org.tsugi.util.Base64DoubleUrlEncodeSafeTest.testAllNonSurrogateCodePoints__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "org.tsugi.util.Base64DoubleUrlEncodeSafe.encode(java.lang.String)",
@@ -23492,12 +23492,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "arextest__castle__arex-agent-java",
-            "test_file_path": "./data/ITrans/projects/arextest__castle__arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/serializer/SerializerTest.java",
+            "poj_name": "arextest__split__arex-agent-java",
+            "test_file_path": "./data/ITrans/projects/arextest__split__arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/serializer/SerializerTest.java",
             "test_simple_name": "testNestedList",
             "FQS_testMethos": "io.arex.inst.runtime.serializer.SerializerTest.testNestedList()",
             "assertionSTMT": "assertEquals(list, actualResult)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest__castle__arex-agent-java/io.arex.inst.runtime.serializer.SerializerTest.testNestedList__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/arextest__split__arex-agent-java/io.arex.inst.runtime.serializer.SerializerTest.testNestedList__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "io.arex.inst.runtime.serializer.Serializer.serialize(java.lang.Object, java.lang.String)",
@@ -23623,12 +23623,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "bootique__castle__bootique",
-            "test_file_path": "./data/ITrans/projects/bootique__castle__bootique/bootique/src/test/java/io/bootique/di/TypeLiteralTest.java",
+            "poj_name": "bootique__split__bootique",
+            "test_file_path": "./data/ITrans/projects/bootique__split__bootique/bootique/src/test/java/io/bootique/di/TypeLiteralTest.java",
             "test_simple_name": "normalize",
             "FQS_testMethos": "io.bootique.di.TypeLiteralTest.normalize()",
             "assertionSTMT": "assertSame(type1, type3)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/bootique__castle__bootique/io.bootique.di.TypeLiteralTest.normalize__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/bootique__split__bootique/io.bootique.di.TypeLiteralTest.normalize__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "io.bootique.di.TypeLiteral.listOf(java.lang.Class<? extends T>)",
@@ -23789,12 +23789,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "mulesoft__castle__mule",
-            "test_file_path": "./data/ITrans/projects/mulesoft__castle__mule/modules/log4j-configurator/src/test/java/org/mule/runtime/module/log4j/internal/ArtifactAwareContextSelectorTestCase.java",
+            "poj_name": "mulesoft__split__mule",
+            "test_file_path": "./data/ITrans/projects/mulesoft__split__mule/modules/log4j-configurator/src/test/java/org/mule/runtime/module/log4j/internal/ArtifactAwareContextSelectorTestCase.java",
             "test_simple_name": "returnsMuleLoggerContextForInternalArtifactClassLoader",
             "FQS_testMethos": "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForInternalArtifactClassLoader()",
             "assertionSTMT": "assertThat(serviceCtx, sameInstance(systemContext))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/mulesoft__castle__mule/org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForInternalArtifactClassLoader__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/mulesoft__split__mule/org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelectorTestCase.returnsMuleLoggerContextForInternalArtifactClassLoader__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.mule.runtime.module.log4j.internal.ArtifactAwareContextSelector.getContext(java.lang.String, java.lang.ClassLoader, boolean)",
@@ -24216,12 +24216,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "opengoofy__castle__hippo4j",
-            "test_file_path": "./data/ITrans/projects/opengoofy__castle__hippo4j/threadpool/core/src/test/java/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest.java",
+            "poj_name": "opengoofy__split__hippo4j",
+            "test_file_path": "./data/ITrans/projects/opengoofy__split__hippo4j/threadpool/core/src/test/java/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest.java",
             "test_simple_name": "testGetThreadPoolId",
             "FQS_testMethos": "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetThreadPoolId()",
             "assertionSTMT": "Assert.assertEquals(executor.getThreadPoolId(), support.getThreadPoolId())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/opengoofy__castle__hippo4j/cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetThreadPoolId__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/opengoofy__split__hippo4j/cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetThreadPoolId__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport.getThreadPoolId()",
@@ -24335,12 +24335,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "spotify-web-api-java__castle__spotify-web-api-java",
-            "test_file_path": "./data/ITrans/projects/spotify-web-api-java__castle__spotify-web-api-java/src/test/java/se/michaelthelin/spotify/Base64Test.java",
+            "poj_name": "spotify-web-api-java__split__spotify-web-api-java",
+            "test_file_path": "./data/ITrans/projects/spotify-web-api-java__split__spotify-web-api-java/src/test/java/se/michaelthelin/spotify/Base64Test.java",
             "test_simple_name": "testCustomBase64",
             "FQS_testMethos": "se.michaelthelin.spotify.Base64Test.testCustomBase64()",
             "assertionSTMT": "Assertions.assertArrayEquals(testDataBytes, decoded)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/spotify-web-api-java__castle__spotify-web-api-java/se.michaelthelin.spotify.Base64Test.testCustomBase64__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/spotify-web-api-java__split__spotify-web-api-java/se.michaelthelin.spotify.Base64Test.testCustomBase64__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "se.michaelthelin.spotify.Base64.encode(byte[])",
@@ -24693,12 +24693,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "opengoofy__castle__hippo4j",
-            "test_file_path": "./data/ITrans/projects/opengoofy__castle__hippo4j/threadpool/core/src/test/java/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest.java",
+            "poj_name": "opengoofy__split__hippo4j",
+            "test_file_path": "./data/ITrans/projects/opengoofy__split__hippo4j/threadpool/core/src/test/java/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest.java",
             "test_simple_name": "testGetPlugin",
             "FQS_testMethos": "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetPlugin()",
             "assertionSTMT": "Assert.assertSame(plugin, support.getPlugin(plugin.getId()).orElse(null))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/opengoofy__castle__hippo4j/cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetPlugin__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/opengoofy__split__hippo4j/cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupportTest.testGetPlugin__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "cn.hippo4j.core.executor.plugin.manager.ThreadPoolPluginSupport.register(cn.hippo4j.core.executor.plugin.ThreadPoolPlugin)",
@@ -24757,12 +24757,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "itext__castle__itext7",
-            "test_file_path": "./data/ITrans/projects/itext__castle__itext7/commons/src/test/java/com/itextpdf/commons/datastructures/ConcurrentWeakMapTest.java",
+            "poj_name": "itext__split__itext7",
+            "test_file_path": "./data/ITrans/projects/itext__split__itext7/commons/src/test/java/com/itextpdf/commons/datastructures/ConcurrentWeakMapTest.java",
             "test_simple_name": "entrySetTest",
             "FQS_testMethos": "com.itextpdf.commons.datastructures.ConcurrentWeakMapTest.entrySetTest()",
             "assertionSTMT": "Assert.assertEquals(anotherMap.entrySet(), map.entrySet())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/itext__castle__itext7/com.itextpdf.commons.datastructures.ConcurrentWeakMapTest.entrySetTest__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/itext__split__itext7/com.itextpdf.commons.datastructures.ConcurrentWeakMapTest.entrySetTest__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.itextpdf.commons.datastructures.ConcurrentWeakMap.putAll(java.util.Map<? extends K, ? extends V>)",
@@ -25109,12 +25109,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__druid",
-            "test_file_path": "./data/ITrans/projects/apache__castle__druid/server/src/test/java/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest.java",
+            "poj_name": "apache__split__druid",
+            "test_file_path": "./data/ITrans/projects/apache__split__druid/server/src/test/java/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest.java",
             "test_simple_name": "testHalfSegmentsArePickedForMoveWhenFullSkew",
             "FQS_testMethos": "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testHalfSegmentsArePickedForMoveWhenFullSkew()",
             "assertionSTMT": "Assert.assertEquals(segmentsToMoveToFixSkew, segmentsToMove)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testHalfSegmentsArePickedForMoveWhenFullSkew__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__druid/org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculatorTest.testHalfSegmentsArePickedForMoveWhenFullSkew__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.druid.server.coordinator.balancer.SegmentToMoveCalculator.computeNumSegmentsToMoveToBalanceTier(java.lang.String, java.util.List<org.apache.druid.server.coordinator.ServerHolder>)",
@@ -25359,12 +25359,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestTemporalFields.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestTemporalFields.java",
             "test_simple_name": "test_HALF_YEARS",
             "FQS_testMethos": "org.threeten.extra.TestTemporalFields.test_HALF_YEARS()",
             "assertionSTMT": "assertEquals(YearQuarter.of(year1, quarter1), HALF_YEARS.addTo(YearQuarter.of(year2, quarter2), amount))",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestTemporalFields.test_HALF_YEARS__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestTemporalFields.test_HALF_YEARS__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearQuarter.of(int, int)",
@@ -25538,12 +25538,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "itext__castle__itext7",
-            "test_file_path": "./data/ITrans/projects/itext__castle__itext7/commons/src/test/java/com/itextpdf/commons/datastructures/ConcurrentWeakMapTest.java",
+            "poj_name": "itext__split__itext7",
+            "test_file_path": "./data/ITrans/projects/itext__split__itext7/commons/src/test/java/com/itextpdf/commons/datastructures/ConcurrentWeakMapTest.java",
             "test_simple_name": "keySetTest",
             "FQS_testMethos": "com.itextpdf.commons.datastructures.ConcurrentWeakMapTest.keySetTest()",
             "assertionSTMT": "Assert.assertEquals(anotherMap.keySet(), map.keySet())",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/itext__castle__itext7/com.itextpdf.commons.datastructures.ConcurrentWeakMapTest.keySetTest__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/itext__split__itext7/com.itextpdf.commons.datastructures.ConcurrentWeakMapTest.keySetTest__split__0.json",
             "withInputTransformation": true,
             "invoked_methods_FQS": [
                 "com.itextpdf.commons.datastructures.ConcurrentWeakMap.putAll(java.util.Map<? extends K, ? extends V>)",
@@ -25866,12 +25866,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "ThreeTen__castle__threeten-extra",
-            "test_file_path": "./data/ITrans/projects/ThreeTen__castle__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
+            "poj_name": "ThreeTen__split__threeten-extra",
+            "test_file_path": "./data/ITrans/projects/ThreeTen__split__threeten-extra/src/test/java/org/threeten/extra/TestYearHalf.java",
             "test_simple_name": "test_from_TemporalAccessor_notLeapYear",
             "FQS_testMethos": "org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_notLeapYear()",
             "assertionSTMT": "assertEquals(YearHalf.of(year, expected), test)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__castle__threeten-extra/org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_notLeapYear__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/ThreeTen__split__threeten-extra/org.threeten.extra.TestYearHalf.test_from_TemporalAccessor_notLeapYear__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.threeten.extra.YearHalf.from(java.time.temporal.TemporalAccessor)",
@@ -26032,12 +26032,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__druid",
-            "test_file_path": "./data/ITrans/projects/apache__castle__druid/extensions-contrib/kubernetes-overlord-extensions/src/test/java/org/apache/druid/k8s/overlord/common/KubernetesOverlordUtilsTest.java",
+            "poj_name": "apache__split__druid",
+            "test_file_path": "./data/ITrans/projects/apache__split__druid/extensions-contrib/kubernetes-overlord-extensions/src/test/java/org/apache/druid/k8s/overlord/common/KubernetesOverlordUtilsTest.java",
             "test_simple_name": "test_stripJobName_avoidDuplicatesWithLongDataSourceName",
             "FQS_testMethos": "org.apache.druid.k8s.overlord.common.KubernetesOverlordUtilsTest.test_stripJobName_avoidDuplicatesWithLongDataSourceName()",
             "assertionSTMT": "Assert.assertNotEquals(jobName1, jobName2)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.k8s.overlord.common.KubernetesOverlordUtilsTest.test_stripJobName_avoidDuplicatesWithLongDataSourceName__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__druid/org.apache.druid.k8s.overlord.common.KubernetesOverlordUtilsTest.test_stripJobName_avoidDuplicatesWithLongDataSourceName__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.druid.k8s.overlord.common.KubernetesOverlordUtils.convertTaskIdToJobName(java.lang.String)",
@@ -26347,12 +26347,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__druid",
-            "test_file_path": "./data/ITrans/projects/apache__castle__druid/extensions-core/azure-extensions/src/test/java/org/apache/druid/storage/azure/AzureClientFactoryTest.java",
+            "poj_name": "apache__split__druid",
+            "test_file_path": "./data/ITrans/projects/apache__split__druid/extensions-core/azure-extensions/src/test/java/org/apache/druid/storage/azure/AzureClientFactoryTest.java",
             "test_simple_name": "test_blobServiceClientBuilder_useCachedClient",
             "FQS_testMethos": "org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useCachedClient()",
             "assertionSTMT": "Assert.assertEquals(blobServiceClient, blobServiceClient2)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useCachedClient__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__druid/org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useCachedClient__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.druid.storage.azure.AzureClientFactory.getBlobServiceClient(java.lang.Integer, java.lang.String)",
@@ -26676,12 +26676,12 @@
     },
     {
         "MTC_item": {
-            "poj_name": "apache__castle__druid",
-            "test_file_path": "./data/ITrans/projects/apache__castle__druid/extensions-core/azure-extensions/src/test/java/org/apache/druid/storage/azure/AzureClientFactoryTest.java",
+            "poj_name": "apache__split__druid",
+            "test_file_path": "./data/ITrans/projects/apache__split__druid/extensions-core/azure-extensions/src/test/java/org/apache/druid/storage/azure/AzureClientFactoryTest.java",
             "test_simple_name": "test_blobServiceClientBuilder_useNewClientForDifferentRetryCount",
             "FQS_testMethos": "org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useNewClientForDifferentRetryCount()",
             "assertionSTMT": "Assert.assertNotEquals(blobServiceClient, blobServiceClient2)",
-            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__castle__druid/org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useNewClientForDifferentRetryCount__castle__0.json",
+            "relationAssertionFilePath": "./data/ITrans/projects_MTidentifier_relationAssertion_outputs/apache__split__druid/org.apache.druid.storage.azure.AzureClientFactoryTest.test_blobServiceClientBuilder_useNewClientForDifferentRetryCount__split__0.json",
             "withInputTransformation": false,
             "invoked_methods_FQS": [
                 "org.apache.druid.storage.azure.AzureClientFactory.getBlobServiceClient(java.lang.Integer, java.lang.String)",
