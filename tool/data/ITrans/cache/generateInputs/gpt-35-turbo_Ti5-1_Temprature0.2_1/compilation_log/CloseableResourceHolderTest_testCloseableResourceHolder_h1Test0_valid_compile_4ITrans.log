@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/g34ITrans/org/apache/druid/collections/CloseableResourceHolderTest_testCloseableResourceHolder_h1Test0_valid.java:35: error: cannot find symbol
-    Closeable closeable = new FileInputStream("file.txt");
-                              ^
-  symbol:   class FileInputStream
-  location: class CloseableResourceHolderTest_testCloseableResourceHolder_h1Test0_valid
-1 error

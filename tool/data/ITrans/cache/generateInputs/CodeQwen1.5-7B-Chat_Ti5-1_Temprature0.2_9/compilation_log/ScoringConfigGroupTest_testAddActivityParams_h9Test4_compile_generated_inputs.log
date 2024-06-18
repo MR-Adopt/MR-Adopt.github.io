@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_inputs/qw/org/matsim/core/config/groups/ScoringConfigGroupTest_testAddActivityParams_h9Test4.java:80: error: cannot find symbol
-    ap.setMaximumDuration(3600);
-      ^
-  symbol:   method setMaximumDuration(int)
-  location: variable ap of type ActivityParams
-1 error

@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h7Test0.java:33: error: cannot find symbol
-        assertEquals(a1.hashCode(), a2.hashCode());
-                                    ^
-  symbol:   variable a2
-  location: class JsonNodePathTest_hashCodeEquals_h7Test0
-1 error

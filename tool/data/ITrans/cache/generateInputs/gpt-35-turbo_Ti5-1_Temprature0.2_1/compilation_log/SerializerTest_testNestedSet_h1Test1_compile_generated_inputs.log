@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_inputs/g3/io/arex/inst/runtime/serializer/SerializerTest_testNestedSet_h1Test1.java:44: error: cannot find symbol
-set.add(nestedSet1);
-        ^
-  symbol:   variable nestedSet1
-  location: class SerializerTest_testNestedSet_h1Test1
-1 error

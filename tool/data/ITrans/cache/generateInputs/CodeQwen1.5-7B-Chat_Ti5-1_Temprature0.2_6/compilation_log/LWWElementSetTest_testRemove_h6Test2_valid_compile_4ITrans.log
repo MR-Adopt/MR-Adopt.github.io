@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/datastructures/crdt/LWWElementSetTest_testRemove_h6Test2_valid.java:24: error: bad operand types for binary operator '+'
-    Element element = new Element("key1", 1, bias + 1);
-                                                  ^
-  first type:  Bias
-  second type: int
-1 error

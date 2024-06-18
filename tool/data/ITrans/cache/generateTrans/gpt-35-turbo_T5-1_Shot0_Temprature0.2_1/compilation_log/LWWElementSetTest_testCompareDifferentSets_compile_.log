@@ -1,5 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_ITrans/com/thealgorithms/datastructures/crdt/LWWElementSetTest_testCompareDifferentSets.java:14: error: incompatible types: Bias cannot be converted to int
-        Element element2 = new Element("key2", element1.bias, element1.timestamp);
-                                                       ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error

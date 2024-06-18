@@ -1,7 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h1Test4_valid.java:35: error: parent has private access in JsonNodePath
-    a1.parent = null;
-      ^
-/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h1Test4_valid.java:37: error: parent has private access in JsonNodePath
-    a2.parent = null;
-      ^
-2 errors

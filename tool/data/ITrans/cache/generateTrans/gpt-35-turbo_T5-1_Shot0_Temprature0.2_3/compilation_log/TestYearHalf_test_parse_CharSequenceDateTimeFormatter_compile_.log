@@ -1,8 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_ITrans/org/threeten/extra/TestYearHalf_test_parse_CharSequenceDateTimeFormatter.java:93: error: incompatible types: int cannot be converted to String
-        int half = Integer.parseInt(f.parse(text).get(HALF_OF_YEAR));
-                                                     ^
-/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_ITrans/org/threeten/extra/TestYearHalf_test_parse_CharSequenceDateTimeFormatter.java:94: error: incompatible types: int cannot be converted to String
-        int year = Integer.parseInt(f.parse(text).get(YEAR));
-                                                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-2 errors

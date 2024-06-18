@@ -1,5 +1,0 @@
-warning: Implicitly compiled files were not subject to annotation processing.
-  Use -proc:none to disable annotation processing or -implicit to specify a policy for implicit compilation.
-Note: /ssddata1/cxubl/data/ITrans/projects/dromara__castle__hutool/ITrans/generated_inputs/qw4ITrans/cn/hutool/json/IssueI6SZYBTest_entryTest_h0Test3_valid.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-1 warning

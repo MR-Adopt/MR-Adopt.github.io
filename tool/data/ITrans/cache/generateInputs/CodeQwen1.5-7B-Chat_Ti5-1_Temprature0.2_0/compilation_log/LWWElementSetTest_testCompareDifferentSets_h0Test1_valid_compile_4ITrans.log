@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_inputs/qw4ITrans/com/thealgorithms/datastructures/crdt/LWWElementSetTest_testCompareDifferentSets_h0Test1_valid.java:27: error: cannot find symbol
-    Element element2  = LWWElementSetTest_testCompareDifferentSets.inputTransformation_testCompareDifferentSets(element);
-                                                                                                                ^
-  symbol:   variable element
-  location: class LWWElementSetTest_testCompareDifferentSets_h0Test1_valid
-1 error

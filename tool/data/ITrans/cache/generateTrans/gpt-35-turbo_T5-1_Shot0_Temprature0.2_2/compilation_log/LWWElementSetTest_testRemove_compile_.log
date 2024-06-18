@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_ITrans/com/thealgorithms/datastructures/crdt/LWWElementSetTest_testRemove.java:14: error: cannot find symbol
-        Element element2 = new Element(element.key, element.value, element.bias);
-                                                           ^
-  symbol:   variable value
-  location: variable element of type Element
-1 error

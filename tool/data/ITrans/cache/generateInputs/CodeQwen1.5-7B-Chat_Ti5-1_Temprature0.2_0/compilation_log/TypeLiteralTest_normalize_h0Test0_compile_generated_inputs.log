@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h0Test0.java:38: error: variable input2 is already defined in method normalize_h0Test0()
-        TypeLiteral<List<Integer>> input2 = TypeLiteral.listOf(Integer.class);
-                                   ^
-Note: /ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h0Test0.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-1 error

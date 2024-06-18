@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/ngs-doo__castle__dsl-json/ITrans/generated_inputs/qw/com/dslplatform/json/DateTest_localTimeBoundary_h6Test1.java:26: error: cannot find symbol
-    byte[] body = jw.write(lts).toByteArray();
-                    ^
-  symbol:   method write(LocalTime[])
-  location: variable jw of type JsonWriter
-1 error

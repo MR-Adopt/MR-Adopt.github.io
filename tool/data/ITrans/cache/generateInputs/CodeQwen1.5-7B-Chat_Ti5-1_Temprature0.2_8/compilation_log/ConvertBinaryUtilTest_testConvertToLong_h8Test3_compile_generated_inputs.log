@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_inputs/qw/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong_h8Test3.java:38: error: cannot find symbol
-    byte[] randomStringBytes = utf8To8Byte(randomString);
-                               ^
-  symbol:   method utf8To8Byte(String)
-  location: class ConvertBinaryUtilTest_testConvertToLong_h8Test3
-1 error

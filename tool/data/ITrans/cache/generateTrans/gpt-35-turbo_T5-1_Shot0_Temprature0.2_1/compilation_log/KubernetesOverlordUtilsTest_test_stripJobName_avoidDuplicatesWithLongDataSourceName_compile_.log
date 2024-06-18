@@ -1,5 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_ITrans/org/apache/druid/k8s/overlord/common/KubernetesOverlordUtilsTest_test_stripJobName_avoidDuplicatesWithLongDataSourceName.java:14: error: incompatible types: String is not a functional interface
-        String taskId2 = taskId1.replaceAll("(\\d+)$", m -> String.valueOf(Integer.parseInt(m.group(1)) + 1));
-                                ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error

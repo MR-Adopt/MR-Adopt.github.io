@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/collections/JSONArrayTest_test1_h1Test4_valid.java:25: error: cannot find symbol
-    v01.add(JSONObject.parseObject("{\"Name\":\"John\", \"Age\":30}"));
-            ^
-  symbol:   variable JSONObject
-  location: class JSONArrayTest_test1_h1Test4_valid
-1 error

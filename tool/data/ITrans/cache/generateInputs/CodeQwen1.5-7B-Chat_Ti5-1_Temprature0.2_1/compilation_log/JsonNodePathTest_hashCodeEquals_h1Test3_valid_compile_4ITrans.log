@@ -1,7 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h1Test3_valid.java:35: error: pathSegmentIndex has private access in JsonNodePath
-    a1.pathSegmentIndex = 1;
-      ^
-/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw4ITrans/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h1Test3_valid.java:37: error: pathSegmentIndex has private access in JsonNodePath
-    a2.pathSegmentIndex = 1;
-      ^
-2 errors

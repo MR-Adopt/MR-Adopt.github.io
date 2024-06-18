@@ -1,5 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/maps/MapTest_test1_h2Test1_valid.java:27: error: incompatible types: String cannot be converted to Integer
-    v01.put("empty", "");
-                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error

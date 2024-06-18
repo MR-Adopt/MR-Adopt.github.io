@@ -1,4 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/qw4ITrans/com/github/underscore/XmlBuilderTest_toJson_h0Test0_valid.java:48: error: variable xmlBuilder2 is already defined in method toJson_h0Test0()
-        XmlBuilder xmlBuilder2  = XmlBuilderTest_toJson.inputTransformation_toJson(XML);
-                   ^
-1 error

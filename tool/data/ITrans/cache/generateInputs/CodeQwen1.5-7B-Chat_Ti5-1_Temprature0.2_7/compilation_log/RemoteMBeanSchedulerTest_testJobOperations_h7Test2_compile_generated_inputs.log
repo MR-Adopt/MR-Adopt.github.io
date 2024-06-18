@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/quartz-scheduler__castle__quartz/ITrans/generated_inputs/qw/org/quartz/impl/RemoteMBeanSchedulerTest_testJobOperations_h7Test2.java:98: error: cannot find symbol
-    JobDetail job2Detail = newJob(MyJob.class).withIdentity(new JobKey("job2", GROUP_KEY)).build();
-                                  ^
-  symbol:   class MyJob
-  location: class RemoteMBeanSchedulerTest_testJobOperations_h7Test2
-1 error

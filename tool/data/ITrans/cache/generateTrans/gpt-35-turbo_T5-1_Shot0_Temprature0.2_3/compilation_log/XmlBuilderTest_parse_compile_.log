@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_ITrans/com/github/underscore/XmlBuilderTest_parse.java:18: error: cannot find symbol
-        Map<String, Object> xmlData = U.fromXmlMap(XML);
-        ^
-  symbol:   class Map
-  location: class XmlBuilderTest_parse
-1 error

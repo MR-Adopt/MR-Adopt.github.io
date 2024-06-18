@@ -1,8 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/maps/MapTest_test1_h3Test4_valid.java:27: error: incompatible types: boolean cannot be converted to Integer
-    v01.put("boolean", true);
-                       ^
-/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw4ITrans/com/alibaba/fastjson2/internal/processor/maps/MapTest_test1_h3Test4_valid.java:28: error: incompatible types: int[] cannot be converted to Integer
-    v01.put("array", new int[]{1, 2, 3});
-                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-2 errors

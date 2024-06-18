@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_ITrans/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest_testGetPlugin.java:27: error: cannot find symbol
-        String pluginId = plugin.getPluginId();
-                                ^
-  symbol:   method getPluginId()
-  location: variable plugin of type ThreadPoolPlugin
-1 error

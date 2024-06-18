@@ -1,8 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw/com/alibaba/fastjson2/internal/processor/maps/MapTest_test1_h3Test3.java:25: error: incompatible types: double cannot be converted to Integer
-    v01.put("double", 123.456);
-                      ^
-/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw/com/alibaba/fastjson2/internal/processor/maps/MapTest_test1_h3Test3.java:26: error: incompatible types: float cannot be converted to Integer
-    v01.put("float", -123.456f);
-                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-2 errors

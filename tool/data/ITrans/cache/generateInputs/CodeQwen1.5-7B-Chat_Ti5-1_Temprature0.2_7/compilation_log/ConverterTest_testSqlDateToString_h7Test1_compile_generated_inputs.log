@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_inputs/qw/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString_h7Test1.java:1702: error: package TimeUnit does not exist
-    long now = System.currentTimeMillis() - TimeUnit.DAYS.toMillis(365);
-                                                    ^
-Note: /ssddata1/cxubl/data/ITrans/projects/jdereg__castle__java-util/ITrans/generated_inputs/qw/com/cedarsoftware/util/convert/ConverterTest_testSqlDateToString_h7Test1.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-1 error

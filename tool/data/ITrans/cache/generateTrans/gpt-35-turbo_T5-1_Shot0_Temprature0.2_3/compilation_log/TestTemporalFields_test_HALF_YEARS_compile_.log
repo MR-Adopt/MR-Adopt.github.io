@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/ThreeTen__castle__threeten-extra/ITrans/generated_ITrans/org/threeten/extra/TestTemporalFields_test_HALF_YEARS.java:32: error: cannot find symbol
-        int quarter2 = quarter1 - amount;
-                                  ^
-  symbol:   variable amount
-  location: class TestTemporalFields_test_HALF_YEARS
-1 error

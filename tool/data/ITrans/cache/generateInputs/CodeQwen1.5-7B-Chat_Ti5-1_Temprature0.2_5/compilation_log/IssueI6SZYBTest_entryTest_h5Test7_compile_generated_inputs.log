@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/dromara__castle__hutool/ITrans/generated_inputs/qw/cn/hutool/json/IssueI6SZYBTest_entryTest_h5Test7.java:21: error: cannot find symbol
-        final Map.Entry bean = (Entry) JSONUtil.toBean(jsonString, beanClass);
-                                                                   ^
-  symbol:   variable beanClass
-  location: class IssueI6SZYBTest_entryTest_h5Test7
-1 error

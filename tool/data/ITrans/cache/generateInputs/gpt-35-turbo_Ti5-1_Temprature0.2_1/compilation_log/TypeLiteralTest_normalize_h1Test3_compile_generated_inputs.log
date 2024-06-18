@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/g3/io/bootique/di/TypeLiteralTest_normalize_h1Test3.java:34: error: cannot find symbol
-        TypeLiteral<List<Integer>> type1 = TypeLiteral.listOf(input);
-                                                              ^
-  symbol:   variable input
-  location: class TypeLiteralTest_normalize_h1Test3
-1 error

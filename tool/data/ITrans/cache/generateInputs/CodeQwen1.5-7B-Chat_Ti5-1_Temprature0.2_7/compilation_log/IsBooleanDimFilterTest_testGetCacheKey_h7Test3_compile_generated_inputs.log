@@ -1,8 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey_h7Test3.java:38: error: incompatible types: String cannot be converted to FilterTuning
-    EqualityFilter f3 = new EqualityFilter("x", ColumnType.STRING, "hello", "world");
-                                                                            ^
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/qw/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey_h7Test3.java:39: error: incompatible types: String cannot be converted to FilterTuning
-    EqualityFilter f4 = new EqualityFilter("x", ColumnType.STRING, "hello", "world");
-                                                                            ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-2 errors

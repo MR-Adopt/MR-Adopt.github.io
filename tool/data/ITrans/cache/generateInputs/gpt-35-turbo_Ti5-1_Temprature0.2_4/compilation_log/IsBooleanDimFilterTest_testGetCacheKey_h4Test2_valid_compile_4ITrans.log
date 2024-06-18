@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/g34ITrans/org/apache/druid/query/filter/IsBooleanDimFilterTest_testGetCacheKey_h4Test2_valid.java:40: error: cannot find symbol
-    EqualityFilter f3 = new EqualityFilter("x", ColumnType.INTEGER, 123, null);
-                                                          ^
-  symbol:   variable INTEGER
-  location: class ColumnType
-1 error

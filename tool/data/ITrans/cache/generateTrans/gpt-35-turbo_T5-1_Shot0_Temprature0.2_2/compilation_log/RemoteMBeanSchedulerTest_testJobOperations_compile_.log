@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/quartz-scheduler__castle__quartz/ITrans/generated_ITrans/org/quartz/impl/RemoteMBeanSchedulerTest_testJobOperations.java:48: error: cannot find symbol
-        JobKey job22 = new JobKey(jobName, GROUP_KEY);
-                                           ^
-  symbol:   variable GROUP_KEY
-  location: class RemoteMBeanSchedulerTest_testJobOperations
-1 error

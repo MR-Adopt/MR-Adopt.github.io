@@ -1,5 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_inputs/qw/org/matsim/core/config/groups/ScoringConfigGroupTest_testAddActivityParams_h1Test4.java:80: error: cannot find symbol
-    ap.setMaximumDuration(Double.MIN_VALUE);
-      ^
-  symbol:   method setMaximumDuration(double)
-  location: variable ap of type ActivityParams

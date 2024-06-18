@@ -1,7 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/g3/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h1Test1.java:58: error: WIKI_SEGMENTS has private access in SegmentToMoveCalculatorTest
-List<ServerHolder> historicals = Arrays.asList(createServer("A", SegmentToMoveCalculatorTest.WIKI_SEGMENTS), createServer("B", SegmentToMoveCalculatorTest.WIKI_SEGMENTS));
-                                                                                            ^
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/g3/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew_h1Test1.java:58: error: WIKI_SEGMENTS has private access in SegmentToMoveCalculatorTest
-List<ServerHolder> historicals = Arrays.asList(createServer("A", SegmentToMoveCalculatorTest.WIKI_SEGMENTS), createServer("B", SegmentToMoveCalculatorTest.WIKI_SEGMENTS));
-                                                                                                                                                          ^
-2 errors

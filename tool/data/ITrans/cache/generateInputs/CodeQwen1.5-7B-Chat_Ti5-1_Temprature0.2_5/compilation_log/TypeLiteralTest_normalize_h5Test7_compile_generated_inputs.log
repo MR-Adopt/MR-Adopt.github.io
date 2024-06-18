@@ -1,9 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h5Test7.java:34: error: cannot find symbol
-        TypeLiteral<List<Integer>> type1 = TypeLiteral.listOf(input);
-                                                              ^
-  symbol:   variable input
-  location: class TypeLiteralTest_normalize_h5Test7
-/ssddata1/cxubl/data/ITrans/projects/bootique__castle__bootique/ITrans/generated_inputs/qw/io/bootique/di/TypeLiteralTest_normalize_h5Test7.java:37: error: variable input2 is already defined in method normalize_h5Test7()
-        TypeLiteral<List<Integer>> input2 = TypeLiteral.listOf(Integer.class);
-                                   ^
-2 errors

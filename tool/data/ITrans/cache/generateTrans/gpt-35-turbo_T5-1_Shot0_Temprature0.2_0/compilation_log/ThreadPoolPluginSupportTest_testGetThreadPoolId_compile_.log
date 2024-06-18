@@ -1,9 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_ITrans/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest_testGetThreadPoolId.java:27: error: cannot find symbol
-        ThreadPoolPluginSupport support = new ThreadPoolPluginSupport(executor.getThreadPoolId(), executor, manager);
-                                                                                                            ^
-  symbol:   variable manager
-  location: class ThreadPoolPluginSupportTest_testGetThreadPoolId
-/ssddata1/cxubl/data/ITrans/projects/opengoofy__castle__hippo4j/ITrans/generated_ITrans/cn/hippo4j/core/executor/plugin/manager/ThreadPoolPluginSupportTest_testGetThreadPoolId.java:27: error: ThreadPoolPluginSupport is abstract; cannot be instantiated
-        ThreadPoolPluginSupport support = new ThreadPoolPluginSupport(executor.getThreadPoolId(), executor, manager);
-                                          ^
-2 errors

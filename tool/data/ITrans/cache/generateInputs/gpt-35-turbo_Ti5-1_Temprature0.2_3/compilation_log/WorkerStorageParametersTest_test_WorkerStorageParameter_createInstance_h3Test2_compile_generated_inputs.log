@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/g3/org/apache/druid/msq/exec/WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h3Test2.java:35: error: cannot find symbol
-long l2 = computeUsableStorage(l);
-          ^
-  symbol:   method computeUsableStorage(long)
-  location: class WorkerStorageParametersTest_test_WorkerStorageParameter_createInstance_h3Test2
-1 error

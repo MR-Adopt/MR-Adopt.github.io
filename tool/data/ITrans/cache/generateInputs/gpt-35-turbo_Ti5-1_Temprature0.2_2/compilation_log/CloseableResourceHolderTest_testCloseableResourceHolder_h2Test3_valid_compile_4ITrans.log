@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/g34ITrans/org/apache/druid/collections/CloseableResourceHolderTest_testCloseableResourceHolder_h2Test3_valid.java:35: error: cannot find symbol
-    Closeable closeable = new ByteArrayInputStream(new byte[]{1, 2, 3});
-                              ^
-  symbol:   class ByteArrayInputStream
-  location: class CloseableResourceHolderTest_testCloseableResourceHolder_h2Test3_valid
-1 error

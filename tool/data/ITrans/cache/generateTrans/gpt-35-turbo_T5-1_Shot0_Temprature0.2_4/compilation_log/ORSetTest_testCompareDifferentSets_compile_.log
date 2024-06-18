@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_ITrans/com/thealgorithms/datastructures/crdt/ORSetTest_testCompareDifferentSets.java:14: error: cannot find symbol
-        return element2;
-               ^
-  symbol:   variable element2
-  location: class ORSetTest_testCompareDifferentSets
-1 error

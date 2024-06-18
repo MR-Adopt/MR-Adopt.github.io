@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/MyRobotLab__castle__myrobotlab/ITrans/generated_inputs/qw/org/myrobotlab/service/I2cMuxTest_testSetDeviceAddress_h6Test5.java:51: error: cannot find symbol
-        assertEquals(deviceAddress, i2cMux2.getDeviceAddress());
-                                    ^
-  symbol:   variable i2cMux2
-  location: class I2cMuxTest_testSetDeviceAddress_h6Test5
-1 error

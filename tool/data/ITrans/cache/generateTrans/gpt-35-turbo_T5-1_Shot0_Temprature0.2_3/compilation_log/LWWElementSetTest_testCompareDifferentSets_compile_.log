@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/TheAlgorithms__castle__Java/ITrans/generated_ITrans/com/thealgorithms/datastructures/crdt/LWWElementSetTest_testCompareDifferentSets.java:14: error: cannot find symbol
-        Element element2 = new Element("key2", element1.value, element1.bias);
-                                                       ^
-  symbol:   variable value
-  location: variable element1 of type Element
-1 error

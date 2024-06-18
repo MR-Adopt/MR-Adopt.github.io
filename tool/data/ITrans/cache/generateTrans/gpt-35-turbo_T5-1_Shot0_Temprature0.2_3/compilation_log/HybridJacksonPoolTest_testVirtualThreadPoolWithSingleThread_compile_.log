@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/eclipse-vertx__castle__vert.x/ITrans/generated_ITrans/io/vertx/core/json/jackson/HybridJacksonPoolTest_testVirtualThreadPoolWithSingleThread.java:22: error: cannot find symbol
-        HybridJacksonPool.StripedLockFreePool virtualPool2 = new HybridJacksonPool.StripedLockFreePool(virtualPool.getPoolSize());
-                                                                                                                  ^
-  symbol:   method getPoolSize()
-  location: variable virtualPool of type StripedLockFreePool
-1 error

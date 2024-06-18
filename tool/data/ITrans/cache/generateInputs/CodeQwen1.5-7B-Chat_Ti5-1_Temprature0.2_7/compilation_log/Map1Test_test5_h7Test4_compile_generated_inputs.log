@@ -1,4 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/alibaba__castle__fastjson2/ITrans/generated_inputs/qw/com/alibaba/fastjson2/internal/processor/maps/Map1Test_test5_h7Test4.java:55: error: package JSONWriter does not exist
-    String str2 = JSON.toJSONString(v01, "yyyy-MM-dd HH:mm:ss", null, JSONWriter.Feature.WriteMapNullValue);
-                                                                                ^
-1 error

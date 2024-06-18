@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/ngs-doo__castle__dsl-json/ITrans/generated_ITrans/com/dslplatform/json/DateTest_localTimeBoundary.java:17: error: cannot find symbol
-    public static List<Object> inputTransformation_localTimeBoundary(JsonWriter jw, LocalTime[] lts) {
-                                                                                    ^
-  symbol:   class LocalTime
-  location: class DateTest_localTimeBoundary
-1 error

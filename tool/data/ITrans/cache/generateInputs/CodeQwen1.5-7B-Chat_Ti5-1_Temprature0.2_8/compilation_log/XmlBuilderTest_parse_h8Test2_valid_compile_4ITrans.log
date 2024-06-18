@@ -1,4 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/javadev__castle__underscore-java/ITrans/generated_inputs/qw4ITrans/com/github/underscore/XmlBuilderTest_parse_h8Test2_valid.java:48: error: variable xmlBuilder2 is already defined in method parse_h8Test2()
-        XmlBuilder xmlBuilder2  = XmlBuilderTest_parse.inputTransformation_parse(XML);
-                   ^
-1 error

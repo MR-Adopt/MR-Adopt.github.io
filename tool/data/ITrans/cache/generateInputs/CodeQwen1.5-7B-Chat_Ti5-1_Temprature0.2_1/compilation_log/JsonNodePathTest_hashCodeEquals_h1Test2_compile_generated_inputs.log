@@ -1,7 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h1Test2.java:33: error: type has private access in JsonNodePath
-    a1.type = PathType.JSON_PATH;
-      ^
-/ssddata1/cxubl/data/ITrans/projects/networknt__castle__json-schema-validator/ITrans/generated_inputs/qw/com/networknt/schema/JsonNodePathTest_hashCodeEquals_h1Test2.java:35: error: type has private access in JsonNodePath
-    a2.type = PathType.JSON_PATH;
-      ^
-2 errors

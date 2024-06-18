@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/quartz-scheduler__castle__quartz/ITrans/generated_inputs/qw/org/quartz/impl/RemoteMBeanSchedulerTest_testJobOperations_h5Test4.java:98: error: cannot find symbol
-    JobDetail job2Detail = newJob(HelloJob.class).withIdentity(new JobKey("job2", GROUP_KEY)).storeDurably().withDurability(false).build();
-                                                                                                            ^
-  symbol:   method withDurability(boolean)
-  location: class JobBuilder
-1 error

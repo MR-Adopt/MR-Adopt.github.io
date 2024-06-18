@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/matsim-org__castle__matsim-libs/ITrans/generated_inputs/qw4ITrans/org/matsim/core/config/groups/ScoringConfigGroupTest_testAddActivityParams_h9Test5_valid.java:82: error: cannot find symbol
-    ap.setMinimumDuration(1800);
-      ^
-  symbol:   method setMinimumDuration(int)
-  location: variable ap of type ActivityParams
-1 error

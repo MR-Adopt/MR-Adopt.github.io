@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__incubator-paimon/ITrans/generated_ITrans/org/apache/paimon/spark/ConvertBinaryUtilTest_testConvertToLong.java:18: error: cannot find symbol
-        return utf8To8Byte(randomString);
-               ^
-  symbol:   method utf8To8Byte(String)
-  location: class ConvertBinaryUtilTest_testConvertToLong
-1 error

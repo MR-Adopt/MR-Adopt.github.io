@@ -1,5 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_ITrans/org/apache/druid/server/coordinator/balancer/SegmentToMoveCalculatorTest_testMinSegmentsArePickedForMoveWhenNoSkew.java:48: error: incompatible types: String cannot be converted to ImmutableDruidServer
-        return new ServerHolder(serverName, totalSegments);
-                                ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error

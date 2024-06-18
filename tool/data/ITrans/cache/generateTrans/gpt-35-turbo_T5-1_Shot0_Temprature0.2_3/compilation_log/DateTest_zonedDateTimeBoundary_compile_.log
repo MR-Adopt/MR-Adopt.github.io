@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/ngs-doo__castle__dsl-json/ITrans/generated_ITrans/com/dslplatform/json/DateTest_zonedDateTimeBoundary.java:18: error: cannot find symbol
-    public static List<Object> inputTransformation_zonedDateTimeBoundary(JsonWriter jw, ZonedDateTime[] lts) throws IOException  {
-                                                                                        ^
-  symbol:   class ZonedDateTime
-  location: class DateTest_zonedDateTimeBoundary
-1 error

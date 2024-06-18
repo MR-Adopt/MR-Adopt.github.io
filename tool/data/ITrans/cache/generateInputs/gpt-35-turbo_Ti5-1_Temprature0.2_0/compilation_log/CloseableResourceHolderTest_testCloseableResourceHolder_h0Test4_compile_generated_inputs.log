@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/apache__castle__druid/ITrans/generated_inputs/g3/org/apache/druid/collections/CloseableResourceHolderTest_testCloseableResourceHolder_h0Test4.java:33: error: cannot find symbol
-Closeable closeable = new RandomAccessFile("test.txt", "r");
-                          ^
-  symbol:   class RandomAccessFile
-  location: class CloseableResourceHolderTest_testCloseableResourceHolder_h0Test4
-1 error

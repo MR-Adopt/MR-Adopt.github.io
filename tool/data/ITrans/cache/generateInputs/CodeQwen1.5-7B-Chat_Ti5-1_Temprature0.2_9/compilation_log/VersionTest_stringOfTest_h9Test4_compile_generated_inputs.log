@@ -1,4 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/datageartech__castle__datagear/ITrans/generated_inputs/qw/org/datagear/util/version/VersionTest_stringOfTest_h9Test4.java:39: error: variable version1 is already defined in method stringOfTest_h9Test4()
-        Version version1 = Version.valueOf(v1);
-                ^
-1 error

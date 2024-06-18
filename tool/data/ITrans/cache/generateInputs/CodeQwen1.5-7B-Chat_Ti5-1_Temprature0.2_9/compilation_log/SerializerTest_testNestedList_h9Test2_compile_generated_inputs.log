@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/arextest__castle__arex-agent-java/ITrans/generated_inputs/qw/io/arex/inst/runtime/serializer/SerializerTest_testNestedList_h9Test2.java:42: error: cannot find symbol
-    list.add(nestedList1);
-             ^
-  symbol:   variable nestedList1
-  location: class SerializerTest_testNestedList_h9Test2
-1 error

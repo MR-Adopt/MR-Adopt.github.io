@@ -1,6 +1,0 @@
-/ssddata1/cxubl/data/ITrans/projects/quartz-scheduler__castle__quartz/ITrans/generated_inputs/qw4ITrans/org/quartz/impl/RemoteMBeanSchedulerTest_testJobOperations_h0Test3_valid.java:100: error: cannot find symbol
-    JobDetail job2Detail = newJob(HelloJob.class).withIdentity(new JobKey("job2", GROUP_KEY)).storeDurably().withTrigger(new SimpleTrigger("trigger1", "group1", new Date())).build();
-                                                                                                                             ^
-  symbol:   class SimpleTrigger
-  location: class RemoteMBeanSchedulerTest_testJobOperations_h0Test3_valid
-1 error
