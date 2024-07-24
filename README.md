@@ -77,4 +77,4 @@ The detailed results can be found [here](https://github.com/MR-Adopt/MR-Adopt.gi
 
 **Prompt Templates and Examples.** 
 
-MR-Adopt leveraged LLMs to generate addtional input pairs and input transformations. The prompt template and concrete examples can be found [here](https://github.com/MR-Adopt/MR-Adopt.github.io/blob/main/prompts/).
+MR-Adopt leveraged LLMs to generate additional input pairs and input transformations. The prompt template and concrete examples can be found [here](https://github.com/MR-Adopt/MR-Adopt.github.io/blob/main/prompts/).
