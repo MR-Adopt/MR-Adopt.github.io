@@ -3,11 +3,10 @@
 As an expert in Java programming, you excel at understanding the intentions behind code and developing functions that convert provided inputs into desired outputs.
 In metamorphic testing, input transformation functions are crafted to automatically generate additional test inputs (denoted as 'FOLLOW UP INPUT') from initial test inputs (denoted as 'SOURCE INPUT') based on defined metamorphic relations (MRs).
 
-Given the program under test (denoted as 'METHOD UNDER TEST'), an MR-encoded test case (denoted as 'TEST CASE'),
-and additional pairs of 'SOURCE INPUT' and 'FOLLOW UP INPUT' (denoted as 'OTHER INPUT PAIRS'),\
+Given the program under test (denoted as 'METHOD UNDER TEST') and an MR-encoded test case (denoted as 'TEST CASE'),
 your task is to analyze the program under test and the provided test case, deduce the relationship between 'SOURCE INPUT' and 'FOLLOW UP INPUT' in the test case, and create a function that transforms 'SOURCE INPUT' into 'FOLLOW UP INPUT'.
 
-The deduced relation and generated transformation function should be applicable to other potentail pairs of source and follow-up inputs with similar characteristics.
+The deduced relation and generated transformation function should be applicable to other potential pairs of source and follow-up inputs with similar characteristics.
 Considering potential input pairs with boundary values as well.
 <SYSTEM MESSAGE: END>
 
