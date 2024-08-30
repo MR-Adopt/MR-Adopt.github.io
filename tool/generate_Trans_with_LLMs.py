@@ -362,6 +362,7 @@ def post_process_ITrans(generated_class,MTC_item):
         import_dependencies_CUT = MTC_item["dependency"].split(";") # GT
 
         searched_involvded_dependencies = []
+        searched_definedClassesORdependencies = []
         """ import involved depedency """
         try:
             """ get defined variables in inputTransformation function """
@@ -396,14 +397,15 @@ def post_process_ITrans(generated_class,MTC_item):
                                 if line.startswith("package "): package_line_here = line; break
                             package_FQN = package_line_here.replace('package ','').replace(';','').strip() # 最准确啦
                             class_FQN = f"{package_FQN}.{class_name}"
-                            searched_involvded_dependencies.append(class_FQN)    
+                            searched_involvded_dependencies.append(class_FQN)   
+                            searched_definedClassesORdependencies.append(class_FQN) 
         except Exception as e:
             print("LOG: import involved depedency error: ", e)
         
-        if len(searched_involvded_dependencies) > 0:
-            print("LOG: searched_involvded_dependencies>0: ", searched_involvded_dependencies)
-            if switch:
-                for ele in searched_involvded_dependencies:
+        if len(searched_definedClassesORdependencies) > 0:
+            print("LOG: searched_definedClassesORdependencies>0: ", searched_definedClassesORdependencies)
+            if switch: # refinement: add dependency
+                for ele in searched_definedClassesORdependencies:
                     if ele not in import_dependencies_CUT:
                         import_dependencies_CUT.append(ele)
 
@@ -431,7 +433,12 @@ def post_process_ITrans(generated_class,MTC_item):
     # print("LOG:generated_class 4: ", generated_class)
 
     """ exclude irrelevant code in input transformation function """
-    # # udpate, TODO: exclude irrelevant code in input transformation function
+    # # udpate, exclude irrelevant code in input transformation function
+    if switch: # refinement: exclude irrelevant code in input transformation function
+        generated_code_block = generated_class
+        extracted_code = extract_code.variableDefExtractor(generated_code_block, followUpInputs_TypeAndVariable, extract_code_from_MTC=False).extract_variable_def_code()
+        generated_class = extracted_code
+
     # pre_generated_class = generated_class
     # if generated_class != pre_generated_class:
     #     print("LOG: generated_class != pre_generated_class", generated_class, pre_generated_class)
