@@ -5,7 +5,7 @@ title: MR-Adopt: Automatic Deduction of Input Transformation Function for Metamo
 ## Welcome to MR-Adopt's Site！
 ----
 
-The paper “[MR-Adopt: Automatic Deduction of Input Transformation Function for Metamorphic Testing](main.pdf)” is submitted to ASE'24. This page offers access to MR-Adopt and experimental data. Additionally, it provides supplementary materials that are omitted from the paper due to space limitations.
+The paper “[MR-Adopt: Automatic Deduction of Input Transformation Function for Metamorphic Testing](main.pdf)” is accepted to ASE'24. This page offers access to MR-Adopt and experimental data. Additionally, it provides supplementary materials that are omitted from the paper due to space limitations.
 
 
 **Table of Contents**
